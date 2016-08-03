@@ -3,7 +3,7 @@ use strict;
 no integer;
 
 my $From = $ARGV[0] || 214;
-my $To   = $ARGV[1] || 240;
+my $To   = $ARGV[1] || 270;
 
 ##############################################################
 
@@ -54,7 +54,7 @@ print OUTFILE '\vspace*{12pt}' . "\n";
 print OUTFILE '\end{center}' . "\n";
 print OUTFILE '}' . "\n";
 
-print OUTFILE '\part*{Polskor}' . "\n";
+# print OUTFILE '\part*{Polskor}' . "\n";
 
 for my $num ($From..$To) {
     my $abc = &slurp("abc/song-$num.abc");
@@ -114,7 +114,12 @@ sub processTune() {
             if ($OriginalLine =~ /Stämning:\s*(\S+)\s+(\S+)\s+(\S+)\s+(\S+)/) {
                 next;
             }
-
+            
+            $Text =~ s/(Uppt)\. /\1.\\\@ /ig;
+            $Text =~ s/m\. fl\./m.\\\@ fl./g; # TODO: lookahead for next sentence
+            $Text =~ s/d\. ([yä])\./d.\\\@ \1./g; # TODO: lookahead for next sentence
+            $Text =~ s/ f\. / f.\\\@ /g; # TODO: lookahead for next sentence
+            
             $Source .= $Text;
             #if ($Source =~ /\.\s*$/) {
             #   $Source .= "\\\\\n";
@@ -235,17 +240,23 @@ sub processTune() {
     
     ###########
     
+    print OUTFILE "\\end{lilypond}";
+    
     if (!$SpaceAfter || $SpaceAfter eq "0cm" || $BreakAfter) {
         $SpaceAfter = "";
     } else {
         $SpaceAfter = "\n\n\\vspace{$SpaceAfter}\n\n";
     }
-
-    print OUTFILE "\\end{lilypond}";
     
-    print OUTFILE '\begin{center}' . "\n";
-    print OUTFILE '\line(1,0){200}' . "\n";
-    print OUTFILE '\end{center}' . "\n";
+    my $line = $TuneConf{$Headers{'X'}}->{"line"};
+    unless (defined $line && $line == 0) {
+        my $lineoffset = $TuneConf{$Headers{'X'}}->{"lineoffset"} || 0;
+        $lineoffset -= 5;
+        print OUTFILE '\begin{center}' . "\n";
+        print OUTFILE '\kern' . $lineoffset . 'pt' if $lineoffset; # e.g. 5pt
+        print OUTFILE '\line(1,0){200}' . "\n";
+        print OUTFILE '\end{center}' . "\n";
+    }
     
     print OUTFILE $SpaceAfter;
 
