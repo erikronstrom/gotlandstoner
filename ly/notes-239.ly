@@ -28,6 +28,6 @@
  a' f' a' c'' a' f' a' c'' d'' c'' bes' a'  | 
  g' fis' g' a' bes' a' bes' c'' d''4  | 
  < c' f' a' f''  > f''16 ees'' d'' c'' d''8. c''16  | 
- bes' a' g' fis'8 a'8. g'16 g'4  |
+ bes' a' g' fis' a'8. g'16 g'4  |
  } %( endrepeat )% 
  

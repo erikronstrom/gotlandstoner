@@ -21,7 +21,7 @@
  c''8. a'16 bes' c'' d'' e'' f'' g'' a'' f''  | 
  bes'' a'' g'' f'' e'' g'' f'' d'' c''4  | 
  a''8. g''16 f''8 a'' f'' a''  | 
- c''' < a'' c'''  > b'' b'' bes'' bes''  | 
+ c''' c''' b'' b'' bes'' bes''  | 
  a''8. g''16 f''8 a'' f'' a''  | 
  c''' c''' b'' b'' bes'' bes''  | 
  a''16 f'' c'' a' f' a' c'' f'' a'' c''' d''' c'''  | 
