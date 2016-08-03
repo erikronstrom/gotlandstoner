@@ -39,7 +39,7 @@
  < a e'  > cis'' e'' cis'' < a e'  > cis'' e'' cis'' < a e'  > cis'' e'' d''  | 
  < a e'  > cis'' a'' cis'' < a e'  > cis'' a'' cis'' < a e'  > cis'' a'' cis''  | 
  < a ees'  > c'' a'' c'' < a ees'  > c'' a'' c'' < a ees'  > c'' a'' c''  | 
- < a e'  > cis'' a'' fis'' fis'' e'' d'' cis'' gis' d'' fis'' e''  | 
+ < a e'!  > cis''! a'' fis'' fis'' e'' d'' cis'' gis' d'' fis'' e''  | 
  gis'' e'' fis'' gis'' b''4 a''  |
  } %( endrepeat )% 
  
