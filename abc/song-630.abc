@@ -1,0 +1,19 @@
+X:630
+Z:Erik Ronström 2008-12-21: Accenterna ska vara "vertikala accenter", marcato-tecken
+Z:Erik Ronström 2010-01-27: Accenterna i andra reprisen ska vara uppochnedvända v-tecken, det går att ordna i LilyPond för den tryckta versionen
+T:
+S:Efter »Florsen» i Burs.
+O:Gotland, Burs
+R:kadrilj
+M:C
+L:1/16
+K:D
+dc|d2F2 F2dc d2E2 E2 gf|f2ed dcBc dcdf A4|
+dAFA f2ed edce b2a2|g2fe dcBc e4 d2:|
+|:fg|La4 Lf4 gfga b2ef|Lg4 Le3g fefg a2A2|
+dA^GA f2ed cBce b2a2|g2fe dcBc e4 d2:|
+|:f2|f4 fege d6 Ad|f2Ad f2df a6 cd|
+e3f gfed e2d'2 d'2c'b|a2ab agfe d6:|
+|:dc|B2g2 gfed d2c2 cdec|d2B2 Bgfe d2c2 ABcd|
+e3f gfed e2d'2 d'2c'b|a2ab agfe d4 z2:|
+

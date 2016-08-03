@@ -1,0 +1,20 @@
+X:627
+Z:Erik Ronström 2008-12-21: Misstänkta tryckfel: Första delen av sista reprisen är i ett lokalt C-modus. Kanske borde Bb vara återställt där, så att det blir en tydlig modulation? Den noterade versionen är iofs fin, men låter lite "osannolik".
+Z:Erik Ronström 2008-12-25: Misstänkta tryckfel: Stavning: sekvensen Bb-Ab-A borde rimligen noteras Bb-G#-A
+T:
+S:Från Gotlands fornsal.
+R:kadrilj
+O:Gotland
+M:2/4
+L:1/16
+K:C
+gf|e2e2 e2ge|d2d2 d2fd|B2B2 B2dB|c2e2 g2c'g|
+e2e2 e2ge|d2d2 d2fd|B2B2 BcdB|c2e2c2:|
+|:fe|d2fd d2fd|B2B2 d2gf|e2e2 e2ge|c2c2 c2c'b|
+a2a2 a2c'a|g2g2 g2ec|Bcde fgaB|c2e2c2:|
+K:F
+|:cB|A2c2 f2a2|c'2=b2 _b2ge|G2c2 e2g2|b2_a2 =a2cB|
+A2c2f2a2|c'2=b2 _b2gf|c2c2 dfeg|f2a2f2:|
+|:c'a|g2ec d2f2|e2g2 c'bc'a|g2ec BcdB|c2c2 c2cB|
+A2c2f2a2|c'2=b2 _b2gf|c2c2 dfeg|f2a2f2:|
+

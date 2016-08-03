@@ -1,0 +1,23 @@
+X:610
+Z:Erik Ronström 2008-06-29: Misstänkta tryckfel: När C-durdelen kommer tillbaka skiljer sig slutet med en ton mot hur det var innan. Den första varianten är troligare tycker jag. Låten slutar med en paus för mycket, takten är för lång.
+T:
+S:Gotlands fornsal.
+R:kadrilj
+O:Gotland
+M:2/4
+L:1/16
+K:C
+G2|L[G,Ec]4 L[CGce]4|LC6 CB,|C2DE FGAB|
+c2c2 d2e2|Lf4 Ld4|LB6 dc|Bcde f2d2|c2e2c2:|
+K:G
+Bc|dgfg agfg|b6 g2|f2a2 d2ef|g2b2 g2d2|
+dgfg agfg|b6 g2|a2f2 d2ef|g4 z2 G2|
+K:C
+L[G,Ec]4 L[CGce]4|LC6 CB,|C2DE FGAB|c2c2 d2e2|
+Lf4 Ld4|LB6 dc|Bcde f2e2|c2e2c2||
+K:F
+|:c2|f2ag f2a2|c'6d'c'|=bc'bc' a2f2|^fgfg e2c2|
+f2ag f2a2|c'6 d'c'|=bc'_bg ^fgec|f2a2f2::c2|
+c2e2e2g2|g3eg3e|f4e2c2|f2ag e2c2|
+f2ag f2a2|c'6d'c'|=bc'_bg ^fgec|f2a2f2 z2:|
+

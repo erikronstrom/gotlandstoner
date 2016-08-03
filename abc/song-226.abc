@@ -1,0 +1,31 @@
+X:226
+Z:Clara Andermo 2008-01-26: Behöver arbetas om pg pizz
+Z:Erik Ronström 2008-06-27: Notgenerator-fel: Slutet kommer inte med, det hamnar väl utanför PS-sidan.
+Z:Erik Ronström 2008-06-27: I originalet är arco-tonerna halvnoter som ligger kvar samtidigt som pizz-åttondelarna. Ser märkligt ut.
+T:
+R:polska
+C:Hammarlund
+S:Skall vara författad (komponerad) av gotländske spelmannen Hammarlund i Öja, \
+uppt. efter »Florsen» i Burs.
+N:g-strängen stämmes i a.
+O:Gotland, Burs, Öja
+U: q = "_col' arco"
+U: p = "^pizz"
+M:3/4
+L:1/16
+K:D
+L[A,F]4 L[A,E]4 L[A,D]4|FDFA dcdA GFED|FA,FA EA,EA D4|
+FDFA dcdc GFED|q[A,D]2pf2 f2f2 gfed|
+q[A,E]2pg2 g2g2 agfe|q[A,D]2pf2 f2f2 gfed|
+q[A,E]2pg2 g2g2 agfe|dcdB Adfe dcBA|
+q[A,D]2pf2 f2f2 gfed|q[A,E]2pg2 g2g2 agfe|
+q[A,D]2pf2 f2f2 gfed|q[A,E]2pg2 g2g2 agfe|
+dcdB AGFE FDEF|GABc c4 d4::[A,DAf]4 f2f2 afaf|[A,FAd']4 d'2d'2 f'd'f'd'|
+d'3e' e'3f' g'2f'2|f'3e' e'2d'c' d'4|d'2f'd' ad'f'd' ad'f'd'|
+d'c'e'c' ac'e'c' ac'e'c'| d'2f'd' ad'f'd' ad'f'd'|d'c'e'c' ac'e'c' ac'e'c'|
+d'3a a2g2 g2f2|d2fa ageg g2f2|dcdB Adfe dcBA|ceae cdfe dcBA|FDEF GABc defg|
+bgec d4 D4::DFAd dAFA DFAd|DGBd dBGB DGBd|DFAd dAFA DFAd|DGBd dBGB DGBd|
+Acea aece Acea|dcdf edcB AGFE|q[A,D]2pf2 f2f2 gfed|
+q[A,E]2pg2 g2g2 agfe|q[A,D]2pf2 f2f2 gfed|
+q[A,E]2pg2 g2g2 agfe|dcdB AGFE FDEF|GABc c4 d4:|
+

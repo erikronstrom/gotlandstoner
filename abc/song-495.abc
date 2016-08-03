@@ -1,0 +1,21 @@
+X:495
+Z:Fredrik Lönngren 2008-08-18: Misstänkta tryckfel: Tror att det fattas ett repristecken antingen vid tonartsbytena till G eller C-dur, alternativt vid slutet. Där står ett repristecken vid bytet till D-dur. Detta pekar mot slutet, men där finns inte motsvarande som pekar tillbaka. Pga detta tror jag att där är ett tryckfel. Det kan också vara så att repristecknet vid D-dur tonart är felaktigt och att där inte skall vara något.
+T:
+R:vals
+S:Efter en gammal »dansbok» från Hogrän.
+O:Gotland, Hogrän
+M:3/4
+L:1/8
+K:G
+B2 B2 c2|ed d3 B|dc c3 A|Bcdefg|
+B2 B2 c2|ed d3 B|dc c3 A|G4 z2::
+K:D
+A2 d2 d2|(cd)(ec) d2|(FA)(df)(ba)|(gf)(ed) c2|
+(gf)(gb) e2|(fe)(fa) d2|(ef)(ge)(Bc)|d2 d2 =c2||
+K:G
+B2 B2 c2|ed d3 B|dc c3 A|(Bc)(de)(fg)|
+B2 B2 c2|ed d3 B|dc c3 A|G4||
+K:C
+GF|(EG) (cG) (eG)|(EG)(cG)(ec)|(DF)(BG)(Be)|dcBA G2|
+(EG)(cG)(ce)|(EG)(cG)(ce)|(de)(fG)(AB)|c4 z2|]
+

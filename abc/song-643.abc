@@ -1,0 +1,18 @@
+X:643
+Z:Fredrik Lönngren 2008-10-27: MIDI-fel: När 1.a reprisen går om kommer det in några felaktiga takter efter fyra takter. Har letat igenom abc-källan, men kan inte finna ursprunget till detta.
+T:
+S:Ur en gammal notbok från Gotlands fornsal.
+R:kadrilj
+O:Gotland
+M:2/4
+L:1/16
+K:D
+A,2|A,2DF A2A2|Adfd A4|B2gf edcd|edcB AGFE|
+A,2DF A2A2|Adfd A4|A2gf edcd|e4 d2:|
+|:cd|[ce]2[ce]2 [df]2[df]2|edcB ABcA|dcdf afdf|edcB ABcd|
+[ce]2[ce]2 [df]2[df]2|edcB ABcA|dcdf agec|d2f2d2:|
+|:[A,E]2|[DF]6 AF|[A,E]6 GF|[DF]2[DF]2 [A,E]2[A,E]2|[DF]2[DF]2[DF]2 z2|
+F6 AF|E6 GF|F2F2 E2E2|D4 z2:|
+|:cd|[ce]6fe|dcBA ABcA|d3A f3d|e4 c2[A,E]2|
+[DF]6 AF|[A,E]6 GE|F2F2 E2E2|D4 z2:|
+

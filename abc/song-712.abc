@@ -1,0 +1,18 @@
+X:712
+T:
+N:Högtidsstycke,
+H:som föredrogs efter det brudgummen tackat för skålen;
+S:uppt. såsom »Florsen» spelat det.
+Q:"Långsamt."
+O:Gotland, Burs
+R:marsch
+U: ~ = +turn+
+M:C
+L:1/8
+K:G
+(B3 A) (G>A) (B>c)|(d7/2 c/) B2 z2|(B3 A) (G>A) (B>c)|(d7/2 c/) B2 z2||
+L[G,Ec]>c cc (c>e) (~ge)|L[G,Dd]>B BB (B>d) (~ed)|
+L[Dc]>A [DFA][DFA] (A>c) (BA)|G>A (Bc) d2 z2|
+L[CGce]>c cc (c>e) (~ge)|(d>B) BB (B>d) (~ed)|
+(c>A) (AA) ([DFA]>c) BA|G6 z2|]
+

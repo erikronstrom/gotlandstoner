@@ -1,0 +1,20 @@
+X:239
+Z:Clara Andermo 2008-01-26: felaktig notlängd i sista takten
+Z:Clara Andermo 2008-01-26: variant på 238
+Z:Erik Ronström 2008-06-27: Misstänkta tryckfel: Uppenbart tryckfel i sista takten, f# som 8:del istället för 16:del
+Z:Erik Ronström 2008-06-27: Variant på 238
+T:
+R:polska
+S:Efter fanjunkaren Lindbom i Sanda.
+N:Nr 239 är en variant till nr 238.
+O:Gotland, Sanda
+M:3/4
+L:1/16
+K:Gm
+B4 BA^FA G4|G2Bd g^faf d4|defg fedc d3c|BAG^F G2GD CB,A,G,|
+B3c BA^FA G4|G2Bd g^faf d4|defg fedc d3c|BAG^F A3G G4::
+B3d d2cd edcB|A3c c2Bc dcBA|G3B B2AB cBAG|G^FAF D2dd d2d2|
+d2^fg g^faf d4|defg fedc d3c|BAG^F G2ed cBAG|^FDBA A4 G4::
+BGBd BGBd edcB|AFAc AFAc dcBA|BGBd BGBd edcB|AFAc AFAc dcBA|
+G^FGA BABc d4|[CFAf]4 fedc d3c|BAG^F2 A3G G4:|
+

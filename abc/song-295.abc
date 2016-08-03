@@ -1,0 +1,16 @@
+X:295
+Z:Erik Ronström 2008-06-28: MIDI-fel: Första reprisen spelas bara upp en gång!
+Z:Fredrik Lönngren 2009-02-24: Midispelaren tog inte första reprisen 2:a gången trots att där står repristecken.
+Z:Fredrik Lönngren 2009-02-24: MIDI-fel: 1:a reprisen tas inte om trots att där står ett så vitt jag kan se korrekt repristecken i takt 4.
+T:
+R:polska
+S:Meddelad av skoll. S. P. Dalström i Hejde.
+O:Gotland, Hejde
+M:3/4
+L:1/16
+K:A
+E2Ac e2cA c2E2|A2ce a2f^d b2B2|B2Ba g2gb B2a2|gfe^d e2g2 E2 z2::
+EBdB GBeB EBdB|cBcd e2fe dcBA|GBeB EdeB GBed|cBcd e2fe dcBA|
+BcBA BcBA BcBA&G2G2 G2G2 G2G2|GABc d4 c4::dcBc A2a2g2a2|
+fdcd B2a2g2a2|e2fg a2e2f2d2|ceGB B4 A4:|
+

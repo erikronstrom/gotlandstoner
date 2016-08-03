@@ -1,0 +1,27 @@
+X:398
+Z:Erik Ronström 2010-02-02: Tonnamnen i N: är kursiverade i originalet. Ordet "andra" i sista meningen är spärrat.
+T:Svanpolska
+R:polska
+S:Efter »Florsen» i Burs.
+N:Polskan har fått sitt namn efter de svantoner (flagolett), \
+som här ock var förekomma i de olika repriserna. -- De två första \
+sammanbundna säxtondelarna i varje fjärdedel i första reprisen \
+spelas med »uppstråk». Alla g, a, h, och c spelas i sammanbindningarna \
+i första reprisen på d-strängen med fingersättningen 1, 2, 3, 4.
+N:Märk det ovanliga slutet på första reprisen: slutar på andra \
+tonen i oktav i G-dur-skalan.
+O:Gotland, Burs
+M:3/4
+L:1/16
+K:G
+(GG,)(GG) (AG,)(AA) (BG,)(BB)|(cG,)(cc) (BG,)(BB) (AG,)(AA)|
+(GG,)(G,G) (AG,)(G,A) (BG,)(G,B)|(cG,)(G,c) (BG,)(G,B) (AG,)(G,A)|
+G4 D4 CB,A,G,|G,2B,2 D2G2 B2d2|cBA^G A4 A,4::
+[G,3D3B3]d d2ed cBAG|^GAAA ^GAAA ^GAAA|[D3F3A3]B c2dc BAGF|
+[G,F]GBG [G,F]GBG [G,F]GBG|[G,3D3B3]g gfga bage|d3g gfga bafg|
+Bdef gBcd eGBc|BdFA A4G4::[G,3G3]B B2AB cBAG|[A,3E3]c c2Bc dcBA|
+e3d c2B2 A2G2|D4 C2B,2A,2G,2|[G,3G3]B B2AB cBAG|[A,3E3]c c2Bc dcBA|
+G2ed c2B2A2G2|BAGF G4 G,4::[G,3D3B3]c d2ed cBAG|FGAB cBcd [E4e4]|
+[D3F3A3] B c2dc BAGF|GDGB ADAc B4|(DG,)(DD) (EG,)(EE) (FG,)(FF)|
+(GG,)(GG) (AG,)(AA) B2^c2|.d2.e2 .f2.g2 a3B|dcAF G4 G,4:|
+

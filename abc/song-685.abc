@@ -1,0 +1,19 @@
+X:685
+Z:Erik Ronström 2010-01-31: Misstänkta tryckfel: Första förslaget i 1:a reprisens näst sista takt är f#, verkar mer logiskt med d, vilket det också är på parallellstället.  //  Sista ackordet i första reprisen "saknar" en ton
+T:
+N:Brudmarsch,
+S:efter »Florsen» i Burs.
+N:Denna marsch speltes även vid de högtidligaste tillfällena till ära för \
+  brudparet och var lika populär och bekant som »paradmarschen».
+O:Gotland, Burs
+R:marsch
+M:C
+L:1/8
+K:G
+[G,DBg]2 [G,DBg]>[G,DBg] d2 (B/d/g/b/)|d2 d>d Bdgb|{d}c2 {d}cB ABcd|
+[Gce]2 e>e d>B cA|G>g gg d2 (B/d/g/b/)|d2 d>d Bdgb|{f}c2 {d}cB A>g fa|
+g2 [G,DBg]>g [G,Bg]3 z:|
+K:C
+|:{c}Le2-e(f/e/) dBcA|{A} G2-G>F EGce|d>>e Lf2 G>A Bd|c>>d ee  G7/2 c/|
+Le2-ef/e/ dBcA|{A} G2-G>F EGce|d>>e Lf2 G>A Bd|c2 [G,Ec]>c [CEc]4:|
+

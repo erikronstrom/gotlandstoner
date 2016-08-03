@@ -1,0 +1,21 @@
+X:319
+Z:Jan Lundqvist 2008-07-12: Tonerna d och g i takterna 3,4, 5 och 6 skrivs som halvnoter i förlagan men ser här ut som fjärdedelar
+Z:Erik Ronström 2010-03-12: pizz / col' arco kan nog lösas snyggare kanske
+Z:Erik Ronström 2010-03-18: pizz / col arco
+T:Dedekinds polska.
+R:polska
+S:Efter »Florsen» i Burs.
+N:Dedekind var prost ock kyrkoherde i Garda pastorat å Gotland
+O:Gotland, Burs, Garda
+M:3/4
+L:1/16
+K:C
+c3d efed c4|GAGF ECEF GABc|
+"^pizz."B2B2 B2B2 B2AB&">col' arco"[G,D]8 x4|
+"^pizz."c2c2 c2c2 egec&">col' arco"[G,E]8 x4|
+"^pizz."B2B2 B2B2 B2AB&">col' arco"[G,D]8 x4|
+"^pizz."c2c2 c2c2 egec&">col' arco"[G,E]8 x4|
+f2fg a3g fedc|BGAB B4 c4:|
+|:Bcdc Bcdc Bcdc|BGAB cde^f ^f2g2|LB4 A^FAc BGBd|dcA^F G4 G,4|G3c c2c2 e2f2|
+d3g gagf f2e2|G3c c2c2 e2f2|d3g gagf f2e2|fefg abag fedc|BGAB B4 c4:|
+

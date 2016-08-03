@@ -1,0 +1,84 @@
+214: newpage=1
+215: newpage=1, textbox=9cm
+
+216: spaceafter=2cm
+
+218: newpage=1, spaceafter=0.5cm
+
+220: newpage=1, spaceafter=2cm
+
+222: newpage=1, spaceafter=0.5cm
+
+226: systemspacing=-2
+227: newpage=1
+
+229: spaceafter=2cm
+
+231: newpage=1, spaceafter=2cm
+232: spaceafter=0cm
+
+233: newpage=1, spaceafter=2cm, textbox=0
+234: textbox=0
+235: newpage=1, systemspacing=2
+236: newpage=1
+
+238: newpage=1, spaceafter=0.5cm, systemspacing=-2
+239: spaceafter=0.2cm, systemspacing=-1
+240: systemspacing=-2, notespacing=-1, textbox=11cm
+
+241: newpage=1, systemspacing=-1
+242: notespacing=-1, textbox=11cm
+
+244:
+245: spaceafter=2cm
+
+247: newpage=1
+248: spaceafter=2cm
+
+250: newpage=1, spaceafter=2cm
+251:
+252: newpage=1, spaceafter=2cm
+
+254: newpage=1, systemspacing=-2, spaceafter=0.5cm
+255: systemspacing=-2
+
+256: newpage=1, spaceafter=0.7cm
+
+258: spaceafter=2cm
+
+260: newpage=1, spaceafter=0.2cm, systemspacing=-2, notespacing=-1
+261: systemspacing=-2
+
+262: newpage=1, spaceafter=2cm
+
+264: newpage=1
+
+265: newpage=1, systemspacing=-2, spaceafter=0.6cm
+266: systemspacing=-2
+
+267: newpage=1, spaceafter=2cm, notespacing=-1
+
+269: newpage=1, spaceafter=3cm
+
+271: newpage=1, spaceafter=0.2cm, systemspacing=-2
+272: systemspacing=-2, notespacing=-1
+
+273: newpage=1
+274:
+
+275: newpage=1, textbox=0
+
+276: newpage=1, spaceafter=0.8cm
+277: spaceafter=0.8cm
+278:
+279:
+
+280: newpage=1, systemspacing=-2, spaceafter=0.5cm
+281: systemspacing=-2
+
+282: newpage=1, systemspacing=-1
+
+283: newpage=1
+
+286: newpage=1
+

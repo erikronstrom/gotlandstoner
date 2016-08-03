@@ -1,0 +1,15 @@
+X:691
+Z:Erik Ronström 2010-02-01: Förslagen i första takten ska inte ha bågar till tonen, då blir de meningslösa! Man kan t ex tänka sig förslagen på uppstråk och huvudtonerna på nedstråk.
+Z:Erik Ronström 2010-02-01: Misstänkta tryckfel: Man skulle kunna tänka sig en tvåtakt i slutet av första reprisen (eller för den delen att hela låten noterades i tvåtakt), pausen känns omotiverad när man lyssnar på MIDI:t. Men det går ju inte att veta säkert.
+T:
+N:Brudmarsch,
+S:efter »Florsen» i Burs.
+O:Gotland, Burs
+R:marsch
+M:C
+L:1/8
+K:C
+c2 {e}e2 {g}g2 {c'}c'2|g>agf e2 g>f|e2 f>e d2 g2|
+a>gab g2 g>g|g4 z2 z2::c2 c'>c' c'bag|
+a>ba^g a2 f2|eg- (g/e/f/d/) c2 (3BAB|d2 c>c c2 z2:|
+

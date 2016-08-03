@@ -1,0 +1,16 @@
+X:705
+Z:Erik Ronström 2008-06-28: MIDI-fel: Spelar inte dubbelgreppen staccato.
+T:
+N:»Staikstrik» (steklåt),
+S:efter »Florsen» i Burs.
+H:Spelades, då steken bars in under bröllops-måltiden.
+O:Gotland, Burs
+R:marsch
+M:3/8
+L:1/16
+K:F
+(fg)|.[Aa]2.[Af]2.[Ae]2|(gf) (ef) (df)|(e^c) A2 (^ce)|(d^c) (de) (fg)|
+.a2.f2.e2|(gf) (ef) (df)|(e^c) A2 (^ce)|d4::e2|[G,Ec]2 g2 (ga)|
+(gf) (ed) c2|[CFA]2 a2 ab|(ag) (fe) d2|{/d}b2 {/d}a2 {/B}g2|
+f2 (ef) (df)|(e^c) A2 (^ce)|d4:|
+

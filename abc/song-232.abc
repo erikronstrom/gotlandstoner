@@ -1,0 +1,25 @@
+X:232
+Z:Clara Andermo 2008-01-26: Behöver arbetas om pg pizz
+T:Stenbocks polska
+R:polska
+S:Uppt. efter »Florsen» i Burs.
+S:Från Skåne,
+H:avser troligen slaget vid Hälsingborg (1710). 1:a reprisen föreställer svenskarnas \
+skott; andra reprisen danskarnas, ock tredje reprisen föreställer båda härarnas sammandrabbning (handgemäng).
+N:Stämning: ^c A E A,
+Z:I originalet finns streckade linjer som anger längden för varje pizzicato. \
+Här ersatt med "col' arco"
+O:Skåne
+U: p = "^pizz"
+U: q = "^col' arco"
+M:3/4
+L:1/16
+K:A
+Lc4 B3d c2A2|pA2c2 c2A2 E2A,2|qA2Ac B2Bd c2A2|
+cBAG B4 A4::Lc3e efed c3e|efed pc2A2 A2c2|
+[A,E]3c c3c A2c2|[A,E]3c c3c A2c2|
+[A,E]3c c3c A2c2|[A,E]3c c3c A2c2|
+qA2Ac B2Bd c2A2|cBAG B4 A4::
+FDFA FDFA FDFA|ECEA ECEA ECEA|FDFA FDFA FDFA|
+ECEA ECEA [A,EAc]4|Lc4 B2Bd c2A2|cBAG B4 A4:|
+

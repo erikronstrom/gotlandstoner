@@ -1,0 +1,21 @@
+X:317
+Z:Fredrik Lönngren 2008-07-10: Det står faktiskt fiageolett
+Z:Erik Ronström 2010-03-12: I originalet står flageoletternas "fingernoter" utskrivna, vilket inte går att överföra till abc
+Z:Erik Ronström 2010-04-01: Misstänkta tryckfel: fiageolett bör väl vara flageolett  //  det ser inte ut som att det bara är dåligt scannat eller tryckt, det ser ut som att en fi-ligatur använts
+T:Svanpolska.
+R:polska
+S:Efter Karl Odin Kaupe i Fröjel.
+N:Polskan har fått sitt namn efter de »svantoner» (fiageolett), \
+som här ock var förekomma i repriserna.
+O:Gotland, Fröjel
+U:o=+open+
+M:3/4
+L:1/16
+K:G
+[G,Dd]3g gfge d4|cBAG FGAB c4|c2ec B2dB A2cA|GFGB AGFE D4|
+[G,Dd]3g gfge d4|cBAG FGAB c4|c2ec B2dB A3c|BAGF F4 G4:|
+|:od4 og4 ob4|d2de dcAc c2B2|od4 og4 ob4|d2de dcAc B4|
+dgfg dedc cBAG|BGAF G4 G,4::B3A GFED E2c2|B2AG AGFE D4|
+B3A GFED E2c2|B2AG FGEF D4|od4 og4 ob4|d2de dcAc c2B2|
+od4 og4 ob4|d2de dcAc B4|dgfg dedc cBAG|BGAF G4 G,4:|
+

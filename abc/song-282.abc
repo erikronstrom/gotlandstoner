@@ -1,0 +1,22 @@
+X:282
+Z:Erik Ronström 2008-06-27: MIDI-fel: Repristecknet syftar antagligen till låtens början (annars stämmer inte taktlängden), men MIDI-generatorn tar repris från dubbelstrecket!
+Z:Fredrik Lönngren 2009-01-09: När spelaren går från början i 1:a reprisen så tar den repris från takt 3, alltså efter dubbelstrecket. Trots att där inte står något repristecken.
+T:Storpolskan
+R:polska
+S:Efter klockaren O. Laugren i Alva.
+O:Gotland
+M:3/4
+L:1/16
+K:D
+(3A,B,C|[DF]2[DF][DF] [DF]2A,2 [DF]2A,2|DFAF D2A,2 D4||
+a4 d'2c'2 b2a2|bc'ba b2c'2 d'4|d2fa d'2c'2 b2a2|gagf g2a2 f4|
+fd'fd' ec'ec' dbdb|b2a2 babc' d'4|defg a2A2 A2 z2|DEFG A2A,2 A,2 z2|
+dedc d2e2 f2^g2|a2AA A4- AGFE|DAFA DAFA EAGA|DAFA DAFA EAGA|
+F2d2 d2c2 B2g2|bgec c2d2 d2:|A2|[DAf]3f fgaf efge|
+[B,Fd]3d defd cded|c2 E2 E2 E2 dcBc|d2 E2 E2 E2 edcB|
+c2cd e2ec E2d2|cAB^G A4 A,4||a3d'f'3d'a2g2|a3g g4 z4|
+g3be'3c'a2g2|g3f f4 z2 a2|e2ec ABcd efge|a2ab g2ga f4|
+fedc d2f2 a2d'2|a3c' e'4 d'4||a3f d2d2 b3a|a3g gfga g4|
+e3c A2A2 a3g|g3f fefg f4|e2ec ABcd efge|a2ab g2ga f4|
+fedc d2f2 a2d'2|a3c' e'4 d'2|]
+
