@@ -8,10 +8,10 @@
  f'' e'' f'' a'' b'' a'' g'' a'' g''4  |
  } %( endrepeat )% 
 \repeat volta 2 { 
- a''8 f'' d''16 f'' a'' f'' d'' f'' a'' f''  | 
- g''8 e'' c''16 e'' g'' e'' c'' e'' g'' e''  | 
- a''8 f'' d''16 f'' a'' f'' d'' f'' a'' f''  | 
- g''8 e'' c''16 e'' g'' e'' c'' e'' g'' e''  | 
+\textedMeasureBracket \twice {
+     a''8 f'' d''16 f'' a'' f'' d'' f'' a'' f''  | 
+     g''8 e'' c''16 e'' g'' e'' c'' e'' g'' e''  | 
+ }
  c'' b' c'' d'' e'' d'' e'' f'' g'' f'' g'' e''  | 
  g'' f'' d'' b' d''8 c'' c''4  |
  } %( endrepeat )% 

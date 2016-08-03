@@ -6,10 +6,10 @@
  d''8 bes'16 d'' ees'' c'' a' c'' bes'4  | 
  bes16 d' f' bes' d'' bes' g'' f'' ees'' d'' c'' bes'  | 
  bes' a' bes' d'' c'' bes' a' g' < f' f'  > ees' d' c'  | 
- bes d' f' bes' d'' bes' f' bes' f'' d'' bes' d''  | 
- g'' ees'' bes' g' ees' g'' f'' ees'' ees''8 d''  | 
- bes16 d' f' bes' d'' bes' f' bes' f'' d'' bes' d''  | 
- g'' ees'' bes' g' ees' g'' f'' ees'' ees''8 d''  | 
+ \textedMeasureBracket \twice {
+      bes d' f' bes' d'' bes' f' bes' f'' d'' bes' d''  | 
+      g'' ees'' bes' g' ees' g'' f'' ees'' ees''8 d''  | 
+  }
  ees'-. g''-. d'-. f''-. c'-. ees''-.  | 
  d''16 ees'' a' c'' bes'4 bes  |
  } %( endrepeat )% 

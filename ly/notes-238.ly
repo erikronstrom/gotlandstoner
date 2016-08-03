@@ -12,10 +12,10 @@
  bes' a' g' fis' a'8 g' g'4  |
  } %( endrepeat )% 
 \repeat volta 2 { 
- a'8 bes' bes' a'16 bes' c'' bes' a' g'  | 
- a'8 d'' d'' c''16 d'' ees'' d'' c'' bes'  | 
- a'8 bes' bes' a'16 bes' c'' bes' a' g'  | 
- a'8 d'' d'' c''16 d'' ees'' d'' c'' bes'  | 
+\textedMeasureBracket \twice {
+     a'8 bes' bes' a'16 bes' c'' bes' a' g'  | 
+     a'8 d'' d'' c''16 d'' ees'' d'' c'' bes'  | 
+ }
  d''8 fis''16 g'' g'' fis'' a'' fis'' d''4  | 
  d''8 f''16 g'' f'' ees'' d'' c'' d''8. c''16  | 
  bes' a' g' fis' a'8 g' g'4  | 

@@ -4,10 +4,10 @@
 \repeat volta 2 { 
  a''4 gis''16 b' d'' fis'' e''4  | 
  d''16 e' gis' b' d'' fis'' e'' d'' d''8 cis''  | 
- a16 cis' e' a' cis'' e'' a'' e'' d'' cis'' b' a'  | 
- b e' d'' e'' e'' d'' e' b b e' d'' e''  | 
- a cis' e' a' cis'' e'' a'' e'' d'' cis'' b' a'  | 
- b e' d'' e'' e'' d'' e' b b e' d'' e''  | 
+\textedMeasureBracket \twice {
+     a16 cis' e' a' cis'' e'' a'' e'' d'' cis'' b' a'  | 
+     b e' d'' e'' e'' d'' e' b b e' d'' e''  | 
+ }
  cis'' e'' a'' gis'' fis'' e'' d'' cis'' b' a' gis' fis'  | 
  e' a' gis' b' a'4 a  |
  } %( endrepeat )% 
