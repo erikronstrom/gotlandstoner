@@ -10,8 +10,9 @@
  f'8 c' c' f' f'4  |
  } %( endrepeat )% 
 \repeat volta 2 { 
- c''16 b' c'' d'' c''8 c' c' c''  | 
- c''16 b' c'' d'' c''8 c' c' c''  | 
+\textedMeasureBracket \twice {
+     c''16 b' c'' d'' c''8 c' c' c''  | 
+ }
  c''16 b' c'' d'' c''8 c' c' e''  | 
  f'' a'' g''16 f'' e'' d'' c''4  | 
  d''8 bes bes d'' e''16 d'' c'' bes'  | 
