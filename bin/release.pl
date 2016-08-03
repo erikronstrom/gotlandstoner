@@ -3,8 +3,10 @@
 use warnings;
 use strict;
 
+use Time::Piece;
+
 my $inPattern = "abc/song-%d.abc";
-my $outDirPattern = "release/%s";
+my $outDirPattern = "release/gotlandstoner-%s";
 my $outFileName = "fredin.abc";
 
 my $version = $ARGV[0];
@@ -23,8 +25,10 @@ if (-d $outdir) {
 
 open(OUTFILE, '>', $outfile) or die("Could not open $outfile for writing");
 
+my $date = localtime->strftime('%Y-%m-%d');
 print OUTFILE "%abc-2.1\n";
 print OUTFILE "I:abc-charset iso-8859-1\n";
+print OUTFILE "\nGotlandstoner $version ($date)\n";
 
 print OUTFILE "\n";
 
