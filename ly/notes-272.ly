@@ -2,6 +2,7 @@
 \key g \minor
 
 \repeat volta 2 { 
+ \partial 8
  g''8  | 
  g'' fis''16 g'' d''4 bes''8. a''16  | 
  a''8 g'' g''16 fis'' a'' fis'' d''4  | 

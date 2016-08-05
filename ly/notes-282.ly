@@ -2,6 +2,7 @@
 \key d \major
 
 \repeat volta 2 { 
+ \partial 8
   \times 2/3 { a16 b cis' }   | 
  < d' fis'  >8 < d' fis'  >16 < d' fis'  > < d' fis'  >8 a < d' fis'  > a  | 
  d'16 fis' a' fis' d'8 a d'4 \bar "||" |
