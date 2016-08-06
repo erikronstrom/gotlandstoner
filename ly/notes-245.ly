@@ -27,7 +27,7 @@
  } %( endrepeat )% 
 \repeat volta 2 { 
  < c'' e''  >16 < bes' c''  > < bes' c''  > < c'' e''  > < c'' e''  > < bes' g'  > < bes' g'  > < c'' e''  > < c'' e''  > < bes' c''  > < bes' c''  > < c'' e''  >  | 
- < a' f''  > < f f' a'  > < f f' a'  > f'' < f f' a' a''  > < f f' a'  > a' a'' < a' f''  > < f f' a'  > < f f' a'  > f''  | 
+ < a' f''  > < f f' a'  > < f f' a'  > f''  < a' a''  > < f f' a'  > < f f' a'  > a'' < a' f''  > < f f' a'  > < f f' a'  > f''  | 
  < c'' e''  > < bes' c''  > < bes' c''  > < c'' e''  > < c'' e''  > < bes' g'  > < bes' g'  > < c'' e''  > < c'' e''  > < bes' c''  > < bes' c''  > < c'' e''  >  | 
  f''8 e''16 f'' g'' f'' e'' d'' d''8 c''  |
  } %( endrepeat )% 
