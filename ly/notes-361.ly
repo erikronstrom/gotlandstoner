@@ -1,6 +1,7 @@
 \time 3/4
 \key g \major
 
+\partial 8
  d'8 
 \repeat volta 2 { 
  g'16 a' b' c'' d'' e'' fis'' g'' d''4  | 

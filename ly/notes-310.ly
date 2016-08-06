@@ -2,6 +2,7 @@
 \key f \major
 
 \repeat volta 2 { 
+ \partial 8
  a'16 bes'  | 
  c''8 a'16 f' d''8 bes'16 g' c''8 a'16 f'  | 
  f'' g'' a'' g'' f''8 c'' a' f'  | 
