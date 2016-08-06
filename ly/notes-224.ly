@@ -9,7 +9,7 @@
  c''16 e' g c'' c'' e' g c'' c'' e' g c''  | 
  b' f' g b' b' f' g b' b' f' g b'  | 
  c'' e' g c'' c'' e' g c'' c'' e' g c''  | 
- b' f' g b' b' f' g b' b'8-\fermata g  | 
+ b' f' g b' b' f' g b' b'8-\fermata g\noBeam  | 
  c' d'16 e' f' g' a' bes' a'8 f''  | 
  e''16 d'' c'' b' d''4 c''  |
  } %( endrepeat )% 
