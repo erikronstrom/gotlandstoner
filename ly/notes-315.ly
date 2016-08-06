@@ -13,7 +13,7 @@
  } %( endrepeat )% 
  
 \repeat volta 2 { 
-  < a' f'  >8. c'''16 c'''8 a'' a'' f''  | 
+  < a' f'  >8.-> c'''16 c'''8 a'' a'' f''  | 
  f'' e''16 f'' g''8 a''16 g'' f'' e'' d'' c''  | 
  c''8. c'''16 c'''8 a'' a'' f''  | 
  f'' e''16 f'' fis'' g'' a'' g'' f'' e'' d'' c''  | 
