@@ -1,3 +1,11 @@
+\override Stem #'stencil = ##f
+\override Score.TimeSignature #'stencil = ##f
+\partial 4
+ < e'' a' f' f  >4^\markup { \center-align { \italic "Stämning." } }
+\revert Stem #'stencil
+\revert Score.TimeSignature #'stencil
+\bar "||"
+
 \time 3/4
 \key f \major
 
