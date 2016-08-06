@@ -1,0 +1,97 @@
+214: newpage=1
+215: newpage=1, textbox=9cm, spaceafter=1.5cm
+
+216: spaceafter=2cm
+
+218: newpage=1, spaceafter=0.5cm, systemspacing=-2, lineoffset=-3
+219: systemspacing=-2, lineoffset=-3
+
+220: newpage=1, spaceafter=2cm
+
+222: newpage=1
+223: lineoffset=-2, spaceafter=0.8cm
+224: lineoffset=-5
+
+225: systemspacing=-2, spaceafter=0.6cm, lineoffset=-4
+226: systemspacing=-2
+
+227: newpage=1, lineoffset=-5
+228: lineoffset=-5
+229: spaceafter=2cm, lineoffset=-5
+230: lineoffset=-10
+
+231: newpage=1, spaceafter=2cm
+232: spaceafter=0cm
+233: newpage=1, spaceafter=2cm, textbox=0
+234: textbox=0
+
+235: newpage=1, systemspacing=2
+236: newpage=1, lineoffset=-4, systemspacing=-1
+237: lineoffset=-4, systemspacing=-1
+
+
+238: newpage=1
+239: newpage=1
+
+240: newpage=1, textbox=11cm
+241: newpage=1
+
+242: newpage=1, notespacing=-1, textbox=11cm
+243: newpage=1, lineoffset=-5, spaceafter=0.5cm, systemspacing=-2
+244: lineoffset=-5, systemspacing=-2
+
+245: newpage=1
+246: newpage=1
+
+247: newpage=1
+248: spaceafter=2cm
+
+250: newpage=1, spaceafter=2cm
+251:
+252: newpage=1, spaceafter=1cm, lineoffset=-5
+253: lineoffset=-5
+
+254: newpage=1, systemspacing=-2, spaceafter=0.5cm, lineoffset=-5
+255: systemspacing=-3, lineoffset=-7
+256: newpage=1, spaceafter=0.8cm, lineoffset=-4
+257: lineoffset=-10, systemspacing=-1
+
+258: newpage=1
+259:
+
+260: newpage=1, spaceafter=0.2cm, systemspacing=-2, notespacing=-1, lineoffset=-5
+261: systemspacing=-3, lineoffset=-5
+
+262: newpage=1, spaceafter=2cm
+
+264: newpage=1
+
+265: newpage=1, systemspacing=-2, spaceafter=0.6cm
+266: systemspacing=-2
+
+267: newpage=1, spaceafter=2cm, notespacing=-1
+
+269: newpage=1, spaceafter=3cm
+
+271: newpage=1, spaceafter=0.2cm, systemspacing=-2
+272: systemspacing=-2, notespacing=-1
+
+273: newpage=1
+274:
+
+275: newpage=1, textbox=0
+
+276: newpage=1, spaceafter=0.8cm
+277: spaceafter=0.8cm
+278:
+279:
+
+280: newpage=1, systemspacing=-2, spaceafter=0.5cm
+281: systemspacing=-2
+
+282: newpage=1, systemspacing=-1
+
+283: newpage=1
+
+286: newpage=1
+

@@ -2,8 +2,8 @@
 use strict;
 no integer;
 
-my $From = $ARGV[0] || 214;
-my $To   = $ARGV[1] || 270;
+my $From = $ARGV[0] || 320;
+my $To   = $ARGV[1] || 360;
 
 ##############################################################
 
@@ -33,7 +33,7 @@ print OUTFILE '\setcounter{secnumdepth}{0}' . "\n";
 
 print OUTFILE '\usepackage{fancyhdr}' . "\n";
 print OUTFILE '\fancypagestyle{plain}{ \fancyhf{} ' . "\n";
-print OUTFILE '\fancyfoot[LE,RO] {\thepage} ' . "\n";
+# print OUTFILE '\fancyfoot[LE,RO] {\thepage} ' . "\n";
 print OUTFILE '\fancyfoot[C] { \scriptsize GOTLANDSTONER } ' . "\n";
 print OUTFILE '\renewcommand{\headrulewidth}{0pt}' . "\n";
 print OUTFILE '\renewcommand{\footrulewidth}{0pt}}' . "\n";
@@ -54,7 +54,9 @@ print OUTFILE '\vspace*{12pt}' . "\n";
 print OUTFILE '\end{center}' . "\n";
 print OUTFILE '}' . "\n";
 
-# print OUTFILE '\part*{Polskor}' . "\n";
+print OUTFILE '\part*{Polskor}' . "\n";
+
+# print OUTFILE "\\cleardoublepage\n";
 
 for my $num ($From..$To) {
     my $abc = &slurp("abc/song-$num.abc");
@@ -115,7 +117,7 @@ sub processTune() {
                 next;
             }
             
-            $Text =~ s/(Uppt)\. /\1.\\\@ /ig;
+            $Text =~ s/(Uppt|Omkr)\. /\1.\\\@ /ig;
             $Text =~ s/m\. fl\./m.\\\@ fl./g; # TODO: lookahead for next sentence
             $Text =~ s/d\. ([yä])\./d.\\\@ \1./g; # TODO: lookahead for next sentence
             $Text =~ s/ f\. / f.\\\@ /g; # TODO: lookahead for next sentence
@@ -175,28 +177,14 @@ sub processTune() {
     }
 
     # Extra vertical space before score
-    my $SpaceBefore = $TuneConf{$Num}->{"spacebefore"} || "3mm";
+    my $SpaceBefore = $TuneConf{$Num}->{"spacebefore"} || "0mm";
     print OUTFILE "\\vspace{$SpaceBefore}\n";
 
     print OUTFILE "\\begin{lilypond}\n";
     
     
     #########
-    
-    # print OUTFILE "textedMeasureBracket = \n";
-    # print OUTFILE "#(define-music-function\n";
-    # print OUTFILE "(parser location str mus)\n";
-    # print OUTFILE '(markup? ly:music?)' . "\n";
-    # print OUTFILE '#{' . "\n";
-    # print OUTFILE '\override Staff.MeasureCounter.stencil =' . "\n";
-    # print OUTFILE '#(lambda (grob) (test-stencil grob str))' . "\n";
-    # print OUTFILE '\startMeasureCount' . "\n";
-    # print OUTFILE '#mus' . "\n";
-    # print OUTFILE '\stopMeasureCount' . "\n";
-    # print OUTFILE '#}' . "\n";
-    # print OUTFILE ')' . "\n";
-    # print OUTFILE 'twice = \markup { \italic "bis" }' . "\n";
-    
+        
     print OUTFILE '\include "../include/repeat-bracket.ly"' . "\n";
     
     print OUTFILE '\layout {' . "         % $Headers{'X'}\n";
@@ -204,6 +192,17 @@ sub processTune() {
 
     print OUTFILE '}' . "\n";
     print OUTFILE "#(set-global-staff-size 20)\n";
+    
+    # print OUTFILE "\\layout {\n";
+    # print OUTFILE "  \\context {\n";
+    # print OUTFILE "    \\Staff\n";
+    # print OUTFILE "    \\override VerticalAxisGroup.default-staff-staff-spacing =\n";
+    # print OUTFILE "      #'((basic-distance . 20)\n";
+    # print OUTFILE "         (minimum-distance . 19)\n";
+    # print OUTFILE "         (padding . 1))\n";
+    # print OUTFILE "} }\n";
+    
+    
     print OUTFILE '\score { {' . "\n";
 
     print OUTFILE "\\set Staff.instrumentName = " .
@@ -211,16 +210,17 @@ sub processTune() {
     print OUTFILE "\\set Staff.shortInstrumentName = \"\"\n";
 
     my $SSpacing = $TuneConf{$Headers{'X'}}->{"systemspacing"} || 0;
-    $SSpacing = -9.5 - ($SSpacing * 0.5);
+    $SSpacing = -7.5 - ($SSpacing * 0.5);
 
-    print OUTFILE "\\override Staff.VerticalAxisGroup #'minimum-Y-extent = #'($SSpacing . 2)";
+    print OUTFILE "\\override Staff.VerticalAxisGroup #'minimum-Y-extent = #'($SSpacing . 6)";
+    
 
     print OUTFILE "\\override Score.PaperColumn #'keep-inside-line = ##t\n";
 
     #print OUTFILE "\\override Staff.StaffSymbol #'thickness = #0.9\n";
-    print OUTFILE '        \override Score.BarNumber ';
-    print OUTFILE '#' . "'stencil = " . '##f' . "\n";
-    print OUTFILE "        \\set Timing.beamExceptions = #'()\n";
+    print OUTFILE '        \override Score.BarNumber #' . "'stencil = " . '##f' . "\n";
+    #print OUTFILE "        \\set Timing.beamExceptions = #'()\n";
+    print OUTFILE "        \\set Timing.beamHalfMeasure = ##f\n";
     
     print OUTFILE $Notes;
     
@@ -252,6 +252,7 @@ sub processTune() {
     unless (defined $line && $line == 0) {
         my $lineoffset = $TuneConf{$Headers{'X'}}->{"lineoffset"} || 0;
         $lineoffset -= 5;
+        $lineoffset -= 5 unless $BreakBefore && $BreakAfter;
         print OUTFILE '\begin{center}' . "\n";
         print OUTFILE '\kern' . $lineoffset . 'pt' if $lineoffset; # e.g. 5pt
         print OUTFILE '\line(1,0){200}' . "\n";

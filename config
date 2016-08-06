@@ -1,84 +1,199 @@
 214: newpage=1
-215: newpage=1, textbox=9cm
+215: newpage=1, textbox=9cm, spaceafter=1.5cm
 
-216: spaceafter=2cm
+216: newpage=1
+217: newpage=1
 
-218: newpage=1, spaceafter=0.5cm
+218: newpage=1, spaceafter=0.5cm, systemspacing=-2, lineoffset=-3
+219: systemspacing=-2, lineoffset=-3
 
 220: newpage=1, spaceafter=2cm
 
-222: newpage=1, spaceafter=0.5cm
+222: newpage=1
+223: newpage=1
 
-226: systemspacing=-2
-227: newpage=1
+224: newpage=1
+225: newpage=1
 
-229: spaceafter=2cm
+226: newpage=1
+227:
+228:
 
-231: newpage=1, spaceafter=2cm
-232: spaceafter=0cm
+229: newpage=1, spaceafter=2cm
+230: newpage=1, spaceafter=3cm
+231:
 
+232: newpage=1
 233: newpage=1, spaceafter=2cm, textbox=0
 234: textbox=0
+
 235: newpage=1, systemspacing=2
-236: newpage=1
+236: newpage=1, systemspacing=-1
+237: systemspacing=-1
 
-238: newpage=1, spaceafter=0.5cm, systemspacing=-2
-239: spaceafter=0.2cm, systemspacing=-1
-240: systemspacing=-2, notespacing=-1, textbox=11cm
 
-241: newpage=1, systemspacing=-1
-242: notespacing=-1, textbox=11cm
+238: newpage=1
+239: newpage=1
 
-244:
-245: spaceafter=2cm
+240: newpage=1, textbox=11cm
+241: newpage=1
+
+242: newpage=1, notespacing=-1, textbox=11cm
+243: newpage=1, lineoffset=-5, spaceafter=0.5cm, systemspacing=-2
+244: lineoffset=15, systemspacing=-2
+
+245: newpage=1
+246: newpage=1
 
 247: newpage=1
-248: spaceafter=2cm
+248: newpage=1
 
-250: newpage=1, spaceafter=2cm
-251:
-252: newpage=1, spaceafter=2cm
+249: newpage=1, spaceafter=0.5cm, systemspacing=-1, lineoffset=-5
+250: systemspacing=-1, lineoffset=-5
+251: newpage=1, spaceafter=2.5cm
+252: lineoffset=-5
 
-254: newpage=1, systemspacing=-2, spaceafter=0.5cm
-255: systemspacing=-2
+253: newpage=1
+254: newpage=1
 
-256: newpage=1, spaceafter=0.7cm
+255: newpage=1, spaceafter=0.5cm
+256:
 
-258: spaceafter=2cm
+257: newpage=1, spaceafter=2cm
+258:
 
-260: newpage=1, spaceafter=0.2cm, systemspacing=-2, notespacing=-1
-261: systemspacing=-2
+259: newpage=1, systemspacing=-2, spaceafter=0.3cm, lineoffset=-8
+260: systemspacing=-1, lineoffset=-8
+261: newpage=1
 
 262: newpage=1, spaceafter=2cm
 
 264: newpage=1
 
-265: newpage=1, systemspacing=-2, spaceafter=0.6cm
-266: systemspacing=-2
+265: newpage=1, systemspacing=-2, spaceafter=0.3cm, lineoffset=-12
+266: systemspacing=-2, lineoffset=-12
 
-267: newpage=1, spaceafter=2cm, notespacing=-1
+267: newpage=1, spaceafter=1.5cm, notespacing=-1
 
 269: newpage=1, spaceafter=3cm
+270:
+271: newpage=1
 
-271: newpage=1, spaceafter=0.2cm, systemspacing=-2
-272: systemspacing=-2, notespacing=-1
-
+272: newpage=1
 273: newpage=1
-274:
 
+274: newpage=1
 275: newpage=1, textbox=0
 
-276: newpage=1, spaceafter=0.8cm
-277: spaceafter=0.8cm
-278:
-279:
+276: newpage=1, spaceafter=3cm
+277:
+278: newpage=1
 
-280: newpage=1, systemspacing=-2, spaceafter=0.5cm
-281: systemspacing=-2
+279: newpage=1
+280: newpage=1, systemspacing=-3, spaceafter=0.5cm, lineoffset=-10
+281: systemspacing=-3, lineoffset=-10
 
-282: newpage=1, systemspacing=-1
-
+282: newpage=1, systemspacing=-1, lineoffset=-5
 283: newpage=1
 
-286: newpage=1
+284: newpage=1, systemspacing=-1, lineoffset=-5, spaceafter=0.8cm
 
+286: newpage=1, lineoffset=-5, spaceafter=3cm
+
+288: newpage=1
+289: newpage=1
+
+290: newpage=1
+
+293: newpage=1
+295: spaceafter=2cm
+
+297: newpage=1, notespacing=2
+
+298: newpage=1
+
+300: newpage=1, spaceafter=0.5cm, systemspacing=-1, lineoffset=-8
+301: systemspacing=-1, lineoffset=-8
+
+304: newpage=1
+305: newpage=1, spaceafter=0.3cm, systemspacing=-1, lineoffset=-5
+306: lineoffset=-5, systemspacing=-2
+
+307: newpage=1
+308: newpage=1
+
+309: newpage=1, systemspacing=-1, lineoffset=-5
+310: systemspacing=-1, lineoffset=-5
+311: newpage=1, spaceafter=0.5cm, lineoffset=-7
+312: lineoffset=-7
+313: newpage=1, spaceafter=0.3cm, lineoffset=-5
+314: systemspacing=-2, lineoffset=-5
+
+318: newpage=1
+319: newpage=1, textbox=0
+
+320: newpage=1
+321: newpage=1, notespacing=0
+
+322: newpage=1
+323: newpage=1
+
+324: newpage=1
+325: newpage=1, spaceafter=0.5cm, systemspacing=-1
+326: systemspacing=-1
+
+327: newpage=1
+
+328: newpage=1
+
+329: newpage=1, spaceafter=0.1cm, lineoffset=-14, systemspacing=-1
+330: systemspacing=-2, lineoffset=-15
+331: newpage=1
+
+332: newpage=1
+333: newpage=1, lineoffset=-8
+
+334: newpage=1, notespacing=2
+
+335: newpage=1, lineoffset=-5
+336: lineoffset=-5
+337: newpage=1
+
+338: newpage=1, lineoffset=-8, spaceafter=0.8cm, systemspacing=-1
+339: lineoffset=-8, systemspacing=-1
+340: newpage= 1
+
+341: newpage=1
+342: newpage=1
+
+343: newpage=1,  lineoffset=-5, spaceafter=0.8cm, systemspacing=-1
+344: lineoffset=-5, systemspacing=-1
+
+345: newpage=1, lineoffset=-5
+346: lineoffset=-5
+
+347: newpage=1
+348: newpage=1
+
+349: newpage=1
+350: newpage=1
+
+354: newpage=1, systemspacing=-2, spaceafter=0.3cm, lineoffset=-8
+355: systemspacing=-2, lineoffset=-8
+
+356: newpage=1, systemspacing=-1, spaceafter=0.8cm, lineoffset=-8
+357: systemspacing=-1, lineoffset=-8
+358: newpage=1, spaceafter=2cm
+
+360: newpage=1, systemspacing=-2, spaceafter=0cm, lineoffset=-10
+361: lineoffset=-10, systemspacing=-2
+362: newpage=1
+
+363: newpage=1
+364: newpage=1
+
+365: newpage=1
+366: newpage=1
+
+367: newpage=1
+368: newpage=1, spaceafter: 0.5cm
