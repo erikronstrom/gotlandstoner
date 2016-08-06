@@ -1,3 +1,5 @@
+{
+    
 \time 3/4
 \key c \major
 
@@ -18,3 +20,20 @@
  e''16 d'' c'' b' c''8 e'' c''4  |
  } %( endrepeat )% 
  
+}
+
+\addlyrics {
+    \set fontSize = #-1
+    \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 |
+    \skip 8 ha ha ha ha |
+    \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 |
+    \skip 8 ha ha ha ha |
+    
+    \skip 8 \skip 16 \skip 16 \skip 8 \skip 8 \skip 8 \skip 8 |
+     \skip 16 \skip 16 \skip 16 \skip 16 \skip 8 \skip 8 \skip 4 |
+    
+    \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 |
+    \skip 8 ha ha ha ha |
+    \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 |
+    \skip 8 ha ha ha ha |
+}
