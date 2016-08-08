@@ -1,0 +1,30 @@
+\documentclass[a4paper]{report}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[top=19mm,left=16mm,right=16mm,bottom=13mm,includefoot,twoside,bindingoffset=8mm]{geometry}
+\usepackage{graphicx}
+\setcounter{secnumdepth}{0}
+\usepackage{fancyhdr}
+\fancypagestyle{plain}{ \fancyhf{} 
+\fancyfoot[C] { \scriptsize GOTLANDSTONER } 
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}}
+\pagestyle{plain}
+\begin{document}
+\title{Gotlandstoner}
+\author{August Fredin}
+\setlength{\parindent}{0pt}
+\newcommand{\tunename}[1]{
+\refstepcounter{section}
+\addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}
+\begin{center}
+\LARGE \textbf{#1}
+
+\vspace*{12pt}
+\end{center}
+}
+
+
+
+% \end{document} % printed by generate-book
+

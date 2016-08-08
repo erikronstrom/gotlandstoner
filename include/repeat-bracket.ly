@@ -140,7 +140,7 @@
     \consists #Measure_attached_spanner_engraver
     \override MeasureCounter.font-encoding = #'latin1
     \override MeasureCounter.font-size = 0
-    \override MeasureCounter.outside-staff-padding = 2
+    \override MeasureCounter.outside-staff-padding = 1
     \override MeasureCounter.outside-staff-horizontal-padding = #0
   }
 }
