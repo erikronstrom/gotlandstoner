@@ -1,6 +1,7 @@
 \version "2.18.2"
 
 \include "../include/repeat-bracket.ly"
+\include "../include/flat-beams.ly"
 
 \header {
     tagline = ""
@@ -15,7 +16,9 @@
     line-width = 169\mm
     %left-margin = 0
     %right-margin = 0
+    paper-height = 240mm
     ragged-bottom = ##t
+    print-page-number = ##f
     system-system-spacing = 
       #'((basic-distance . %((basic-distance))%)
          (minimum-distance . %((minimum-distance))%)
@@ -31,8 +34,9 @@
     \set Staff.shortInstrumentName = ""
     \override Score.BarNumber #'stencil = ##f
     \set Timing.beamHalfMeasure = ##f
-    \override Score.VoltaBracket #'Y-extent = #'(-2.0 . 1.0)
+    \override Score.VoltaBracketSpanner #'outside-staff-padding = #2
     
+%((time-settings))%    
 
 %((notes))%
 

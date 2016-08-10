@@ -1,11 +1,11 @@
-214: newpage=1
+214: section=POLSKOR, newpage=1
 215: newpage=1, textbox=9cm, spaceafter=1.5cm
 
 216: newpage=1
 217: newpage=1
 
-218: newpage=1, spaceafter=0.5cm, systemspacing=-2, lineoffset=-3
-219: systemspacing=-2, lineoffset=-3
+218: newpage=1, spaceafter=1.5cm, systemspacing=-1, lineoffset=-3
+219: systemspacing=-1, lineoffset=-3
 
 220: newpage=1, spaceafter=2cm
 
@@ -15,7 +15,7 @@
 224: newpage=1
 225: newpage=1
 
-226: newpage=1
+226: newpage=1, pages=2
 227:
 228:
 
@@ -38,7 +38,7 @@
 240: newpage=1, textbox=11cm
 241: newpage=1
 
-242: newpage=1, notespacing=-1, textbox=11cm
+242: newpage=1, textbox=11cm
 243: newpage=1, lineoffset=-5, spaceafter=0.5cm, systemspacing=-2
 244: lineoffset=15, systemspacing=-2
 
@@ -62,7 +62,7 @@
 257: newpage=1, spaceafter=2cm
 258:
 
-259: newpage=1, systemspacing=-2, spaceafter=0.3cm, lineoffset=-8
+259: newpage=1, systemspacing=-1, lineoffset=-8
 260: systemspacing=-1, lineoffset=-8
 261: newpage=1
 
@@ -82,7 +82,7 @@
 272: newpage=1
 273: newpage=1
 
-274: newpage=1
+274: 
 275: newpage=1, textbox=0
 
 276: newpage=1, spaceafter=3cm
@@ -105,12 +105,14 @@
 
 290: newpage=1
 
+292: newpage=1
 293: newpage=1
-295: spaceafter=2cm
+295: newpage=1, spaceafter=2cm
 
 297: newpage=1, notespacing=2
 
 298: newpage=1
+299: newpage=1
 
 300: newpage=1, spaceafter=0.5cm, systemspacing=-1, lineoffset=-8
 301: systemspacing=-1, lineoffset=-8
@@ -119,8 +121,8 @@
 305: newpage=1, spaceafter=0.3cm, systemspacing=-1, lineoffset=-5
 306: lineoffset=-5, systemspacing=-2
 
-307: newpage=1
-308: newpage=1
+307: newpage=1, spaceafter=0.6cm, systemspacing=-2, lineoffset=-5
+308: newpage=0, systemspacing=-2, lineoffset=-5
 
 309: newpage=1, systemspacing=-1, lineoffset=-5
 310: systemspacing=-1, lineoffset=-5
@@ -146,8 +148,8 @@
 
 328: newpage=1
 
-329: newpage=1, spaceafter=0.1cm, lineoffset=-14, systemspacing=-1
-330: systemspacing=-2, lineoffset=-15
+329: newpage=1, spaceafter=0.5cm, lineoffset=-14, systemspacing=-1
+330: systemspacing=-2, lineoffset=-5
 331: newpage=1
 
 332: newpage=1
@@ -172,17 +174,19 @@
 345: newpage=1, lineoffset=-5
 346: lineoffset=-5
 
-347: newpage=1
+347: newpage=1, textbox=10cm
 348: newpage=1
 
 349: newpage=1
 350: newpage=1
 
-354: newpage=1, systemspacing=-2, spaceafter=0.3cm, lineoffset=-8
+352: newpage=1
+
+354: newpage=1, systemspacing=-2, spaceafter=1cm, lineoffset=-8
 355: systemspacing=-2, lineoffset=-8
 
 356: newpage=1, systemspacing=-1, spaceafter=0.8cm, lineoffset=-8
-357: systemspacing=-1, lineoffset=-8
+357: systemspacing=-1, lineoffset=-8, textbox=0
 358: newpage=1, spaceafter=2cm
 
 360: newpage=1, systemspacing=-2, spaceafter=0cm, lineoffset=-10
@@ -197,3 +201,47 @@
 
 367: newpage=1
 368: newpage=1, spaceafter: 0.5cm
+
+371: newpage=1
+
+374: newpage=1
+375: newpage=1
+376: newpage=1, systemspacing=-2, spaceafter=0.5cm
+377: newpage=0, systemspacing=-2
+
+378: newpage=1
+379: newpage=1
+380: newpage=1
+381: newpage=1
+383: newpage=1, spaceafter=2cm
+
+385: newpage=1
+386: newpage=1
+387: newpage=1
+388: newpage=1
+389: newpage=1
+390: newpage=1
+
+393: newpage=1
+395: newpage=1
+
+397: newpage=1
+
+398: newpage=1, systemspacing=-2
+399: newpage=1
+
+400: newpage=1
+402: newpage=1, spaceafter=2cm
+
+404: newpage=1
+
+407: newpage=1
+
+410: newpage=1, section=HAMBURGSKOR\\\vspace{5mm}\LARGE{(Hambopolskor)}
+
+412: newpage=1
+
+416: newpage=1
+417: section=VALSER, notespacing=-2, systemspacing=-4
+
+418: newpage=1

@@ -36,6 +36,11 @@ print OUTFILE $book;
 
 
 for my $num ($From..$To) {
+    
+    if (my $section = $TuneConf{$num}->{"section"}) {
+        print OUTFILE "\\part*{$section}\n";
+    }
+    
     my $abc = &slurp("abc/song-$num.abc");
     #my $song = &slurp("book/song-$num.ly");
     my $songfile = "book/song-$num";
@@ -44,8 +49,16 @@ for my $num ($From..$To) {
     unless (-e "$songfile-$md5-crop.pdf") {
         system("lilypond", "-o", "$songfile-$md5", "$songfile.ly") unless -e "$songfile-$md5.pdf";
         system("pdfcrop", "$songfile-$md5.pdf");
+        unlink("$songfile-$md5.pdf");
     }
-    my $song = "\\includegraphics{$songfile-$md5-crop.pdf}\n";
+    my $pages = $TuneConf{$num}->{"pages"} || 1;
+    my $song = "";
+    for my $page (1..$pages) {
+        if ($page > 1) {
+            $song .= "\\break";
+        }
+        $song .= "\\includegraphics[page=$page]{$songfile-$md5-crop.pdf}\n";
+    }
     
     &processTune($abc, $num, $song);
 }
@@ -103,7 +116,7 @@ sub processTune() {
                 next;
             }
             
-            $Text =~ s/(Uppt|Omkr)\. /\1.\\\@ /ig;
+            $Text =~ s/(Uppt|Omkr|Meddel|Skoll|Kapt)\. /\1.\\\@ /ig;
             $Text =~ s/m\. fl\./m.\\\@ fl./g; # TODO: lookahead for next sentence
             $Text =~ s/d\. ([yä])\./d.\\\@ \1./g; # TODO: lookahead for next sentence
             $Text =~ s/ f\. / f.\\\@ /g; # TODO: lookahead for next sentence
@@ -154,6 +167,8 @@ sub processTune() {
     } else {
         $TextBox = "12cm";
     }
+    
+    $Source = &slurp("text/song-$Num.tex") if (-e "text/song-$Num.tex");
     
     if ($MultipleLines) {
         print OUTFILE "\\begin{flushright} \\parbox{$TextBox}{$Source} " .

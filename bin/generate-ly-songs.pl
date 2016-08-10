@@ -49,6 +49,12 @@ for my $num ($From..$To) {
     $params{'minimum-distance'} = 11;
     $params{'padding'} = 1;
     
+    if ($num <= 416) {
+        $params{'time-settings'} =
+            "\\overrideTimeSignatureSettings 3/4 1/4 #'(1 1 1) #'()\n" .
+            "\\overrideTimeSignatureSettings 4/4 1/4 #'(1 1 1 1) #'()\n";
+    }
+    
     my $NS = $TuneConf{$num}->{"notespacing"} || 0;
     $params{'note-spacing'} = 6 - $NS;
 
