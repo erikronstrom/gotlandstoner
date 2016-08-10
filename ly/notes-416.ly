@@ -1,3 +1,4 @@
+{
 \time 3/4
 \key c \major
 
@@ -25,4 +26,11 @@
  b'8. b'16 d''4. d''8  | 
  b'4. g'8 c''4 c''8  |
  } %( endrepeat )% 
-  
+}
+ \addlyrics {
+     \set fontSize = # -1
+     Min sö -- ta mam -- ma, får jag gå bort? Jag är bju -- den på ba -- len i kväll.
+     Men jag lo -- var, att in -- om kort Skall jag va -- ra till -- ba -- "ka. –"
+     Ja du får gå, du lil -- la ra -- ra, blott du vill an -- stän -- dig va -- ra.
+     Ak -- ta dig för un -- ga kar -- lar, Ty de vill dig nar -- ra ba -- ra.
+}
