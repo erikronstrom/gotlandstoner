@@ -2,14 +2,14 @@
 \key g \major
 
 \repeat volta 2 { 
- d''2.  | 
- g''  | 
- b''  | 
+ d''2.\flageolet  | 
+ g''\flageolet  | 
+ b''\flageolet  | 
  r4 r r  | 
- d''2. g'' b''  | 
+ d''2.\flageolet g''\flageolet b''\flageolet  | 
  r4 r r  | 
  d''2.  | 
- a'2 b'8 a'  | 
+ a'2 b'8 a'  | \break
  g'2.  | 
  r4 r r  | 
  d''2.  | 
@@ -56,7 +56,7 @@
  b'2 d''4  | 
  g'2 b'4  | 
  a'8. b'16 a'8. g'16 a'8. b'16  | 
- g'2  |
+ g'2
  } %( endrepeat )% 
 \repeat volta 2 { 
  d'4  | 
@@ -73,7 +73,7 @@
  d''4. a'8 d'' fis''  | 
  d''4. a'8 d'' fis''  | 
  d''4 d'' e''  | 
- d''2  |
+ d''2 
  } %( endrepeat )% 
 \repeat volta 2 { 
  d''4  | 
@@ -94,10 +94,13 @@
  d''4 d'' e''  | 
   } 
 \alternative { 
- {  d''2.   |
+  {  
+ \set Timing.measureLength = #(ly:make-moment 1/2)
+ d''2   |
  } %( endrepeat )% 
  
  { % beginalt
- d''  }} 
+ \set Timing.measureLength = #(ly:make-moment 3/4)
+ d''2.  }} 
  \bar "|." |
  
