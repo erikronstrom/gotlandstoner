@@ -35,8 +35,9 @@
  cis'' d'' fis' gis' a'4 a  |
  } %( endrepeat )% 
 \repeat volta 2 { 
- < a e'  >16 cis'' e'' cis'' < a e'  > cis'' e'' cis'' < a e'  > cis'' e'' d''  | 
- < a e'  > cis'' e'' cis'' < a e'  > cis'' e'' cis'' < a e'  > cis'' e'' d''  | 
+ \textedMeasureBracket \twice {
+     < a e'  >16 cis'' e'' cis'' < a e'  > cis'' e'' cis'' < a e'  > cis'' e'' d''  | 
+ }
  < a e'  > cis'' a'' cis'' < a e'  > cis'' a'' cis'' < a e'  > cis'' a'' cis''  | 
  < a ees'  > c'' a'' c'' < a ees'  > c'' a'' c'' < a ees'  > c'' a'' c''  | 
  < a e'!  > cis''! a'' fis'' fis'' e'' d'' cis'' gis' d'' fis'' e''  | 
