@@ -19,7 +19,7 @@
  d' a' fis' a' d' a' fis' a' e' a' g' a'  | 
  d' a' fis' a' d' a' fis' a' e' a' g' a'  | 
  fis'8 d'' d'' cis'' b' g''  | 
- b''16 g'' e'' cis'' cis''8 d'' d''  |
+ b''16 g'' e'' cis'' cis''8 d'' d''  
  } %( endrepeat )% 
  a'  | 
  < d' a' fis''  >8. fis''16 fis'' g'' a'' fis'' e'' fis'' g'' e''  | 

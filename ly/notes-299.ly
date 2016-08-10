@@ -2,6 +2,7 @@
 \key ees \major
 
 \repeat volta 2 { 
+ \partial 8
  bes8  | 
  ees' ees'16 f' g'8 g'16 aes' bes'8 ees''  | 
  ees''16 bes' g' bes' aes' f' d' f' ees'4  | 
@@ -10,7 +11,7 @@
  g bes ees' bes g' bes ees' bes g bes ees' bes  | 
  aes c' ees' c' aes' c' ees' c' aes c' ees' c'  | 
  g aes bes c' d' ees' f' g' aes' c'' bes' aes'  | 
- g' f' ees' d' f'4 ees'8  |
+ g' f' ees' d' f'4 ees'8  
  } %( endrepeat )% 
 \repeat volta 2 { 
  bes  | 
