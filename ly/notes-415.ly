@@ -21,7 +21,6 @@
  e''8. fis''16 d''4 r8  |
  } %( endrepeat )% 
  
-\repeat volta 2 { 
  a' 
 \repeat volta 2 { 
  d''8. cis''16 d''8 e'' fis'' d''  | 
