@@ -51,7 +51,7 @@
     \set Staff.instrumentName = \markup { \huge \bold "%((tune-num))%." \hspace #1.2 } 
     \set Staff.shortInstrumentName = ""
     \override Score.BarNumber #'stencil = ##f
-    \set Timing.beamHalfMeasure = ##f
+    \set Timing.beamHalfMeasure = ##t
     \override Score.VoltaBracketSpanner #'outside-staff-padding = #2
     
 %((time-settings))%    
