@@ -6,7 +6,12 @@ use strict;
 my $inPattern = "abc/song-%d.abc";
 my $outPattern = "ly/notes-%d.ly";
 
-for my $i (214..727) {
+my $From = $ARGV[0];
+my $To   = $ARGV[1] || $From;
+
+die("Usage: generate-ly-notes.pl fromtune [totune]\n") unless $From && $To;
+
+for my $i ($From..$To) {
         # open(my $in, "<", sprintf($inPattern, $i));
         # system("abc2ly", "-o" sprintf($outPattern, $i), sprintf($inPattern, $i));
         
@@ -39,9 +44,14 @@ sub processTune() {
     my $Title;
     my $Source = '';
     my $Music;
+    my $Lyrics = '';
     foreach my $Line (@Lines) {
         $Line =~ s/\%.*$//mg;     # Remove comments
         
+        if ($Line =~ /^w:(.*)/) {
+            $Lyrics .= "     $1\n";
+        }
+
         if (defined $Music) {
             $Music .= "$Line\n";
             next;
@@ -78,6 +88,7 @@ sub processTune() {
             $Headers{'K'} = $1;
             $Music = '';
         }
+
     }
     #$Source =~ s/\\\\\[0\.1cm\]$//;
     
@@ -90,7 +101,7 @@ sub processTune() {
         return undef;
     }
     
-    &createMusic(\%Headers, $Music);
+    &createMusic(\%Headers, $Music, $Lyrics);
     
 #    print OUTFILE "\\vspace{0.5cm}\n\n" unless $BreakAfter;
 }
@@ -98,6 +109,7 @@ sub processTune() {
 sub createMusic() {
     my $Headers = shift();
     my $Notes   = shift();
+    my $Lyrics  = shift();
 
     my @Items;
 
@@ -408,6 +420,8 @@ sub createMusic() {
 ##########################################################################
 ##########################################################################
 
+    print OUTFILE "{\n" if $Lyrics;
+
     if ($Headers->{'tuning'}) {
         print OUTFILE '\override Stem ' . "#'stencil = ##f\n";
         print OUTFILE '\override Score.TimeSignature ';
@@ -552,6 +566,16 @@ sub createMusic() {
         }
         
         print OUTFILE " ";
+    }
+
+    if ($Lyrics) {
+        print OUTFILE "}\n";
+        print OUTFILE " \\addlyrics {\n";
+        # print OUTFILE "     \\set fontSize = #-2\n";
+        $Lyrics =~ s/\-/ -- /g;
+        utf8::encode($Lyrics);
+        print OUTFILE $Lyrics;
+        print OUTFILE "}\n";
     }
     
 #    print OUTFILE "} }\n\n";
