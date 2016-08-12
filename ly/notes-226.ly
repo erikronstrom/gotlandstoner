@@ -1,8 +1,9 @@
 \time 3/4
 \key d \major
-
 \repeat volta 2 { 
-  < a fis'  >4  < a e'  >  < a d'  >  | 
+ \once \override TextScript.padding = #2
+ < a fis'  >4^\markup { \italic "g-strängen stämmes i a." }
+ < a e'  >  < a d'  >  | 
  fis'16 d' fis' a' d'' cis'' d'' a' g' fis' e' d'  | 
  fis' a fis' a' e' a e' a' d'4  | 
  fis'16 d' fis' a' d'' cis'' d'' cis'' g' fis' e' d'  | 

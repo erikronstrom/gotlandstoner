@@ -2,7 +2,9 @@
 \key d \major
 
 \repeat volta 2 { 
- fis'4 a'8 a16 b a cis' b d'  | 
+ \once \override TextScript.padding = #2
+ fis'4^\markup { \italic "Bassträngen stämmes i a." }
+ a'8 a16 b a cis' b d'  | 
  cis'8 fis'4-> a16 b cis' b e' d'  | 
  fis' e' g' fis' a' g' b' a' g'8 a  | 
  g'' fis''16 e'' d''8 cis''16 b' b'8 a'  | 

@@ -2,7 +2,9 @@
 \key a \major
 
 \repeat volta 2 { 
- a''4 gis''16 b' d'' fis'' e''4  | 
+ \once \override TextScript.padding = #3
+ a''4^\markup { \italic "Bassträngen förstämd till a." }
+ gis''16 b' d'' fis'' e''4  | 
  d''16 e' gis' b' d'' fis'' e'' d'' d''8 cis''  | 
 \textedMeasureBracket \twice {
      a16 cis' e' a' cis'' e'' a'' e'' d'' cis'' b' a'  | 

@@ -2,7 +2,9 @@
 \key a \major
 
 \repeat volta 2 { 
- a'4 b'16 gis' a' b' cis''8 a'  | 
+ \once \override TextScript.padding = #3
+ a'4^\markup { \italic "Förstämd bas till a." }
+ b'16 gis' a' b' cis''8 a'  | 
  e'4 dis'16 e' fis' gis' a'8 a  | 
  a16 cis' e' a' cis'' e'' a'' e'' d'' cis'' b' a'  | 
  d'' e'' d'' cis'' b' cis'' b' a' gis'8 e'  | 
