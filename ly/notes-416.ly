@@ -12,7 +12,7 @@
   g'8. g'16 c''4 e''  | 
  b' d''8. d''16 d''4  | 
  g'8. b'16 d''4 d''8. b'16  | 
- c''4 c'' r8  |
+ c''4 c'' r8
  } %( endrepeat )% 
   
 \repeat volta 2 { 
@@ -24,7 +24,7 @@
   b'8. d''16 g''4. e''8  | 
  g'' d'' b'4 g'  | 
  b'8. b'16 d''4. d''8  | 
- b'4. g'8 c''4 c''8  |
+ b'8. g'16 c''4 c''8
  } %( endrepeat )% 
 }
  \addlyrics {
