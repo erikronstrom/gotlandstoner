@@ -14,10 +14,12 @@
  c'''8. a''16 d''' c''' bes'' a'' bes''4  | 
  g''8. a''16 bes''8 g'' e'' c''  | 
  bes''8. g''16 c''' bes'' a'' g'' a''4  | 
- a'16 c'' f'' c'' a' c'' f'' c'' a' c'' f'' c''  | 
- bes' d'' f'' d'' bes' d'' f'' d'' bes' d'' f'' d''  | 
- a' c'' f'' c'' a' c'' f'' c'' a' c'' f'' c''  | 
- bes' d'' f'' d'' bes' d'' f'' d'' bes' d'' f'' d''  | 
+ \textedMeasureBracket \twice {
+     \flatBeams
+     a'16 c'' f'' c'' a' c'' f'' c'' a' c'' f'' c''  | 
+     bes' d'' f'' d'' bes' d'' f'' d'' bes' d'' f'' d''  | 
+ }
+ \normalBeams
  bes''8 a''16 bes'' a''8 g''16 a'' g''8 f''  | 
  e''16 f'' e'' d'' c'' d'' e'' f'' g''4  | 
  bes''8 a''16 bes'' a''8 g''16 a'' g''8 f''  | 

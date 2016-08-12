@@ -15,10 +15,10 @@
  } %( endrepeat )% 
 \repeat volta 2 { 
  c''  | 
- f'' a''16 f'' e'' f'' a'' f'' e'' f'' a'' f''  | 
- e'' g'' bes'' g'' e'' g'' bes'' g'' a'' g'' f'' e''  | 
- f''8 a''16 f'' e'' f'' a'' f'' e'' f'' a'' f''  | 
- e'' g'' bes'' g'' e'' g'' bes'' g'' a'' g'' f'' e''  | 
+ \textedMeasureBracket \twice {
+     f'' a''16 f'' \flatBeams e'' f'' a'' f'' e'' f'' a'' f''  | 
+     e'' g'' bes'' g'' e'' g'' bes'' g'' \normalBeams a'' g'' f'' e''  | 
+ }
  f'' g'' a'' g'' f'' e'' d'' c'' bes' a' g' f'  | 
  e' f' g' a' bes' a' bes' c'' d''8. bes'16  | 
  g' f' e' d' < c' e'  >4 f'8
