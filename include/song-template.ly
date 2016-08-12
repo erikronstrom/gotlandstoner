@@ -9,8 +9,26 @@
 }
 \layout {
     indent = 1.4\cm
+    \context {
+        \Lyrics
+        \override LyricText #'font-size = #-1
+        %\override LyricText #'font-name = #"CMU Serif"
+    }
+    %\context {
+    %    \Staff
+    %    \override TextScript #'font-name = #"CMU Serif"
+    %}
 }
+
+#(set-global-staff-size 20)
+
 \paper {
+    #(define fonts
+      (make-pango-font-tree
+        "CMU Serif"
+        "Arial"
+        "LMMono10"
+        (/ staff-height pt 20)))
     %top-margin = 0
     %bottom-margin = 0
     line-width = 169\mm
@@ -24,9 +42,9 @@
          (minimum-distance . %((minimum-distance))%)
          (padding . %((padding))%)
          (stretchability . 12))
+    
 }
-  
-#(set-global-staff-size 20)
+
 
 \score { {
     
