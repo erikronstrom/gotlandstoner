@@ -23,11 +23,10 @@
  {  a''8 a'' a''16 g'' bes'' g'' f'' e'' d'' c''  | 
  b' c'' d'' b' c''4 c'   |
  } %( endrepeat )% 
-\repeat volta 2 { 
  
  { % beginalt
- f'16 g' a' bes' c'' d'' e'' f'' d''8 bes''  }} 
+ f'16 g' a' bes' c'' d'' e'' f'' d''8 bes''  
   | 
- a''16 g'' f'' e'' g''4 f''  |
+ a''16 g'' f'' e'' g''4 f''  | \bar ":|." }
  } %( endrepeat )% 
  

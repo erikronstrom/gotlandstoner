@@ -49,8 +49,8 @@
  { % beginalt
  g'2  }} 
  
-\repeat volta 2 { 
  g'8 a'  | 
+\repeat volta 2 { 
  b'2 b'4  | 
  c''4. b'8 c'' d''  | 
  e''2.  | 
@@ -66,7 +66,7 @@
  d''4. g''8 b'' g''  | 
  a''4. fis''8 g'' e''  | 
  fis''4. d''8 e'' cis''  | 
- d''2  |
+ d''2.  |
  } %( endrepeat )% 
 \repeat volta 2 { 
  c''4. b'8 d'' c''  | 

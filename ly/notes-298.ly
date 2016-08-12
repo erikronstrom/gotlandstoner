@@ -29,9 +29,9 @@
  
 \repeat volta 2 { 
  a'16 b'  | 
- cis''8 a-~ a a'' a''16 b'' cis''' a''  | 
- b''8 gis''-~ gis'' b'' b''16 cis''' d''' b''  | 
- cis'''8 a''-~ a'' b''16 cis''' d''' cis''' b'' a''  | 
+ cis''8 a4 a''8 a''16 b'' cis''' a''  | 
+ b''8 gis''4 b''8 b''16 cis''' d''' b''  | 
+ cis'''8 a''4 b''16 cis''' d''' cis''' b'' a''  | 
  gis'' a'' b'' cis''' b''8 gis'' e''4  | 
  fis''16 e'' d'' cis'' d'' e'' fis'' e'' d'' cis'' b' a'  | 
  fis'' e'' d'' cis'' d'' e'' fis'' e'' d'' cis'' b' a'  | 
