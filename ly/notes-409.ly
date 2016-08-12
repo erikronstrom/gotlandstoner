@@ -18,7 +18,6 @@
  } %( endrepeat )% 
 }
  \addlyrics {
-     \set fontSize = # -1
      Sma sor -- kar -- na di sta bäi du -- rar -- nä u
      säir pa jom -- fräu -- ar -- nä. Di vill så mi -- kä gän -- nä dan -- sä.
      Vi ni dan -- sä, sma sor -- kar ug -- gä, ska jom -- fräun Sug -- gä: fa -- ral -- lal -- la!

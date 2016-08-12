@@ -25,10 +25,9 @@
  
 }
  \addlyrics {
-     \set fontSize = #-1
- Vitt däu_ fyl -- gä_ mi u pluk -- -- kä_ rou -- ar?
- Sugg fal -- le -- ra -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la,
- Däu ska_ fa_ di_ sma u ja_ di_ stäu -- rä.
- Sugg fal -- le -- ra -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la.
+     Vitt däu_ fyl -- gä_ mi u pluk -- -- kä_ rou -- ar?
+     Sugg fal -- le -- ra -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la,
+     Däu ska_ fa_ di_ sma u ja_ di_ stäu -- rä.
+     Sugg fal -- le -- ra -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la -- la.
 }
 

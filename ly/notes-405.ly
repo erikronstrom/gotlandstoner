@@ -1,3 +1,4 @@
+{
 \time 3/4
 \key g \major
 
@@ -11,4 +12,11 @@
  c'' c'' b' b' a'4  | 
   g'8. b'16 d''8 e''16-( fis''-) g''8 b'  | 
  d''16-( c''-) b'-( a'-) a'4 g' \bar "|." |
-  
+  }
+ \addlyrics {
+     In -- te sör -- gar ja, fast mäi -- nä ban ä sma.
+     Nit -- tend lig -- gar i vag -- gu, tju -- gend gyn -- nar pa.
+     Hoff -- fal -- li -- ral -- la -- la -- la, Nå ska dan -- sen ga!
+     Tju fal -- li -- ral -- la -- la -- la. Kumm bad stäur u sma!
+     Ro -- lit ska vö_ ha, så lägg_ vö_ li -- var.
+}

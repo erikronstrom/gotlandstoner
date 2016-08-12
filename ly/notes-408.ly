@@ -1,3 +1,4 @@
+{
 \time 3/4
 \key d \major
 
@@ -15,4 +16,8 @@
  fis'4 g' a'  | 
  b'8 cis'' d''4 r8  |
  } %( endrepeat )% 
-  
+  }
+ \addlyrics {
+     Nå, nå, nå kum -- mar kou -- nar haim, u kon -- stäu -- ten kum -- mar mä.
+     Di kum -- mar lau -- pä -- näs, du kum -- mar träk -- kä -- näs, u kou -- stäu -- ten kum -- mar mä.
+}

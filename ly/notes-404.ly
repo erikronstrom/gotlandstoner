@@ -1,3 +1,4 @@
+{
 \time 3/4
 \key g \major
 
@@ -13,4 +14,11 @@
  g' g' a' a' b' b'16-( c''-)  | 
  d''-( c''-) b'-( a'-) a'4 g'  |
  } %( endrepeat )% 
-  
+  }
+ \addlyrics {
+     \set stanza = #"1. "
+     Hör ni mor i stu -- a, får ja bli er måg? För
+     ja ä duk -- ti i byks -- ra, fast ja ä li -- ten å låg.
+     Tra -- la -- la -- la -- lal --  -- la,_ tral -- la -- la -- la -- la -- lej. Tral -- la -- la -- la -- lal --  -- la,_
+     Tral -- la -- la -- la -- la -- lej. D'ä ja, d'ä ja, d'ä ja, d'ä_ ja_ sum_ spe -- lar.
+}

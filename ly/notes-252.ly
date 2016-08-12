@@ -23,7 +23,6 @@
 }
 
 \addlyrics {
-    \set fontSize = #-1
     \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 |
     \skip 8 ha ha ha ha |
     \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 |
