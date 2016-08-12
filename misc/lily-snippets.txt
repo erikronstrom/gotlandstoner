@@ -1,0 +1,8 @@
+
+Repristecken
+\set Score.doubleRepeatType = #":..:"   % default
+\set Score.doubleRepeatType = #":|.|:"  % "vanliga"
+
+Se till att alla bindestreck syns i texten
+\override LyricHyphen.minimum-distance = #1.0
+
