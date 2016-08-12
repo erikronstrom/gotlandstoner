@@ -9,10 +9,12 @@
  } %( endrepeat )% 
  
 \repeat volta 2 { 
+ \flatBeams
  a'16 cis'' e'' cis'' a' cis'' e'' cis'' a' cis'' e'' cis''  | 
  gis' b' e'' b' gis' b' e'' b' gis' b' e'' b'  | 
  a' cis'' e'' cis'' a' cis'' e'' cis'' a' cis'' e'' cis''  | 
  gis' b' e'' b' gis' b' e'' b' gis' b' e'' b'  | 
+ \normalBeams
  a' gis' a' gis' b' a' b' cis'' d'' cis'' d'' e''  | 
  fis'' e'' fis'' gis'' a''4 a'  |
  } %( endrepeat )% 
@@ -26,10 +28,12 @@
  } %( endrepeat )% 
  
 \repeat volta 2 { 
+ \flatBeams
  e'16 b' e'' b' e' b' e'' b' gis' b' e'' b'  | 
  a' cis'' e'' cis'' gis' b' e'' b' e' b' e'' b'  | 
  e' b' e'' b' e' b' e'' b' gis' b' e'' b'  | 
  a' cis'' e'' cis'' gis' b' e'' b' e' b' e'' b'  | 
+ \normalBeams
  a' gis' a' gis' b' a' b' cis'' d'' cis'' d'' e''  | 
  fis'' e'' fis'' gis'' a''4 a'  |
  } %( endrepeat )% 

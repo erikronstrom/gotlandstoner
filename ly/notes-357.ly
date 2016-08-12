@@ -14,10 +14,10 @@
  a' c'' a' fis' a'8. g'16 g'4  }} 
  
 \repeat volta 2 { 
- g'8. b'16 d'' b' g' b' d'' b' g' b'  | 
- fis'8. a'16 c'' a' fis' a' c'' a' fis' a'  | 
- g' d' g' b' d'' b' g' b' d'' b' g' b'  | 
- a' d' fis' a' c'' a' fis' a' c'' a' fis' a'  | 
+ g'8. b'16 \flatBeam d'' b' g' b' \flatBeam d'' b' g' b'  | 
+ fis'8. a'16 \flatBeam c'' a' fis' a' \flatBeam c'' a' fis' a'  | 
+ g' d' g' b' \flatBeam d'' b' g' b' \flatBeam d'' b' g' b'  | 
+ a' d' fis' a' \flatBeam c'' a' fis' a' \flatBeam c'' a' fis' a'  | 
  g' a' b' c'' d''8 e''16 fis'' fis''8 g''  | 
  e''8. d''16 c'' e'' g'' e'' f'' e'' d'' c''  | 
  b' c'' d'' e'' f'' e'' d'' c'' b' d'' b' g'  | 

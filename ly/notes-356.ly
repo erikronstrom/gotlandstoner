@@ -15,13 +15,13 @@
  } %( endrepeat )% 
 \repeat volta 2 { 
  d'  | 
- g' g'16 b' d'' b' g' b' d'' b' g' b'  | 
- a'8 a'16 b' c'' a' fis' a' c'' a' fis' a'  | 
- g' fis' g' b' d'' b' g' b' d'' b' g' b'  | 
- a' gis' a' b' c'' a' fis' a' c'' a' fis' a'  | 
+ g' g'16 b' \flatBeam d'' b' g' b' \flatBeam d'' b' g' b'  | 
+ a'8 a'16 b' \flatBeam c'' a' fis' a' \flatBeam c'' a' fis' a'  | 
+ g' fis' g' b' \flatBeam d'' b' g' b' \flatBeam d'' b' g' b'  | 
+ a' gis' a' b' \flatBeam c'' a' fis' a' \flatBeam c'' a' fis' a'  | 
  g' a' b' c'' d''8 d''16 g'' fis''8 g''  | 
  e'' c'' c''16 e'' g'' e'' f'' e'' d'' c''  | 
  b' c'' d'' e'' f'' e'' d'' c'' b' d'' b' g'  | 
- a' c'' a' fis' fis'8 g' g'  |
+ a' c'' a' fis' fis'8 g' g'
  } %( endrepeat )% 
  
