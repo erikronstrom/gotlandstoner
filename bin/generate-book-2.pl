@@ -108,6 +108,7 @@ sub processTune() {
         }
         if ($Line =~ /^T:(.*)/) {
             $Title = $1;
+            $Title =~ s/[\.\,\;]$//; # Remove trailing punctuation
         }
         if ($Line =~ /^[SNH]:(.*)/) {
             
@@ -116,7 +117,7 @@ sub processTune() {
                 next;
             }
             
-            $Text =~ s/(Uppt|Omkr|Meddel|Skoll|Kapt)\. /\1.\\\@ /ig;
+            $Text =~ s/(Uppt|Omkr|Meddel|Skoll|Kapt|Joh|Nikl)\. /\1.\\\@ /ig;
             $Text =~ s/m\. fl\./m.\\\@ fl./g; # TODO: lookahead for next sentence
             $Text =~ s/d\. ([yä])\./d.\\\@ \1./g; # TODO: lookahead for next sentence
             $Text =~ s/ f\. / f.\\\@ /g; # TODO: lookahead for next sentence
@@ -197,7 +198,7 @@ sub processTune() {
         $lineoffset -= 5 unless $BreakBefore && $BreakAfter;
         print OUTFILE '\begin{center}' . "\n";
         print OUTFILE '\kern' . $lineoffset . 'pt' if $lineoffset; # e.g. 5pt
-        print OUTFILE '\line(1,0){200}' . "\n";
+        print OUTFILE '\line(1,0){180}' . "\n";
         print OUTFILE '\end{center}' . "\n";
     }
     
