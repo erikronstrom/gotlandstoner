@@ -1,3 +1,4 @@
+{
 \time 3/4
 \key d \major
 
@@ -23,4 +24,14 @@
  d'' cis'' a' cis'' e'' cis''  | 
  d''2 r4  |
  } %( endrepeat )% 
-  
+  }
+ \addlyrics {
+     Vör kun -- dä gän -- nä käu --  -- tu -- mä ta -- gä, Ban -- ug -- gä kun -- dä lab --  -- bu mä säu -- gä,
+     Käl -- lig -- gar kun -- dä sträk --  -- lig -- gar ba -- kä.
+     Dei, sum blai y -- var, smör -- däs präs -- tens styv -- lar. Räs -- ten gåim -- des haim ti mor.
+     Sjugg fal -- la -- ral -- la - - - - - -
+     % \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 
+     Sjugg fal -- la -- ral -- la - - - - - -
+     %\skip 8 \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 
+     Dei, sum blai y -- var, smör -- däs präs -- tens styv -- lar, Räs -- ten gåim -- des haim ti mor.
+}
