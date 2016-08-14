@@ -21,6 +21,12 @@ while(<CONFIG>) {
 }
 close(CONFIG);
 
+# for my $num (214..420) {
+#     print "$num " unless $TuneConf{$num}->{'newpage'} == 1;
+# }
+# print "\n";
+# exit();
+
 
 open(OUTFILE, '>', 'book/fredin.latex');
 
@@ -118,7 +124,9 @@ sub processTune() {
             }
             
             $Text =~ s/(Uppt|Omkr|Meddel|Skoll|Kapt|Joh|Nikl)\. /\1.\\\@ /ig;
+            $Text =~ s/m\. m\./m.\\\@ m./g; # TODO: lookahead for next sentence
             $Text =~ s/m\. fl\./m.\\\@ fl./g; # TODO: lookahead for next sentence
+            $Text =~ s/f\. d\./f.\\\@ d.\\\@/g; # TODO: lookahead for next sentence
             $Text =~ s/d\. ([yä])\./d.\\\@ \1./g; # TODO: lookahead for next sentence
             $Text =~ s/ f\. / f.\\\@ /g; # TODO: lookahead for next sentence
             
@@ -145,6 +153,8 @@ sub processTune() {
         return undef;
     }
     
+    $TuneConf{$Num}->{"newpage"} = 1 unless defined $TuneConf{$Num}->{"newpage"};
+
     my $SpaceBefore = $TuneConf{$Num}->{"spacebefore"} || "5mm";
     my $SpaceAfter  = $TuneConf{$Num}->{"spaceafter"} || "1cm";
     my $BreakBefore = $TuneConf{$Num}->{"newpage"} || 0;
