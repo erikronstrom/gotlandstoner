@@ -45,6 +45,8 @@ for my $num ($From..$To) {
     
     if (my $section = $TuneConf{$num}->{"section"}) {
         $section = uc($section);
+        $section =~ s/\{(\d+)MM\}/{$1mm}/g;
+        $section =~ s/\\VSPACE/\vspace/g;
         print OUTFILE "\\part*{$section}\n";
     }
 
@@ -127,8 +129,11 @@ sub processTune() {
             
             $Text =~ s/(Uppt|Omkr|Meddel|Skoll|Kapt|Joh|Nikl)\. /\1.\\\@ /ig;
             $Text =~ s/m\. m\./m.\\\@ m./g; # TODO: lookahead for next sentence
+            $Text =~ s/t\. f\./t.\\\@ f./g; # TODO: lookahead for next sentence
             $Text =~ s/m\. fl\./m.\\\@ fl./g; # TODO: lookahead for next sentence
             $Text =~ s/f\. d\./f.\\\@ d.\\\@/g; # TODO: lookahead for next sentence
+            $Text =~ s/ fr\. / fr.\\\@ /g;
+            $Text =~ s/ Ol\. / Ol.\\\@ /g;
             $Text =~ s/d\. ([yä])\./d.\\\@ \1./g; # TODO: lookahead for next sentence
             $Text =~ s/ f\. / f.\\\@ /g; # TODO: lookahead for next sentence
             $Text =~ s/([\s\n])\-\-([\s\n])?/$1---$2/g;
