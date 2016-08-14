@@ -9,12 +9,11 @@
  g' c'' c''16 b' c''8  | 
  d'' a' a'16 gis' a'8  | 
  f'' b' a'16 c'' b' d''  | 
- c''8 c'' c''  |
+ c''8 c'' c''4  |
  } %( endrepeat )% 
 \repeat volta 2 { 
  \key g \major
-  | 
- d'' g'' g''16 fis'' g''8  | 
+ d''8 g'' g''16 fis'' g''8  | 
  fis'' e'' e''16 dis'' e''8  | 
  a' e'' d''16 c'' b' a'  | 
  b'8 d' g'16 a' b' c''  | 
