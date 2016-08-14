@@ -46,7 +46,7 @@ for my $num ($From..$To) {
     if (my $section = $TuneConf{$num}->{"section"}) {
         $section = uc($section);
         $section =~ s/\{(\d+)MM\}/{$1mm}/g;
-        $section =~ s/\\VSPACE/\vspace/g;
+        $section =~ s/\\VSPACE/\\vspace/g;
         print OUTFILE "\\part*{$section}\n";
     }
 
