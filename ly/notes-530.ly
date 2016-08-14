@@ -2,6 +2,7 @@
 \key f \major
 
 \repeat volta 2 { 
+ \partial 4
  f''4  | 
  c''8 c'' a'4 d''  | 
  c''2 f''4  | 
@@ -18,7 +19,7 @@
  d''4. bes''8-( a'' g''-)  | 
  f''4. c''8-( b' c''-)  | 
  d''4. bes'8-( a' g'-)  | 
- f'2  |
+ f'2
  } %( endrepeat )% 
 \repeat volta 2 { 
  c''4  | 
@@ -37,7 +38,7 @@
  a''4. bes''8-( a'' g''-)  | 
  f''4. g''8-( f'' e''-)  | 
  c''4 c'' c''  | 
- f''2  |
+ f''2
  } %( endrepeat )% 
 \repeat volta 2 { 
  a'4  | 
@@ -58,14 +59,16 @@
 \alternative { 
  {  c''' c'''8 b'' c'''4  | 
  c''' c''' c'''  | 
- f''2   |
+ \set Timing.measureLength = #(ly:make-moment 1/2)
+ f''2
  } %( endrepeat )% 
  
  { % beginalt
- c'''4 c'''8 c''' c'''4  }} 
-  | 
+ \set Timing.measureLength = #(ly:make-moment 3/4)
+ c'''4 c'''8 c''' c'''4  |
  c''' c''' c'''  | 
- c''' b'' b''  | 
+ c''' b'' b''  \bar "||" }} 
+
  bes'' c''8 c'' c'' c''  | 
  c''4 d'' e''  | 
  f''4. c''8-( a' c''-)  | 
@@ -100,6 +103,6 @@
  bes'4 d'' d''  | 
  f'4. e'8 f'4  | 
  d''2 c''4  | 
- bes'2  |
+ bes'2
  } %( endrepeat )% 
  
