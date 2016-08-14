@@ -2,6 +2,7 @@
 \key g \major
 
 \repeat volta 2 { 
+ \partial 4
  g''4  | 
  d''2.  | 
  c''4 b' a'  | 
@@ -20,10 +21,13 @@
  g'2 b'8 a'  | 
   } 
 \alternative { 
- {  g'2   |
+ {
+ \set Timing.measureLength = #(ly:make-moment 2/4)
+ g'2
  } %( endrepeat )% 
  
  { % beginalt
+ \set Timing.measureLength = #(ly:make-moment 3/4)
  g'2.  }} 
  
 \repeat volta 2 { 

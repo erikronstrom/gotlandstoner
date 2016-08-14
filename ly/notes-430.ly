@@ -37,7 +37,7 @@
  d''4 d'' d''  | 
  d''2 f''8 d''  | 
  g''4 f'' b'  | 
- c''2  |
+ c''2
  } %( endrepeat )% 
  
 \repeat volta 2 { 
@@ -51,10 +51,10 @@
  d'' c'' b'  | 
   } 
 \alternative { 
- {  c''2   |
+ {  c''2
  } %( endrepeat )% 
  
  { % beginalt
  c''2.  }} 
- \bar "|." |
+ \bar "|."
  

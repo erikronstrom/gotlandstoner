@@ -2,6 +2,7 @@
 \key a \major
 
 \repeat volta 2 { 
+ \partial 4
  e'4  | 
  e' a' cis''  | 
  d''4. b'8 gis' b'  | 
@@ -18,7 +19,7 @@
   \grace { fis''8 }  e''4 d'' cis''  | 
  b'2.  | 
   \grace { cis''8 }  d''4 fis' gis'  | 
- a'2  |
+ a'2
  } %( endrepeat )% 
  
 \repeat volta 2 { 
@@ -38,7 +39,7 @@
  e''4 a'' cis'''  | 
  d'' fis'' b''  | 
  e''8 e'' fis''4 gis''  | 
- a''2.  |
+ a''2.
  } %( endrepeat )% 
  
 \repeat volta 2 { 
@@ -58,7 +59,7 @@
  e''4. cis'''8 a'' cis'''  | 
  e''4. cis'''8 a'' cis'''  | 
  cis'''-( b''-) a''-( e''-) d''-( b'-)  | 
- a'2  |
+ a'2
  } %( endrepeat )% 
  
 \repeat volta 2 { 
@@ -78,7 +79,7 @@
  e'' e'''8 e''' e''' e'''  | 
  e'''4 d''' cis'''  | 
  b'' a'' gis''  | 
- a''2  |
+ a''2
  } %( endrepeat )% 
  \key d \major
  
@@ -99,7 +100,7 @@
  d'''2 cis'''8 b''  | 
  e''4 fis''8-( a''-) gis''-( b''-)  | 
  a''-( cis'''-) e''-( a''-) cis''-( e''-)  | 
- a'4 r  |
+ a'4 r
  } %( endrepeat )% 
  \key a \major
  
@@ -120,7 +121,7 @@
  b'8 gis'' gis'' gis'' gis'' gis''  | 
  gis''-( fis''-) e''-( d''-) cis''-( b'-)  | 
  a'4 cis''4. e''8  | 
- a''2  |
+ a''2
  } %( endrepeat )% 
  
 \repeat volta 2 { 
@@ -140,6 +141,6 @@
  cis''2-( b'4-)  | 
  fis'2-( gis'4-)  | 
  b' a' a'  | 
- a'2  |
+ a'2
  } %( endrepeat )% 
  

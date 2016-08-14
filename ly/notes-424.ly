@@ -2,6 +2,7 @@
 \key g \major
 
 \repeat volta 2 { 
+ \partial 4
  d'4  | 
  d'2 g'4  | 
  b'2 g'4  | 
@@ -10,7 +11,7 @@
  fis'2 d''4  | 
  d'' e'' fis''  | 
  a''-( g''-) g''  | 
- g''2  |
+ g''2
  } %( endrepeat )% 
 \repeat volta 2 { 
   \times 2/3 { d''8 e'' fis'' }   | 
@@ -21,7 +22,7 @@
  g''4 g'' g''  | 
  g''4. d''8 g'' b''  | 
  a'' c''' a'' fis'' d'' fis''  | 
- g''2  |
+ g''2
  } %( endrepeat )% 
 \repeat volta 2 { 
  d'4  | 
@@ -43,6 +44,6 @@
  g'4 b' g'  | 
  e'' d''2  | 
  a'4 a'8 g' a' b'  | 
- g'2  |
+ g'2
  } %( endrepeat )% 
  

@@ -2,6 +2,7 @@
 \key c \major
 
 \repeat volta 2 { 
+ \partial 4
  g'4  | 
  g' e' g'  | 
  c'' e'' c''  | 
@@ -10,7 +11,7 @@
  a'' f'' d''  | 
  g'' e'' c''  | 
  b'8 c'' d'' e'' f'' d''  | 
- c''2  |
+ c''2
  } %( endrepeat )% 
 \repeat volta 2 { 
  b'8 c''  | 
@@ -21,6 +22,6 @@
  b'8 c'' d'' e'' f'' g''  | 
  a''4 g''8 fis'' g''4  | 
  f''8 e'' f'' d'' c'' b'  | 
- c''2  |
+ c''2
  } %( endrepeat )% 
  

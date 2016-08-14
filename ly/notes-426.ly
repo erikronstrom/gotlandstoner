@@ -2,6 +2,7 @@
 \key bes \major
 
 \repeat volta 2 { 
+ \partial 4
   \times 2/3 { f''8 g'' f'' }   | 
  d''2 f''4  | 
  c''2 d''4  | 
@@ -18,7 +19,7 @@
  c'' g'' fis'' g'' ees'' c''  | 
  bes' f'' e'' f'' d'' bes'  | 
  f' g' a' bes' c'' d''  | 
- bes'4 r  |
+ bes'4 r
  } %( endrepeat )% 
 \repeat volta 2 { 
  d''8 d''  | 
@@ -29,7 +30,7 @@
  ees'' c'' ees''  | 
  d''8 f'' g'' a'' bes''4  | 
  bes' d'' c''  | 
- bes'2  |
+ bes'2
  } %( endrepeat )% 
 \repeat volta 2 { 
  d''8 ees''  | 
@@ -40,6 +41,6 @@
  f''4. f''8 g'' a''  | 
  bes'' e'' f'' cis'' d'' bes'  | 
  f' a' c'' g'' f'' a'  | 
- bes'2  |
+ bes'2
  } %( endrepeat )% 
  

@@ -1,6 +1,7 @@
 \time 3/4
 \key f \major
 
+ \partial 4
  c'4  | 
  f'4. a'8 c'' a'  | 
  f'4. a'8 c'' a'  | 
@@ -27,7 +28,7 @@
  d'' bes'8 d'' f''  | 
  c''4. a'8 c'' f''  | 
  e''-( c''-) bes'-( g'-) e'-( c'-)  | 
- f'2  |
+ f'2
  } %( endrepeat )% 
 \repeat volta 2 { 
  a'8-( bes'-)  | 
@@ -38,7 +39,8 @@
  c'' a'' f''4 a'8 bes'  | 
  c'' a'' f''4 a'  | 
  g'8-( e''-) g'-( e''-) g'-( e''-)  | 
- f''2 
+ f''2
+ }
 \repeat volta 2 { 
  a'4  | 
  bes'8-( g'-) c''-( g'-) e''-( g'-)  | 

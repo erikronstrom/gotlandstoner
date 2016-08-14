@@ -2,6 +2,7 @@
 \key f \major
 
 \repeat volta 2 { 
+ \partial 4
  a'4  | 
  c'' f'' a''  | 
  c'' f'' a''  | 
@@ -14,7 +15,7 @@
  g''8 f'' f'' f'' f'' f''  | 
  a' c'' c'' c'' c''4  | 
  c''8 e'' d'' f'' e'' g''  | 
- f''2  |
+ f''2
  } %( endrepeat )% 
 \repeat volta 2 { 
  c''4  | 
@@ -26,7 +27,7 @@
  a''4 g'' f''  | 
  e''4. f''8 g'' e''  | 
  c''4 d''8 f'' e'' g''  | 
- f''2  |
+ f''2
  } %( endrepeat )% 
 \repeat volta 2 { 
  c''4  | 
@@ -37,6 +38,6 @@
  f' a'8 c'' f''4  | 
  e''8 g'' bes'' a'' g'' f''  | 
  e'' f'' g'' c'' d'' e''  | 
- f''2  |
+ f''2
  } %( endrepeat )% 
  
