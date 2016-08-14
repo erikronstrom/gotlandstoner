@@ -2,7 +2,8 @@
 \key d \major
 
 \repeat volta 2 { 
- < a d'  >8-( fis'-) a'-( d''-) fis''4  | 
+ \once \override TextScript.padding = #3
+ < a d'  >8-(^\markup { \italic "G-strängen stämmes i A." } fis'-) a'-( d''-) fis''4  | 
  fis''8-( e''-) cis''-( e''-) a'4  | 
  < a e'  >8-( a'-) cis''-( e''-) g''4  | 
  b''8-( a''-) fis''-( d''-) a'-( fis'-)  | 
@@ -31,6 +32,6 @@
  } %( endrepeat )% 
  
  { % beginalt
- d''2.  }} 
+ d''2. \bar "|." }} 
  
  
