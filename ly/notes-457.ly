@@ -42,7 +42,7 @@
  e'' g' e''  | 
  d'' fis' d''  | 
  cis''4. a'8 g' e'  | 
- d'2  |
+ d'2
  } %( endrepeat )% 
 \repeat volta 2 { 
  fis''4  | 
@@ -62,6 +62,6 @@
  g''4. fis''8 fis'' fis''  | 
  d'4. fis'8 a' d''  | 
  cis''4. a'8 g' e'  | 
- d'4  |
+ d'2
  } %( endrepeat )% 
  
