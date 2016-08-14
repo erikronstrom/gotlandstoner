@@ -34,7 +34,7 @@
 \repeat volta 2 { 
  d''8 ees''  | 
  f''4. f''8 g'' a''  | 
- bes'' e'' f'' d'' bes'  | 
+ bes'' e'' f'' cis'' d'' bes'  | 
  f' a' c'' d'' ees'' f''  | 
  g'' f'' f''4 d''8 ees''  | 
  f''4. f''8 g'' a''  | 
