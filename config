@@ -286,15 +286,28 @@
 485: systemspacing=-1, spaceafter=0.6cm
 486: newpage=0, systemspacing=-1
 
+489: spaceafter=2cm
+490: newpage=0
+
 496: spaceafter=2cm
 497: newpage=0
 
+500: textbox=0
+
 509: newpage=0
+
+520: newpage=0
 
 525: newpage=0
 
 527: newpage=0
 
+528: systemspacing=-2, spaceafter=0.5cm, lineoffset=-5
+529: newpage=0, systemspacing=-2, lineoffset=-5
+
+530: pages=2
+
+531: newpage=1
 532: newpage=0
 
 535: 
