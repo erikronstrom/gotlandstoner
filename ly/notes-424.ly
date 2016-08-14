@@ -32,10 +32,10 @@
  g' b' g'  | 
  e'' d''2  | 
  c''4 a' fis'  | 
- g'  |
+ g'2
  } %( endrepeat )% 
 \repeat volta 2 { 
- g''  | 
+ g''4  | 
  fis'' e'' d''  | 
  g'' d''2  | 
  fis''4 e'' d''  | 
