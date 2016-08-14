@@ -63,10 +63,13 @@
  d''4 c'' c''  | 
   } 
 \alternative { 
- {  c''2   |
+ {   
+ \set Timing.measureLength = #(ly:make-moment 2/4)
+ c''2   |
  } %( endrepeat )% 
  
  { % beginalt
+ \set Timing.measureLength = #(ly:make-moment 3/4)
  c''2.  }} 
  \bar "|." |
  

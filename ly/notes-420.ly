@@ -50,8 +50,7 @@
  } %( endrepeat )% 
  
  { % beginalt
- b'4 r gis''  }} 
-  | 
+ b'4 r gis''
  a'' r cis'''  | 
- a''2. \bar "|." |
+ a''2. \bar "|." }} 
  
