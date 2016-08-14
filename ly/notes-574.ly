@@ -2,6 +2,7 @@
 \key c \major
 
 \repeat volta 2 { 
+ \partial 8
  c'''8  | 
  c'''8. b''16 b''8 a''  | 
  a'' g'' c''8. e''16  | 
@@ -11,11 +12,13 @@
  a'' g'' c''8. e''16  | 
  a''8 g'' f''8. b'16  | 
   } 
-\alternative { 
- {  c''8 c'' c''   |
+\alternative {
+ {  \set Timing.measureLength = #(ly:make-moment 3/8)
+    c''8 c'' c''
  } %( endrepeat )% 
  
  { % beginalt
+ \set Timing.measureLength = #(ly:make-moment 1/2)
  c'' c'' c''4  }} 
  
 \repeat volta 2 { 
