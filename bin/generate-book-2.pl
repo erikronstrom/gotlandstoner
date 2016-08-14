@@ -97,6 +97,7 @@ sub processTune() {
     my $Title;
     my $Source = '';
     my $Music;
+    my @Lyrics;
     foreach my $Line (@Lines) {
         $Line =~ s/\%.*$//mg;     # Remove comments
         
@@ -140,6 +141,9 @@ sub processTune() {
         if ($Line =~ /^K:(\S*)/) {
             $Headers{'K'} = $1;
             $Music = '';
+        }
+        if ($Line =~ /^W:(.*)/) {
+            push(@Lyrics, $1);
         }
     }
     #$Source =~ s/\\\\\[0\.1cm\]$//;
@@ -193,7 +197,29 @@ sub processTune() {
     print OUTFILE "\\vspace{$SpaceBefore}\n";
 
     print OUTFILE $Song;
-    
+
+    @Lyrics = split("\n", &slurp("text/lyrics-$Num.tex")) if (-e "text/lyrics-$Num.tex");
+    if (@Lyrics) {
+        my $First = 1;
+        print OUTFILE "\\break\n";
+        print OUTFILE "\\vspace{0.3cm}\n";
+        print OUTFILE "\\begin{flushleft}\n";
+        foreach my $Line (@Lyrics) {
+            next unless $Line =~ /\S/;
+            if ($Line =~ /^(\d+)\.?\s*(.*)/) {
+                print OUTFILE "\\vspace{0.3cm}\n" unless $First;
+                print OUTFILE "\\tabto{1.2cm}$1.\\tabto{2cm}$2\n";
+                $First = 0;
+            } else {
+                print OUTFILE "\\tabto{2cm}$Line\n";
+            }
+        }
+#        $Lyrics =~ s/\n\n/\\par\n/g;
+#        $Lyrics =~ s/^ /\\tabto*{4cm}/mg;
+
+        #print OUTFILE "\\hangindent=1cm\n";
+        print OUTFILE "\\end{flushleft}\n";
+    }
     
     if (!$SpaceAfter || $SpaceAfter eq "0cm" || $BreakAfter) {
         $SpaceAfter = "";
