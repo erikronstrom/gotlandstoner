@@ -44,9 +44,10 @@ print OUTFILE $book;
 for my $num ($From..$To) {
     
     if (my $section = $TuneConf{$num}->{"section"}) {
+        $section = uc($section);
         print OUTFILE "\\part*{$section}\n";
     }
-    
+
     my $abc = &slurp("abc/song-$num.abc");
     #my $song = &slurp("book/song-$num.ly");
     my $songfile = "book/song-$num";
@@ -167,6 +168,10 @@ sub processTune() {
     print OUTFILE "\n\n";
 
     print OUTFILE "\\newpage\n" if $BreakBefore;
+
+    if (my $subsection = $TuneConf{$Num}->{"subsection"}) {
+        print OUTFILE "\\section*{\\centering $subsection}\\vspace{1cm}\n";
+    }
 
     # Title and text
     print OUTFILE "\\tunename{$Title}\n" if $Title;

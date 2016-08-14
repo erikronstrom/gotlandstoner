@@ -317,7 +317,7 @@
 564: newpage=0, systemspacing=-2, lineoffset=-5
 565: systemspacing=-2, spaceafter=0.4cm, lineoffset=-5
 566: newpage=0, systemspacing=-2, lineoffset=-5
-
+567: subsection=Visor i valstakt.
 568: newpage=0
 
 570: newpage=0
@@ -325,3 +325,15 @@
 572: newpage=0, textbox=0, spaceafter=0.7cm
 
 573: newpage=0
+
+
+574: section=Polka ock schottis, subsection=Polkor.
+576: newpage=0
+
+579: newpage=0
+
+581: newpage=0
+
+583: newpage=0
+584: subsection=Schottis.
+585: newpage=0
