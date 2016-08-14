@@ -131,6 +131,8 @@ sub processTune() {
             $Text =~ s/f\. d\./f.\\\@ d.\\\@/g; # TODO: lookahead for next sentence
             $Text =~ s/d\. ([yä])\./d.\\\@ \1./g; # TODO: lookahead for next sentence
             $Text =~ s/ f\. / f.\\\@ /g; # TODO: lookahead for next sentence
+            $Text =~ s/([\s\n])\-\-([\s\n])?/$1---$2/g;
+            $Text =~ s/(\d)\-(\d)/$1--$2/g;
             
             $Source .= $Text;
             #if ($Source =~ /\.\s*$/) {
