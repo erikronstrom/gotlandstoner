@@ -3,6 +3,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[top=19mm,left=16mm,right=16mm,bottom=13mm,includefoot,twoside,bindingoffset=8mm]{geometry}
 \usepackage{graphicx}
+\usepackage{tabto}
 \setcounter{secnumdepth}{0}
 \usepackage{fancyhdr}
 \fancypagestyle{plain}{ \fancyhf{} 
