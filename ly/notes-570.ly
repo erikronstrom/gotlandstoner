@@ -1,3 +1,4 @@
+{
 \time 3/4
 \key d \major
 
@@ -13,4 +14,8 @@
  e''4 g'' e''  | 
  d''2 r4  |
  } %( endrepeat )% 
-  
+  }
+ \addlyrics {
+     Vitt däu ha Bul -- läins Ma -- le -- nä? Ja vi ha Slau -- ens.
+     Bul -- läins Ma -- le -- nä, Slau -- ens Ma -- le -- nä, Bul -- läins Ma -- len.
+}

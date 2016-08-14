@@ -30,4 +30,9 @@
  g'2.-~  | 
  g'2
  } %( endrepeat )% 
-  
+  }
+ \addlyrics {
+     Ei lun -- den slak -- täs häs -- ten av vör -- di of -- far -- präs -- ten, u
+     haj u haj,_ u ha!_ Håir, har -- pä -- späi --  -- lä klig -- gar, u
+     käm -- pä -- gub -- bar sig -- gar: U haj u haj_ u ha!_
+}

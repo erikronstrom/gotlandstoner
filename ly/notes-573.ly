@@ -1,3 +1,4 @@
+{
 \time 3/4
 \key bes \major
 
@@ -11,3 +12,8 @@
  ees''8. f''16 ees''4 d''  | 
  c'' g'8 g' a' f'  | 
  bes'4 bes' r8 \bar "|."
+  }
+ \addlyrics {
+     Lass Ha -- lass käl -- lig -- gi ha jär så lagg, Lass Ha -- lass käl -- lig -- gi ha jär så lagg. Ha
+     jär så lagg sum a kräu -- nä -- stagg. Hej hof -- fal -- li -- ral -- li ra -- jen.
+}

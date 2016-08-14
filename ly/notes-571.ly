@@ -1,3 +1,4 @@
+{
 \time 3/4
 \key d \minor
 
@@ -14,4 +15,8 @@
  a' f' e'  | 
  d'2 r4  |
  } %( endrepeat )% 
-  
+  }
+ \addlyrics {
+     Äu -- tä pa Fa -- lä -- bo -- dar Där stran -- dä -- dä »Fam -- mor», Där spä -- lä -- dä faf -- far,
+     Där dan -- sä -- dä faf -- fass -- må -- kän. Så gö -- rom vör mä.
+}
