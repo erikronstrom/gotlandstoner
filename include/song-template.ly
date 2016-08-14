@@ -2,6 +2,7 @@
 
 \include "../include/repeat-bracket.ly"
 \include "../include/flat-beams.ly"
+\include "../include/text-braces.ly"
 
 \header {
     tagline = ""
