@@ -48,6 +48,8 @@ for my $num ($From..$To) {
     $params{'basic-distance'} = $SSpacing;
     $params{'minimum-distance'} = 11;
     $params{'padding'} = 1;
+    my $pages = $TuneConf{$num}->{"pages"};
+    $params{'page-count'} = "page-count = #$pages" if $pages;
     
     if ($num <= 416) {
         $params{'time-settings'} =
