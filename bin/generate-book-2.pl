@@ -56,8 +56,8 @@ for my $num ($From..$To) {
     my $md5 = `md5 -q $songfile.ly`;
     $md5 =~ s/\s//g;
     unless (-e "$songfile-$md5-crop.pdf") {
-        system("lilypond", "-o", "$songfile-$md5", "$songfile.ly") unless -e "$songfile-$md5.pdf";
-        system("pdfcrop", "$songfile-$md5.pdf");
+        system("lilypond", "-l", "WARNING", "-o", "$songfile-$md5", "$songfile.ly") unless -e "$songfile-$md5.pdf";
+        `pdfcrop $songfile-$md5.pdf`; # Use backticks instead of system() to suppress output
         unlink("$songfile-$md5.pdf");
     }
     my $pages = $TuneConf{$num}->{"pages"} || 1;
