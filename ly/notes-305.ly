@@ -10,8 +10,9 @@
 \key f \major
 
 \repeat volta 2 { 
- \partial 8
+ \set Timing.measureLength = #(ly:make-moment 1/8)
  a'16 bes'  | 
+ \set Timing.measureLength = #(ly:make-moment 3/4)
  c''8 c''16 d'' bes'8 bes'16 c'' a'8 a'16 bes'  | 
  c''8 c''16 d'' bes'8 bes'16 c'' a'8. c''16  | 
  f'' e'' f'' g'' a''8 a''16 g'' bes''8 bes''16 a''  | 
@@ -31,6 +32,6 @@
   < f f' c''  >4->  < f f' bes'  >->  < f f' a'  >8-> a'16 bes'  | 
  c''8 c''16 d'' bes'8 bes'16 c'' a'8 c''  | 
  f''16 e'' f'' g'' a''8 a''16 g'' bes''8 bes''16 a''  | 
- g'' f'' e'' g'' f''4 < f f' a' f''  >8  |
+ g'' f'' e'' g'' f''4 < f f' a' f''  >8
  } %( endrepeat )% 
  

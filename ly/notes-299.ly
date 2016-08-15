@@ -24,6 +24,6 @@
  aes'16 f' d' f' aes' f' d' f' aes' f' d' c'  | 
  bes ees'' d'' c'' d''8 d''16 cis'' d''4  | 
  ees''16 d'' c'' bes' c'' bes' aes' g' aes' g' f' ees'  | 
- f' aes' d' f' f'4 ees'8  |
+ f' aes' d' f' f'4 ees'8
  } %( endrepeat )% 
  

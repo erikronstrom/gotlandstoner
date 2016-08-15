@@ -26,16 +26,12 @@
  d'' d'8 d' d'4  | 
  d'8 e' f' g' a' b'  | 
  g' a' b' c'' d'' f''   |
- } %( endrepeat )% 
-\repeat volta 2 { 
- 
+ } %( endrepeat )%  
  { % beginalt
- e'' d'' d'' g'' g'' f''  }} 
-  | 
+ e'' d'' d'' g'' g'' f''  | 
  e'' fis'' fis'' gis'' a'' b''  | 
  c''' b'' b'' e'' fis'' gis''  | 
- a''2 r4  |
- } %( endrepeat )% 
+ a''2 r4  | }} 
 \repeat volta 2 { 
  g''8-( a''-) g''-( e''-) c'''-( a''-)  | 
  g''-( a''-) g''-( e''-) c''4  | 
@@ -44,6 +40,6 @@
  g''8-( a''-) g''-( e''-) c'''-( a''-)  | 
  g''-( a''-) g''-( e''-) c''8.-( e''16-)  | 
  d''8 e'' f'' g'' a'' b''  | 
- c'''2  |
+ c'''2 r4 |
  } %( endrepeat )% 
  

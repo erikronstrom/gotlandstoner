@@ -1,7 +1,7 @@
 \time 3/4
 \key g \major
 
-\repeat volta 2 { 
+\repeat volta 2 {
  \partial 4
  g'4  | 
  g'2 d''4  | 
@@ -19,7 +19,7 @@
  fis'2 a'4  | 
  g'4. b'8 c'' b'  | 
  b'4 g'' g''  | 
- g''2  |
+ g''2
  } %( endrepeat )% 
 \repeat volta 2 { 
  b''4  | 

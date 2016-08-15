@@ -43,5 +43,5 @@
  e''8 e''16 cis'' a' b' cis'' d'' e'' fis'' g'' e''  | 
  a''8 a''16 b'' g''8 g''16 a'' fis''4  | 
  fis''16 e'' d'' cis'' d''8 fis'' a'' d'''  | 
- a''8. cis'''16 e'''4 d'''8 \bar "|." |
+ a''8. cis'''16 e'''4 d'''8 \bar "|."
  

@@ -22,7 +22,6 @@
  a'2
  } %( endrepeat )% 
  \key a \major
-  | 
  cis''8 d'' 
 \repeat volta 2 { 
  e'' fis'' e'' cis'' a'4  | 
@@ -31,14 +30,11 @@
   } 
 \alternative { 
  {  d''' cis''' a''4 a''   |
- } %( endrepeat )% 
-\repeat volta 2 { 
- 
+ }
  { % beginalt
  a''2  }} 
-  | 
+\repeat volta 2 {
  \key d \major
-  | 
  a'8 a'  | 
  a'4 d''8 d'' d'' d''  | 
  d''4 fis'' d''  | 

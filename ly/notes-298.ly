@@ -36,6 +36,6 @@
  fis''16 e'' d'' cis'' d'' e'' fis'' e'' d'' cis'' b' a'  | 
  fis'' e'' d'' cis'' d'' e'' fis'' e'' d'' cis'' b' a'  | 
  gis' a' b' cis'' d'' e'' fis'' gis'' a''8. cis''16  | 
- cis'' a' b' gis' a'4 a8  |
+ cis'' a' b' gis' a'4 a8
  } %( endrepeat )% 
  

@@ -17,8 +17,7 @@
  gis'8 a' b' cis'' d'' e''  | 
  fis''4. cis''8 d'' a'  | 
  cis''4. b'8 g' e'  | 
- d'2  | 
- r4  |
+ d'2 r4  |
  } %( endrepeat )% 
 \repeat volta 2 { 
  \key g \major

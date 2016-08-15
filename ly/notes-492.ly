@@ -28,7 +28,7 @@
  fis''4.-> e''8 d'' cis''  | 
  b' a' g' fis' e' d'  | 
  g'' fis'' g'' a' cis'' e''  | 
- d''2  |
+ d''2
  } %( endrepeat )% 
 \repeat volta 2 { 
   \times 2/3 { a'8 b' cis'' }   | 
@@ -47,6 +47,6 @@
  fis''4.-> e''8 d'' cis''  | 
  b' a' g' fis' e' d'  | 
  g'' fis'' g'' a' cis'' e''  | 
- d''2  |
+ d''2
  } %( endrepeat )% 
  
