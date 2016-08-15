@@ -42,6 +42,7 @@
  a''2
  } %( endrepeat )% 
  
+ \break
 \repeat volta 2 { 
  a'8 a'  | 
  < fis' a'  >4 r < g' b'  >8 < g' b'  >  | 
@@ -62,6 +63,7 @@
  a'2
  } %( endrepeat )% 
  
+ \break
 \repeat volta 2 { 
  e''4  | 
  cis''' cis'''8 cis''' cis''' cis'''  | 
@@ -83,6 +85,7 @@
  } %( endrepeat )% 
  \key d \major
  
+ \pageBreak
 \repeat volta 2 { 
  fis''8-( g''-)  | 
  a''4. a''8 b''4  | 
@@ -104,6 +107,7 @@
  } %( endrepeat )% 
  \key a \major
  
+ \break
 \repeat volta 2 { 
  e''  | 
  cis''' cis'''8 cis''' cis''' cis'''  | 
@@ -124,6 +128,7 @@
  a''2
  } %( endrepeat )% 
  
+ \break
 \repeat volta 2 { 
  a'4  | 
  cis''2-( b'4-)  | 

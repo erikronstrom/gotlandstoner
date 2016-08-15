@@ -24,6 +24,8 @@
  c''8-( d''-) e''-( f''-) g''-( e''-)  | 
  f''2
  } %( endrepeat )% 
+
+ \break
 \repeat volta 2 { 
  c'''4  | 
  c'''2 a''4  | 
@@ -35,6 +37,8 @@
  c''8-( d''-) e''-( f''-) g''-( e''-)  | 
  f''2
  } %( endrepeat )% 
+
+ \break
 \repeat volta 2 { 
  a''4  | 
  a''8.-( g''16-) f''8.-( e''16-) d''8.-( f''16-)  | 

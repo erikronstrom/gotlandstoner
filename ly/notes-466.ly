@@ -17,6 +17,7 @@
  c''4 b' gis'  | 
  a'2
  } %( endrepeat )% 
+ \break
 \repeat volta 2 { 
  c''4  | 
  c''8-( b'-) c''-( d''-) e''4  | 

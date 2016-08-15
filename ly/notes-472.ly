@@ -28,7 +28,8 @@
  { % beginalt
   \set Timing.measureLength = #(ly:make-moment 3/4)
  g' b''4  }} 
- 
+
+ \break
 \repeat volta 2 { 
  b'' b' b''  | 
  b'' b' b''  | 
@@ -51,6 +52,7 @@
  { % beginalt
  g''2 d''4  }} 
  
+ \break
 \repeat volta 2 { 
  d''  \times 2/3 { e''8 fis'' e'' }  d''4  | 
  d''  \times 2/3 { e''8 fis'' e'' }  d''4  | 
