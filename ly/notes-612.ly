@@ -30,7 +30,7 @@
  
 \repeat volta 2 { 
  c''  | 
-  \grace { c''16 }  f'' r r c'' a'' r r c'' f''8 f'' r c''  | 
+  \acciaccatura { c''16 }  f'' r r c'' a'' r r c'' f''8 f'' r c''  | 
  bes'' r16 c'' a''8 r16 bes' g''8 g'' r c''  | 
  f'' r16 c'' a''8 r16 cis'' d''8 d'' r f''  | 
  e'' r16 c'' e''8 r16 c'' f''8 f'' r  |

@@ -8,23 +8,25 @@
  c''2  \times 2/3 { c''8 b' c'' }   | 
  e''4 d'' g'  | 
  b'2 b'4  | 
- b'8 c'' b' a' d'4  | 
- b'8 c'' b' a' d'4  | 
+ b'8 c''\trill b' a' d'4  | 
+ b'8 c''\trill b' a' d'4  | 
  d' g'8 g' g' g'  | 
  g'4 b' d''  | 
  g'' fis'' a'  | 
  c''2  \times 2/3 { c''8 b' c'' }   | 
  e''4 d'' g'  | 
  b'2 b'4  | 
- b'8 c'' b' a' d'4  | 
- b'8 c'' b' a' d'4  | 
+ b'8 c''\trill b' a' d'4  | 
+ b'8 c''\trill b' a' d'4  | 
  d' g'8 g' g' g'  | 
   } 
 \alternative { 
- {  g'2
+ {   \set Timing.measureLength = #(ly:make-moment 1/2)
+ g'2
  } %( endrepeat )% 
  
  { % beginalt
+  \set Timing.measureLength = #(ly:make-moment 3/4)
  g' b''4  }} 
  
 \repeat volta 2 { 

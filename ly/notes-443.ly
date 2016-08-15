@@ -4,7 +4,7 @@
 \repeat volta 2 { 
  \partial 4
  d'4  | 
- b'2 a'8 g'  | 
+ b'2\trill a'8 g'  | 
  d'4. fis'8 b' c''  | 
  d''2.  | 
  c''  | 

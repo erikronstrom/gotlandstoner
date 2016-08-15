@@ -34,7 +34,7 @@
  cis''4. a'8 g' a'  | 
  d''4. a'8 fis' a'  | 
  e''4. a'8 g' a'  | 
- fis'2 e''8 fis''  | 
+ fis'2  \once \override Script.padding = #1 e''8\trill fis''  | 
  a''2 g''4  | 
  b'2 cis''4  | 
  g''2 fis''4  | 
@@ -46,7 +46,7 @@
  } %( endrepeat )% 
 \repeat volta 2 { 
  fis''4  | 
- fis''2  \grace { g''8 fis'' }  e'' fis''  | 
+ fis''2  \acciaccatura { g''8 fis'' }  e'' fis''  | 
  a''4. g''8 fis'' g''  | 
  g''-( b'-) fis''-( e''-) e''-( d''-)  | 
  d''-( cis''-) a'-( cis''-) e''4  | 
