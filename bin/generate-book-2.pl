@@ -120,7 +120,7 @@ sub processTune() {
             $Title = $1;
             $Title =~ s/[\.\,\;]$//; # Remove trailing punctuation
         }
-        if ($Line =~ /^[SNH]:(.*)/) {
+        if ($Line =~ /^[SNHQ]:(.*)/) {
             
             my $Text = $1;
             if ($OriginalLine =~ /Stämning:\s*(\S+)\s+(\S+)\s+(\S+)\s+(\S+)/) {
@@ -134,6 +134,7 @@ sub processTune() {
             $Text =~ s/f\. d\./f.\\\@ d.\\\@/g; # TODO: lookahead for next sentence
             $Text =~ s/ fr\. / fr.\\\@ /g;
             $Text =~ s/ Ol\. / Ol.\\\@ /g;
+            $Text =~ s/ Joh\. / Joh.\\\@ /g;
             $Text =~ s/d\. ([yä])\./d.\\\@ \1./g; # TODO: lookahead for next sentence
             $Text =~ s/ f\. / f.\\\@ /g; # TODO: lookahead for next sentence
             $Text =~ s/([\s\n])\-\-([\s\n])?/$1---$2/g;
