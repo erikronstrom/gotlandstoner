@@ -4,26 +4,26 @@
 \repeat volta 2 { 
  g'4 c''8 c'' c'' c''  | 
  c''4 e'' g''  | 
-  \grace { f''8 }  a''4 d''8 d'' d'' d''  | 
+  \acciaccatura { f''8 }  a''4 d''8 d'' d'' d''  | 
  d''4 f'' a''  | 
-  \grace { e''8 }  g''4 c''8 c'' c'' c''  | 
+  \acciaccatura { e''8 }  g''4 c''8 c'' c'' c''  | 
  c''4. e''8 d'' c''  | 
  b'4 g'8 g' g' g'  | 
  g'2 g'4  | 
  g' c''8 c'' c'' c''  | 
  c''4 e'' g''  | 
-  \grace { f''8 }  a''4 d''8 d'' d'' d''  | 
+  \acciaccatura { f''8 }  a''4 d''8 d'' d'' d''  | 
  d''4 f'' a''  | 
-  \grace { e''8 }  g''-( a''-) g''-( fis''-) g''-( a''-)  | 
+  \acciaccatura { e''8 }  g''-( a''-) g''-( fis''-) g''-( a''-)  | 
  g''4 b' d''  | 
-  \grace { e''8 }  d''4 c''8 c'' c'' c''  | 
+  \acciaccatura { e''8 }  d''4 c''8 c'' c'' c''  | 
  c''2 r4  |
  } %( endrepeat )% 
  
 \repeat volta 2 { 
  b'2 c''4  | 
  d'' e'' f''  | 
-  \grace { f''8 }  a''2.  | 
+  \acciaccatura { f''8 }  a''2.  | 
  g''  | 
  b'2 c''4  | 
  d'' e'' f''  | 

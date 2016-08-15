@@ -30,7 +30,7 @@
  a''4 f'' c''  | 
  bes'8-( g'-) g'-( e'-) e'-( c'-)  | 
  bes' g' g' e' e'-( c'-)  | 
-  \grace { c'' }  f''4. e''8-( f'' g''-)  | 
+  \acciaccatura { c'' }  f''4. e''8-( f'' g''-)  | 
  a''4 f'' c''  | 
  bes'8-( g'-) g'-( e'-) e'-( c'-)  | 
  f'2

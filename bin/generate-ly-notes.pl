@@ -450,7 +450,7 @@ sub createMusic() {
         if ($Item->{'type'} eq 'note') {
 
             if ($Item->{'begingrace'}) {
-                print OUTFILE ' \grace { ';
+                print OUTFILE ' \acciaccatura { ';
             }
             if ($Item->{'begintuplet'}) {
                 print OUTFILE ' \times 2/3 { ' if $Item->{'begintuplet'} == 3;

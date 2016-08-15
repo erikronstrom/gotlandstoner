@@ -14,12 +14,12 @@
  } %( endrepeat )% 
 \repeat volta 2 { 
   \times 2/3 { e''8 d'' e'' }   | 
- c''4 c''  \grace { c''8 }  b' c''  | 
- a'4 a'  \grace { a'8 }  gis' a'  | 
+ c''4 c''  \acciaccatura { c''8 }  b' c''  | 
+ a'4 a'  \acciaccatura { a'8 }  gis' a'  | 
  a' fis' g' a' b' c''  | 
  cis''4 d''8 f'' e'' f''  | 
- d''4 d''  \grace { d''8 }  cis'' d''  | 
- b'4 b'  \grace { c''8 }  b' a'  | 
+ d''4 d''  \acciaccatura { d''8 }  cis'' d''  | 
+ b'4 b'  \acciaccatura { c''8 }  b' a'  | 
  g'-( a'-) b'-( c''-) d''-( e''-)  | 
  c''4 r  |
  } %( endrepeat )% 

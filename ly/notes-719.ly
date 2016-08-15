@@ -2,9 +2,9 @@
 \key f \major
 
 \repeat volta 2 { 
- f''8  \grace { g''16 }  f''-( e''-) f''8 a''  | 
+ f''8  \acciaccatura { g''16 }  f''-( e''-) f''8 a''  | 
  c'' f'' a' c''  | 
- g''  \grace { a''16 }  g''-( fis''-) g''8 bes''  | 
+ g''  \acciaccatura { a''16 }  g''-( fis''-) g''8 bes''  | 
  c'' d''16-( e''-) f''4  |
  } %( endrepeat )% 
  

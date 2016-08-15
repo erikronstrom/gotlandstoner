@@ -20,12 +20,12 @@
  g'-( a'-)  | 
  g'8. c''16 c''8 d''  | 
  e''4 f''8-( e''-)  | 
-  \grace { f''16 }  e''8 d'' d'' d''  | 
-  \grace { f''16 }  e''8 d'' d'' cis''16-( d''-)  | 
+  \acciaccatura { f''16 }  e''8 d'' d'' d''  | 
+  \acciaccatura { f''16 }  e''8 d'' d'' cis''16-( d''-)  | 
  g'8. b'16 d''8 e''  | 
  f''4 g''16-( f'' e'' d''-)  | 
-  \grace { e'' }  d''8-( c''-) c'' c''  | 
-  \grace { e''16 }  d''8-( c''-) c'' b'16-( c''-)  | 
+  \acciaccatura { e'' }  d''8-( c''-) c'' c''  | 
+  \acciaccatura { e''16 }  d''8-( c''-) c'' b'16-( c''-)  | 
  c''4.-( d''16 e''-)  | 
  f''-( e'' f'' g''-) a''-( g'' f'' e''-)  | 
  f''-( e'' d'' c''-) b'-( c'' d'' e''-)  | 

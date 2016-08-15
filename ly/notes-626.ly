@@ -28,11 +28,11 @@
  
 \repeat volta 2 { 
  b'16 c''  | 
- d''4  \grace { c''16 }  b' a' b' c''  | 
+ d''4  \acciaccatura { c''16 }  b' a' b' c''  | 
  d''4. g''8  | 
  e'' e'' d''16 c'' b' a'  | 
-  \grace { a' }  g' fis' g' a' b' a' b' c''  | 
- d''4  \grace { c''16 }  b' a' b' c''  | 
+  \acciaccatura { a' }  g' fis' g' a' b' a' b' c''  | 
+ d''4  \acciaccatura { c''16 }  b' a' b' c''  | 
  d''4. g''8  | 
  e'' e'' d''16 c'' b' a'  | 
  g'4 r8  |
@@ -42,9 +42,9 @@
  fis'16 g'  | 
  a'8. d'16 b'8. d'16  | 
  c''4. b'8  | 
-  \grace { b'16 }  a'8 g'  \grace { b'16 }  a'8 g'  | 
+  \acciaccatura { b'16 }  a'8 g'  \acciaccatura { b'16 }  a'8 g'  | 
  a'4 r8 b'16 c''  | 
- d''4  \grace { c''16 }  b' a' b' c''  | 
+ d''4  \acciaccatura { c''16 }  b' a' b' c''  | 
  d''4. g''8  | 
  e'' e'' d''16 c'' b' a'  | 
  fis'4 r8  |

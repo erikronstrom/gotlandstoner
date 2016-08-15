@@ -18,7 +18,7 @@
  g''-( f''-) e''-( d''-) c''8  | 
  < c' f' a'  > a'' a''16 bes''  | 
  a''-( g''-) f''-( e''-) d''8  | 
-  \grace { d''16 }  bes''8  \grace { d''16 }  a''8  \grace { bes'16 }  g''8  | 
+  \acciaccatura { d''16 }  bes''8  \acciaccatura { d''16 }  a''8  \acciaccatura { bes'16 }  g''8  | 
  f'' e''16-( f''-) d''-( f''-)  | 
  e''-( cis''-) a'8 cis''16-( e''-)  | 
  d''4  |

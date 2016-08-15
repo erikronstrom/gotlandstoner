@@ -27,10 +27,10 @@
 \repeat volta 2 { 
  a''8. a''16  | 
  a''4. bes''8 a'' g''  | 
- f'' e'' d''4  \grace { e''8 }  f''4  | 
- a'  \grace { gis''8 }  a''4 a'  | 
+ f'' e'' d''4  \acciaccatura { e''8 }  f''4  | 
+ a'  \acciaccatura { gis''8 }  a''4 a'  | 
  f'' e''8 f'' e'' d''  | 
- c''4  \grace { bis''8 }  c'''4 c''  | 
+ c''4  \acciaccatura { bis''8 }  c'''4 c''  | 
  a'' e''8 f'' e'' d''  | 
  c''4 e''8 g'' d''' c'''  | 
  f''2

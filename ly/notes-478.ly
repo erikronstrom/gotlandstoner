@@ -46,12 +46,12 @@
  fis''4 r r  | 
  r r8 eis'' fis'' e''  | 
  d'' cis'' e'' d'' cis'' b'  | 
-  \grace { b' }  a'4 a'8 g' fis'4  | 
-  \grace { a'8 }  g'4 e'8 b' a' g'  | 
+  \acciaccatura { b' }  a'4 a'8 g' fis'4  | 
+  \acciaccatura { a'8 }  g'4 e'8 b' a' g'  | 
  fis'4 d' fis''8 e''  | 
  d'' cis'' e'' d'' cis'' b'  | 
-  \grace { b' }  a'4 a'8 g' fis'4.  | 
-  \grace { a'8 }  g'4 e' a'  | 
+  \acciaccatura { b' }  a'4 a'8 g' fis'4  | 
+  \acciaccatura { a'8 }  g'4 e' a'  | 
  d'2
  } %( endrepeat )% 
  

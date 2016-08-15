@@ -2,12 +2,12 @@
 \key c \major
 
 \repeat volta 2 { 
- c''4  \grace { e''8 }  e''8. e''16 e''4  \grace { d''8 }  < f'' d''  > e''  | 
- c''4  \grace { e''8 }  e''8. e''16 e''4  \grace { d''8 }  < f'' d''  > e''  | 
+ c''4  \acciaccatura { e''8 }  e''8. e''16 e''4  \acciaccatura { d''8 }  < f'' d''  > e''  | 
+ c''4  \acciaccatura { e''8 }  e''8. e''16 e''4  \acciaccatura { d''8 }  < f'' d''  > e''  | 
  c''8. b'16 c''8 e'' g'' f'' e'' f''  | 
  d'' g'' fis'' g'' a'' g'' fis'' g''  | 
- c''4  \grace { e''8 }  e''8. e''16 e''4  \grace { d''8 }  < f'' d''  > e''  | 
- c''4  \grace { e''8 }  e''8. e''16 e''4  \grace { d''8 }  d''4  | 
+ c''4  \acciaccatura { e''8 }  e''8. e''16 e''4  \acciaccatura { d''8 }  < f'' d''  > e''  | 
+ c''4  \acciaccatura { e''8 }  e''8. e''16 e''4  \acciaccatura { d''8 }  d''4  | 
  c''8. b'16 c''8 e'' g''8. f''16 d''8 b'  | 
  g' c'' c''8. c''16 c''4 r  |
  } %( endrepeat )% 

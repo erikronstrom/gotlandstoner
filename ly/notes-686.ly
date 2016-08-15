@@ -13,7 +13,7 @@
  } %( endrepeat )% 
  
 \repeat volta 2 { 
-  \grace { f'' }  f''8. e''16 f''8 a'' g''4 e''8. g''16  | 
+  \acciaccatura { f'' }  f''8. e''16 f''8 a'' g''4 e''8. g''16  | 
  f''8. e''16 d''8 c'' b'4 g'  | 
  f'8. e'16 f'8 a' g'4-~  \times 2/3 { g'8 a' b' }   | 
  < g e' c''  >4 c''8. b'16 c''8 d'' e'' g''  | 

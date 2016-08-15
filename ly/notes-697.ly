@@ -3,9 +3,9 @@
 
 \repeat volta 2 { 
  < g'' b' d' g  >4 g''8.-( g''16-) g''4 g'16-( a' b' c''-)  | 
-  \grace { b'8 }  d''4 d''8.-( d''16-) d''4 r  | 
+  \acciaccatura { b'8 }  d''4 d''8.-( d''16-) d''4 r  | 
  e''4. g''8 fis''-( d''-) e''-( fis''-)  | 
-  \grace { fis'' }  g''4 < g'' b' d' g  >8.-( g''16-) g''4 r  |
+  \acciaccatura { fis'' }  g''4 < g'' b' d' g  >8.-( g''16-) g''4 r  |
  } %( endrepeat )% 
 \repeat volta 2 { 
  b'4.-( d''8-) c''-( b'-) c''-( a'-)  | 
@@ -17,9 +17,9 @@
  fis''8-( e''-) g''-( e''-) d''4  \times 2/3 { cis''8-( b' cis''-) }   | 
  e''8.-( d''16-) d''8 d'' d''4  \times 2/3 { d''8-( e'' fis''-) }   | 
  g''4 g''8.-( g''16-) g''4 g'16-( a' b' c''-)  | 
-  \grace { b'8 }  d''4 d''8.-( d''16-) d''4 r  | 
+  \acciaccatura { b'8 }  d''4 d''8.-( d''16-) d''4 r  | 
  e''4.-( g''8-) fis''-( d''-) e''-( fis''-)  | 
-  \grace { fis'' }  g''4 g''8. g''16 g''4 r  |
+  \acciaccatura { fis'' }  g''4 g''8. g''16 g''4 r  |
  } %( endrepeat )% 
 \repeat volta 2 { 
  d'' d''8.-( d''16-) d''8-( b'-) c''-( d''-)  | 

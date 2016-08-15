@@ -25,8 +25,8 @@
  a'16 b' a' g' fis'8 d'  | 
  g' g'16 a' b'8 b'  | 
  c''16 d'' c'' b' a'4  | 
-  \grace { b'8 }  d'' e''16 fis'' g''4->  | 
-  \grace { b'8 }  c''16 b' c'' d'' e''4->  | 
+  \acciaccatura { b'8 }  d'' e''16 fis'' g''4->  | 
+  \acciaccatura { b'8 }  c''16 b' c'' d'' e''4->  | 
  d''8 b'16 d'' d'' c'' a' fis'  | 
  fis'8 g' g' 
 \repeat volta 2 { 

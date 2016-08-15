@@ -22,7 +22,7 @@
  f'2 r4  |
  } %( endrepeat )% 
 \repeat volta 2 { 
-  \grace { bes'8 }  g'4 e' e'  | 
+  \acciaccatura { bes'8 }  g'4 e' e'  | 
  f' f'8-( e'-) f'-( a'-)  | 
  g'4 e' e'  | 
  f'2 f'8 a'  | 

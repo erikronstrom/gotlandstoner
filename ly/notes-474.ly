@@ -16,9 +16,9 @@
  d''4. b'8 gis' b'  | 
  a'4 cis'' fis''  | 
  e''2.  | 
-  \grace { fis''8 }  e''4 d'' cis''  | 
+  \acciaccatura { fis''8 }  e''4 d'' cis''  | 
  b'2.  | 
-  \grace { cis''8 }  d''4 fis' gis'  | 
+  \acciaccatura { cis''8 }  d''4 fis' gis'  | 
  a'2
  } %( endrepeat )% 
  

@@ -23,7 +23,7 @@
  < f' a'  >16 < f f'  > < f f'  > < f' a'  > < f' c''  > < f f'  > < f f'  > < f' c''  > < f' a'  > < f f'  > < f f'  > < f' a'  >  | 
  a'8 g' g'16 f' g' bes' a'8. f'16  | 
  < f' a'  > < f f'  > < f f'  > < f' a'  > < f' c''  > < f f'  > < f f'  > < f' c''  > < f' a'  > < f f'  > < f f'  > < f' a'  >  | 
- a'8 g'  \grace { a'16 }  g' f' g' a' f'4  |
+ a'8 g'  \acciaccatura { a'16 }  g' f' g' a' f'4  |
  } %( endrepeat )% 
 \repeat volta 2 { 
  < c'' e''  >16 < bes' c''  > < bes' c''  > < c'' e''  > < c'' e''  > < bes' g'  > < bes' g'  > < c'' e''  > < c'' e''  > < bes' c''  > < bes' c''  > < c'' e''  >  | 

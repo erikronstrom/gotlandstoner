@@ -4,7 +4,7 @@
 \repeat volta 2 { 
  c''8. g'16 e'8 e'16 f' d'8 d'16 e'  | 
  c'8 e'16 c' g8 b'16 d'' c''4  | 
- g''->  \grace { fis''16 g'' }  a''8 g'' f'' e''  | 
+ g''->  \acciaccatura { fis''16 g'' }  a''8 g'' f'' e''  | 
   } 
 \alternative { 
  {  d'' d''16 c'' b' c'' a' b' g'8 a'16 b'   |

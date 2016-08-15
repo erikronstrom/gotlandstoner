@@ -4,8 +4,8 @@
 \repeat volta 2 { 
  a'16 b' cis'' d'' d'8 d'' d' d''  | 
  e''16 d'' cis'' d'' a8 e'' a e''  | 
-  \grace { g''16 }  f''8 e''16 f'' g''8 f'' e'' d''  | 
-  \grace { e''16 }  d''8 cis''16 d'' e''8 a'' a'4  | 
+  \acciaccatura { g''16 }  f''8 e''16 f'' g''8 f'' e'' d''  | 
+  \acciaccatura { e''16 }  d''8 cis''16 d'' e''8 a'' a'4  | 
  a'16 d'' cis'' d'' d'8 d'' d' d''  | 
  e''16 d'' cis'' e'' a8 e'' a e''  | 
  f''16 e'' f'' g'' a''8 f'' e'' d''  | 

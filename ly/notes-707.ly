@@ -17,8 +17,8 @@
  a''8-( f''-) d''-( e''-) f''-( g''-)  | 
  a''-( g''-) a''-( bes''-) a''4  | 
  bes''8 r g'' r g'' r  | 
-  \grace { g'' }  a'' r f'' r f'' r  | 
-  \grace { f'' }  e''-( g''-) bes''-( g''-) e''-( g''-)  | 
+  \acciaccatura { g'' }  a'' r f'' r f'' r  | 
+  \acciaccatura { f'' }  e''-( g''-) bes''-( g''-) e''-( g''-)  | 
  f''4 r r  |
  } %( endrepeat )% 
  

@@ -4,11 +4,11 @@
 \repeat volta 2 { 
  c''16 d'' c'' bes' a'8 f'' c'' a''  | 
  a'' g''16 f'' g'' f'' e'' d'' c''4  | 
-  \grace { bes'16 }  d''8 d''16 c'' bes'8 bes'16 a' g'8 g'16 f'  | 
+  \acciaccatura { bes'16 }  d''8 d''16 c'' bes'8 bes'16 a' g'8 g'16 f'  | 
  e'8 e'16 f' d'8 d'16 e' c'4  | 
  c''16 d'' c'' bes' a'8 f'' c'' a''  | 
  a'' g''16 f'' g'' f'' e'' d'' c''4  | 
-  \grace { bes'16 }  d''8 d''16 c'' bes'8 bes'16 a' g'8. bes'16  | 
+  \acciaccatura { bes'16 }  d''8 d''16 c'' bes'8 bes'16 a' g'8. bes'16  | 
  a' g' f' e' e'4 f'  |
  } %( endrepeat )% 
 \repeat volta 2 { 
@@ -18,7 +18,7 @@
  d'' f'' e'' g'' c''4  | 
  c''16 d'' c'' bes' a'8 f'' c'' a''  | 
  a'' g''16 f'' g'' f'' e'' d'' c''4  | 
-  \grace { bes'16 }  d''8 d''16 c'' bes'8 bes'16 a' g'8. bes'16  | 
+  \acciaccatura { bes'16 }  d''8 d''16 c'' bes'8 bes'16 a' g'8. bes'16  | 
  a' g' f' e' < c' e'  >4 f'  |
  } %( endrepeat )% 
 \repeat volta 2 { 

@@ -3,9 +3,9 @@
 
 \repeat volta 2 { 
  g'8. b'16 b'8 d'' e'' d''  | 
- b' b'16 c'' d''8  \grace { e''16 }  d'' c'' c''8 b'  | 
+ b' b'16 c'' d''8  \acciaccatura { e''16 }  d'' c'' c''8 b'  | 
  g'8. b'16 b'8 d'' e'' d''  | 
- b' b'16 c'' d''8  \grace { e''16 }  d'' c'' c''8 b'  | 
+ b' b'16 c'' d''8  \acciaccatura { e''16 }  d'' c'' c''8 b'  | 
  g'8. b'16 a'8 a' a' g'16 a'  | 
  g'8. b'16 a'8 a' a' g'16 a'  | 
  b' d'' e'' fis'' g''8 d'' e'' c''  | 
