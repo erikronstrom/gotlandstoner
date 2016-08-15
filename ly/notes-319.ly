@@ -2,12 +2,29 @@
 \key c \major
 
 \repeat volta 2 { 
+ \override TextScript.padding = #2
  c''8. d''16 e'' f'' e'' d'' c''4  | 
  g'16 a' g' f' e' c' e' f' g' a' b' c''  | 
- b'8 b' b' b' b' a'16 b'  < g d'  >2  | 
- c''8 c'' c'' c'' e''16 g'' e'' c''  < g e'  >2  | 
- b'8 b' b' b' b' a'16 b'  < g d'  >2  | 
- c''8 c'' c'' c'' e''16 g'' e'' c''  < g e'  >2  | 
+ <
+   \tweak stencil #ly:text-interface::print \tweak text \markup { \musicglyph #"noteheads.s1" } g
+   \tweak stencil #ly:text-interface::print \tweak text \markup { \musicglyph #"noteheads.s1" } d'
+ b'>8^\markup { \italic "pizz."}_\markup { \italic "col’ arco" }
+ b' b' b' b' a'16 b'  | 
+ <
+   \tweak stencil #ly:text-interface::print \tweak text \markup { \musicglyph #"noteheads.s1" } g
+   \tweak stencil #ly:text-interface::print \tweak text \markup { \musicglyph #"noteheads.s1" } e'
+ c''>8^\markup { \italic "pizz."}_\markup { \italic "col’ arco" }
+ c'' c'' c'' e''16 g'' e'' c''  | 
+ <
+   \tweak stencil #ly:text-interface::print \tweak text \markup { \musicglyph #"noteheads.s1" } g
+   \tweak stencil #ly:text-interface::print \tweak text \markup { \musicglyph #"noteheads.s1" } d'
+ b'>8^\markup { \italic "pizz."}_\markup { \italic "col’ arco" }
+ b' b' b' b' a'16 b'  | 
+ <
+   \tweak stencil #ly:text-interface::print \tweak text \markup { \musicglyph #"noteheads.s1" } g
+   \tweak stencil #ly:text-interface::print \tweak text \markup { \musicglyph #"noteheads.s1" } e'
+ c''>8^\markup { \italic "pizz."}_\markup { \italic "col’ arco" }
+ c'' c'' c'' e''16 g'' e'' c''  | 
  f''8 f''16 g'' a''8. g''16 f'' e'' d'' c''  | 
  b' g' a' b' b'4 c''  |
  } %( endrepeat )% 
