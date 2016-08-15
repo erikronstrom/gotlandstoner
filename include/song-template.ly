@@ -35,7 +35,7 @@
     line-width = 169\mm
     %left-margin = 0
     %right-margin = 0
-    paper-height = 240mm
+    paper-height = 250mm
     ragged-bottom = ##t
     print-page-number = ##f
     system-system-spacing = 
@@ -43,7 +43,7 @@
          (minimum-distance . %((minimum-distance))%)
          (padding . %((padding))%)
          (stretchability . 12))
-    
+    %((page-count))%
 }
 
 
