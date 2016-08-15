@@ -41,7 +41,7 @@
  bes''8 g''16 bes'' a''8 c'''16 a''  | 
  g'' c'' bes' c'' bes' c'' d'' e''  | 
  f''4 f''16 g'' a'' f''  | 
- ees''4 d''16 ees'' f'' d''  | 
+ e''4 d''16 e'' f'' d''  | 
  c'' d'' e'' f'' g'' a'' bes'' g''  | 
  f''8 a'' f''  |
  } %( endrepeat )% 
