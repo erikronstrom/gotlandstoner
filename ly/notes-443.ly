@@ -40,16 +40,16 @@
  d'''2 a''8 b''  | 
  c'''2 g''8 a''  | 
  b''4. a''8 e'' fis''  | 
+ \set Timing.measureLength = #(ly:make-moment 1/2)
  g''2
- } %( endrepeat )% 
- 
+ }
  { % beginalt
- b' b'8 c''  }} 
-  | 
+ \set Timing.measureLength = #(ly:make-moment 3/4)
+ b' b'8 c'' | 
  b'2 fis'8 g'  | 
  a'2 b8 e'  | 
  g'2 fis'4  | 
- e'2 
+ e'2 }}
 \repeat volta 2 { 
  e'8 e'  | 
  e'2 g'8 g'  | 

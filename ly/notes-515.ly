@@ -2,6 +2,7 @@
 \key a \major
 
 \repeat volta 2 { 
+ \partial 4
  cis'8-( d'-)  | 
  e'4 < e' e''  >8 < e' e''  > < e' e''  > < e' e''  >  | 
  e''4 cis''' a''  | 
@@ -20,10 +21,13 @@
  cis'''2 b''4  | 
   } 
 \alternative { 
- {  a''2   |
+ {
+ \set Timing.measureLength = #(ly:make-moment 1/2)
+ a''2   |
  } %( endrepeat )% 
  
  { % beginalt
+ \set Timing.measureLength = #(ly:make-moment 3/4)
  a''4 r a'  }} 
  
 \repeat volta 2 { 
@@ -49,5 +53,5 @@
  
  { % beginalt
  a'2  }} 
- \bar "|." |
+ \bar "|."
  

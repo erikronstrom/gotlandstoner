@@ -2,6 +2,7 @@
 \key c \major
 
 \repeat volta 2 { 
+ \partial 4
  g'4  | 
  e'8-( c'-) e'-( g'-) c''-( e''-)  | 
  d''-( c''-) b'-( a'-) g'4  | 
@@ -10,7 +11,7 @@
  e'8-( c'-) e'-( g'-) c''-( e''-)  | 
  d''-( c''-) b'-( a'-) g'4  | 
  b'8-( a'-) b'-( a''-) g''-( b'-)  | 
- c''2  |
+ c''2
  } %( endrepeat )% 
 \repeat volta 2 { 
  g''4  | 
@@ -23,10 +24,12 @@
  a''-( g''-) e''-( g''-) f''-( d''-)  | 
   } 
 \alternative { 
- {  c''2   |
+ {  \set Timing.measureLength = #(ly:make-moment 1/2)
+ c''2
  } %( endrepeat )% 
  
  { % beginalt
+ \set Timing.measureLength = #(ly:make-moment 3/4)
  c'' g''4  }} 
  
 \repeat volta 2 { 
@@ -44,5 +47,5 @@
  
  { % beginalt
  c''2  }} 
- \bar "|." |
+ \bar "|."
  

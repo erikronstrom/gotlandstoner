@@ -2,13 +2,14 @@
 \key g \minor
 
 \repeat volta 2 { 
+ \partial 8
  d''8  | 
  d''16 c'' ees'' d'' d'' c'' d'' c'' bes' a' g' fis'  | 
  g' bes' d'' g'' g'' a'' bes'' g'' d''4  | 
  ees''16 d'' c'' bes' c'' d'' ees'' a'' a''8 c''  | 
  c''16 bes' a' bes' c'' d'' ees'' g'' g''8 bes'  | 
  bes'16 a' g' fis' g' a' bes' c'' d'' e'' fis'' g''  | 
- bes' a' g' fis' g'4 g8  |
+ bes' a' g' fis' g'4 g8
  } %( endrepeat )% 
 \repeat volta 2 { 
  bes'  | 
@@ -25,6 +26,6 @@
  ees''16 d'' c'' bes' c'' d'' ees'' a'' a''8 c''  | 
  c''16 bes' a' bes' c'' d'' ees'' g'' g''8 bes'  | 
  bes'16 a' g' fis' g' a' bes' c'' bes' e'' fis'' g''  | 
- bes' a' g' fis' g'4 g8  |
+ bes' a' g' fis' g'4 g8
  } %( endrepeat )% 
  

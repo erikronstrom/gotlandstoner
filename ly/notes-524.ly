@@ -2,6 +2,7 @@
 \key c \major
 
 \repeat volta 2 { 
+ \partial 4
   \times 2/3 { g8 c' e' }   | 
  g'4-> g'8-( c'-) e'-( g'-)  | 
  c''4-> c''8-( g'-) c''-( e''-)  | 
@@ -10,7 +11,7 @@
  a' f''8 e'' d'' c''  | 
  c''-( b'-) b'-( a'-) a'-( g'-)  | 
  fis'-( g'-) a'-( g'-) f'-( d'-)  | 
- c'4 r  |
+ c'4 r
  } %( endrepeat )% 
 \repeat volta 2 { 
   \times 2/3 { e''8 d'' e'' }   | 
@@ -21,7 +22,7 @@
  d''4 d''  \acciaccatura { d''8 }  cis'' d''  | 
  b'4 b'  \acciaccatura { c''8 }  b' a'  | 
  g'-( a'-) b'-( c''-) d''-( e''-)  | 
- c''4 r  |
+ c''4 r
  } %( endrepeat )% 
  \key f \major
  
@@ -34,7 +35,7 @@
  b' c'' d'' c'' f'' d''  | 
  c''2 a'8 f'  | 
  e'-( g'-) bes'-( d''-) c''-( e'-)  | 
- f'4 r  |
+ f'4 r
  } %( endrepeat )% 
 \repeat volta 2 { 
  c''8 c'  | 
@@ -45,6 +46,6 @@
  b'-( c''-) d''-( c''-) f''-( d''-)  | 
  c''2 a'8 f'  | 
  e'-( f'-) g'-( a'-) bes'-( g'-)  | 
- f'2  |
+ f'2
  } %( endrepeat )% 
  
