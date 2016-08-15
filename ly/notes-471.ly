@@ -13,7 +13,6 @@
  g''-( a''-) g''-( f''-) ees''-( c''-)  | 
  bes'2
  } %( endrepeat )% 
-\repeat volta 2 { 
  bes''4 
 \repeat volta 2 { 
  a'' a''8 a'' a'' a''  | 
@@ -25,7 +24,6 @@
  f''2 bes''8 a''  | 
  g''-( a''-) g''-( f''-) ees''-( c''-)  | 
  bes'2 
- }
 \repeat volta 2 { 
  f''8 ees''  | 
  ees''-( d''-) d''-( ees''-) f'' d''  | 
