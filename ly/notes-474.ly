@@ -39,12 +39,12 @@
  e''4 a'' cis'''  | 
  d'' fis'' b''  | 
  e''8 e'' fis''4 gis''  | 
- a''2.
+ a''2
  } %( endrepeat )% 
  
 \repeat volta 2 { 
  a'8 a'  | 
- < fis' a'  >4 r < g' b'  >8 < gis' b'  >  | 
+ < fis' a'  >4 r < g' b'  >8 < g' b'  >  | 
  < g' b'  >4 r < fis' a'  >8 < fis' a'  >  | 
  fis'4 r e'  | 
  cis'2 cis'''8 cis'''  | 
@@ -84,7 +84,7 @@
  \key d \major
  
 \repeat volta 2 { 
- f''8-( g''-)  | 
+ fis''8-( g''-)  | 
  a''4. a''8 b''4  | 
  g''4. g''8 a''4  | 
  fis'' a''4. g''8  | 
