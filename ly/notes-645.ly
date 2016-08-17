@@ -12,9 +12,11 @@
  
 \repeat volta 2 { 
  a'  | 
+ \flatBeams
  d''16 fis'' a'' fis'' d'' fis'' a'' fis'' d'' fis'' a'' fis'' d''4  | 
  e''16 g'' b'' g'' e'' g'' b'' g'' e'' g'' b'' g'' e''4  | 
  d''16 fis'' a'' fis'' d'' fis'' a'' fis'' d'' fis'' a'' fis'' d'' fis'' a'' fis''  | 
+ \normalBeams
  g'' fis'' e'' d'' cis'' b' cis'' d'' e''8 a'16 a' a'8 d'16 d'  | 
  d'8 fis'16 fis' fis'8 a'16 a' cis''8 d''16 d'' d''4  | 
  fis''8 fis'' fis''16 a'' fis'' d'' a'4 a''  | 
