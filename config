@@ -300,8 +300,12 @@
 
 496: spaceafter=2cm
 497: newpage=0
+498: pages=2
 
 500: textbox=0
+
+504: systemspacing=-1, spaceafter=0.5cm, lineoffset=-5
+505: newpage=0, systemspacing=-3, lineoffset=-5
 
 509: newpage=0
 514: pages=1
@@ -361,3 +365,8 @@
 583: newpage=0
 584: subsection=Schottis.
 585: newpage=0
+
+
+710: notespacing=2
+721: textbox=0
+723: textbox=0
