@@ -18,7 +18,7 @@ ej ny sida:
 kolla upp
 443 428 427 478 472 552
 
-707, 708, 709: spärrad/kursiverad text
+705, 706: balkning i 3/8?
 727: flytta text till nedanför låten
 
 Kolla upp alla trill, open (T, o)
