@@ -7,15 +7,15 @@
  fis'16 d' fis' a' d'' cis'' d'' a' g' fis' e' d'  | 
  fis' a fis' a' e' a e' a' d'4  | 
  fis'16 d' fis' a' d'' cis'' d'' cis'' g' fis' e' d'  | 
- < a d'  >8 fis'' fis'' fis'' g''16 fis'' e'' d''  | 
- < a e'  >8 g'' g'' g'' a''16 g'' fis'' e''  | 
- < a d'  >8 fis'' fis'' fis'' g''16 fis'' e'' d''  | 
- < a e'  >8 g'' g'' g'' a''16 g'' fis'' e''  | 
+ \noteheadHalf < a d'  >8_\markup { \italic "col’ arco" } fis''^\markup { \italic "pizz." } fis'' fis'' g''16 fis'' e'' d''  | 
+ \noteheadHalf < a e'  >8_\markup { \italic "col’ arco" } g''^\markup { \italic "pizz." } g'' g'' a''16 g'' fis'' e''  | 
+ \noteheadHalf < a d'  >8_\markup { \italic "col’ arco" } fis''^\markup { \italic "pizz." } fis'' fis'' g''16 fis'' e'' d''  | 
+ \noteheadHalf < a e'  >8_\markup { \italic "col’ arco" } g''^\markup { \italic "pizz." } g'' g'' a''16 g'' fis'' e''  | 
  d'' cis'' d'' b' a' d'' fis'' e'' d'' cis'' b' a'  | 
- < a d'  >8 fis'' fis'' fis'' g''16 fis'' e'' d''  | 
- < a e'  >8 g'' g'' g'' a''16 g'' fis'' e''  | 
- < a d'  >8 fis'' fis'' fis'' g''16 fis'' e'' d''  | 
- < a e'  >8 g'' g'' g'' a''16 g'' fis'' e''  | 
+ \noteheadHalf < a d'  >8_\markup { \italic "col’ arco" } fis''^\markup { \italic "pizz." } fis'' fis'' g''16 fis'' e'' d''  | 
+ \noteheadHalf < a e'  >8_\markup { \italic "col’ arco" } g''^\markup { \italic "pizz." } g'' g'' a''16 g'' fis'' e''  | 
+ \noteheadHalf < a d'  >8_\markup { \italic "col’ arco" } fis''^\markup { \italic "pizz." } fis'' fis'' g''16 fis'' e'' d''  | 
+ \noteheadHalf < a e'  >8_\markup { \italic "col’ arco" } g''^\markup { \italic "pizz." } g'' g'' a''16 g'' fis'' e''  | 
  d'' cis'' d'' b' a' g' fis' e' fis' d' e' fis'  | 
  g' a' b' cis'' cis''4 d''  |
  } %( endrepeat )% 
@@ -42,10 +42,10 @@
  d' g' b' d'' d'' b' g' b' d' g' b' d''  | 
  a' cis'' e'' a'' a'' e'' cis'' e'' a' cis'' e'' a''  | 
  d'' cis'' d'' fis'' e'' d'' cis'' b' a' g' fis' e'  | 
- < a d'  >8 fis'' fis'' fis'' g''16 fis'' e'' d''  | 
- < a e'  >8 g'' g'' g'' a''16 g'' fis'' e''  | 
- < a d'  >8 fis'' fis'' fis'' g''16 fis'' e'' d''  | 
- < a e'  >8 g'' g'' g'' a''16 g'' fis'' e''  | 
+ \noteheadHalf < a d'  >8_\markup { \italic "col’ arco" } fis''^\markup { \italic "pizz." } fis'' fis'' g''16 fis'' e'' d''  | 
+ \noteheadHalf < a e'  >8_\markup { \italic "col’ arco" } g''^\markup { \italic "pizz." } g'' g'' a''16 g'' fis'' e''  | 
+ \noteheadHalf < a d'  >8_\markup { \italic "col’ arco" } fis''^\markup { \italic "pizz." } fis'' fis'' g''16 fis'' e'' d''  | 
+ \noteheadHalf < a e'  >8_\markup { \italic "col’ arco" } g''^\markup { \italic "pizz." } g'' g'' a''16 g'' fis'' e''  | 
  d'' cis'' d'' b' a' g' fis' e' fis' d' e' fis'  | 
  g' a' b' cis'' cis''4 d''  |
  } %( endrepeat )% 

@@ -5,6 +5,13 @@
 %  }
 %}
 
+noteheadHalf = {
+  \once \override NoteHead.stencil = #ly:text-interface::print
+  \once \override NoteHead.text = \markup {
+    \musicglyph #"noteheads.s1"
+  }
+}
+
 fine = {
   \once \override Score.RehearsalMark.direction = #DOWN
   \once \override Score.RehearsalMark #'break-visibility = #end-of-line-visible
