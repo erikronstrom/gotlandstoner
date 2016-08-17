@@ -31,6 +31,6 @@
  ees'' d'' c'' bes' a' f''16 f'' f''4  | 
  ees''8 d'' c'' bes' f'' f'16 f' f'4  | 
  bes'8 d'' g'' f'' f''4 ees''8 c''  | 
- bes' d'' bes' f' a'16 c'' bes'4.  |
+ bes'8 d''16 bes' f'8 a'16 c'' bes'4.
  } %( endrepeat )% 
  
