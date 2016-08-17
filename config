@@ -318,7 +318,7 @@
 528: systemspacing=-2, spaceafter=0.5cm, lineoffset=-5
 529: newpage=0, systemspacing=-2, lineoffset=-5
 
-530: pages=2
+530: pages=2, pageheight=240mm
 
 531: newpage=1
 532: newpage=0

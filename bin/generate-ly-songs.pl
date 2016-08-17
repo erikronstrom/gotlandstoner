@@ -45,6 +45,7 @@ for my $num ($From..$To) {
             "\\once \\override Score.RehearsalMark.padding = #3\n" .
             "\\mark \\markup { \\italic \\normalsize \"" . $Tempo . "\" }\n\n";
     }
+    my $hasTitle = $abc =~ /^T:\w/m;
 
     
     open(OUTFILE, '>', $outfile) or die("Can't open $outfile for writing!\n");
@@ -65,6 +66,7 @@ for my $num ($From..$To) {
     $params{'padding'} = 1;
     my $pages = $TuneConf{$num}->{"pages"};
     $params{'page-count'} = "page-count = #$pages" if $pages;
+    $params{'page-height'} = $TuneConf{$num}->{"pageheight"} || ($hasTitle ? "240mm" : "250mm");
     
     if ($num <= 416 || $num >= 645) {
         $params{'time-settings'} =
