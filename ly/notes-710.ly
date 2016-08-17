@@ -14,11 +14,16 @@
  c'''8. b''16 c'''-( b'' c''' d'''-)  | 
  e'''8. d'''16 d'''8 b''16-( c'''-)  | 
  d'''8 c''' e'' fis''  | 
- g''4. fis''16 e'' \bar "|." |
+% \set Timing.measureLength = #(ly:make-moment 3/8)
+ g''4.
+ \once \override Score.RehearsalMark.padding = #1 \fine
+ \bar "|." \break
  \key c \major
  
 \repeat volta 2 { 
- g'-( a'-)  | 
+% \set Timing.measureLength = #(ly:make-moment 1/8)
+ g'16-( a'-)  | 
+% \set Timing.measureLength = #(ly:make-moment 2/4)
  g'8. c''16 c''8 d''  | 
  e''4 f''8-( e''-)  | 
   \acciaccatura { f''16 }  e''8 d'' d'' d''  | 
@@ -32,6 +37,8 @@
  f''-( e'' d'' c''-) b'-( c'' d'' e''-)  | 
  f''-( e'' f'' g''-) a''-( g'' f'' e''-)  | 
  g''-( f'' e'' d''-) f''-( e'' d'' c''-)  | 
- c''4. d'16 c'-.  \bar "||" | |
+ c''4.
+ \once \override Score.RehearsalMark.padding = #2 \dcAlFine
+ \bar "|."
  } %( endrepeat )% 
  

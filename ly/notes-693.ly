@@ -25,13 +25,17 @@
  g'4 g'8. g'16 g'4 a'8 b'  | 
   } 
 \alternative { 
- {  c''4 c''8. c''16 c''4   |
+ {  \set Timing.measureLength = #(ly:make-moment 3/4)
+ c''4 c''8. c''16 c''4 
  } %( endrepeat )% 
  
  { % beginalt
- c'' c''8. c''16 c''4 r \key f \major
+ \set Timing.measureLength = #(ly:make-moment 4/4)
+ c'' c''8. c''16 c''4 r
   }} 
  
+ \key f \major
+
 \repeat volta 2 { 
  c''4. bes'8 a'4 c''  | 
  d'' f'' e'' d''  | 
