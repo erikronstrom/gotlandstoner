@@ -2,6 +2,7 @@
 \key a \major
 
 \repeat volta 2 { 
+ \partial 8
  e''8  | 
  e''4 dis''16 e'' fis'' e''  | 
  cis''4 b'16 cis'' d'' cis''  | 
@@ -10,7 +11,7 @@
  e''4 dis''16 e'' fis'' e''  | 
  a''4 gis''16 a'' b'' a''  | 
  a'' gis'' fis'' e'' b''8 dis''16 fis''  | 
- e''4 r8  |
+ e''4 r8
  } %( endrepeat )% 
 \repeat volta 2 { 
  e''16 a''  | 
@@ -21,7 +22,7 @@
  cis'''8 e'' a'' cis''  | 
  e'' a'16 b' cis''8 a'  | 
  b' e'16 gis' b' d'' fis'' e''  | 
- a'4 r8  |
+ a'4 r8
  } %( endrepeat )% 
  \key d \major
  
@@ -34,7 +35,7 @@
  fis''8 d'' a'16 a' b' a'  | 
  fis'8 d'' a' fis''  | 
  e'' g''16 a'' a'8 cis''16 e''  | 
- d''4 r8  |
+ d''4 r8
  } %( endrepeat )% 
  \key a \major
  
@@ -47,6 +48,6 @@
  e'' cis'' a' a''16 fis''  | 
  e''8 cis''16 e'' d''8 b'  | 
  a' cis''16 e' a' cis'' e'' a''  | 
- a'8 a' a'  |
+ a'8 a' a'
  } %( endrepeat )% 
  

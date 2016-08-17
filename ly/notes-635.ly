@@ -2,6 +2,7 @@
 \key ees \major
 
 \repeat volta 2 { 
+ \partial 8
  bes8  | 
  ees' ees'16 d' ees'8 g'  | 
  bes'4. ees''16 bes'  | 
@@ -12,10 +13,12 @@
  g'8 bes'16 g' f'8 aes'16 f'  | 
   } 
 \alternative { 
- {  ees'8 ees' ees'   |
+ {  \set Timing.measureLength = #(ly:make-moment 3/8)
+ ees'8 ees' ees'   |
  } %( endrepeat )% 
  
  { % beginalt
+ \set Timing.measureLength = #(ly:make-moment 2/4)
  ees' ees' ees' r  }} 
  
 \repeat volta 2 { 

@@ -1,12 +1,13 @@
-\time 2/4
+\time 2/4 
 \key d \major
 
 \repeat volta 2 { 
+ \partial 8
   \times 2/3 { a16 b cis' }   | 
  d'8  \times 2/3 { a16 b cis' }  d'8 fis'  | 
  a' a' a' b'16 cis''  | 
  d''8 e''16 fis'' g'' e'' fis'' d''  | 
- e''8 e'' e''  \times 2/3 { a16 b cis' }   | 
+ e''8 e'' e''\noBeam  \times 2/3 { a16 b cis' }   | 
  d'8  \times 2/3 { a16 b cis' }  d'8 fis'  | 
  a' a' a' b'16 cis''  | 
  d''8 e''16 fis'' fis'' d'' e'' cis''  | 
