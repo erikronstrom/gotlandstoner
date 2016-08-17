@@ -20,7 +20,7 @@
 \repeat volta 2 { 
  c''8.-> f''16 e''8 d'' c''8. a'16 f'4  | 
  g'8.-> d''16 c''8 bes' a'8. f'16 c'4  | 
- f' f'8. f'16 f'4 g'8 a'16  | 
+ f' f'8. f'16 f'4 g'8. a'16  | 
  bes'4 bes'8. c''16 d''4 c''8. bes'16  | 
  c''4 a'8 f' bes'4 g'8 e'  | 
  f'4 f''8. f''16 f''4 r  |
