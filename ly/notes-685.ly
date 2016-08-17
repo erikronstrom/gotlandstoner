@@ -2,7 +2,7 @@
 \key g \major
 
 \repeat volta 2 { 
- < g d' b' g''  >4 < g d' b' g''  >8. < g d' b' g''  >32 d''4 b'16-( d'' g'' b''-)  | 
+ < g d' b' g''  >4 < g d' b' g''  >8. < g d' b' g''  >16 d''4 b'16-( d'' g'' b''-)  | 
  d''4 d''8. d''16 b'8 d'' g'' b''  | 
   \acciaccatura { d'' }  c''4  \acciaccatura { d''8 }  c'' b' a' b' c'' d''  | 
  < g' c'' e''  >4 e''8. e''16 d''8. b'16 c''8 a'  | 
