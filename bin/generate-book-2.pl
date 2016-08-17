@@ -122,23 +122,28 @@ sub processTune() {
         }
         if ($Line =~ /^[SNHQ]:(.*)/) {
             
+            next if $Line =~ /^Q:\"/;
+
             my $Text = $1;
             if ($OriginalLine =~ /Stämning:\s*(\S+)\s+(\S+)\s+(\S+)\s+(\S+)/) {
                 next;
             }
             
             $Text =~ s/(Uppt|Omkr|Meddel|Skoll|Kapt|Joh|Nikl)\. /\1.\\\@ /ig;
-            $Text =~ s/m\. m\./m.\\\@ m./g; # TODO: lookahead for next sentence
-            $Text =~ s/t\. f\./t.\\\@ f./g; # TODO: lookahead for next sentence
-            $Text =~ s/m\. fl\./m.\\\@ fl./g; # TODO: lookahead for next sentence
-            $Text =~ s/f\. d\./f.\\\@ d.\\\@/g; # TODO: lookahead for next sentence
+            $Text =~ s/m\. m\./m.\\\,m./g; # TODO: lookahead for next sentence
+            $Text =~ s/t\. f\./t.\\\,f./g; # TODO: lookahead for next sentence
+            $Text =~ s/m\. fl\./m.\\\,fl./g; # TODO: lookahead for next sentence
+            $Text =~ s/f\. d\./f.\\\,d.\\\@/g; # TODO: lookahead for next sentence
+            $Text =~ s/o\. s\. v\./o.\\\,s.\\\,v.\\\@/g; # TODO: lookahead for next sentence
             $Text =~ s/ fr\. / fr.\\\@ /g;
             $Text =~ s/ Ol\. / Ol.\\\@ /g;
             $Text =~ s/ Joh\. / Joh.\\\@ /g;
-            $Text =~ s/d\. ([yä])\./d.\\\@ \1./g; # TODO: lookahead for next sentence
+            $Text =~ s/d\. ([yä])\./d.\\\,\1./g; # TODO: lookahead for next sentence
             $Text =~ s/ f\. / f.\\\@ /g; # TODO: lookahead for next sentence
             $Text =~ s/([\s\n])\-\-([\s\n])?/$1---$2/g;
             $Text =~ s/(\d)\-(\d)/$1--$2/g;
+
+            $Text =~ s/¼/\\sfrac{1}{4}/g;
             
             $Source .= $Text;
             #if ($Source =~ /\.\s*$/) {
