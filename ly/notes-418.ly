@@ -2,9 +2,9 @@
 \key g \major
 
 \repeat volta 2 { 
- d''2.\flageolet  | 
- g''\flageolet  | 
- b''\flageolet  | 
+ d''2.\smallFlageolet  | 
+ g''\smallFlageolet  | 
+ b''\smallFlageolet  | 
  r4 r r  |
  } %( endrepeat )% 
 \repeat volta 2 { 

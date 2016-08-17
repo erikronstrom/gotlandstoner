@@ -2,11 +2,11 @@
 \key g \major
 
 \repeat volta 2 { 
- d''2.\flageolet  | 
- g''\flageolet  | 
- b''\flageolet  | 
+ d''2.\smallFlageolet  | 
+ g''\smallFlageolet  | 
+ b''\smallFlageolet  | 
  r4 r r  | 
- d''2.\flageolet g''\flageolet b''\flageolet  | 
+ d''2.\smallFlageolet g''\smallFlageolet b''\smallFlageolet  | 
  r4 r r  | 
  d''2.  | 
  a'2 b'8 a'  | \break

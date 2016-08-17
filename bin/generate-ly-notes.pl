@@ -496,7 +496,7 @@ sub createMusic() {
                 print OUTFILE '->' if $Item->{'accents'} =~ /L/;
                 print OUTFILE '-.' if $Item->{'accents'} =~ /\./;
                 print OUTFILE '-\fermata' if $Item->{'accents'} =~ /H/;
-                print OUTFILE '-\flageolet' if $Item->{'accents'} =~ /o/;
+                print OUTFILE '-\smallFlageolet' if $Item->{'accents'} =~ /o/;
                 print OUTFILE '-\upbow' if $Item->{'accents'} =~ /u/;
                 print OUTFILE '-\downbow' if $Item->{'accents'} =~ /v/;
             }
