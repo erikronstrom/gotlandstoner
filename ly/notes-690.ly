@@ -8,7 +8,7 @@
  d''4 d''8. d''16 d''4. e''8  | 
  fis''4. e''8 d'' e'' fis'' d''  | 
  cis''4 a'8. a'16 a'4 a'16-( cis'' e'' fis''-)  | 
- g''8. fis''8 e'' fis'' g'' e''  | 
+ g''4. fis''8 e'' fis'' g'' e''  | 
  fis''4 d''8. d''16 d''4 r8 b'  | 
  b' b''16 b'' < b' b''  >8 < b' b''  > a' a''16 a'' < a' a''  >8 < a' a''  >  | 
  < e' a'  > g''16 g'' g''8 g'' < d' a'  > fis''16 fis'' fis''8 fis''  | 
