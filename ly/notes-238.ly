@@ -2,11 +2,11 @@
 \key g \minor
 
 \repeat volta 2 { 
- bes'4-> bes'16 a' fis' a' g'4  | 
+ bes'4->\prall bes'16 a' fis' a' g'4  | 
  g'8 g'' g''16 fis'' a'' fis'' d''4  | 
  d''8 f''16 g'' f'' ees'' d'' c'' d''8. c''16  | 
  bes' a' g' fis' g' fis' g' d' c' bes a g  | 
- bes'4-> bes'16 a' fis' a' g'4  | 
+ bes'4->\prall bes'16 a' fis' a' g'4  | 
  g'8 g'' g''16 fis'' a'' fis'' d''4  | 
  d''8 f''16 g'' f'' ees'' d'' c'' d''8. c''16  | 
  bes' a' g' fis' a'8 g' g'4  |
@@ -24,7 +24,7 @@
  bes' g' bes' d'' bes' g' bes' d'' ees'' d'' c'' bes'  | 
  a' f' a' c'' a' f' a' c'' d'' c'' bes' a'  | 
  g' fis' g' a' bes' a' bes' c'' d''4  | 
- f'' f''16 ees'' d'' c'' d''8. c''16  | 
+ f''\prall f''16 ees'' d'' c'' d''8. c''16  | 
  bes' a' g' fis' a'8 g' g'4  |
  } %( endrepeat )% 
  

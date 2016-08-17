@@ -12,9 +12,9 @@
  b'' g'' e'' cis'' d''4 d'  |
  } %( endrepeat )% 
 \repeat volta 2 { 
-  < d' a' fis''  > a'16 d'' fis'' e'' d'' cis'' b' a'  | 
+  < d' a' fis''  >-> a'16 d'' fis'' e'' d'' cis'' b' a'  | 
  g' a' b' a' g'8 d' b g  | 
-  < g e' b' g''  >4 e''16 fis'' g'' fis'' e'' d'' cis'' b'  | 
+  < g e' b' g''  >4-> e''16 fis'' g'' fis'' e'' d'' cis'' b'  | 
  a' b' cis'' d'' e'' d'' cis'' b' a' g' fis' e'  | 
  d' fis' a' d'' fis''8 d'' cis'' d''  | 
  e'16 g' b' e'' g''8 e'' dis'' e''  | 

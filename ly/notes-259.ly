@@ -4,7 +4,7 @@
 \repeat volta 2 { 
  a'8 d'' d'' e''16 fis'' g'' e'' cis'' a'  | 
  a'8 d'' d'' e''16 fis'' g'' e'' cis'' a'  | 
- a' d'' fis'' d'' d'' cis'' e'' cis''  < e' b'  >4  | 
+ a' d'' fis'' d'' d'' cis'' e'' cis''  < e' b'  >4->  | 
  e'8 e'' e'' fis''16 e'' d'' cis'' b' a'  | 
  a'8 d'' d'' e''16 fis'' g'' e'' cis'' a'  | 
  a'8 d'' d'' e''16 fis'' g'' e'' cis'' a'  | 
