@@ -28,8 +28,8 @@
  } %( endrepeat )% 
 \repeat volta 2 { 
  c''  | 
- c''16 d'' c'' b' c''8 d''16 e'' f''8-. g''-. a''-. bes''-.  | 
- f''16 g'' f'' e'' f'' g'' a'' bes'' c'''8-. d'''-. e'''-. e''  | 
+ c''16 d'' c'' b' c''8 d''16 e'' f''8-! g''-! a''-! bes''-!  | 
+ f''16 g'' f'' e'' f'' g'' a'' bes'' c'''8-! d'''-! e'''-! e''  | 
  c''16 d'' c'' b' c'' bes'' a'' g'' f'' g'' f'' e'' f'' e'' d'' c''  | 
  bes' a' g' f' e' d'' c'' e' f'8 a' f'
  } %( endrepeat )% 

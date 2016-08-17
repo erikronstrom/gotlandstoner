@@ -2,7 +2,7 @@
 \key f \major
 
 \repeat volta 2 { 
- c''8-. f''-. e''-. g''-.  | 
+ c''8-! f''-! e''-! g''-!  | 
  f'' a'' d''' c'''  | 
  bes'' g'' e'' c''  | 
  f''16 e'' f'' a'' c''8 r  | 
