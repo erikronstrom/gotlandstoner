@@ -30,7 +30,7 @@
  
  { % beginalt
  \set Timing.measureLength = #(ly:make-moment 3/4)
- c'' g''4  }} 
+ c''2 g''4 | }} 
  
 \repeat volta 2 { 
  e'''2 c'''4  | 
