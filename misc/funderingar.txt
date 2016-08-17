@@ -1,0 +1,42 @@
+Behåll interpunktion efter låttitlar eller ej?
+Typ Brudepolska.
+
+Följdfråga: Alltid versal i låtbeskrivning? Eller alltid gemen? Eller följ originalet?
+
+Kolla öht igenom alla titlar och välj en strategi, se t.ex 687 (titel eller ej?)
+
+ej ny sida:
+219 221 227 228 231 234 237 244 248 250 252 256 258 260 263 266 268 270 271 274 277 279 281 285 287 291 294 296 301 302 303 306 308 310
+
+312 314 315 316 326 330 336 339 344 
+
+346 351 353 355 357 359 361 369 370 372 373
+
+377 382 384 394 396 401 403 405 406 408 409 411 413 414 415 417 
+
+
+kolla upp
+443 428 427 478 472 552
+
+707, 708, 709: spärrad/kursiverad text
+727: flytta text till nedanför låten
+
+Kolla upp alla trill, open (T, o)
+457 - var är drillen exakt? Mellan noterna?
+472 - också frågan om vad exakt som menas - en ton, eller hela figuren?
+
+Repristolkning:
+408 (fel men ok?) 433 459 471 644
+
+
+Musikalisk  tolkning / misstänkta tryckfel:
+297: Ändrat segno/fine till utskriven repris, lättare att läsa
+299: Ab i andra reprisens fjärde takt ska kanske vara A
+305: rättat betonade takten så att den blir identisk med parallellstället
+615: rättat tonlängd, uppenbart tryckfel, använde rytmiken från parallellstället (slutet på reprisen innan)
+680: första takten för kort, gjort 16-delar till 8-delar enligt uppenbart rytmiskt mönster
+683: saknad punkt, uppenbar pga omgivande takternas rytmiska mönster
+690: uppenbart tryckfel i takt 7, rättat enligt parallellstället två takter tidigare
+
+
+
