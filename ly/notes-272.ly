@@ -11,7 +11,7 @@
  f''16 g'' f'' ees'' d'' f'' bes'' f'' ees'' d'' c'' bes'  | 
  c'' d'' c'' bes' a' ees'' d'' c'' bes' a' g' fis'  | 
  g' fis' g' a' bes' a' bes' c'' d''8. c''16  | 
- bes' a' g' fis' a'4 g'8  |
+ bes' a' g' fis' a'4 g'8
  } %( endrepeat )% 
 \repeat volta 2 { 
  bes'  | 
@@ -30,6 +30,6 @@
  f''16 g'' f'' ees'' d'' f'' bes'' f'' ees'' d'' c'' bes'  | 
  c'' d'' c'' bes' a' ees'' d'' c'' bes' a' g' fis'  | 
  g' fis' g' a' bes' a' bes' c'' d''8. c''16  | 
- bes' a' g' fis' a'8. g'16 g'8  |
+ bes' a' g' fis' a'8. g'16 g'8
  } %( endrepeat )% 
  
