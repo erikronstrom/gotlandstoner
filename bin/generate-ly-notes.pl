@@ -437,7 +437,7 @@ sub createMusic() {
 
     # print OUTFILE '\clef treble' . "\n";
     
-    
+    $CurrentMeter = '4/4' if $CurrentMeter eq 'C';
     print OUTFILE '\time ' . $CurrentMeter .  "\n";
     print OUTFILE '\key ' . &convertKey($CurrentKey) . "\n";
 #
