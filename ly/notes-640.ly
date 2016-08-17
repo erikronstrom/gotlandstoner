@@ -22,7 +22,6 @@
  d'' c'' b' a'  | 
  g'4 r  |
  } %( endrepeat )% 
- \key e \minor
  
 \repeat volta 2 { 
  e''8 b' e'' g''  | 
@@ -34,7 +33,6 @@
  b''8 b' b' cis''16 dis''  | 
  e''4 r  |
  } %( endrepeat )% 
- \key g \major
  
 \repeat volta 2 { 
  d''8 e''16 fis'' g'' fis'' e'' d''  | 

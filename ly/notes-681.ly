@@ -22,6 +22,6 @@
  d''8 d''16 e'' d''8 b'16 c'' d''8 d''16 e'' d''8 b'16 c''  | 
  d''8 e''16 fis'' g'' fis'' g'' a'' b''8. a''16 g'' fis'' e'' d''  | 
  c''8 c''16 d'' c''8 a'16 c'' b'8 b'16 c'' b'8 a'16 b'  | 
- c'' e'' d'' c'' b' a' g' fis' fis'8 g' g'  |
+ c'' e'' d'' c'' b' a' g' fis' fis'8 g' g'
  } %( endrepeat )% 
  
