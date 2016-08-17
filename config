@@ -45,7 +45,7 @@
 245: 
 246: 
 
-247: systemspacing=-2
+247: systemspacing=-2, spaceafter=0.7cm
 248: newpage=0, systemspacing=-2
 
 249: spaceafter=0.5cm, systemspacing=-1, lineoffset=-5
@@ -87,7 +87,7 @@
 
 276: spaceafter=3cm
 277: newpage=0
-278: systemspacing=-2, spaceafter=0.5cm
+278: systemspacing=-2, spaceafter=0.5cm, lineoffset=-5
 279: newpage=0, systemspacing=-2
 
 280: systemspacing=-3, spaceafter=0.5cm, lineoffset=-10
@@ -98,7 +98,7 @@
 
 284: systemspacing=-1, lineoffset=-5, spaceafter=0.8cm
 285: newpage=0
-286: lineoffset=-5, spaceafter=3cm
+286: lineoffset=-5, pages=2, spaceafter=3cm
 287: newpage=0
 288: 
 289: 
@@ -366,7 +366,8 @@
 584: subsection=Schottis.
 585: newpage=0
 
-
+707: textbox=0
+708: textbox=0
 710: notespacing=2
 721: textbox=0
 723: textbox=0
