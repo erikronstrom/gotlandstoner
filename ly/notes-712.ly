@@ -1,4 +1,4 @@
-\time C
+\time 4/4
 \key g \major
 
  b'4.-( a'8-) g'8.-( a'16-) b'8.-( c''16-)  | 

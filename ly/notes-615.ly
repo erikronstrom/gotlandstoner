@@ -1,4 +1,4 @@
-\time C
+\time 4/4
 \key f \major
 
 \repeat volta 2 { 
