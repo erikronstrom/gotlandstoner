@@ -41,7 +41,7 @@
  bes'4-> d''8 f'' a' c'' d''16-( c'' bes' a'-)  | 
  bes'4 g'8. g'16 f'4 a'16 c'' d'' e''  | 
  f''4-> f''8. f''16 g''4-> g''8 a''  | 
- bes''4-> bes''8. bes''16 a''8 g'' a'' g''  | 
+ bes''4-^ bes''8. bes''16 a''8 g'' a'' g''  | 
  f'' e'' f'' a'' c''4  \times 2/3 { c''8 d'' e'' }   | 
   } 
 \alternative { 
