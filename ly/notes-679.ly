@@ -1,4 +1,4 @@
-\time 2/3
+\time 2/4
 \key g \major
 
 \repeat volta 2 { 
