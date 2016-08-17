@@ -66,8 +66,9 @@ for my $num ($From..$To) {
     my $pages = $TuneConf{$num}->{"pages"};
     $params{'page-count'} = "page-count = #$pages" if $pages;
     
-    if ($num <= 416) {
+    if ($num <= 416 || $num >= 645) {
         $params{'time-settings'} =
+            "\\overrideTimeSignatureSettings 2/4 1/4 #'(1 1) #'()\n" .
             "\\overrideTimeSignatureSettings 3/4 1/4 #'(1 1 1) #'()\n" .
             "\\overrideTimeSignatureSettings 4/4 1/4 #'(1 1 1 1) #'()\n";
     }
