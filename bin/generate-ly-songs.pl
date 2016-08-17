@@ -5,6 +5,7 @@ no integer;
 my $From = $ARGV[0] || 214;
 my $To   = $ARGV[1] || 360;
 
+my $abcPattern = "abc/song-%d.abc";
 my $inPattern = "ly/notes-%d.ly";
 my $outPattern = "book/song-%d.ly";
 
@@ -30,6 +31,21 @@ my $template = &slurp("include/song-template.ly");
 for my $num ($From..$To) {
     my $notes = &slurp(sprintf($inPattern, $num));
     my $outfile = sprintf($outPattern, $num);
+    my $abc = &slurp(sprintf($abcPattern, $num));
+
+    my %params;
+
+    if ($abc =~ /^Q:\"(.*)\"$/m) {
+        my $Tempo = $1;
+        utf8::encode($Tempo);
+        $params{'tempo'} =
+            "\\once \\override Score.RehearsalMark.break-align-symbols = #'(time-signature)\n" .
+            "\\once \\override Score.KeySignature.break-align-anchor-alignment = #LEFT\n" .
+            "\\once \\override Score.RehearsalMark.self-alignment-X = #LEFT\n" .
+            "\\once \\override Score.RehearsalMark.padding = #3\n" .
+            "\\mark \\markup { \\italic \\normalsize \"" . $Tempo . "\" }\n\n";
+    }
+
     
     open(OUTFILE, '>', $outfile) or die("Can't open $outfile for writing!\n");
     
@@ -42,7 +58,6 @@ for my $num ($From..$To) {
     my $SSpacing = $TuneConf{$num}->{"systemspacing"} || 0;
     $SSpacing = 14 + ($SSpacing * 0.5);
     
-    my %params;
     $params{'tune-num'} = $num;
     $params{'notes'} = $notes;
     $params{'basic-distance'} = $SSpacing;
