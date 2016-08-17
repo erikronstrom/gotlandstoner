@@ -27,14 +27,22 @@
  } %( endrepeat )% 
  
 \repeat volta 2 { 
- 
-  c''8  | 
+
+ \once \override Score.RehearsalMark.self-alignment-X = #LEFT
+ \once \override Score.RehearsalMark.padding = #2.5
+ \mark \markup { \italic \normalsize "Raskt ock fort." }
+  c''8 | 
  f'' f''16-( g''-) a''8 a''16-( f''-) c''8 c''16-( a'-)  | 
  bes'8 bes'16-( c''-) d''8 d''16-( bes'-) c''4  | 
  f''8 f''16-( g''-) a''8 a''16-( f''-) c''8 c''16-( a'-)  | 
  bes'8 bes'16-( c''-) d''8 d''16-( bes'-) c''4  | 
- 
-  c''8. bes'16 a'8-( c''-) f''-( e''-)  | 
+
+ \once \override Score.RehearsalMark.self-alignment-X = #LEFT
+ \once \override Score.RehearsalMark.padding = #1.5
+ \mark \markup { \italic \normalsize "Långsamt." }
+ %\override TextScript.padding = #1.5
+  c''8. %^\markup { \italic \normalsize "Långsamt." }
+  bes'16 a'8-( c''-) f''-( e''-)  | 
  g''4 f'' r8
  } %( endrepeat )% 
  
