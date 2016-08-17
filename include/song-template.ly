@@ -3,6 +3,7 @@
 \include "../include/repeat-bracket.ly"
 \include "../include/flat-beams.ly"
 \include "../include/text-braces.ly"
+\include "../include/misc.ly"
 
 \header {
     tagline = ""
@@ -57,6 +58,7 @@
     
 %((time-settings))%    
 
+%((tempo))%
 %((notes))%
 
  
