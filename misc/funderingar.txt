@@ -26,7 +26,7 @@ Kolla upp alla trill, open (T, o)
 472 - också frågan om vad exakt som menas - en ton, eller hela figuren?
 
 Repristolkning:
-408 (fel men ok?) 433 459 471 644
+408 (fel men ok?) 433 459 471 644 656
 557: antal taktslag
 
 
@@ -37,7 +37,8 @@ Musikalisk  tolkning / misstänkta tryckfel:
 261: flyttat återställningstecknet i fjärde takten från e till d
 297: Ändrat segno/fine till utskriven repris, lättare att läsa
 299: Ab i andra reprisens fjärde takt ska kanske vara A
-305: rättat betonade takten så att den blir identisk med parallellstället
+305: ändrat femte (hela) takten så att den blir identisk med parallellstället
+610: tagit bort sista pausen, den gjorde reprisen för lång
 615: rättat tonlängd, uppenbart tryckfel, använde rytmiken från parallellstället (slutet på reprisen innan)
 680: första takten för kort, gjort 16-delar till 8-delar enligt uppenbart rytmiskt mönster
 683: saknad punkt, uppenbar pga omgivande takternas rytmiska mönster
