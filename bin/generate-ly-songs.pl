@@ -9,6 +9,8 @@ my $abcPattern = "abc/song-%d.abc";
 my $inPattern = "ly/notes-%d.ly";
 my $outPattern = "book/song-%d.ly";
 
+my $svg = $ENV{'svg'};
+
 ##############################################################
 
 my %TuneConf;
@@ -64,9 +66,17 @@ for my $num ($From..$To) {
     $params{'basic-distance'} = $SSpacing;
     $params{'minimum-distance'} = 11;
     $params{'padding'} = 1;
-    my $pages = $TuneConf{$num}->{"pages"};
-    $params{'page-count'} = "page-count = #$pages" if $pages;
-    $params{'page-height'} = $TuneConf{$num}->{"pageheight"} || ($hasTitle ? "240mm" : "250mm");
+    if ($svg) {
+        $params{'tune-num-font'} = "\\override #'(font-encoding . fetaText)";
+        $params{'page-height'} = "500mm"; # should be enough for any tune in the collection
+        #$params{'margins'} = "    left-margin = 1\\mm\n    right-margin = 1\\mm\n";
+        $params{'page-width'} = "    paper-width = 173\\mm\n";
+    } else {
+        my $pages = $TuneConf{$num}->{"pages"};
+        $params{'page-count'} = "page-count = #$pages" if $pages;
+        $params{'page-height'} = $TuneConf{$num}->{"pageheight"} || ($hasTitle ? "240mm" : "250mm");
+    }
+
     
     if ($num <= 416 || $num >= 645) {
         $params{'time-settings'} =

@@ -36,6 +36,7 @@
     line-width = 169\mm
     %left-margin = 0
     %right-margin = 0
+    %((page-width))%%
     paper-height = %((page-height))%
     ragged-bottom = ##t
     print-page-number = ##f
@@ -50,7 +51,7 @@
 
 \score { {
     
-    \set Staff.instrumentName = \markup { \huge \bold "%((tune-num))%." \hspace #1.2 } 
+    \set Staff.instrumentName = \markup { %((tune-num-font))% \huge \bold "%((tune-num))%." \hspace #1.2 } 
     \set Staff.shortInstrumentName = ""
     \override Score.BarNumber #'stencil = ##f
     \set Timing.beamHalfMeasure = ##t
