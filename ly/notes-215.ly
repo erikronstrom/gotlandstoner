@@ -2,7 +2,7 @@
 \key c \major
 
 \repeat volta 2 { 
-  < g e' c''  >4  < g d' b'  >  < g e' c''  >  | 
+  < g e' c''  >4 -> < g d' b'  >->  < g e' c''  >->  | 
  d''8 c'' b' c'' d'' e''  | 
  f''16 g'' f'' e'' f''8 g'' a'' b'  | 
  c''16 b' c'' e'' d'' b' c'' a' g'8 a'16 b'  | 

@@ -12,15 +12,15 @@
  c''8 e'' c'' r  |
  } %( endrepeat )% 
 \repeat volta 2 { 
- b'4. c''8  | 
+ b'4.\turn c''8  | 
  d'' b' g'' d''  | 
  b''4. g''8  | 
  fis''16 g'' a'' g'' fis'' e'' d'' c''  | 
  b'8 b'16 d'' g''8 d''16 b'  | 
  a'8 c''16 a' e''8 c''16 a'  | 
  g'8 b'16 d'' e'' d'' c'' a'  | 
- g'8 b' g' r  |
- } %( endrepeat )% 
+ g'8 b' g' r  | \break
+ } %( endrepeat )%
 \repeat volta 2 { 
  < c'' e''  >4. < d'' f''  >8  | 
  < e'' g''  >4. < c'' e''  >8  | 
@@ -29,10 +29,10 @@
  < g' b'  >4. d''16 e''  | 
  f''4. d''8  | 
  e'' c'' d'' b'16 d''  | 
- c''8 e'' c'' r  |
- } %( endrepeat )% 
+ c''8 e'' c'' r  | \break
+ } %( endrepeat )%
 \repeat volta 2 { 
- d''4. b'8  | 
+ d''4.\turn b'8  | 
  g'' d'' b'' g''  | 
  g'' fis'' e'' fis''  | 
  g'' a''16 g'' f'' e'' f'' d''  | 

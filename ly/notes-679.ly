@@ -32,11 +32,11 @@
  fis'8 g' g' 
 \repeat volta 2 { 
  g'  | 
-  < g d' b' g''  >4 a''16 g'' fis'' e''  | 
+  < g d' b' g''  >4-> a''16 g'' fis'' e''  | 
  e''8 d'' d''16 c'' b' a'  | 
  g'8 g''4 fis''16 g''  | 
  a''8 b''16 a'' g'' fis'' e'' d''  | 
-  < g d' b' g''  >4 a''16 g'' fis'' e''  | 
+  < g d' b' g''  >4-> a''16 g'' fis'' e''  | 
  e''8 d'' d''16 c'' b' a'  | 
  g'8 b'16 d'' d'' c'' a' fis'  | 
  g'8 b' g'

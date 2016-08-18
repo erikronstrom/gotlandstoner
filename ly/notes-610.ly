@@ -4,7 +4,7 @@
 \repeat volta 2 { 
  \partial 8
  g'8  | 
-  < g e' c''  >4  < c' g' c'' e''  >  | 
+  < g e' c''  >4->  < c' g' c'' e''  >->  | 
  c'4.-> c'16 b  | 
  c'8 d'16 e' f' g' a' b'  | 
  c''8 c'' d'' e''  | 
@@ -24,7 +24,7 @@
  a'' fis'' d'' e''16 fis''  | 
  g''4 r8 g'
  \key c \major
-  < g e' c''  >4  < c' g' c'' e''  >  | 
+  < g e' c''  >4->  < c' g' c'' e''  >->  | 
  c'4.-> c'16 b  | 
  c'8 d'16 e' f' g' a' b'  | 
  c''8 c'' d'' e''  | 
