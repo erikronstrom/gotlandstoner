@@ -355,19 +355,117 @@
 573: newpage=0
 
 
-574: section=Polka ock schottis, subsection=Polkor.
+574: section=POLKA OCK SCHOTTIS, subsection=Polkor.
 576: newpage=0
 
 579: newpage=0
 
 581: newpage=0
-
+582: spaceafter=2cm
 583: newpage=0
 584: subsection=Schottis.
 585: newpage=0
+586: spaceafter=2cm
+587: newpage=0
 
-707: textbox=0
-708: textbox=0
-710: notespacing=2
-721: textbox=0
+588: newpage=1
+589: newpage=0
+590: newpage=0
+
+591: newpage=1
+592: newpage=0
+
+593: newpage=1
+594: newpage=0
+595: newpage=0
+596: spaceafter=2cm
+597: newpage=0
+598: spaceafter=2cm
+599: newpage=0
+
+601: newpage=0
+602: newpage=0
+
+603: spaceafter=0.5cm, systemspacing=-2, lineoffset=-5
+604: newpage=0, spaceafter=0.5cm, systemspacing=-2, lineoffset=-5
+605: newpage=0, systemspacing=-2, lineoffset=-5
+
+606: newpage=1, spaceafter=2cm
+607: newpage=0
+
+608: section=KADRILJER OCK ANGLÄSER, subsection=Kadriljer.
+609: notespacing=2
+
+614: notespacing=2
+
+615: systemspacing=-2
+616: newpage=0, systemspacing=-2
+
+620: newpage=0
+
+622: systemspacing=-1
+623: newpage=0, systemspacing=-1
+
+660: newpage=0
+
+662: newpage=0
+
+668: notespacing=2
+669: newpage=0
+670: newpage=0
+
+672: newpage=0
+
+674: newpage=0
+
+677: newpage=0
+678: spaceafter=2.5cm
+
+679: newpage=0
+681: newpage=0
+
+682: section=MARSCHER\\\vspace{1.5mm}{\Large OCK}\\\vspace{3mm}ANDRA HÖGTIDSSTYCKEN, sectiontext=marsch, spacebefore=2cm
+
+684: hidetitle=1
+
+689: newpage=0
+
+690: 
+691: newpage=1, spaceafter=2cm
+692: newpage=0
+
+699: newpage=0
+700: newpage=0
+
+701: newpage=1
+702: newpage=0
+703: newpage=0
+
+704: newpage=1
+705: newpage=0
+706: newpage=0
+
+707: textbox=0, spaceafter=2cm
+708: textbox=0, newpage=0
+710: notespacing=2, newpage=0
+
+
+711: spaceafter=2cm
+712: newpage=0
+
+713: section=LÅNGDANSER\\\vspace{2mm}FIGUR- {\Large OCK}\\\vspace{2mm}SOLODANSER, subsection=Långdanser., sectiontext=langdans
+714: newpage=0
+715: newpage=0
+
+717: newpage=0
+718: newpage=0
+
+719: systemspacing=-2, spaceafter=0.5cm
+720: hidetitle=1, newpage=0, systemspacing=-2, spaceafter=0, lineoffset=-5
+721: spaceafter=2cm, hidetitle=1
+722: newpage=0, hidetempo=1
 723: textbox=0
+724: newpage=0
+725: hidetitle=1
+726: newpage=0, hidetitle=1
+727: newpage=0

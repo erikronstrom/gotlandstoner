@@ -37,7 +37,7 @@ for my $num ($From..$To) {
 
     my %params;
 
-    if ($abc =~ /^Q:\"(.*)\"$/m) {
+    if ($abc =~ /^Q:\"(.*)\"$/m && !$TuneConf{$num}->{"hidetempo"}) {
         my $Tempo = $1;
         utf8::encode($Tempo);
         $params{'tempo'} =
@@ -78,7 +78,7 @@ for my $num ($From..$To) {
     }
 
     
-    if ($num <= 416 || $num >= 645) {
+    if ($num <= 416 || $num >= 645 && ($num != 720)) {
         $params{'time-settings'} =
             "\\overrideTimeSignatureSettings 2/4 1/4 #'(1 1) #'()\n" .
             "\\overrideTimeSignatureSettings 3/4 1/4 #'(1 1 1) #'()\n" .

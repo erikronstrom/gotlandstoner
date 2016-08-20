@@ -59,7 +59,16 @@ for my $num ($From..$To) {
         $section = uc($section);
         $section =~ s/\{(\d+)MM\}/{$1mm}/g;
         $section =~ s/\\VSPACE/\\vspace/g;
+        print OUTFILE "\\cleardoublepage\n";
         print OUTFILE "\\part*{$section}\n";
+    }
+    if (my $textfile = $TuneConf{$num}->{"sectiontext"}) {
+        my $text = &slurp("text/$textfile.tex");
+        #print OUTFILE "\\begin{center}\n";
+        #print OUTFILE "\\parbox{16cm}{ \\setlength{\\parindent}{1.5em} $text}\n";
+        # \\leftskip=1cm \\rightskip=1cm
+        print OUTFILE "{\\setlength{\\parindent}{1.5em} $text \n}\n\n";
+        #print OUTFILE "\\end{center}\n\n";
     }
 
     my $abc = &slurp("abc/song-$num.abc");
@@ -115,6 +124,7 @@ sub processTune() {
 
     my $Title;
     my $Source = '';
+    my $PostText;
     my $Music;
     my @Lyrics;
     foreach my $Line (@Lines) {
@@ -132,34 +142,20 @@ sub processTune() {
         if ($Line =~ /^([ML]):(\S*)/) {
             $Headers{$1} = $2;
         }
-        if ($Line =~ /^T:(.*)/) {
+        if ($Line =~ /^T:(.*)/ && !$TuneConf{$Num}->{"hidetitle"}) {
             $Title = $1;
             $Title =~ s/[\.\,\;]$//; # Remove trailing punctuation
         }
-        if ($Line =~ /^[SNHQ]:(.*)/) {
+        if ($Line =~ /^[SNH]:(.*)/) {
             
-            next if $Line =~ /^Q:\"/;
+            #next if $Line =~ /^Q:/;
 
             my $Text = $1;
             if ($OriginalLine =~ /Stämning:\s*(\S+)\s+(\S+)\s+(\S+)\s+(\S+)/) {
                 next;
             }
             
-            $Text =~ s/(Uppt|Omkr|Meddel|Skoll|Kapt|Joh|Nikl)\. /\1.\\\@ /ig;
-            $Text =~ s/m\. m\./m.\\\,m./g; # TODO: lookahead for next sentence
-            $Text =~ s/t\. f\./t.\\\,f./g; # TODO: lookahead for next sentence
-            $Text =~ s/m\. fl\./m.\\\,fl./g; # TODO: lookahead for next sentence
-            $Text =~ s/f\. d\./f.\\\,d.\\\@/g; # TODO: lookahead for next sentence
-            $Text =~ s/o\. s\. v\./o.\\\,s.\\\,v.\\\@/g; # TODO: lookahead for next sentence
-            $Text =~ s/ fr\. / fr.\\\@ /g;
-            $Text =~ s/ Ol\. / Ol.\\\@ /g;
-            $Text =~ s/ Joh\. / Joh.\\\@ /g;
-            $Text =~ s/d\. ([yä])\./d.\\\,\1./g; # TODO: lookahead for next sentence
-            $Text =~ s/ f\. / f.\\\@ /g; # TODO: lookahead for next sentence
-            $Text =~ s/([\s\n])\-\-([\s\n])?/$1---$2/g;
-            $Text =~ s/(\d)\-(\d)/$1--$2/g;
-
-            $Text =~ s/¼/\\sfrac{1}{4}/g;
+            $Text = texSubstitutions($Text);
             
             $Source .= $Text;
             #if ($Source =~ /\.\s*$/) {
@@ -189,10 +185,11 @@ sub processTune() {
     
     $TuneConf{$Num}->{"newpage"} = 1 unless defined $TuneConf{$Num}->{"newpage"};
 
-    my $SpaceBefore = $TuneConf{$Num}->{"spacebefore"} || "5mm";
-    my $SpaceAfter  = $TuneConf{$Num}->{"spaceafter"} || "1cm";
-    my $BreakBefore = $TuneConf{$Num}->{"newpage"} || 0;
-    my $BreakAfter  = $TuneConf{$Num+1}->{"newpage"};
+    my $SpaceBefore  = $TuneConf{$Num}->{"spacebefore"};
+    my $SpaceBetween = $TuneConf{$Num}->{"spacebetween"} || "0mm";
+    my $SpaceAfter   = $TuneConf{$Num}->{"spaceafter"} || "1cm";
+    my $BreakBefore  = $TuneConf{$Num}->{"newpage"} || 0;
+    my $BreakAfter   = $TuneConf{$Num+1}->{"newpage"};
 
     print OUTFILE "\n\n";
 
@@ -218,7 +215,11 @@ sub processTune() {
     }
     
     $Source = &slurp("text/song-$Num.tex") if (-e "text/song-$Num.tex");
+    $PostText = &slurp("text/text-$Num.tex") if (-e "text/text-$Num.tex");
     
+    # Extra vertical before score
+    print OUTFILE "\\vspace*{$SpaceBefore}\n" if $SpaceBefore;
+
     if ($MultipleLines) {
         print OUTFILE "\\begin{flushright} \\parbox{$TextBox}{$Source} " .
             "\\end{flushright}\n\n";
@@ -226,9 +227,8 @@ sub processTune() {
         print OUTFILE "\\begin{flushright} $Source \\end{flushright}\n\n";
     }
 
-    # Extra vertical space before score
-    my $SpaceBefore = $TuneConf{$Num}->{"spacebefore"} || "0mm";
-    print OUTFILE "\\vspace{$SpaceBefore}\n";
+    # Extra vertical space between text and score
+    print OUTFILE "\\vspace{$SpaceBetween}\n";
 
     print OUTFILE $Song;
 
@@ -253,6 +253,17 @@ sub processTune() {
 
         #print OUTFILE "\\hangindent=1cm\n";
         print OUTFILE "\\end{flushleft}\n";
+    }
+
+    if ($PostText) {
+        $PostText = texSubstitutions($PostText);
+        print OUTFILE "\\vspace{0.7cm}\n";
+        print OUTFILE "\\begin{center}\n";
+        print OUTFILE "\\parbox{16cm}{$PostText}\n\n";
+        print OUTFILE "\\end{center}\n";
+        #print OUTFILE "\\break\n";
+        #print OUTFILE "\\parbox{16cm}{$PostText}\n";
+        print OUTFILE "\\vspace{0.3cm}\n";
     }
     
     if (!$SpaceAfter || $SpaceAfter eq "0cm" || $BreakAfter) {
@@ -286,3 +297,23 @@ sub slurp() {
     return $data;
 }
 
+sub texSubstitutions() {
+    my $Text = shift;
+    $Text =~ s/(Uppt|Omkr|Meddel|Skoll|Kapt|Joh|Nikl)\. /\1.\\\@ /ig;
+    $Text =~ s/m\. m\./m.\\\,m./g; # TODO: lookahead for next sentence
+    $Text =~ s/t\. f\./t.\\\,f./g; # TODO: lookahead for next sentence
+    $Text =~ s/m\. fl\./m.\\\,fl./g; # TODO: lookahead for next sentence
+    $Text =~ s/f\. d\./f.\\\,d.\\\@/g; # TODO: lookahead for next sentence
+    $Text =~ s/o\. s\. v\./o.\\\,s.\\\,v.\\\@/g; # TODO: lookahead for next sentence
+    $Text =~ s/ fr\. / fr.\\\@ /g;
+    $Text =~ s/ Ol\. / Ol.\\\@ /g;
+    $Text =~ s/ Joh\. / Joh.\\\@ /g;
+    $Text =~ s/d\. ([yä])\./d.\\\,\1./g; # TODO: lookahead for next sentence
+    $Text =~ s/ f\. / f.\\\@ /g; # TODO: lookahead for next sentence
+    $Text =~ s/([\s\n])\-\-([\s\n])?/$1---$2/g;
+    $Text =~ s/(\d)\-(\d)/$1--$2/g;
+
+    $Text =~ s/¼/\\sfrac{1}{4}/g;
+
+    return $Text;
+}
