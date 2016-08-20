@@ -20,6 +20,11 @@ kolla upp
 
 705, 706: balkning i 3/8?
 727: flytta text till nedanför låten
+Kolla upp text i 674
+264: lägg till pizz/col arco i abc-filen! (Redan fixat i ly)
+323-325, 537: kolla att pizz/col arco är med i abc
+324: fixa dottedHalf
+324, 360: balkning? Gör undantag för pizz-mönstren enl originalet?
 
 Kolla upp alla trill, open (T, o)
 457 - var är drillen exakt? Mellan noterna?
@@ -38,6 +43,8 @@ Musikalisk  tolkning / misstänkta tryckfel:
 297: Ändrat segno/fine till utskriven repris, lättare att läsa
 299: Ab i andra reprisens fjärde takt ska kanske vara A
 305: ändrat femte (hela) takten så att den blir identisk med parallellstället
+324: exakt vilka toner är pizz?
+325: exakt vilka toner är pizz?
 610: tagit bort sista pausen, den gjorde reprisen för lång
 615: rättat tonlängd, uppenbart tryckfel, använde rytmiken från parallellstället (slutet på reprisen innan)
 680: första takten för kort, gjort 16-delar till 8-delar enligt uppenbart rytmiskt mönster
