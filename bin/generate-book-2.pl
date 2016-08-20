@@ -2,8 +2,20 @@
 use strict;
 no integer;
 
+#use Getopt::Long;
+use Digest::MD5;
+
 my $From = $ARGV[0] || 320;
 my $To   = $ARGV[1] || 360;
+
+#my $From   = 214;
+#my $To     = 727;
+#my $Simple = 0;
+
+#GetOptions("from=i" => \$From,
+#           "to=i"   => \$To,
+#           "simple" => \$Simple)
+#  or die("Error in command line arguments\n");
 
 ##############################################################
 
@@ -53,8 +65,12 @@ for my $num ($From..$To) {
     my $abc = &slurp("abc/song-$num.abc");
     #my $song = &slurp("book/song-$num.ly");
     my $songfile = "book/song-$num";
-    my $md5 = `md5 -q $songfile.ly`;
-    $md5 =~ s/\s//g;
+    open(my $lyfile, '<', "$songfile.ly");
+    binmode($lyfile);
+    my $md5 = Digest::MD5->new->addfile($lyfile)->hexdigest();
+    close($lyfile);
+    #my $md5 = `md5 -q $songfile.ly`;
+    #$md5 =~ s/\s//g;
     unless (-e "$songfile-$md5-crop.pdf") {
         system("lilypond", "-l", "WARNING", "-o", "$songfile-$md5", "$songfile.ly") unless -e "$songfile-$md5.pdf";
         `pdfcrop $songfile-$md5.pdf`; # Use backticks instead of system() to suppress output
