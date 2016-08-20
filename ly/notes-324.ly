@@ -18,7 +18,7 @@
  cis'' a' b' gis' a'4 a  | 
  a8 a' < a e' a'  >^\pizz_\colArco < a e' a'  > < a e' a'  > < a e' a'  >  | 
  a'8. b'16 c''8. a'16 d' fis' a' c''  | 
- \noteheadDottedHalf < g d'  >8_\colArco b'^\pizz b' b' b' b'  | 
+ \noteheadHalf < g d'  >8.*2/3_\colArco b'8^\pizz b' b' b' b'  | 
  d''16 cis'' d'' fis'' e'' d'' cis'' b' b'8 a'  | 
  < \tweak stencil #ly:text-interface::print \tweak text \markup { \musicglyph #"noteheads.s1" } d'
    \tweak stencil #ly:text-interface::print \tweak text \markup { \musicglyph #"noteheads.s1" } a' fis''  >_\colArco^\pizz
