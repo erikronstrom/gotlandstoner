@@ -10,7 +10,7 @@
     
 }
 \layout {
-    indent = 1.4\cm
+    indent = %((indent))%\cm
     \context {
         \Lyrics
         \override LyricText #'font-size = #-1

@@ -61,6 +61,7 @@ for my $num ($From..$To) {
     my $SSpacing = $TuneConf{$num}->{"systemspacing"} || 0;
     $SSpacing = 14 + ($SSpacing * 0.5);
     
+    $params{'indent'} = 0.5 + (length($num) * 0.3);
     $params{'tune-num'} = $num;
     $params{'notes'} = $notes;
     $params{'basic-distance'} = $SSpacing;

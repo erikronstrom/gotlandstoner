@@ -18,21 +18,21 @@
 \pagestyle{plain}
 
 \hyphenation{allianspolska}
-\hyphenation{brÃ¶l-lops-mÃ¥l-tiderna}
+\hyphenation{bröl-lops-mål-tiderna}
 
 \begin{document}
 \title{Gotlandstoner}
 \author{August Fredin}
 \setlength{\parindent}{0pt}
 \newcommand{\tunename}[1]{
-\refstepcounter{section}
-\addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}
-\begin{center}
-\LARGE \textbf{#1}
-
-\vspace*{12pt}
-\end{center}
+    \refstepcounter{section}
+    \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}
+    \begin{center}
+        \LARGE \textbf{#1}
+        \vspace*{12pt}
+    \end{center}
 }
+\newcommand{\tinyskip}[0]{\hspace{0.1em}}
 
 
 
