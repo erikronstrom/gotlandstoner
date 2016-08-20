@@ -14,7 +14,7 @@
     \context {
         \Lyrics
         \override LyricText #'font-size = #-1
-        %\override LyricText #'font-name = #"CMU Serif"
+        \override StanzaNumber.font-size = #-1
     }
     %\context {
     %    \Staff

@@ -5,6 +5,7 @@ use strict;
 
 my $inPattern = "abc/song-%d.abc";
 my $outPattern = "ly/notes-%d.ly";
+my $lyricsPattern = "text/lyrics-%d.tex";
 
 my $From = $ARGV[0];
 my $To   = $ARGV[1] || $From;
@@ -12,17 +13,17 @@ my $To   = $ARGV[1] || $From;
 die("Usage: generate-ly-notes.pl fromtune [totune]\n") unless $From && $To;
 
 for my $i ($From..$To) {
-        # open(my $in, "<", sprintf($inPattern, $i));
-        # system("abc2ly", "-o" sprintf($outPattern, $i), sprintf($inPattern, $i));
-        
-        open(my $in, "<", sprintf($inPattern, $i));
-        local $/;
-        my $tune = <$in>;
-        close($in);
-        
-        open(OUTFILE, '>', sprintf($outPattern, $i));
-        &processTune($tune, $i);
-        close(OUTFILE);
+    # open(my $in, "<", sprintf($inPattern, $i));
+    # system("abc2ly", "-o" sprintf($outPattern, $i), sprintf($inPattern, $i));
+    
+    open(my $in, "<", sprintf($inPattern, $i));
+    local $/;
+    my $tune = <$in>;
+    close($in);
+    
+    open(OUTFILE, '>', sprintf($outPattern, $i));
+    &processTune($tune, $i);
+    close(OUTFILE);
 }
 
 sub processTune() {
@@ -45,11 +46,17 @@ sub processTune() {
     my $Source = '';
     my $Music;
     my $Lyrics = '';
+    my $MoreLyrics = '';
     foreach my $Line (@Lines) {
         $Line =~ s/\%.*$//mg;     # Remove comments
         
         if ($Line =~ /^w:(.*)/) {
-            $Lyrics .= "     $1\n";
+            $Lyrics .= "$1\n";
+            next;
+        }
+        if ($Line =~ /^W:(.*)/) {
+            $MoreLyrics .= "$1\n";
+            next;
         }
 
         if (defined $Music) {
@@ -88,7 +95,6 @@ sub processTune() {
             $Headers{'K'} = $1;
             $Music = '';
         }
-
     }
     #$Source =~ s/\\\\\[0\.1cm\]$//;
     
@@ -102,6 +108,18 @@ sub processTune() {
     }
     
     &createMusic(\%Headers, $Music, $Lyrics);
+
+    if ($MoreLyrics) {
+        if ($MoreLyrics =~ /^\d+\./) {
+            $MoreLyrics =~ s/^  /\\qquad{}/mg;;
+            $MoreLyrics =~ s/^(\D.*)/   $1/mg;
+            $MoreLyrics =~ s/»(?!\s)/»\\tinyskip{}/g;
+            $MoreLyrics =~ s/(?<!\s)»/\\tinyskip{}»/g;
+        }
+        open(LYRICSFILE, '>', sprintf($lyricsPattern, $Num)) or die("Could note open lyrics file");
+        print LYRICSFILE $MoreLyrics;
+        close(LYRICSFILE);
+    }
     
 #    print OUTFILE "\\vspace{0.5cm}\n\n" unless $BreakAfter;
 }
@@ -572,7 +590,11 @@ sub createMusic() {
         print OUTFILE "}\n";
         print OUTFILE " \\addlyrics {\n";
         # print OUTFILE "     \\set fontSize = #-2\n";
+        print OUTFILE '     \set stanza = #"1. "' . "\n" if $Lyrics =~ /^1\./;
+        $Lyrics =~ s/^\d\.[\s\~]*//; # remove stanza
         $Lyrics =~ s/\-/ -- /g;
+        $Lyrics =~ s/_/ __/g;
+        $Lyrics =~ s/^(.)/     $1/mg;
         utf8::encode($Lyrics);
         print OUTFILE $Lyrics;
         print OUTFILE "}\n";
