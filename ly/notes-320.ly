@@ -21,9 +21,9 @@
  d''8 d''16 e'' fis'' e'' fis'' g'' a''4  | 
  cis''16 d'' e'' fis'' g'' fis'' e'' d'' cis'' b' a' gis'  | 
  a' cis'' e'' cis'' a'4-> g''-> \bar "||" |
- fis''16 g'' a'' g'' fis''8 < d' a' fis''  > < d' a' fis''  > < d' a' fis''  >  | 
- g''16 a'' b'' a'' g''8 < e' b' g''  > < e' b' g''  > < e' b' g''  >  | 
- e''16 fis'' g'' fis'' e''8 < cis' e' a' e''  > < cis' e' a' e''  > < cis' e' a' e''  >  | 
+ fis''16 g'' a'' g'' fis''8^\pizz < d' a' fis''  >_\colArco < d' a' fis''  > < d' a' fis''  >  | 
+ g''16 a'' b'' a'' \stemUp g''8^\pizz < e' b' g''  >_\colArco < e' b' g''  > < e' b' g''  >  \stemNeutral | 
+ e''16 fis'' g'' fis'' e''8^\pizz < cis' e' a' e''  >_\colArco < cis' e' a' e''  > < cis' e' a' e''  >  | 
  a''16 b'' a'' g'' fis'' g'' fis'' e'' d''4  | 
  d''16 fis'' a'' fis'' d''' a'' fis'' a'' d''' a'' fis'' d''  | 
  cis'' e'' g'' e'' cis''' b'' g'' e'' cis''' b'' g'' e''  | 

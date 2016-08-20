@@ -12,7 +12,9 @@
  cis'' b' cis'' d'' e''8 fis''16 e'' d'' cis'' b' a'  | 
  gis' b' e'' b' e' d'' e'' b' gis' b' e'' d''  | 
  cis'' b' cis'' d'' e''8 fis''16 e'' d'' cis'' b' a'  | 
- b' cis'' b' a' b' cis'' b' a' b' cis'' b' a' gis'8 gis' gis' gis' gis' gis'  | 
+ << { b'16 cis'' b' a' } \\ { gis'8 gis'8 } >>
+   << { b'16 cis'' b' a' } \\ { gis'8 gis'8 } >>
+   << { b'16 cis'' b' a' } \\ { gis'8 gis'8 } >> |
  gis'16 a' b' cis'' d''4 cis''  |
  } %( endrepeat )% 
 \repeat volta 2 { 

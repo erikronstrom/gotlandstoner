@@ -6,8 +6,8 @@
  g c' e' g' c'' e'' g'' f'' e'' d'' c'' b'  | 
  a' b' c'' d'' c''8 c''16 g' f' e' d' c'  | 
  g c' e' g' c'' e'' g'' f'' e'' d'' c'' b'  | 
- c''8 < c' g' e''  > < c' g' e''  > < c' g' e''  > f''16 e'' d'' c''  | 
- d''8 < d' a' f''  > < d' a' f''  > < d' a' f''  > g''16 f'' e'' d''  | 
+ c''8 < c' g' e''  >^\pizz_\colArco < c' g' e''  > < c' g' e''  > f''16 e'' d'' c''  | 
+ d''8 < d' a' f''  >^\pizz_\colArco < d' a' f''  > < d' a' f''  > g''16 f'' e'' d''  | 
  c' c'' b' c'' e'' c'' b' c'' g'' c'' b' c''  | 
  < c' g'  > e'' f'' e'' e''4-> d''->  |
  } %( endrepeat )% 

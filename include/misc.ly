@@ -12,6 +12,13 @@ noteheadHalf = {
   }
 }
 
+noteheadDottedHalf = {
+  \once \override NoteHead.stencil = #ly:text-interface::print
+  \once \override NoteHead.text = \markup {
+    \musicglyph #"noteheads.s1"
+  }
+}
+
 fine = {
   \once \override Score.RehearsalMark.direction = #DOWN
   \once \override Score.RehearsalMark #'break-visibility = #end-of-line-visible
@@ -32,3 +39,6 @@ smallFlageolet =
          (acons 'font-size -3
                 (ly:music-property m 'tweaks)))
    m)
+
+pizz = \markup { \italic "pizz." }
+colArco = \markup { \left-align \italic "col’ arco" }

@@ -23,7 +23,7 @@
  fis''8-( e''-) cis''-( b'-) a'4  | 
  g'' < a e'  > g''  | 
  e''8-( d''-) cis''-( b'-) a'4  | 
- < a d' a' fis''  > < a d' a' fis''  > < a d' a' fis''  >  | 
+ < a d' a' fis''  >^\pizz_\colArco < a d' a' fis''  > < a d' a' fis''  >  | 
  fis''8-( e''-) cis''-( e''-) a''4  | 
  a''8-( fis''-) g''-( a'-) cis''-( e''-)  | 
   } 

@@ -26,8 +26,8 @@
 \repeat volta 2 { 
  fis''8 g''16 a'' cis''8 d''16 e'' d''4  | 
  d''8 a'16 b' fis' g' e' fis' d'4  | 
- < a d'  >8 fis'' fis'' fis'' fis''16 d'' a' fis'  | 
- < a g'  >8 e'' e'' e'' g''16 e'' cis'' a'  | 
+ \noteheadHalf < a d'  >8_\colArco fis''^\pizz fis'' fis'' fis''16 d'' a' fis'  | 
+ \noteheadHalf < a g'  >8_\colArco e''^\pizz e'' e'' g''16 e'' cis'' a'  | 
  g' fis' e' fis' g' a' cis'' b' a'4  | 
  d'16 fis' a' d'' cis'' e' g' b' a'4  | 
  g''16 b'' a'' g'' fis'' a'' g'' fis'' e'' g'' fis'' e''  | 
