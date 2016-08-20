@@ -13,7 +13,7 @@
  b' g' b' d'' f'' a'' g'' b'  | 
  c''8 c''16 c'' c''8
  } %( endrepeat )% 
- 
+ \break
 \repeat volta 2 { 
  g''  | 
  g'' e''16 g'' c'''8 e''16 g''  | 
