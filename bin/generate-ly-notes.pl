@@ -46,7 +46,7 @@ sub processTune() {
     my $Source = '';
     my $Music;
     my $Lyrics = '';
-    my $MoreLyrics = '';
+    my @MoreLyrics;
     foreach my $Line (@Lines) {
         $Line =~ s/\%.*$//mg;     # Remove comments
         
@@ -55,7 +55,7 @@ sub processTune() {
             next;
         }
         if ($Line =~ /^W:(.*)/) {
-            $MoreLyrics .= "$1\n";
+            push(@MoreLyrics, $1);
             next;
         }
 
@@ -109,15 +109,29 @@ sub processTune() {
     
     &createMusic(\%Headers, $Music, $Lyrics);
 
-    if ($MoreLyrics) {
-        if ($MoreLyrics =~ /^\d+\./) {
-            $MoreLyrics =~ s/^  /\\qquad{}/mg;;
-            $MoreLyrics =~ s/^(\D.*)/   $1/mg;
-            $MoreLyrics =~ s/»(?!\s)/»\\tinyskip{}/g;
-            $MoreLyrics =~ s/(?<!\s)»/\\tinyskip{}»/g;
-        }
+    if (@MoreLyrics) {
         open(LYRICSFILE, '>', sprintf($lyricsPattern, $Num)) or die("Could note open lyrics file");
-        print LYRICSFILE $MoreLyrics;
+        my $Verse = 0;
+        my $Indent = 0;
+        foreach my $Line (@MoreLyrics) {
+            if ($Line =~ /^(\d+)(\.\s+)(.*)/) {
+                $Verse = $1;
+                $Indent = 4; #length($1 . $2) + 1;
+                print LYRICSFILE "$1. ";
+                print LYRICSFILE " " if $Verse < 10;
+                print LYRICSFILE "$3\n";
+                next;
+            }
+            if ($Line =~ /^(\s*)\S/ && length($1) > $Indent) {
+                my $s = " " x $Indent;
+                $Line =~ s/^\s*/$s\\qquad{}/;
+                print LYRICSFILE "$Line\n";
+                next;
+            }
+            my $s = " " x $Indent;
+            $Line =~ s/^\s*/$s/;
+            print LYRICSFILE "$Line\n";
+        }
         close(LYRICSFILE);
     }
     

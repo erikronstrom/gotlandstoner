@@ -240,6 +240,9 @@ sub processTune() {
         print OUTFILE "\\begin{flushleft}\n";
         foreach my $Line (@Lyrics) {
             next unless $Line =~ /\S/;
+            $Line =~ s/»(?!\s)/»\\tinyskip{}/g;
+            $Line =~ s/(?<!\s)»/\\tinyskip{}»/g;
+            $First = 1 if $Line =~ /\\columnbreak\s*$/;
             if ($Line =~ /^(\d+)\.?\s*(.*)/) {
                 print OUTFILE "\\vspace{0.3cm}\n" unless $First;
                 print OUTFILE "\\tabto{1.2cm}$1.\\tabto{2cm}$2\n";
