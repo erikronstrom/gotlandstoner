@@ -20,7 +20,7 @@
 \repeat volta 2 { 
  bes'  | 
  a'-( c''-) d''8.-> c''16  | 
- d''8-. c''-. g'-. f'-.  | 
+ b'8-. a'-. g'-. f'-.  | 
  a'8. g'16 fis'8 g'  | 
  f''4-\fermata e''8-( d''-)  | 
  c''8. cis''16 d''8  \acciaccatura { cis'' }  bes'  | 
