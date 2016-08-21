@@ -60,7 +60,7 @@ for my $num ($From..$To) {
         $section =~ s/\{(\d+)MM\}/{$1mm}/g;
         $section =~ s/\\VSPACE/\\vspace/g;
         print OUTFILE "\\cleardoublepage\n";
-        print OUTFILE "\\part*{$section}\n";
+        print OUTFILE "\\part*{\\textls[100]{$section}}\n";
     }
     if (my $textfile = $TuneConf{$num}->{"sectiontext"}) {
         my $text = &slurp("text/$textfile.tex");
