@@ -5,6 +5,8 @@ Digitaliseringen gjordes av Erik Ronström och Clara Andermo i olika omgångar m
 
 Korrekturläsning och -lyssning har gjorts av Fredrik Lönngren, Erik Ronström, Jan Lundqvist, Clara Andermo och Owe Ronström, främst mellan 2008 och 2009.
 
+Kontakt: Erik Ronström [erik@ompom.se](mailto:erik@ompom.se)
+
 ##Riktlinjer för korrekturläsning av Gotlandstoner
 Erik Ronström 2008-01-09, rev 2016-08-03
 
