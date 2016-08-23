@@ -1,6 +1,4 @@
 X:335
-Z:Erik Ronström 2008-01-26: Tecken utanför Latin1 i texten!
-Z:Erik Ronström 2008-06-26: Innehåller ett c med uppochnervänt tak
 T:Spelmanspolskan.
 R:polska
 S:Efter »Florsen» i Burs.
@@ -11,7 +9,7 @@ K:D
 A2|(LF2>>A2) (LE2>>A2) LD4|d2(fd) c2(ec) d2ef|.g2.b2.f2.a2.e2.g2|
 w:Ja en_ sup_ till skall__ spel-man-nen ha, tra-la la la la la la la
 Lf2ed dcec A3G|LF4 LE4 LD4|d2fd c2ec d2ef|.g2.b2.f2.a2.e2.g2|
-w:\vcu fa-li ra la la la la etc.
+w:ču fa-li ra la la la la etc.
 fedc Lc4 d2::ef|gfed dcec LA2ef|gfed dcec LA2ef|.g2.b2.f2.a2.e2.g2|
 gfed dcec LA4|gfed dcec LA2A2|gfed dcec LA2 ef|.g2.b2.f2.a2.e2.g2|
 fedc Lc4 d2:|
