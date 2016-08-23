@@ -5,8 +5,8 @@
  a'16-( bes'-) a' gis' a'4-> cis''->  | 
  d''16-( e''-) d'' cis'' d''4-> e''->  | 
  f''8 e''16 f'' g''8 f'' e'' d''  | 
- d'' cis''16 d'' e'' < d'' e''  > cis'' b' a'4  | 
-  a'16 bes' a' gis' a'4-> cis''->  | 
+ d'' cis''16 d'' << e''2 \\ { e''16 d'' cis'' b' a'4 } >> |
+ a'16 bes' a' gis' a'4-> cis''->  | 
  d''16 e'' d'' cis'' d''4-> e''->  | 
  f''8 e''16 f'' g''8 f'' e'' d''  | 
  f''16 e'' d'' cis'' cis''4 d''  |
