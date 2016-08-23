@@ -20,11 +20,12 @@ kolla upp
 
 705, 706: balkning i 3/8?
 727: flytta text till nedanför låten
-Kolla upp text i 674
 264: lägg till pizz/col arco i abc-filen! (Redan fixat i ly)
 323-325, 537: kolla att pizz/col arco är med i abc
 324: fixa dottedHalf
 324, 360: balkning? Gör undantag för pizz-mönstren enl originalet?
+nigdansen (720): kolla text ("tom tillkommer")
+335: textunderlägg! ignorera båge? Eller ska det vara som det står? Skicka till någon för koll!
 
 Kolla upp alla trill, open (T, o)
 457 - var är drillen exakt? Mellan noterna?
@@ -37,8 +38,11 @@ Repristolkning:
 
 
 Musikalisk  tolkning / misstänkta tryckfel:
+3: andra reprisens andra takt är för lång, ändrade sista tonen till en 16-del
 223: rättat uppenbart tryckfel (originalet närmast ospelbart)
 229: tog bort dubbelgrepp i andra reprisens sjätte takt
+239: rättade sista takten, som var för lång (skum balk)
+242: takt 7, 6:e tonen: vilken intonation?? explicit c# i nästa takt talar för c
 261: flyttat återställningstecknet i fjärde takten från e till d
 297: Ändrat segno/fine till utskriven repris, lättare att läsa
 299: Ab i andra reprisens fjärde takt ska kanske vara A
