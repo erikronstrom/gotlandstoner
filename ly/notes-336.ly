@@ -1,3 +1,4 @@
+{
 \time 3/4
 \key d \minor
 
@@ -17,4 +18,9 @@
  a'8 a'16 a' a'8 b' cis'' d''  | 
  e'' f''16 e'' d''4. r8  |
  } %( endrepeat )% 
- 
+}
+
+\addlyrics {
+    Spel -- man -- nen spe -- lar, al -- la skall dan --
+    \once \override LyricText.self-alignment-X = #-0.8 "sa etc."
+}
