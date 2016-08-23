@@ -1,4 +1,12 @@
-214: section=POLSKOR, 
+1: section=Visor
+5: notespacing=2
+7: newpage=0
+
+
+
+
+
+214: section=Polskor, 
 215: textbox=9cm, spaceafter=1.5cm
 
 216: 
@@ -240,7 +248,7 @@
 398: systemspacing=-2
 399: textbox=14cm
 
-400: systemspacing=-1
+400: systemspacing=-1, lineoffset=-8, spaceafter=0.5cm
 401: newpage=0, systemspacing=-1
 402: spaceafter=2cm
 403: newpage=0, notespacing=3
@@ -349,8 +357,8 @@
 568: newpage=0
 
 570: newpage=0
-571: newpage=1, spaceafter=0.7cm
-572: newpage=0, textbox=0, spaceafter=0.7cm
+571: newpage=1, spaceafter=0.7cm, lineoffset=-5
+572: newpage=0, textbox=0, spaceafter=0.7cm, lineoffset=-5
 
 573: newpage=0
 
