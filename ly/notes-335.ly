@@ -28,6 +28,6 @@
 }
 
 \addlyrics {
-    Ja en_ sup_ till skall__ spel -- man -- nen ha, tra -- la la la la la la la
+    Ja en __ sup __ till skall spel -- man -- nen ha, tra -- la la la la la la la
     ču fa -- li ra la la la la etc.
 }
