@@ -1,6 +1,6 @@
 X:282
-Z:Erik Ronström 2008-06-27: MIDI-fel: Repristecknet syftar antagligen till låtens början (annars stämmer inte taktlängden), men MIDI-generatorn tar repris från dubbelstrecket!
-Z:Fredrik Lönngren 2009-01-09: När spelaren går från början i 1:a reprisen så tar den repris från takt 3, alltså efter dubbelstrecket. Trots att där inte står något repristecken.
+Z:Erik RonstrÃ¶m 2008-06-27: MIDI-fel: Repristecknet syftar antagligen till lÃ¥tens bÃ¶rjan (annars stÃ¤mmer inte taktlÃ¤ngden), men MIDI-generatorn tar repris frÃ¥n dubbelstrecket!
+Z:Fredrik LÃ¶nngren 2009-01-09: NÃ¤r spelaren gÃ¥r frÃ¥n bÃ¶rjan i 1:a reprisen sÃ¥ tar den repris frÃ¥n takt 3, alltsÃ¥ efter dubbelstrecket. Trots att dÃ¤r inte stÃ¥r nÃ¥got repristecken.
 T:Storpolskan
 R:polska
 S:Efter klockaren O. Laugren i Alva.

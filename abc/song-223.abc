@@ -1,13 +1,13 @@
 X:223
 Z:Clara Andermo 2008-01-26: bisering
-Z:Clara Andermo 2008-01-26: MIDI-fel: takt 5, första tonen för lång
-Z:Erik Ronström 2008-06-26: Notgenerator-fel: Fjärde takten, notgeneratorn klarar inte [FF4]
-Z:Erik Ronström 2008-06-26: Det som notgeneratorn inte klarar i fjärde takten är nog ett tryckfel, verkar vansinnigt svårspelat!
-Z:Fredrik Lönngren 2008-07-07: F:et i femte takten med stapeln uppåt i originalet är en fjärdedel enligt notationen då den sknar sextondelsbalkar. Det hela verkar dock något mystiskt och kanske svårspelat.
+Z:Clara Andermo 2008-01-26: MIDI-fel: takt 5, fÃ¶rsta tonen fÃ¶r lÃ¥ng
+Z:Erik RonstrÃ¶m 2008-06-26: Notgenerator-fel: FjÃ¤rde takten, notgeneratorn klarar inte [FF4]
+Z:Erik RonstrÃ¶m 2008-06-26: Det som notgeneratorn inte klarar i fjÃ¤rde takten Ã¤r nog ett tryckfel, verkar vansinnigt svÃ¥rspelat!
+Z:Fredrik LÃ¶nngren 2008-07-07: F:et i femte takten med stapeln uppÃ¥t i originalet Ã¤r en fjÃ¤rdedel enligt notationen dÃ¥ den sknar sextondelsbalkar. Det hela verkar dock nÃ¥got mystiskt och kanske svÃ¥rspelat.
 T:
 R:polska
-C:Laurin d. ä.
-S:Av Laurin d. ä., uppt. efter »Florsen» i Burs.
+C:Laurin d. Ã¤.
+S:Av Laurin d. Ã¤., uppt. efter Â»FlorsenÂ» i Burs.
 O:Gotland, Burs
 M:3/4
 L:1/16

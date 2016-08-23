@@ -144,6 +144,7 @@ sub processTune() {
         }
         if ($Line =~ /^T:(.*)/ && !$TuneConf{$Num}->{"hidetitle"}) {
             $Title = $1;
+            utf8::decode($Title);
             $Title =~ s/[\.\,\;]$//; # Remove trailing punctuation
         }
         if ($Line =~ /^[SNH]:(.*)/) {
@@ -151,7 +152,8 @@ sub processTune() {
             #next if $Line =~ /^Q:/;
 
             my $Text = $1;
-            if ($OriginalLine =~ /Stämning:\s*(\S+)\s+(\S+)\s+(\S+)\s+(\S+)/) {
+            utf8::decode($Text);
+            if ($Text =~ /Stämning:\s*(\S+)\s+(\S+)\s+(\S+)\s+(\S+)/) {
                 next;
             }
             
@@ -214,7 +216,10 @@ sub processTune() {
         $TextBox = "12cm";
     }
     
-    $Source = &slurp("text/song-$Num.tex") if (-e "text/song-$Num.tex");
+    if (-e "text/song-$Num.tex") {
+        $Source = &slurp("text/song-$Num.tex");
+        utf8::decode($Source);
+    }
     $PostText = &slurp("text/text-$Num.tex") if (-e "text/text-$Num.tex");
     
     # Extra vertical before score
@@ -240,8 +245,9 @@ sub processTune() {
         print OUTFILE "\\begin{flushleft}\n";
         foreach my $Line (@Lyrics) {
             next unless $Line =~ /\S/;
-            $Line =~ s/»(?!\s)/»\\tinyskip{}/g;
-            $Line =~ s/(?<!\s)»/\\tinyskip{}»/g;
+            utf8::decode($Line);
+            #$Line =~ s/»(?!\s)/»\\tinyskip{}/g;
+            #$Line =~ s/(?<!\s)»/\\tinyskip{}»/g;
             $First = 1 if $Line =~ /\\columnbreak\s*$/;
             if ($Line =~ /^(\d+)\.?\s*(.*)/) {
                 print OUTFILE "\\vspace{0.3cm}\n" unless $First;

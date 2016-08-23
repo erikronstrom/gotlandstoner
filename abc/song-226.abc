@@ -1,14 +1,14 @@
 X:226
-Z:Clara Andermo 2008-01-26: Behöver arbetas om pg pizz
-Z:Erik Ronström 2008-06-27: Notgenerator-fel: Slutet kommer inte med, det hamnar väl utanför PS-sidan.
-Z:Erik Ronström 2008-06-27: I originalet är arco-tonerna halvnoter som ligger kvar samtidigt som pizz-åttondelarna. Ser märkligt ut.
+Z:Clara Andermo 2008-01-26: BehÃ¶ver arbetas om pg pizz
+Z:Erik RonstrÃ¶m 2008-06-27: Notgenerator-fel: Slutet kommer inte med, det hamnar vÃ¤l utanfÃ¶r PS-sidan.
+Z:Erik RonstrÃ¶m 2008-06-27: I originalet Ã¤r arco-tonerna halvnoter som ligger kvar samtidigt som pizz-Ã¥ttondelarna. Ser mÃ¤rkligt ut.
 T:
 R:polska
 C:Hammarlund
-S:Skall vara författad (komponerad) av gotländske spelmannen Hammarlund i Öja, \
-uppt. efter »Florsen» i Burs.
-N:g-strängen stämmes i a.
-O:Gotland, Burs, Öja
+S:Skall vara fÃ¶rfattad (komponerad) av gotlÃ¤ndske spelmannen Hammarlund i Ã–ja, \
+uppt. efter Â»FlorsenÂ» i Burs.
+N:g-strÃ¤ngen stÃ¤mmes i a.
+O:Gotland, Burs, Ã–ja
 U: q = "_col' arco"
 U: p = "^pizz"
 M:3/4

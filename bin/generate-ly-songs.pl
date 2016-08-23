@@ -39,7 +39,7 @@ for my $num ($From..$To) {
 
     if ($abc =~ /^Q:\"(.*)\"$/m && !$TuneConf{$num}->{"hidetempo"}) {
         my $Tempo = $1;
-        utf8::encode($Tempo);
+        #utf8::encode($Tempo);
         $params{'tempo'} =
             "\\once \\override Score.RehearsalMark.break-align-symbols = #'(time-signature)\n" .
             "\\once \\override Score.KeySignature.break-align-anchor-alignment = #LEFT\n" .

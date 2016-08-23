@@ -1,8 +1,8 @@
 X:564
-Z:Fredrik Lönngren 2009-03-24: Misstänkta tryckfel: Misstänker att repristecknet som står i slutet i själva verket skall stå i takt fyra från slutet. I annat fall blir klamrarna ologiska.
-Z:Fredrik Lönngren 2009-03-24: Det återgivna eventuella tryckfelet när det gäller repristecknet i slutet gör antagligen att midi-generatorn hoppar över de sista tre takterna.
+Z:Fredrik LÃ¶nngren 2009-03-24: MisstÃ¤nkta tryckfel: MisstÃ¤nker att repristecknet som stÃ¥r i slutet i sjÃ¤lva verket skall stÃ¥ i takt fyra frÃ¥n slutet. I annat fall blir klamrarna ologiska.
+Z:Fredrik LÃ¶nngren 2009-03-24: Det Ã¥tergivna eventuella tryckfelet nÃ¤r det gÃ¤ller repristecknet i slutet gÃ¶r antagligen att midi-generatorn hoppar Ã¶ver de sista tre takterna.
 T:
-S:Efter »Florsen» i Burs.
+S:Efter Â»FlorsenÂ» i Burs.
 R:vals
 O:Gotland, Burs
 M:3/4

@@ -609,7 +609,7 @@ sub createMusic() {
         $Lyrics =~ s/\-/ -- /g;
         $Lyrics =~ s/_/ __/g;
         $Lyrics =~ s/^(.)/     $1/mg;
-        utf8::encode($Lyrics);
+        #utf8::encode($Lyrics);
         print OUTFILE $Lyrics;
         print OUTFILE "}\n";
     }
