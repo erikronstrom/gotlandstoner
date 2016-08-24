@@ -1,6 +1,8 @@
 \time 3/4
 \key g \major
 
+\override Score.VoltaBracketSpanner #'outside-staff-padding = #1
+
 \partial 8
  d'8 
 \repeat volta 2 { 
