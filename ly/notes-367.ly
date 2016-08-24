@@ -17,15 +17,19 @@
  a''8 gis''16 fis'' e'' fis'' gis'' a'' b'' a'' d''' gis''  | 
  a'' gis'' b'' a'' fis'' g'' e'' cis'' a' g' e' cis'  | 
  d' fis' a' fis' d'' fis' a' fis' d' fis' a' fis'  | 
+ \flatBeams
  cis' g' a' g' cis' g' a' g' cis' g' a' g'  | 
+ \normalBeams
  cis' g' a' e'' g'' b'' e''' d''' cis''' b'' a'' g''  | 
  fis'' g'' b' cis'' e''4 d''  |
  } %( endrepeat )% 
 \repeat volta 2 { 
+ \flatBeams
  g'16-( a'-) e''-( cis''-) g'-( a'-) e''-( cis''-) g'-( a'-) e''-( cis''-)  | 
  cis'-( g'-) e''-( g'-) b-( g'-) e''-( g'-) a-( g'-) e''-( g'-)  | 
  a-( fis'-) d''-( a'-) a-( fis'-) d''-( fis'-) a-( fis'-) a'-( fis'-)  | 
  g' cis'' e'' cis'' g' b' e'' b' g' a' e'' a'  | 
+ \normalBeams
  g' a cis' e' g' a' cis'' e'' fis''8 g''  | 
  fis''16 a' d'' e'' d'' cis'' d'' e'' gis''8 a''  | 
  a''16 d''' fis'' a'' g'' b'' e'' g'' fis'' a'' d'' fis''  | 
