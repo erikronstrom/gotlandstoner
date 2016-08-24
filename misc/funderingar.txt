@@ -22,14 +22,14 @@ kolla upp
 264: lägg till pizz/col arco i abc-filen! (Redan fixat i ly)
 323-325, 537: kolla att pizz/col arco är med i abc
 324, 360: balkning? Gör undantag för pizz-mönstren enl originalet?
-336: fixa polyfonin i abc
+343: Del av texten är fotnot
 
 Kolla upp alla trill, open (T, o)
 457 - var är drillen exakt? Mellan noterna?
 472 - också frågan om vad exakt som menas - en ton, eller hela figuren?
 
 Repristolkning:
-408 (fel men ok?) 433 459 471 644 656
+361 408 (fel men ok?) 433 459 471 644 656
 557: antal taktslag
 
 
@@ -47,6 +47,7 @@ Musikalisk  tolkning / misstänkta tryckfel:
 324: exakt vilka toner är pizz?
 325: exakt vilka toner är pizz?
 336: antar att halvnoten i takt 4 kommer på andra slaget
+361: ändrat andra takten så att den blir likadan som parallellstället i slutet
 610: tagit bort sista pausen, den gjorde reprisen för lång
 615: rättat tonlängd, uppenbart tryckfel, använde rytmiken från parallellstället (slutet på reprisen innan)
 680: första takten för kort, gjort 16-delar till 8-delar enligt uppenbart rytmiskt mönster
