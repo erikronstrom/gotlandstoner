@@ -1,6 +1,5 @@
 X:415
 Z:Erik Ronström 2008-08-01: Misstänkta tryckfel: Det dubbla repristecknet är uppenbart felaktigt, ska vara :| ... |: istället för :: ... |:
-Z:Erik Ronström 2008-08-01: Innehåller translitererat sje-ljud, som inte finns i ISO 8859-1 (början av andra reprisen). Här ersatt med versalt S
 T:
 S:Efter Elisabet Olofsdotter i Burs.
 R:hamburgska
@@ -12,7 +11,7 @@ A|A>F D2 FA|A>B G2 Bd|d>c A2 ce|e>f d2 z:|
 w:Ja säir i ös-tar, ja säir i väs-tar, ja säir i su-da, ja säir i norr.
 w:Ja säir där mag-gä äut-val-dä flik-kar, män al-dri säir ja dän, ja set förr.
 |:f|e>c A2 ce|g>f d2 f>a|e>c A2 ce|gf d2 fa|
-w:Sugg tra-li-ral-la-la, tra-li-ral-la-la o.~s.~v.
+w:ʃugg tra-li-ral-la-la, tra-li-ral-la-la o.~s.~v.
 A>F D2 FA|A>B G2 Bd|d>c A2 ce|e>f d2 z:|
 |:A|:d>c de fd|d>B Bc dB|B>A AA BA|G2 F2 z2:|
 |:F>A AA A2|G>B BB B2|dc cA Ac|e2 d2 z2:|
