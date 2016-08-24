@@ -221,6 +221,7 @@ sub processTune() {
         utf8::decode($Source);
     }
     $PostText = &slurp("text/text-$Num.tex") if (-e "text/text-$Num.tex");
+    utf8::decode($PostText);
     
     # Extra vertical before score
     print OUTFILE "\\vspace*{$SpaceBefore}\n" if $SpaceBefore;
@@ -266,13 +267,13 @@ sub processTune() {
 
     if ($PostText) {
         $PostText = texSubstitutions($PostText);
-        print OUTFILE "\\vspace{0.7cm}\n";
+        #print OUTFILE "\\vspace{0.7cm}\n";
         print OUTFILE "\\begin{center}\n";
         print OUTFILE "\\parbox{16cm}{$PostText}\n\n";
         print OUTFILE "\\end{center}\n";
         #print OUTFILE "\\break\n";
         #print OUTFILE "\\parbox{16cm}{$PostText}\n";
-        print OUTFILE "\\vspace{0.3cm}\n";
+        #print OUTFILE "\\vspace{0.3cm}\n";
     }
     
     if (!$SpaceAfter || $SpaceAfter eq "0cm" || $BreakAfter) {
