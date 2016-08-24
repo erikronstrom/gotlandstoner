@@ -13,11 +13,12 @@
  } %( endrepeat )% 
 \repeat volta 2 { 
  a'16 c'' a' f' a' f' a' c'' ees'' c'' a' f'  | 
- bes' f' d' f' bes'-. f' d'' bes' f'' d'' bes' f'  | 
+ bes' f' d' f' bes'^! f' d'' bes' f'' d'' bes' f'  | 
  f'' c'' a' f' e' f' g' a' bes'8. d''16  | 
  c'' bes' a' g' f'8 f'' ees''4->  | 
- d''16 f'' d'' bes' d'' bes' d'' f'' bes'' f'' d'' bes'  | 
- d'' f'' d'' bes' d'' bes' d'' f'' bes'' f'' d'' bes'  | 
+ \textedMeasureBracket \twice {
+     d''16 f'' d'' bes' d'' bes' d'' f'' bes'' f'' d'' bes'  | 
+ }
  bes'' f'' d'' bes' a' bes' c'' d'' ees'' g'' ees'' c''  | 
  d'' f'' a' c'' bes'4 bes  |
  } %( endrepeat )% 
