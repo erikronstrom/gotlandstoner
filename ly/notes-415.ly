@@ -1,3 +1,4 @@
+{
 \time 3/4
 \key d \major
 
@@ -35,5 +36,12 @@
  g'8. b'16 b'8 b' b'4  | 
  d''8 cis'' cis'' a' a' cis''  | 
  e''4 d'' r
- } %( endrepeat )% 
- 
+ } %( endrepeat )%
+}
+ \addlyrics {
+     Ja säir i ös -- tar, ja säir i väs -- tar, ja säir i su -- da, ja säir i norr.
+     ʃugg tra -- li -- ral -- la -- la, tra -- li -- ral -- la -- la "o. s. v."
+}
+\addlyrics {
+    Ja säir där mag -- gä äut -- val -- dä flik -- kar, män al -- dri säir ja dän, ja set förr.
+}
