@@ -27,12 +27,12 @@
 \title{Gotlandstoner}
 \author{August Fredin}
 \setlength{\parindent}{0pt}
-\newcommand{\tunename}[1]{
+\newcommand{\tunename}[2]{
     \refstepcounter{section}
     \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}
     \begin{center}
         \LARGE \textbf{#1}
-        \vspace*{12pt}
+        \vspace*{#2}
     \end{center}
 }
 \newcommand{\tinyskip}[0]{\hspace{0.1em}}

@@ -188,8 +188,9 @@ sub processTune() {
     $TuneConf{$Num}->{"newpage"} = 1 unless defined $TuneConf{$Num}->{"newpage"};
 
     my $SpaceBefore  = $TuneConf{$Num}->{"spacebefore"};
-    my $SpaceBetween = $TuneConf{$Num}->{"spacebetween"} || "0mm";
+    my $SpaceBetween = $TuneConf{$Num}->{"spacebetween"} || 0;
     my $SpaceAfter   = $TuneConf{$Num}->{"spaceafter"} || "1cm";
+    my $TitleSpace   = $TuneConf{$Num}->{"titlespace"} || "12pt";
     my $BreakBefore  = $TuneConf{$Num}->{"newpage"} || 0;
     my $BreakAfter   = $TuneConf{$Num+1}->{"newpage"};
 
@@ -202,8 +203,9 @@ sub processTune() {
     }
 
     # Title and text
-    print OUTFILE "\\tunename{$Title}\n" if $Title;
-    #print OUTFILE "\\hspace{14mm}\\parbox{16cm}{ $Source \\\\* }\n\n";
+    if ($Title) {
+        print OUTFILE "\\tunename{$Title}{$TitleSpace}\n";
+    }
     my $MultipleLines = (length($Source) > 75) || ($Source =~ /\n/);
     my $TextBox = $TuneConf{$Num}->{"textbox"};
     if (defined $TextBox) {
@@ -234,7 +236,7 @@ sub processTune() {
     }
 
     # Extra vertical space between text and score
-    print OUTFILE "\\vspace{$SpaceBetween}\n";
+    print OUTFILE "\\vspace{$SpaceBetween}\n" if $SpaceBetween;
 
     print OUTFILE $Song;
 
