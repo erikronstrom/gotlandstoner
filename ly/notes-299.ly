@@ -16,13 +16,14 @@
 \repeat volta 2 { 
  bes  | 
  bes' bes'16 c'' d''8 d''16 ees'' f''8 bes''  | 
- bes''16 f'' d'' f'' ees'' c'' aes' c'' bes'8 f'  | 
+ bes''16 f'' d'' f'' ees'' c'' aes'^\markup { \tiny \natural } c'' bes'8 f'  | 
  bes'16 c'' d'' ees'' e'' f'' g'' f'' ees'' d'' c'' bes'  | 
  bes'8 aes'16^\markup { \tiny \natural } bes' c'' bes' aes'^\markup { \tiny \natural } g' f'8. g'16  | 
  g' ees' d' ees' g' ees' d' ees' g' ees' d' ees'  | 
  c' d'' c'' b' c''8 c''16 b' c''4  | 
  aes'16 f' d' f' aes' f' d' f' aes' f' d' c'  | 
- bes ees'' d'' c''^\markup { \tiny \sharp } d''8 d''16 cis'' d''4  | 
+ %bes ees'' d'' c''^\markup { \tiny \sharp } d''8 d''16 cis'' d''4  | 
+ bes ees'' d'' c'' d''8 d''16 cis'' d''4  | 
  ees''16 d'' c'' bes' c'' bes' aes' g' aes' g' f' ees'  | 
  f' aes' d' f' f'4 ees'8
  } %( endrepeat )% 
