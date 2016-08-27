@@ -19,6 +19,16 @@ noteheadDottedHalf = {
   }
 }
 
+parserDefine = #(define-void-function (parser location name val)(symbol? scheme?)
+    (ly:parser-define! parser name val))
+
+defineNoteheadTweak =
+    \parserDefine tweakNoteheadHalf #(define-music-function
+        ( parser location note )
+        ( ly:music? )
+        #{ \tweak stencil #ly:text-interface::print \tweak text \markup { \musicglyph #"noteheads.s1" } $note #}
+        )
+
 fine = {
   \once \override Score.RehearsalMark.direction = #DOWN
   \once \override Score.RehearsalMark #'break-visibility = #end-of-line-visible
