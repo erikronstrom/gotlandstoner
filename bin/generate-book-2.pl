@@ -2,6 +2,8 @@
 use strict;
 no integer;
 
+use utf8;
+
 #use Getopt::Long;
 use Digest::MD5;
 
@@ -137,7 +139,7 @@ sub processTune() {
 
         my $OriginalLine = $Line;
         $Line =~ s/\^/\\\^\{\}/g;    # Replace circumflex
-        # $Line =~ s/\»/''/g;          # Replace quote marks (guillemotright)
+        # $Line =~ s/\Â»/''/g;          # Replace quote marks (guillemotright)
         
         if ($Line =~ /^([ML]):(\S*)/) {
             $Headers{$1} = $2;
@@ -152,8 +154,8 @@ sub processTune() {
             #next if $Line =~ /^Q:/;
 
             my $Text = $1;
-            utf8::decode($Text);
-            if ($Text =~ /Stämning:\s*(\S+)\s+(\S+)\s+(\S+)\s+(\S+)/) {
+            utf8::decode($Text) or die("Cannot reduce to latin1: $Text\n");
+            if ($Text =~ /StÃ¤mning:\s*(\S+)\s+(\S+)\s+(\S+)\s+(\S+)/) {
                 next;
             }
             
@@ -220,7 +222,7 @@ sub processTune() {
     
     if (-e "text/song-$Num.tex") {
         $Source = &slurp("text/song-$Num.tex");
-        utf8::decode($Source);
+        utf8::decode($Source) or die("Cannot reduce to latin1: $Source\n");
     }
     $PostText = &slurp("text/text-$Num.tex") if (-e "text/text-$Num.tex");
     utf8::decode($PostText);
@@ -248,9 +250,10 @@ sub processTune() {
         print OUTFILE "\\begin{flushleft}\n";
         foreach my $Line (@Lyrics) {
             next unless $Line =~ /\S/;
-            utf8::decode($Line);
-            #$Line =~ s/»(?!\s)/»\\tinyskip{}/g;
-            #$Line =~ s/(?<!\s)»/\\tinyskip{}»/g;
+            utf8::decode($Line) or die("Bad utf8 sequence!");
+            $Line = texSubstitutions($Line);
+            #$Line =~ s/Â»(?!\s)/Â»\\tinyskip{}/g;
+            #$Line =~ s/(?<!\s)Â»/\\tinyskip{}Â»/g;
             $First = 1 if $Line =~ /\\columnbreak\s*$/;
             if ($Line =~ /^(\d+)\.?\s*(.*)/) {
                 print OUTFILE "\\vspace{0.3cm}\n" unless $First;
@@ -311,7 +314,8 @@ sub slurp() {
 
 sub texSubstitutions() {
     my $Text = shift;
-    $Text =~ s/(Uppt|Omkr|Meddel|Skoll|Kapt|Joh|Nikl|enl)\. /\1.\\\@ /ig;
+
+    $Text =~ s/(Uppt|Omkr|Meddel|Skoll|Kapt|Joh|Nikl|And|Ã¶vers|sv|enl)\. /\1.\\\@ /ig;
     $Text =~ s/m\. m\./m.\\\,m./g; # TODO: lookahead for next sentence
     $Text =~ s/t\. f\./t.\\\,f./g; # TODO: lookahead for next sentence
     $Text =~ s/m\. fl\. (?=[a-z])/m.\\\,fl.\\@ /g;
@@ -321,12 +325,17 @@ sub texSubstitutions() {
     $Text =~ s/ fr\. / fr.\\\@ /g;
     $Text =~ s/ Ol\. / Ol.\\\@ /g;
     $Text =~ s/ Joh\. / Joh.\\\@ /g;
-    $Text =~ s/d\. ([yä])\./d.\\\,\1./g; # TODO: lookahead for next sentence
+    $Text =~ s/d\. ([yÃ¤])\./d.\\\,\1./g; # TODO: lookahead for next sentence
     $Text =~ s/ f\. / f.\\\@ /g; # TODO: lookahead for next sentence
     $Text =~ s/([\s\n])\-\-([\s\n])?/$1---$2/g;
     $Text =~ s/(\d)\-(\d)/$1--$2/g;
+    $Text =~ s/â€“/--/g;
+    $Text =~ s/â€”/---/g;
+    $Text =~ s/Êƒ/\\textesh{}/g;
+    $Text =~ s/É·/\\textcloseomega{}/g;
+    $Text =~ s/â€™/\'/g;
 
-    $Text =~ s/¼/\\sfrac{1}{4}/g;
+    $Text =~ s/Â¼/\\sfrac{1}{4}/g;
 
     return $Text;
 }
