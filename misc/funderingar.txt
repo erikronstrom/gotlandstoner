@@ -36,6 +36,7 @@ Repristolkning:
 
 Musikalisk  tolkning / misstänkta tryckfel:
 3: andra reprisens andra takt är för lång, ändrade sista tonen till en 16-del
+12: Bytt extrastort S mot ʃ, då det uppenbart har den betydelsen
 223: rättat uppenbart tryckfel (originalet närmast ospelbart)
 229: tog bort dubbelgrepp i andra reprisens sjätte takt
 239: rättade sista takten, som var för lång (skum balk)
