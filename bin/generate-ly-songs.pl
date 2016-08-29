@@ -2,6 +2,8 @@
 use strict;
 no integer;
 
+use utf8;
+
 my $From = $ARGV[0] || 214;
 my $To   = $ARGV[1] || 360;
 
@@ -34,6 +36,10 @@ for my $num ($From..$To) {
     my $notes = &slurp(sprintf($inPattern, $num));
     my $outfile = sprintf($outPattern, $num);
     my $abc = &slurp(sprintf($abcPattern, $num));
+
+    utf8::decode($notes);
+    $notes =~ s/»/\x{F101}/g;
+    utf8::encode($notes);
 
     my %params;
 

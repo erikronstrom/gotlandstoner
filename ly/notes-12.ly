@@ -23,5 +23,5 @@
      Dä räis -- tä ’n köpp -- mann y -- var Ham --  -- bur -- gä brou, han
      had --  -- dä ain dou --  -- tar så dä -- gä -- li u trou. Så
      kum -- mar där ’n ʃö -- mann nå rou -- än -- dä i land. Han
-     sägg -- dä: \markup { \concat { \char ##xF101 ʃö } } -- na jåm -- frun, väm ska däu ha ti \markup { \concat { mann? \char ##xF101 } }
+     sägg -- dä: »ʃö -- na jåm -- frun, väm ska däu ha ti mann?»
 }
