@@ -3,6 +3,7 @@ use strict;
 no integer;
 
 use utf8;
+use open IO => ':utf8';
 
 #use Getopt::Long;
 use Digest::MD5;
@@ -65,7 +66,7 @@ for my $num ($From..$To) {
         print OUTFILE "\\part*{\\textls[100]{$section}}\n";
     }
     if (my $textfile = $TuneConf{$num}->{"sectiontext"}) {
-        my $text = &slurp("text/$textfile.tex");
+        my $text = texSubstitutions(&slurp("text/$textfile.tex"));
         #print OUTFILE "\\begin{center}\n";
         #print OUTFILE "\\parbox{16cm}{ \\setlength{\\parindent}{1.5em} $text}\n";
         # \\leftskip=1cm \\rightskip=1cm
@@ -146,7 +147,6 @@ sub processTune() {
         }
         if ($Line =~ /^T:(.*)/ && !$TuneConf{$Num}->{"hidetitle"}) {
             $Title = $1;
-            utf8::decode($Title);
             $Title =~ s/[\.\,\;]$//; # Remove trailing punctuation
         }
         if ($Line =~ /^[SNH]:(.*)/) {
@@ -154,12 +154,11 @@ sub processTune() {
             #next if $Line =~ /^Q:/;
 
             my $Text = $1;
-            utf8::decode($Text) or die("Cannot reduce to latin1: $Text\n");
             if ($Text =~ /Stämning:\s*(\S+)\s+(\S+)\s+(\S+)\s+(\S+)/) {
                 next;
             }
             
-            $Text = texSubstitutions($Text);
+            #$Text = texSubstitutions($Text);
             
             $Source .= $Text;
             #if ($Source =~ /\.\s*$/) {
@@ -208,7 +207,10 @@ sub processTune() {
     if ($Title) {
         print OUTFILE "\\tunename{$Title}{$TitleSpace}\n";
     }
-    my $MultipleLines = (length($Source) > 75) || ($Source =~ /\n/);
+    if (-e "text/song-$Num.tex") {
+        $Source = &slurp("text/song-$Num.tex");
+    }
+    my $MultipleLines = (length($Source) > 90) || ($Source =~ /\n/);
     my $TextBox = $TuneConf{$Num}->{"textbox"};
     if (defined $TextBox) {
         if ($TextBox) {
@@ -219,13 +221,9 @@ sub processTune() {
     } else {
         $TextBox = "12cm";
     }
+    $Source = texSubstitutions($Source);
     
-    if (-e "text/song-$Num.tex") {
-        $Source = &slurp("text/song-$Num.tex");
-        utf8::decode($Source) or die("Cannot reduce to latin1: $Source\n");
-    }
     $PostText = &slurp("text/text-$Num.tex") if (-e "text/text-$Num.tex");
-    utf8::decode($PostText);
     
     # Extra vertical before score
     print OUTFILE "\\vspace*{$SpaceBefore}\n" if $SpaceBefore;
@@ -250,7 +248,6 @@ sub processTune() {
         print OUTFILE "\\begin{flushleft}\n";
         foreach my $Line (@Lyrics) {
             next unless $Line =~ /\S/;
-            utf8::decode($Line) or die("Bad utf8 sequence!");
             $Line = texSubstitutions($Line);
             #$Line =~ s/»(?!\s)/»\\tinyskip{}/g;
             #$Line =~ s/(?<!\s)»/\\tinyskip{}»/g;
@@ -333,6 +330,7 @@ sub texSubstitutions() {
     $Text =~ s/—/---/g;
     $Text =~ s/ʃ/\\textesh{}/g;
     $Text =~ s/ɷ/\\textcloseomega{}/g;
+    $Text =~ s/»/\\guillemotright{}/g;
     $Text =~ s/’/\'/g;
 
     $Text =~ s/¼/\\sfrac{1}{4}/g;

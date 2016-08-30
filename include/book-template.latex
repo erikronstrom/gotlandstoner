@@ -1,6 +1,6 @@
 \documentclass[a4paper]{report}
-\usepackage[latin9]{inputenc}
 \usepackage[T1]{fontenc}
+%\usepackage{fontspec}
 \usepackage[top=19mm,left=16mm,right=16mm,bottom=13mm,includefoot,twoside,bindingoffset=8mm]{geometry}
 \usepackage{graphicx}
 \usepackage{tabto}
@@ -18,10 +18,10 @@
 \pagestyle{plain}
 
 %\usepackage[babel=english,activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
-\usepackage[babel=english,final,tracking=true,kerning=true,spacing=false,factor=1100,stretch=10,shrink=10]{microtype}
+\usepackage[final,tracking=true,spacing=false,factor=1100,stretch=10,shrink=10]{microtype}
 
 \hyphenation{allianspolska}
-\hyphenation{bröl-lops-mål-tiderna}
+\hyphenation{brÃ¶l-lops-mÃ¥l-tiderna}
 
 \begin{document}
 \title{Gotlandstoner}

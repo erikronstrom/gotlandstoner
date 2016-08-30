@@ -3,6 +3,9 @@
 use warnings;
 use strict;
 
+use utf8;
+use open IO => ':utf8';
+
 my $inPattern = "abc/song-%d.abc";
 my $outPattern = "ly/notes-%d.ly";
 my $lyricsPattern = "text/lyrics-%d.tex";

@@ -3,6 +3,7 @@ use strict;
 no integer;
 
 use utf8;
+use open IO => ':utf8';
 
 my $From = $ARGV[0] || 214;
 my $To   = $ARGV[1] || 360;
@@ -37,15 +38,12 @@ for my $num ($From..$To) {
     my $outfile = sprintf($outPattern, $num);
     my $abc = &slurp(sprintf($abcPattern, $num));
 
-    utf8::decode($notes);
     $notes =~ s/»/\x{F101}/g;
-    utf8::encode($notes);
 
     my %params;
 
     if ($abc =~ /^Q:\"(.*)\"$/m && !$TuneConf{$num}->{"hidetempo"}) {
         my $Tempo = $1;
-        #utf8::encode($Tempo);
         $params{'tempo'} =
             "\\once \\override Score.RehearsalMark.break-align-symbols = #'(time-signature)\n" .
             "\\once \\override Score.KeySignature.break-align-anchor-alignment = #LEFT\n" .
