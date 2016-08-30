@@ -15,6 +15,9 @@ ej ny sida:
 377 382 384 394 396 401 403 405 406 408 409 411 413 414 415 417 
 
 
+KOLLA MARGINALERNA: texten är satt bredare än noterna!
+
+
 kolla upp
 443 428 427 478 472 552
 
@@ -37,6 +40,7 @@ Repristolkning:
 Musikalisk  tolkning / misstänkta tryckfel:
 3: andra reprisens andra takt är för lång, ändrade sista tonen till en 16-del
 12: Bytt extrastort S mot ʃ, då det uppenbart har den betydelsen
+14: tagit bort felaktigt taktstreck i slutet av andra systemet, flyttat felaktigt citattecken i vers 8/9
 223: rättat uppenbart tryckfel (originalet närmast ospelbart)
 229: tog bort dubbelgrepp i andra reprisens sjätte takt
 239: rättade sista takten, som var för lång (skum balk)
