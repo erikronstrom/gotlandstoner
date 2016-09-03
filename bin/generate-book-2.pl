@@ -248,16 +248,18 @@ sub processTune() {
         print OUTFILE "\\begin{flushleft}\n";
         foreach my $Line (@Lyrics) {
             next unless $Line =~ /\S/;
-            $Line = texSubstitutions($Line);
             #$Line =~ s/»(?!\s)/»\\tinyskip{}/g;
             #$Line =~ s/(?<!\s)»/\\tinyskip{}»/g;
-            $First = 1 if $Line =~ /\\columnbreak\s*$/;
+            #$First = 1 if $Line =~ /\\columnbreak\s*$/;
             if ($Line =~ /^(\d+)\.?\s*(.*)/) {
                 print OUTFILE "\\vspace{0.3cm}\n" unless $First;
-                print OUTFILE "\\tabto{1.2cm}$1.\\tabto{2cm}$2\n";
+                print OUTFILE "\\tabto{0.2cm}$1.\\tabto{0.8cm}" . texSubstitutions($2) . "\n";
                 $First = 0;
+            } elsif ($Line =~ /^\\\w/) {
+                print OUTFILE "$Line\n";
             } else {
-                print OUTFILE "\\tabto{2cm}$Line\n";
+                $Line = texSubstitutions($Line);
+                print OUTFILE "\\tabto{0.8cm}$Line\n";
             }
         }
 #        $Lyrics =~ s/\n\n/\\par\n/g;
