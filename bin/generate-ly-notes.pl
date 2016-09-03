@@ -69,7 +69,7 @@ sub processTune() {
 
         my $OriginalLine = $Line;
         $Line =~ s/\^/\\\^\{\}/g;    # Replace circumflex
-        $Line =~ s/\�/''/g;          # Replace quote marks (guillemotright)
+        $Line =~ s/\»/''/g;          # Replace quote marks (guillemotright)
         
         if ($Line =~ /^([ML]):(\S*)/) {
             $Headers{$1} = $2;
@@ -80,7 +80,7 @@ sub processTune() {
         if ($Line =~ /^[SNH]:(.*)/) {
             
             my $Text = $1;
-            if ($OriginalLine =~ /St�mning:\s*(\S+)\s+(\S+)\s+(\S+)\s+(\S+)/) {
+            if ($OriginalLine =~ /Stämning:\s*(\S+)\s+(\S+)\s+(\S+)\s+(\S+)/) {
                 my $Tuning = &convertNote($1) . " " . &convertNote($2) . " ";
                 $Tuning   .= &convertNote($3) . " " . &convertNote($4) . " ";
                 $Headers{"tuning"} = $Tuning;
@@ -463,7 +463,7 @@ sub createMusic() {
         print OUTFILE "#'stencil = ##f\n";
         print OUTFILE '\partial 4' . "\n";
         print OUTFILE ' < ' . $Headers->{'tuning'} . ' >4^\markup ';
-        print OUTFILE '{ \center-align { \italic "Stämning." } }' . "\n";
+        print OUTFILE '{ \center-align { \italic "StÃ¤mning." } }' . "\n";
         print OUTFILE '\revert Stem ' . "#'stencil\n";
         print OUTFILE '\revert Score.TimeSignature ' . "#'stencil\n";
         print OUTFILE '\bar "||"' . "\n\n";
