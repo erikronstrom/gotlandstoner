@@ -14,6 +14,7 @@
     \context {
         \Lyrics
         \override LyricText #'font-size = #-1
+        \override StanzaNumber.font-series = #'medium
         \override StanzaNumber.font-size = #-1
     }
     %\context {
