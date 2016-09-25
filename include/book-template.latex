@@ -2,12 +2,13 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 %\usepackage{fontspec}
-\usepackage[top=19mm,left=16mm,right=16mm,bottom=13mm,includefoot,twoside,bindingoffset=8mm]{geometry}
+\usepackage[top=19mm,left=16.5mm,right=16.5mm,bottom=13mm,includefoot,twoside,bindingoffset=8mm]{geometry}
 \usepackage{graphicx}
 \usepackage{tabto}
 \usepackage{xfrac}
 \usepackage{tipa}
 \usepackage{multicol}
+\usepackage[strict]{changepage}
 \usepackage[symbol]{footmisc}
 \setfnsymbol{wiley}
 \setcounter{secnumdepth}{0}

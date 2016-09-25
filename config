@@ -1,9 +1,26 @@
 1: section=Visor
 5: notespacing=2
 7: newpage=0
+8: spaceafter=2cm
+9: newpage=0
+10: spaceafter=2cm
+11: newpage=0
 
-
+13: spaceafter=2cm
 14: newpage=0
+
+15: spaceafter=0.2cm
+16: newpage=0
+
+17: spaceafter=2cm
+18: newpage=0
+
+19: spaceafter=2cm
+20: newpage=0
+
+22: newpage=0
+
+24: newpage=0
 
 
 214: section=Polskor, 
