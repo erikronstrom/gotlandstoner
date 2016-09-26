@@ -19,7 +19,7 @@
  a''8 b'' a'' g'' fis'' a''  | 
  d''' a'' fis'' a'' d'''4  | 
  cis'''8 d''' cis''' a'' b'' cis'''  | 
- d'''4 r  |
+ d'''4 r
  } %( endrepeat )% 
  \key g \major
  
