@@ -43,6 +43,7 @@ Musikalisk  tolkning / misstänkta tryckfel:
 12: Bytt extrastort S mot ʃ, då det uppenbart har den betydelsen
 14: tagit bort felaktigt taktstreck i slutet av andra systemet, flyttat felaktigt citattecken i vers 8/9
 16: Ändrat åttondel till 16-del (näst sista taktens andra ton)
+29: Ändrade avstavning sån-gen -> sång-en
 223: rättat uppenbart tryckfel (originalet närmast ospelbart)
 229: tog bort dubbelgrepp i andra reprisens sjätte takt
 239: rättade sista takten, som var för lång (skum balk)
