@@ -1,4 +1,4 @@
-1: section=Visor
+1: section=Visor, subsection=Berättande visor.
 5: notespacing=2
 7: newpage=0
 8: spaceafter=2cm
@@ -22,6 +22,14 @@
 
 24: newpage=0
 
+27: newpage=0
+
+29: newpage=0, textbox=8cm
+
+30: spaceafter=3cm
+31: newpage=0
+
+39: subsection=Livets sorg ock glädje.
 
 214: section=Polskor, 
 215: textbox=9cm, spaceafter=1.5cm
