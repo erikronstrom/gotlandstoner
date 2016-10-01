@@ -4,5 +4,5 @@ for ((i=$1;i<=$2;i++)); do
     echo "Rendering $i..."
     lilypond -l WARNING -dbackend=svg -dno-point-and-click -o "svg/$i" "book/song-$i.ly"
 done
-bin/trim-svg.pl
+bin/trim-svg.pl $1 $2
 echo "Done!"
