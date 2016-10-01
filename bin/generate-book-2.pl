@@ -205,7 +205,8 @@ sub processTune() {
 
     # Title and text
     if ($Title) {
-        print OUTFILE "\\tunename{$Title}{$TitleSpace}\n";
+        my $TexTitle = texSubstitutions($Title);
+        print OUTFILE "\\tunename{$TexTitle}{$TitleSpace}\n";
     }
     if (-e "text/song-$Num.tex") {
         $Source = &slurp("text/song-$Num.tex");
