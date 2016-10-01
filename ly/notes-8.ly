@@ -8,7 +8,7 @@
  d''8. d''16 c''4 a'  | 
  bes'8. a'16 g'4. g'8  | 
  a'8. fis'16 d'8-( fis'-) a'-( c''-)  | 
- bes'4 a'4.  |
+ bes'4 a'4.
  } %( endrepeat )% 
  \break
  fis'8  | 
@@ -19,7 +19,7 @@
  bes' a' g'4 g'  | 
  ees'' d''4. f''16-( ees''-)  | 
  d''-( c''-) bes'-( a'-) g'4 fis'  | 
- a' g'4. \bar "|." |
+ a' g'4. \bar "|."
  }
  \addlyrics {
      Det var en ljuv -- lig som -- mar -- natt, jag gick i lun --  -- den __ grö -- na.
