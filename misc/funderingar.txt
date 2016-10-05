@@ -29,14 +29,18 @@ Repristolkning:
 
 
 579: saknat skiljetecken?
+222: Joneson eller Jonsson? Och hur är det med 248, 262?
+699: komma innan "Flors i Burs"?
 
-Florsen: "finnes en biografin"
+Florsen: "finnes en biografin"   "orgineä"  "om honom.:"
 Hagebyen: " -innan dess"
+Hansson: saknat skiljetecken på slutet?
+Olofsdotter: "Gammalgarn" => "Gammelgarn"?
+Pucksson: låtlistan
+Ronander: mellanrum efter "1908." Blir inte bra i HTML, men i LaTeX?
 
-Hur lagra text? Konvertering LaTeX <=> HTML?
 
-
-Musikalisk  tolkning / misstänkta tryckfel:
+Musikalisk tolkning / misstänkta tryckfel:
 1: ändrat "Eter Elisabet ..." till "Efter Elisabet ..."
 3: andra reprisens andra takt är för lång, ändrade sista tonen till en 16-del
 12: Bytt extrastort S mot ʃ, då det uppenbart har den betydelsen
