@@ -73,7 +73,7 @@ sub processPerson() {
 
     # Parishes
     foreach my $Parish (@Parishes::Parishes) {
-        $Text =~ s/(?<!\>)\Q$Parish\E(?=[\s\.\?\!])/<a href="web\/socknar\/$Parish" class="socken">$Parish<\/a>/g;
+        $Text =~ s/(?<!\>)\Q$Parish\E(?=[\s\.\,\;\?\!])/<a href="web\/socknar\/$Parish" class="socken">$Parish<\/a>/g;
     }
 
     # Hypenation
