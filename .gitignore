@@ -2,3 +2,9 @@ old_fredin
 book
 release
 svg
+text/people/html
+text/people/source
+*.pdf
+*.zip
+fredin.aux
+fredin.log
