@@ -72,7 +72,7 @@ for my $num ($From..$To) {
     $params{'minimum-distance'} = 11;
     $params{'padding'} = 1;
     if ($svg) {
-        $params{'tune-num-font'} = "\\override #'(font-encoding . fetaText)";
+        $params{'tune-num-font'} = ""; #\\override #'(font-encoding . fetaText)";
         $params{'page-height'} = "600mm"; # should be enough for any tune in the collection
         #$params{'margins'} = "    left-margin = 1\\mm\n    right-margin = 1\\mm\n";
         $params{'page-width'} = "    paper-width = 173\\mm\n";

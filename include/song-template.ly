@@ -52,7 +52,7 @@
 
 \score { {
     
-    \set Staff.instrumentName = \markup { %((tune-num-font))% \huge \bold "%((tune-num))%." \hspace #1.2 } 
+    \set Staff.instrumentName = \markup { %((tune-num-font))% \abs-fontsize #18 { \bold "%((tune-num))%." } \hspace #0.7 } 
     \set Staff.shortInstrumentName = ""
     \override Score.BarNumber #'stencil = ##f
     \set Timing.beamHalfMeasure = ##t
