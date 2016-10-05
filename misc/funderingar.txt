@@ -5,14 +5,6 @@ Följdfråga: Alltid versal i låtbeskrivning? Eller alltid gemen? Eller följ o
 
 Kolla öht igenom alla titlar och välj en strategi, se t.ex 687 (titel eller ej?)
 
-ej ny sida:
-219 221 227 228 231 234 237 244 248 250 252 256 258 260 263 266 268 270 271 274 277 279 281 285 287 291 294 296 301 302 303 306 308 310
-
-312 314 315 316 326 330 336 339 344 
-
-346 351 353 355 357 359 361 369 370 372 373
-
-377 382 384 394 396 401 403 405 406 408 409 411 413 414 415 417 
 
 
 KOLLA MARGINALERNA: texten är satt bredare än noterna!
@@ -35,6 +27,13 @@ Repristolkning:
 361 408 (fel men ok?) 433 459 471 644 656
 557: antal taktslag
 
+
+579: saknat skiljetecken?
+
+Florsen: "finnes en biografin"
+Hagebyen: " -innan dess"
+
+Hur lagra text? Konvertering LaTeX <=> HTML?
 
 
 Musikalisk  tolkning / misstänkta tryckfel:
