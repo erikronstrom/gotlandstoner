@@ -30,7 +30,7 @@ open(OUTFILE, '>', 'book/tuneinfo.php');
 print OUTFILE "<?php\n\n";
 print OUTFILE '$tuneinfo = [' . "\n";
 
-for my $num (214..727) {
+for my $num (1..727) {
     
     # if (my $section = $TuneConf{$num}->{"section"}) {
     #     $section = uc($section);
@@ -48,8 +48,10 @@ for my $num (214..727) {
     #     #print OUTFILE "\\end{center}\n\n";
     # }
 
-    my $abc = &slurp("abc/song-$num.abc");
-    &processTune($abc, $num);
+    if (-e "abc/song-$num.abc") {
+        my $abc = &slurp("abc/song-$num.abc");
+        &processTune($abc, $num);
+    }
 }
 
 print OUTFILE "];\n\n";
@@ -113,6 +115,9 @@ sub processTune() {
                 $Source .= " ";
             #}
         }
+        if ($Line =~ /^([R]):(\S*)/) {
+            $Headers{$1} = $2;
+        }
         if ($Line =~ /^K:(\S*)/) {
             $Headers{'K'} = $1;
             $Music = '';
@@ -164,6 +169,7 @@ sub processTune() {
     print OUTFILE "    'source'      => '${\htmlSubstitutions($Source)}',\n";
     print OUTFILE "    'sourceWidth' => '$TextBox',\n";
     print OUTFILE "    'parts'       => $Parts,\n";
+    print OUTFILE "    'type'        => '" . $Headers{'R'} . "',\n";
     print OUTFILE "    'key'         => [" . join(', ', @Keys) . "],\n";
     print OUTFILE "    'meter'       => '" . $Headers{'M'} . "'\n";
     print OUTFILE "  ]";

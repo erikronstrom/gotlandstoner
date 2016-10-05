@@ -12,7 +12,10 @@ our %People;
 our %ReversePeople;
 
 our %TuneSpecific = (
-    218 => {"fanjunkar Lindbom" => "Lindbom"}
+    218 => {"fanjunkar Lindbom" => "Lindbom"},
+    234 => {"O. Laugren" => "Laugren", "»Florsen»" => "Florsen"},
+    414 => {"båtsman »Kajuta»" => "Kajutan"},
+    418 => {"O. Laurin" => "Laurin-Olof"}
 );
 
 sub initPeople($) {
@@ -55,8 +58,13 @@ sub processPerson() {
 
     # Generate reverse-lookup-table for names
     $ReversePeople{$Name} = $FileName if $Name;
-    if ($Name && $Name =~ /^(.*), (.*)$/) {
-        $ReversePeople{"$2 $1"} = $FileName;
+    if ($Name) {
+        if ($Name =~ /^(.*), (\S+)\s*$/) {
+            $ReversePeople{"$2 $1"} = $FileName;
+        } elsif ($Name =~ /^(.*), ((\S+)\s+.*)$/) {
+            $ReversePeople{"$2 $1"} = $FileName;
+            $ReversePeople{"$3 $1"} = $FileName;
+        }
     }
 
     my @Tunes;
