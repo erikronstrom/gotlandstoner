@@ -13,7 +13,10 @@
  } %( endrepeat )% 
  
 \repeat volta 2 { 
- d''\smallFlageolet g''\smallFlageolet b''\smallFlageolet  | 
+ << { \stemUp d''\smallFlageolet g''\smallFlageolet b''\smallFlageolet \stemNeutral } \\
+    { \harmonicsOn \override Stem #'transparent = ##t
+      d' c' b
+      \harmonicsOff \revert Stem #'transparent } >> | 
  d''8 d''16 e'' d'' c'' a' c'' c''8 b'  | 
  d''4\smallFlageolet g''\smallFlageolet b''\smallFlageolet  | 
  d''8 d''16 e'' d'' c'' a' c'' b'4  | 
