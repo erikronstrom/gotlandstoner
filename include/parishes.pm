@@ -34,7 +34,7 @@ use utf8;
   "Fårö", 
   "Gammelgarn", 
   "Ganthem", 
-  "Garde", 
+  "Garda", 
   "Gerum", 
   "Gothem", 
   "Grötlingbo", 
