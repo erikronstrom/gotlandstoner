@@ -28,14 +28,9 @@ Repristolkning:
 557: antal taktslag
 
 
-579: saknat skiljetecken?
 222: Joneson eller Jonsson? Och hur är det med 248, 262?
-699: komma innan "Flors i Burs"?
 
-Florsen: "finnes en biografin"   "orgineä"  "om honom.:"
-Hagebyen: " -innan dess"
-Hansson: saknat skiljetecken på slutet?
-Olofsdotter: "Gammalgarn" => "Gammelgarn"?
+Olofsdotter: "Gammalgarn" => "Gammelgarn"? Nej!
 Pucksson: låtlistan
 Ronander: mellanrum efter "1908." Blir inte bra i HTML, men i LaTeX?
 
@@ -47,6 +42,7 @@ Musikalisk tolkning / misstänkta tryckfel:
 14: tagit bort felaktigt taktstreck i slutet av andra systemet, flyttat felaktigt citattecken i vers 8/9
 16: Ändrat åttondel till 16-del (näst sista taktens andra ton)
 29: Ändrade avstavning sån-gen -> sång-en
+222: saknat återställningstecken på Eb (E) i början av andra reprisen
 223: rättat uppenbart tryckfel (originalet närmast ospelbart)
 229: tog bort dubbelgrepp i andra reprisens sjätte takt
 239: rättade sista takten, som var för lång (skum balk)
@@ -65,5 +61,5 @@ Musikalisk tolkning / misstänkta tryckfel:
 683: saknad punkt, uppenbar pga omgivande takternas rytmiska mönster
 690: uppenbart tryckfel i takt 7, rättat enligt parallellstället två takter tidigare
 
-
+Florsen: "om honom.:" -> "om honom:"
 
