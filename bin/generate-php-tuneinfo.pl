@@ -164,6 +164,7 @@ sub processTune() {
     my $Parts = &countParts($Music, $Num);
 
     print OUTFILE "  $Num => [\n";
+    print OUTFILE "    'num'         => $Num,\n";
     print OUTFILE "    'title'       => '${\htmlSubstitutions($Title)}',\n";
     print OUTFILE "    'text'        => '$PostText',\n" if $PostText;
     print OUTFILE "    'source'      => '${\htmlSubstitutions($Source)}',\n";
@@ -263,7 +264,7 @@ sub insertParishLinks() {
     my $Text = shift;
     my $Num  = shift; # currently ignored
     foreach my $Parish (@Parishes::Parishes) {
-        $Text =~ s/(?<!\>)\Q$Parish\E(?=[\s\.\;\,\?\!])/<a href="web\/socknar\/$Parish" class="socken">$Parish<\/a>/g;
+        $Text =~ s/(?<!\>)\Q$Parish\E(?=[\s\.\;\,\?\!\)])/<a href="web\/socknar\/$Parish" class="socken">$Parish<\/a>/g;
     }
     return $Text;
 }
