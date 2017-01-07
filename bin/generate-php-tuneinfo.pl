@@ -11,6 +11,9 @@ initPeople('text/people/');
 
 require 'include/parishes.pm';
 
+my %SearchIndex;
+my $WordLength = 5; # n-gram size for search index
+
 my %TuneConf;
 open(CONFIG, '<', 'config');
 while(<CONFIG>) {
@@ -56,6 +59,21 @@ for my $num (1..727) {
 
 print OUTFILE "];\n\n";
 print STDERR "\n";
+
+my $index = 0;
+print OUTFILE '$wordlength = ' . $WordLength . ";\n\n";
+print OUTFILE '$musicindex = [' . "\n";
+foreach my $key (keys %SearchIndex) {
+    print OUTFILE ",\n" if $index++;
+    my @places;
+    foreach my $p (@{$SearchIndex{$key}}) {
+        #push(@places, "[" . $p->[0] . "," . $p->[1] . "]");
+        push(@places, '"' . $p->[0] . " " . $p->[1] . '"');
+    }
+    #print OUTFILE "  '" . $key . "' => [" . join(",", sort { $a <=> $b } (&uniq(@{$SearchIndex{$key}}))) . "]";
+    print OUTFILE "  '" . $key . "' => [" . join(",", @places) . "]";
+}
+print OUTFILE "];\n\n";
 
 close(OUTFILE);
 
@@ -162,6 +180,7 @@ sub processTune() {
 
     my @Keys = ("'" . $Headers{'K'} . "'");
     my $Parts = &countParts($Music, $Num);
+    my $SearchData = &generateSearchData($Music, $Num);
 
     print OUTFILE "  $Num => [\n";
     print OUTFILE "    'num'         => $Num,\n";
@@ -172,11 +191,12 @@ sub processTune() {
     print OUTFILE "    'parts'       => $Parts,\n";
     print OUTFILE "    'type'        => '" . $Headers{'R'} . "',\n";
     print OUTFILE "    'key'         => [" . join(', ', @Keys) . "],\n";
-    print OUTFILE "    'meter'       => '" . $Headers{'M'} . "'\n";
+    print OUTFILE "    'meter'       => '" . $Headers{'M'} . "',\n";
+    print OUTFILE "    'search'      => '" . $SearchData . "'\n";
     print OUTFILE "  ]";
     print OUTFILE "," unless $Num == 727;
     print OUTFILE "\n";
-    
+
 #    print OUTFILE "\\vspace{0.5cm}\n\n" unless $BreakAfter;
 }
 
@@ -202,6 +222,56 @@ sub countParts() {
         $PartCount++ if $Barlines > 1;
     }
     return $PartCount;
+}
+
+sub generateSearchData() {
+    my $music = shift;
+    my $tuneid = shift;
+    my $pitches = "CDEFGABcdefgab";
+    my $result = "";
+    for (my $i = 0; $i < length($music); $i++) {
+        my $c = substr($music, $i, 1);
+        # next if ($c =~ /\s/);
+        my $pitchPos = index($pitches, $c);
+        if ($pitchPos >= 0) {
+            my $nextChar = substr($music, $i+1, 1);
+            while ($nextChar =~ /[,']/) {
+                $pitchPos += ($nextChar eq "'") ? 12 : -12;
+                $i++;
+                $nextChar = substr($music, $i+1, 1);
+            }
+            my $length = '';
+            while ($nextChar =~ /\d/) {
+                $length .= $nextChar;
+                $i++;
+                $nextChar = substr($music, $i+1, 1);
+            }
+            $length ||= 1;
+
+            $result .= chr(65 + $pitchPos) x $length; # 65 = 'A'
+            # $string2 .= chr(65 + $pitchPos) . (' ' x ($length - 1));
+        }
+    }
+    for (my $i = 0; $i <= length($result) - $WordLength; $i++) {
+        my $pitch;
+        my $entry = '';
+        for my $j (0..$WordLength - 1) {
+            my $p = substr($result, $i+$j, 1);
+            # if ($p eq ' ') {
+            #     $entry .= ' '; # if $j;
+            # } else {
+            $p = ord($p) - 65;
+            $pitch = $p unless defined $pitch;
+            $entry .= chr(72 + ($p - $pitch)) if $j;
+            $pitch = $p;
+            # }
+        }
+        if ($entry =~ /^[0-9\@\?\>\<\=\:\;A-Z\[]+$/) {
+            $SearchIndex{$entry} = [] unless $SearchIndex{$entry};
+            push($SearchIndex{$entry}, [$tuneid, $i]);
+        }
+    }
+    return $result;
 }
 
 sub htmlSubstitutions() {
@@ -267,4 +337,9 @@ sub insertParishLinks() {
         $Text =~ s/(?<!\>)\Q$Parish\E(?=[\s\.\;\,\?\!\)])/<a href="web\/socknar\/$Parish" class="socken">$Parish<\/a>/g;
     }
     return $Text;
+}
+
+sub uniq {
+    my %seen;
+    grep !$seen{$_}++, @_;
 }
