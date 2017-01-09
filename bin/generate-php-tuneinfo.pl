@@ -58,11 +58,15 @@ for my $num (1..727) {
 }
 
 print OUTFILE "];\n\n";
-print STDERR "\n";
-
-my $index = 0;
 print OUTFILE '$wordlength = ' . $WordLength . ";\n\n";
-print OUTFILE '$musicindex = [' . "\n";
+print STDERR "\n";
+close(OUTFILE);
+
+
+open(OUTFILE, '>', 'book/searchindex.json');
+my $index = 0;
+# print OUTFILE '$musicindex = [' . "\n";
+print OUTFILE "{\n";
 foreach my $key (keys %SearchIndex) {
     print OUTFILE ",\n" if $index++;
     my @places;
@@ -71,9 +75,9 @@ foreach my $key (keys %SearchIndex) {
         push(@places, '"' . $p->[0] . " " . $p->[1] . '"');
     }
     #print OUTFILE "  '" . $key . "' => [" . join(",", sort { $a <=> $b } (&uniq(@{$SearchIndex{$key}}))) . "]";
-    print OUTFILE "  '" . $key . "' => [" . join(",", @places) . "]";
+    print OUTFILE '  "' . $key . '": [' . join(",", @places) . "]";
 }
-print OUTFILE "];\n\n";
+print OUTFILE "}\n";
 
 close(OUTFILE);
 
@@ -229,6 +233,16 @@ sub generateSearchData() {
     my $tuneid = shift;
     my $pitches = "CDEFGABcdefgab";
     my $result = "";
+    $music =~ s/^[Ww]:.*$//gm;
+    $music =~ s/^K:[A-G](m|mix)?$//gm;
+    $music =~ s/^M:(C|C\|[0-9\/])$//gm;
+    $music =~ s/\[[A-Z]:[^\]]*\]//gm;
+    $music =~ s/\+[^\+]*\+//gm;
+    $music =~ s/\"[^\"]*\"//gm;
+    $music =~ s/\{[^\}]*\}//gm;
+    $music =~ s/\[([\=\^\_]?[A-Ga-g][',]*\d?)[^\]]*\]/$1/gm;
+    # print "\n$tuneid\n$music\n";
+    # $music =~ s/%.*$//gm;
     for (my $i = 0; $i < length($music); $i++) {
         my $c = substr($music, $i, 1);
         # next if ($c =~ /\s/);
