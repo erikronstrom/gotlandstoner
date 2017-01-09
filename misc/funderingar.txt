@@ -44,9 +44,10 @@ Musikalisk tolkning / misstänkta tryckfel:
 29: Ändrade avstavning sån-gen -> sång-en
 222: saknat återställningstecken på Eb (E) i början av andra reprisen
 223: rättat uppenbart tryckfel (originalet närmast ospelbart)
+226: fjärde taktens åttonde ton: ska det vara ett a?? (avskriften från boken är dock rätt i )
 229: tog bort dubbelgrepp i andra reprisens sjätte takt
 239: rättade sista takten, som var för lång (skum balk)
-242: takt 7, 6:e tonen: vilken intonation?? explicit c# i nästa takt talar för c
+242: takt 7, 6:e tonen: vilken intonation (radbrytning mitt i takten)?? explicit c# i nästa takt talar för c
 261: flyttat återställningstecknet i fjärde takten från e till d
 297: Ändrat segno/fine till utskriven repris, lättare att läsa
 299: Ab i andra reprisens fjärde takt ska kanske vara A
