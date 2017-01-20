@@ -18,5 +18,5 @@
      Dä stou -- ’n flik -- kä vi ’n pump, ja vi ’n pump, u höis -- tä vatt -- nä
      kla --
      \once \override LyricText.self-alignment-X = #-0.8 "rä   —" Hå, hå, hå! Nån, nån,
-     \once \override LyricText.self-alignment-X = #-0.8 "nå!   —" U höis -- tä vatt -- nä kla -- rä.
+     \once \override LyricText.self-alignment-X = #-0.8 "nå!  —" U höis -- tä vatt -- nä kla -- rä.
 }
