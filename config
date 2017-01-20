@@ -29,6 +29,9 @@
 30: spaceafter=3cm
 31: newpage=0
 
+36: newpage=0
+37: notespacing=1
+
 39: subsection=Livets sorg ock glädje.
 
 214: section=Polskor, 
