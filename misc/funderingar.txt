@@ -28,7 +28,7 @@ Repristolkning:
 557: antal taktslag
 
 
-222: Joneson eller Jonsson? Och hur är det med 248, 262?
+222: Joneson eller Jonsson? Och hur är det med 248, 262? Ska vara Joneson, finns i bokens rättelser!
 
 Olofsdotter: "Gammalgarn" => "Gammelgarn"? Nej!
 Pucksson: låtlistan
@@ -43,6 +43,7 @@ Musikalisk tolkning / misstänkta tryckfel:
 29: Ändrade avstavning sån-gen -> sång-en
 35: La till saknad båge på "Hadd", tog bort bindestreck i 3:e versens "ʃalvar"
 36: Delade "bäur'n" till "bäur-'n" La till saknad båge på "läil"
+38: La till saknad båge på "krossa" och "dommen"
 222: saknat återställningstecken på Eb (E) i början av andra reprisen
 223: rättat uppenbart tryckfel (originalet närmast ospelbart)
 226: fjärde taktens åttonde ton: ska det vara ett a?? (avskriften från boken är dock rätt i )
