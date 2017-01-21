@@ -43,7 +43,11 @@ Musikalisk tolkning / misstänkta tryckfel:
 29: Ändrade avstavning sån-gen -> sång-en
 35: La till saknad båge på "Hadd", tog bort bindestreck i 3:e versens "ʃalvar"
 36: Delade "bäur'n" till "bäur-'n" La till saknad båge på "läil"
-38: La till saknad båge på "krossa" och "dommen"
+38: La till saknad båge på "krossa" och "dommen". Tog bort punkt på femte tonen i 9:e takten (takten var för lång)
+40: I rättelserna står "jɷurden" -> "jourden", men i originalet står "joɷrdän". E eller ä?? La till saknade bågar.
+41: Lade till saknad stanza (1.)
+42: Ändrade avstavning "brin-gas" -> "bring-as"
+178: I rättelserna står "Pinnɷlle -> Pinnolle", men i själva låten står "Pinnɷllä" – bort med omegat, ok, men e eller ä??
 222: saknat återställningstecken på Eb (E) i början av andra reprisen
 223: rättat uppenbart tryckfel (originalet närmast ospelbart)
 226: fjärde taktens åttonde ton: ska det vara ett a?? (avskriften från boken är dock rätt i )

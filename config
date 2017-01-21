@@ -42,6 +42,11 @@
 
 39: notespacing=2, subsection=Livets sorg ock glädje.
 
+42: newpage=0
+
+43: textbox=0
+44: newpage=0
+
 214: section=Polskor, 
 215: textbox=9cm, spaceafter=1.5cm
 
