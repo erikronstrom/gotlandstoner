@@ -57,6 +57,7 @@
     \override Score.BarNumber #'stencil = ##f
     \set Timing.beamHalfMeasure = ##t
     \override Score.VoltaBracketSpanner #'outside-staff-padding = #2
+    \override Score.NoteHead.output-attributes = #get-svg-attributes
     
 %((time-settings))%    
 

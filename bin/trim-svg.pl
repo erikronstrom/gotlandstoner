@@ -23,6 +23,7 @@ for my $i ($From..$To) {
     my $svghead;
     my $svgbody = '';
     while(my $line = <$in>) {
+        $line =~ s//»/g; # Workaround for missing glyph encoding in pre-made Computer Modern web font
         if ($line =~ /\<svg.*height\=\"([\d\.]+)mm\".*viewBox\=\"[\d\.]+\s+[\d\.]+\s+[\d\.]+\s+([\d\.]+)\s*\"/) {
             $mmheight = $1;
             $viewBoxHeight = $2;
