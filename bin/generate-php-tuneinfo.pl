@@ -102,11 +102,15 @@ sub processTune() {
     my $PostText;
     my $Music;
     my @Lyrics;
+    my @Keys;
     foreach my $Line (@Lines) {
         $Line =~ s/\%.*$//mg;     # Remove comments
         
         if (defined $Music) {
             $Music .= "$Line\n";
+            if ($Line =~ /^K:(\S*)/) {
+                push(@Keys, "'" . $1 . "'");
+            }
             next;
         }
 
@@ -142,6 +146,7 @@ sub processTune() {
         }
         if ($Line =~ /^K:(\S*)/) {
             $Headers{'K'} = $1;
+            push(@Keys, "'" . $1 . "'");
             $Music = '';
         }
         if ($Line =~ /^W:(.*)/) {
@@ -182,9 +187,11 @@ sub processTune() {
     $Source = &insertPersonLinks($Source, $Num);
     $Source = &insertParishLinks($Source, $Num);
 
-    my @Keys = ("'" . $Headers{'K'} . "'");
+    #my @Keys = ("'" . $Headers{'K'} . "'");
     my $Parts = &countParts($Music, $Num);
     my $SearchData = &generateSearchData($Music, $Num);
+
+    $Headers{'R'} = 'visa' if ($Num <= 213);
 
     print OUTFILE "  $Num => [\n";
     print OUTFILE "    'num'         => $Num,\n";
@@ -196,6 +203,7 @@ sub processTune() {
     print OUTFILE "    'type'        => '" . $Headers{'R'} . "',\n";
     print OUTFILE "    'key'         => [" . join(', ', @Keys) . "],\n";
     print OUTFILE "    'meter'       => '" . $Headers{'M'} . "',\n";
+    print OUTFILE "    'l'           => '" . substr($Headers{'L'}, 2) . "',\n";
     print OUTFILE "    'search'      => '" . $SearchData . "'\n";
     print OUTFILE "  ]";
     print OUTFILE "," unless $Num == 727;
