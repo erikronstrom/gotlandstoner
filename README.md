@@ -1,7 +1,9 @@
 # gotlandstoner
 Digitalisering av Gotlandstoner, August Fredins samling av visor och låtar från Gotland.
 
-Digitaliseringen gjordes av Erik Ronström och Clara Andermo i olika omgångar mellan ca 1998 och 2004.
+Digitalisering av låtarna gjordes av Erik Ronström och Clara Andermo i olika omgångar mellan ca 1998 och 2004.
+
+Digitalisering av visorna är sedan 2016 ett pågående projekt och görs av Erik Ronström.
 
 Korrekturläsning och -lyssning har gjorts av Fredrik Lönngren, Erik Ronström, Jan Lundqvist, Clara Andermo och Owe Ronström, främst mellan 2008 och 2009.
 
