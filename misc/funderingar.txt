@@ -47,6 +47,7 @@ Musikalisk tolkning / misstänkta tryckfel:
 40: I rättelserna står "jɷurden" -> "jourden", men i originalet står "joɷrdän". E eller ä?? La till saknade bågar.
 41: Lade till saknad stanza (1.)
 42: Ändrade avstavning "brin-gas" -> "bring-as"
+47: "för smäk-tar" -> "för-smäk-tar" + saknade bågar
 178: I rättelserna står "Pinnɷlle -> Pinnolle", men i själva låten står "Pinnɷllä" – bort med omegat, ok, men e eller ä??
 222: saknat återställningstecken på Eb (E) i början av andra reprisen
 223: rättat uppenbart tryckfel (originalet närmast ospelbart)
