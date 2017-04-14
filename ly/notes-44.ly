@@ -12,7 +12,7 @@
  f''8 e'' d'' c'' d'' a' bes' g'  | 
  c''2 a'  | 
  f''8 e'' d'' c'' d'' a' bes' e'  | 
- g'2 f'4 \bar "|." |
+ g'2 f'4 \bar "|."
  }
  \addlyrics {
      \set stanza = #"1. "
