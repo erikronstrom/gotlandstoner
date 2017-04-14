@@ -47,6 +47,11 @@
 43: textbox=0
 44: newpage=0
 
+48: notespacing=2, subsection=Om ungdomslivet på Gotland i forna tider.
+49: notespacing=2
+50: subsection=Kärleksvisor.
+51: notespacing=5
+
 214: section=Polskor, 
 215: textbox=9cm, spaceafter=1.5cm
 
@@ -57,7 +62,7 @@
 219: newpage=0, systemspacing=-1, lineoffset=-3
 
 220: spaceafter=2cm
-221: newpage=0
+221: newpage=0, notespacing=1
 222: 
 223: 
 

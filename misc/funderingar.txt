@@ -48,6 +48,9 @@ Musikalisk tolkning / misstänkta tryckfel:
 41: Lade till saknad stanza (1.)
 42: Ändrade avstavning "brin-gas" -> "bring-as"
 47: "för smäk-tar" -> "för-smäk-tar" + saknade bågar
+49: Ändrade avstavning "hä-xa" / "lä-xa" -> "häx-a" / "läx-a"
+50: Ändrat skiljetecken vers 4 rad 4. La till saknad båge.
+51: Ändrat skiljetecken vers 4 rad 1
 178: I rättelserna står "Pinnɷlle -> Pinnolle", men i själva låten står "Pinnɷllä" – bort med omegat, ok, men e eller ä??
 222: saknat återställningstecken på Eb (E) i början av andra reprisen
 223: rättat uppenbart tryckfel (originalet närmast ospelbart)
