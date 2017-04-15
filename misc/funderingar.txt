@@ -52,6 +52,7 @@ Musikalisk tolkning / misstänkta tryckfel:
 50: Ändrat skiljetecken vers 4 rad 4. La till saknad båge.
 51: Ändrat skiljetecken vers 4 rad 1
 52: La till saknade bågar på "förrän" och vi"
+53: La till saknad båge på "i"
 178: I rättelserna står "Pinnɷlle -> Pinnolle", men i själva låten står "Pinnɷllä" – bort med omegat, ok, men e eller ä??
 222: saknat återställningstecken på Eb (E) i början av andra reprisen
 223: rättat uppenbart tryckfel (originalet närmast ospelbart)
