@@ -194,7 +194,7 @@ sub processTune() {
     $Headers{'R'} = 'visa' if ($Num <= 213);
 
     print OUTFILE "  $Num => [\n";
-    print OUTFILE "    'num'         => $Num,\n";
+    print OUTFILE "    'id'          => $Num,\n";
     print OUTFILE "    'title'       => '${\htmlSubstitutions($Title)}',\n";
     print OUTFILE "    'text'        => '$PostText',\n" if $PostText;
     print OUTFILE "    'source'      => '${\htmlSubstitutions($Source)}',\n";
@@ -324,6 +324,7 @@ sub htmlSubstitutions() {
     $Text =~ s/---/&mdash;/g;
     $Text =~ s/--/&ndash;/g;
     $Text =~ s/\\textesh{}/ʃ/g;
+    $Text =~ s/\\guillemotright{}/»/g;
     # $Text =~ s/ɷ/\\textcloseomega{}/g;
     # $Text =~ s/»/\\guillemotright{}/g;
     # $Text =~ s/’/\'/g;
@@ -346,7 +347,7 @@ sub insertPersonLinks() {
     # }
 
     foreach my $Name (keys %$Table) {
-        $Text =~ s/$Name/<a href="web\/personer\/$Table->{$Name}" class="person">$Name<\/a>/g;
+        $Text =~ s/\b$Name\b/<a href="web\/personer\/$Table->{$Name}" class="person">$Name<\/a>/g;
     }
 
     return $Text;

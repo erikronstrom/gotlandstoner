@@ -84,6 +84,7 @@ sub processText() {
     $Text =~ s/\\textemdash{}/&mdash;/g;
     $Text =~ s/\\textendash{}/&ndash;/g;
     $Text =~ s/\\textesh({})?/ʃ/g;
+    $Text =~ s/\\guillemotright({})?/»/g;
     $Text =~ s/\\sfrac\{1\}\{4\}/&frac14;/g;
     $Text =~ s/\\sfrac\{3\}\{4\}/&frac34;/g;
 

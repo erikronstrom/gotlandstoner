@@ -12,10 +12,19 @@ our %People;
 our %ReversePeople;
 
 our %TuneSpecific = (
+      3 => {"Maria Pettersson" => "Pettersson-M"},
+      9 => {"Maria Pettersson" => "Pettersson-M"},
+     97 => {"Maria Pettersson" => "Pettersson-M"},
+     99 => {"Maria Pettersson" => "Pettersson-M"},
+    192 => {"Maria Pettersson" => "Pettersson-M"},
+    205 => {"Maria Pettersson" => "Pettersson-M"},
+    206 => {"Maria Pettersson" => "Pettersson-M"},
+    207 => {"Maria Pettersson" => "Pettersson-M"},
     218 => {"fanjunkar Lindbom" => "Lindbom"},
     234 => {"O. Laugren" => "Laugren", "»Florsen»" => "Florsen"},
     414 => {"båtsman »Kajuta»" => "Kajutan"},
-    418 => {"O. Laurin" => "Laurin-Olof"}
+    418 => {"O. Laurin" => "Laurin-Olof"},
+    699 => {"Maria Pettersson" => "Pettersson-M"}
 );
 
 sub initPeople($) {
