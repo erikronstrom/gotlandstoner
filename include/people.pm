@@ -12,8 +12,11 @@ our %People;
 our %ReversePeople;
 
 our %TuneSpecific = (
-      3 => {"Maria Pettersson" => "Pettersson-M"},
+      3 => {"Elisabet Olofsdotter" => "Olofsdotter", "Maria Pettersson" => "Pettersson-M"},
       9 => {"Maria Pettersson" => "Pettersson-M"},
+     26 => {"Anna Pettersson" => "Pettersson-A"},
+     38 => {"Elisabet Olofsdotter" => "Olofsdotter", "John Pettersson" => "Pettersson-John"},
+     78 => {"Jakob Pettersson" => "Pettersson-J"},
      97 => {"Maria Pettersson" => "Pettersson-M"},
      99 => {"Maria Pettersson" => "Pettersson-M"},
     192 => {"Maria Pettersson" => "Pettersson-M"},
@@ -22,9 +25,18 @@ our %TuneSpecific = (
     207 => {"Maria Pettersson" => "Pettersson-M"},
     218 => {"fanjunkar Lindbom" => "Lindbom"},
     234 => {"O. Laugren" => "Laugren", "»Florsen»" => "Florsen"},
+    296 => {"P. Pettersson" => "Pettersson-P-N"},
     414 => {"båtsman »Kajuta»" => "Kajutan"},
     418 => {"O. Laurin" => "Laurin-Olof"},
-    699 => {"Maria Pettersson" => "Pettersson-M"}
+    422 => {"L. P. Boberg" => "Boberg-L-P"},
+    482 => {"Joh. Johansson" => "Johansson-J"},
+    493 => {"P. Jakobsson" => "Jakobsson-P"},
+    583 => {"Johan Johansson" => "Johansson-J"},
+    604 => {"P. N. Pettersson" => "Pettersson-P-N"},
+    698 => {"Niklas Pettersson" => "Pettersson-N"},
+    699 => {"Maria Pettersson" => "Pettersson-M"},
+    715 => {"Joh. Johansson" => "Johansson-J"},
+    726 => {"Jakob Pettersson" => "Pettersson-J"}
 );
 
 sub initPeople($) {
