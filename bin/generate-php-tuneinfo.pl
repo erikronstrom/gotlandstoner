@@ -347,7 +347,7 @@ sub insertPersonLinks() {
     # }
 
     foreach my $Name (keys %$Table) {
-        $Text =~ s/\b$Name\b/<a href="web\/personer\/$Table->{$Name}" class="person">$Name<\/a>/g;
+        $Text =~ s/$Name/<a href="web\/personer\/$Table->{$Name}" class="person">$Name<\/a>/g;
     }
 
     return $Text;
