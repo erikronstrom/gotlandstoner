@@ -18,7 +18,15 @@ open(OUTFILE, '>', 'book/personinfo.php');
 print OUTFILE "<?php\n\n";
 print OUTFILE '$personinfo = [' . "\n";
 
-foreach my $FileName (sort keys %People) {
+sub namesort {
+    my $an = $People{$a}->{"name"};
+    my $bn = $People{$b}->{"name"};
+    $an =~ s/»//g;
+    $bn =~ s/»//g;
+    $an cmp $bn;
+}
+
+foreach my $FileName (sort namesort keys %People) {
     my $Person = $People{$FileName};
     my $Name = $Person->{"name"};
     my $Tunes = $Person->{"tunes"};
