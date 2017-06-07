@@ -29,7 +29,7 @@
  g'8 d'16 c' b c' a b g4  | 
  g''8 d''16 c'' b' c'' a' b' g'4  | 
  \noteheadHalf < g d'  >8_\colArco < b' g''  >^\pizz < b' g''  > < b' g''  > fis''16 c''' a'' fis''  | 
- \noteheadHalf < g d' b'  >8_colArco g''^\pizz g'' g'' fis''16 c''' a'' fis''  | 
+ \noteheadHalf < g d' b'  >8_\colArco g''^\pizz g'' g'' fis''16 c''' a'' fis''  | 
  g'' fis'' e'' d'' e'' d'' c'' b' c'' b' a' g'  | 
  fis' d' e' fis' a'4 g'  |
  } %( endrepeat )% 
