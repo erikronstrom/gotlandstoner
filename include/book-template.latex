@@ -1,3 +1,5 @@
+\let\mypdfximage\pdfximage
+\def\pdfximage{\immediate\mypdfximage}
 \documentclass[a4paper]{report}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -38,6 +40,55 @@
     \end{center}
 }
 \newcommand{\tinyskip}[0]{\hspace{0.1em}}
+
+
+\begin{titlepage}
+    \centering
+    \vspace*{3.5cm}
+    {\fontsize{30}{36}\selectfont\textls[200]{GOTLANDSTONER}\par}
+    \vspace{2cm}
+    {\large\textls[150]{UPPTECKNADE AV}\par
+    \vspace{0.6cm}
+    {\huge\textls[150]{AUGUST FREDIN}\par
+
+    \vspace{3cm}
+    \line(1,0){12.5cm}
+    \vspace{0.6cm}
+
+    % {\fontsize{30}{36}\selectfont 417 -- 727\par}
+    % \vspace{0.7cm}
+    {\huge\textls[80]{Valser}\par}
+    {\huge\textls[80]{Polka ock schottis}\par}
+    {\huge\textls[80]{Kadriljer ock angläser}\par}
+    {\huge\textls[80]{Marscher ock andra högtidsstycken}\par}
+    {\huge\textls[80]{Långdanser, figur- ock solodanser}\par}
+    
+    \vspace{0.6cm}
+    \line(1,0){12.5cm}
+    \vspace{2cm}
+
+    % \vspace{3cm}
+    % \line(1,0){10cm}
+    % \vspace{0.5cm}
+
+    % {\fontsize{30}{36}\selectfont 417 -- 727\par}
+    % \vspace{0.4cm}
+    % {\huge\textls[80]{Valser}\par}
+    % {\huge\textls[80]{Polka ock schottis}\par}
+    % {\huge\textls[80]{Kadriljer ock angläser}\par}
+    % {\huge\textls[80]{Marscher ock andra högtidsstycken}\par}
+    % {\huge\textls[80]{Långdanser, figur- ock solodanser}\par}
+    
+    % \vspace{0.6cm}
+    % \line(1,0){10cm}
+    % \vspace{2cm}
+
+
+
+    \vfill
+    \large{Wessmans Musikförlag}
+
+\end{titlepage}
 
 
 
