@@ -51,20 +51,21 @@
 49: notespacing=2
 50: subsection=Kärleksvisor.
 51: notespacing=5
+55: notespacing=2
 
-214: section=Polskor, 
+214: notespacing=1, section=Polskor, 
 215: textbox=9cm, spaceafter=1.5cm
 
 216: 
-217: 
+217: notespacing=1
 
 218: spaceafter=1.5cm, systemspacing=-1, lineoffset=-3
 219: newpage=0, systemspacing=-1, lineoffset=-3
 
 220: spaceafter=2cm
 221: newpage=0, notespacing=1
-222: 
-223: 
+222: notespacing=1
+223: notespacing=1
 
 224: 
 225: 
@@ -78,37 +79,37 @@
 231: newpage=0
 
 232: 
-233: spaceafter=2cm, textbox=0
+233: spaceafter=2cm, notespacing=1, textbox=0
 234: newpage=0, textbox=0
 
 235: systemspacing=2
 236: systemspacing=-1
-237: newpage=0, systemspacing=-1
+237: newpage=0, notespacing=2
 
 
 238: 
 239: 
 
-240: textbox=11cm
-241: 
+240: textbox=11cm, notespacing=1
+241: notespacing=1
 
 242: textbox=0
 243: lineoffset=-5, spaceafter=0.5cm, systemspacing=-2
 244: newpage=0, lineoffset=15, systemspacing=-2
 
-245: 
+245: notespacing=1
 246: 
 
 247: systemspacing=-2, spaceafter=0.7cm
 248: newpage=0, systemspacing=-2
 
-249: spaceafter=0.5cm, systemspacing=-1, lineoffset=-5
+249: spaceafter=1.5cm, systemspacing=-1, lineoffset=-5, notespacing=1
 250: newpage=0, systemspacing=-1, lineoffset=-5
 251: spaceafter=2.5cm
 252: newpage=0, lineoffset=-5
 
 253: 
-254: 
+254: newpage=0
 
 255: spaceafter=0.5cm
 256: newpage=0
@@ -116,24 +117,24 @@
 257: spaceafter=2cm
 258: newpage=0
 
-259: systemspacing=-1, lineoffset=-8
-260: newpage=0, systemspacing=-1, lineoffset=-8
-261: 
+259: notespacing=1, systemspacing=-1, lineoffset=-8
+260: newpage=0, systemspacing=-1, lineoffset=-8, notespacing=2
+261: notespacing=1
 
-262: spaceafter=2cm
+262: spaceafter=2cm, notespacing=1
 263: newpage=0
 264: 
 
-265: systemspacing=-2, spaceafter=0.7cm
-266: newpage=0, systemspacing=-2
+265: systemspacing=-2, spaceafter=1.1cm, spacebefore=0.6cm
+266: newpage=0, systemspacing=-2, notespacing=1
 
 267: spaceafter=1.5cm, notespacing=-1
-268: newpage=0
+268: newpage=0, notespacing=1
 269: spaceafter=0.5cm, systemspacing=-2
 270: newpage=0, spaceafter=0.5cm, systemspacing=-2
-271: newpage=0, systemspacing=-2
+271: newpage=0, systemspacing=-2, notespacing=1
 
-272: 
+272: notespacing=1
 273: 
 
 274: newpage=0
@@ -142,7 +143,7 @@
 276: spaceafter=3cm
 277: newpage=0
 278: systemspacing=-2, spaceafter=0.5cm, lineoffset=-5
-279: newpage=0, systemspacing=-2
+279: newpage=0, systemspacing=-2, notespacing=1
 
 280: systemspacing=-3, spaceafter=0.5cm, lineoffset=-10
 281: newpage=0, systemspacing=-3, lineoffset=-10
@@ -152,50 +153,52 @@
 
 284: systemspacing=-1, lineoffset=-5, spaceafter=0.8cm
 285: newpage=0
-286: lineoffset=-5, pages=1
+286: pages=2, systemspacing=1, spaceafter=3cm, notespacing=1
 287: newpage=0
 288: 
 289: 
 
-290: 
-291: newpage=0
+290: notespacing=1
+291: newpage=0, notespacing=1
 292: 
-293: 
+293: textbox=10.6cm
 294: newpage=0
 295: spaceafter=2cm
 296: newpage=0
 297: notespacing=2
 
 298: 
-299: 
+299: notespacing=1
 
-300: spaceafter=0.5cm, systemspacing=-1, lineoffset=-8
+300: spaceafter=1.5cm, systemspacing=-1, lineoffset=-8, notespacing=1
 301: newpage=0, systemspacing=-1, lineoffset=-8
-302: newpage=0
+302: newpage=1
 303: newpage=0
 304: 
-305: spaceafter=0.3cm, systemspacing=-1, lineoffset=-5
-306: newpage=0, lineoffset=-5, systemspacing=-2
+305: notespacing=1
+306: newpage=0, notespacing=1
 
-307: spaceafter=0.6cm, systemspacing=-2, lineoffset=-5
+307: spaceafter=1.5cm, systemspacing=-2, lineoffset=-5
 308: newpage=0, systemspacing=-2, lineoffset=-5
 
 309: systemspacing=-1, lineoffset=-5
 310: newpage=0, systemspacing=-1, lineoffset=-5
 311: spaceafter=0.5cm, lineoffset=-7
 312: newpage=0, lineoffset=-7
-313: spaceafter=0.3cm, lineoffset=-5
-314: newpage=0, systemspacing=-2, lineoffset=-5
-315: newpage=0
+
+313: 
+314: newpage=0
+315: newpage=1
 316: newpage=0
 317: 
 318: 
 319: textbox=0
 
 320: 
-321: notespacing=0
 
-322: 
+321: notespacing=0, spaceafter=0.5cm
+322: newpage=0, systemspacing=-1
+
 323: 
 
 324: 
@@ -219,12 +222,12 @@
 336: newpage=0, lineoffset=-5
 337: 
 
-338: lineoffset=-8, spaceafter=0.8cm, systemspacing=-1
-339: newpage=0, lineoffset=-8, systemspacing=-1
+338: lineoffset=-5, spaceafter=1.2cm, systemspacing=-1
+339: newpage=0, lineoffset=-5, systemspacing=-1, notespacing=1
 340: newpage=1, systemspacing=-2.6, spaceafter=1cm, lineoffset=-3
 341: newpage=0, systemspacing=-2.6, lineoffset=-3
 
-342: 
+342: notespacing=2
 
 343: lineoffset=-5, spaceafter=0.8cm, systemspacing=-1
 344: newpage=0, lineoffset=-5, systemspacing=-1
@@ -258,12 +261,12 @@
 366: 
 
 367: 
-368: spaceafter: 0.5cm
-369: newpage=0
-370: newpage=0
+368: spaceafter: 0.5cm, newpage=0
+369: newpage=1
+370: newpage=0, systemspacing=-2, lineoffset=-4
 371: 
 372: newpage=0
-373: newpage=0
+373: newpage=1
 374: 
 375: 
 376: systemspacing=-2, spaceafter=0.5cm
@@ -271,30 +274,30 @@
 
 378: 
 379: 
-380: 
+380: notespacing=1
 381: 
 382: newpage=0
 383: spaceafter=2cm
 384: newpage=0
-385: 
+385: notespacing=1
 386: 
 387: 
 388: textbox=0
 389: 
 390: 
 391: 
-392: 
-393: 
-394: newpage=0
-395: systemspacing=-2, spaceafter=0.4cm
+392: notespacing=2
+393: notespacing=2, systemspacing=-1, spaceafter=1.5cm
+394: newpage=0, systemspacing=-1
+395: systemspacing=-2, spaceafter=0.8cm, notespacing=2
 396: newpage=0, systemspacing=-2
 
-397: 
+397: notespacing=1
 
-398: systemspacing=-2
+398: systemspacing=0
 399: textbox=14cm
 
-400: systemspacing=-1, lineoffset=-8, spaceafter=0.5cm
+400: systemspacing=-1, lineoffset=-8, spaceafter=1cm
 401: newpage=0, systemspacing=-1
 402: spaceafter=2cm
 403: newpage=0, notespacing=3
@@ -305,16 +308,16 @@
 407: newpage=0
 408: newpage=1, spaceafter=2cm
 409: newpage=0
-410: section=HAMBURGSKOR\\\vspace{5mm}\LARGE{(Hambopolskor)}
+410: notespacing=1, section=HAMBURGSKOR\\\vspace{5mm}\LARGE{(Hambopolskor)}
 411: newpage=0
 412: 
 413: newpage=0
 414: newpage=0
 415: newpage=0
 416: 
-417: section=VALSER, notespacing=-2, systemspacing=-4
+417: section=VALSER, notespacing=-2, systemspacing=-3
 
-418: systemspacing=-1
+418: systemspacing=-1, textbox=10.5cm
 419: 
 420: 
 
@@ -505,25 +508,27 @@
 
 707: textbox=0, spaceafter=2cm
 708: textbox=0, newpage=0
+709: notespacing=3
 710: notespacing=2, newpage=0
 
 
 711: spaceafter=2cm
-712: newpage=0
+712: newpage=0, textbox=11cm
 
 713: section=LÅNGDANSER\\\vspace{2mm}FIGUR- {\Large OCK}\\\vspace{2mm}SOLODANSER, subsection=Långdanser., sectiontext=langdans
 714: newpage=0
 715: newpage=0
 
+716: notespacing=1
 717: newpage=0
 718: newpage=0
 
 719: systemspacing=-2
 720: hidetitle=1, newpage=0, systemspacing=-2, spaceafter=0, hidetempo=1
 721: spaceafter=2cm, hidetitle=1
-722: newpage=0, hidetempo=1
+722: newpage=0, hidetempo=1, textbox=0
 723: textbox=0
-724: newpage=0
+724: newpage=0, notespacing=1
 725: hidetitle=1
 726: newpage=0, hidetitle=1
 727: newpage=0
