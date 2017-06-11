@@ -1,33 +1,51 @@
 \let\mypdfximage\pdfximage
 \def\pdfximage{\immediate\mypdfximage}
-\documentclass[a4paper]{report}
+\documentclass[a4paper,openany,cleardoublepage=xx]{book}
 \usepackage[T1]{fontenc}
+
 \usepackage{lmodern}
-%\usepackage{fontspec}
-\usepackage[top=19mm,left=16.5mm,right=16.5mm,bottom=13mm,includefoot,twoside,bindingoffset=8mm]{geometry}
+\usepackage[top=10mm,left=16.5mm,right=16.5mm,bottom=12mm,includehead,twoside,headsep=11mm,bindingoffset=8mm]{geometry}
 \usepackage{graphicx}
 \usepackage{tabto}
 \usepackage{xfrac}
 \usepackage{tipa}
 \usepackage{multicol}
+\usepackage{emptypage}
 \usepackage[strict]{changepage}
 \usepackage[symbol]{footmisc}
 \setfnsymbol{wiley}
 \setcounter{secnumdepth}{0}
 \usepackage{fancyhdr}
-\fancypagestyle{plain}{ \fancyhf{} 
-\fancyfoot[C] { \scriptsize GOTLANDSTONER } 
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}}
-\pagestyle{plain}
+% \usepackage{pdfpages} % for including pdf files
+\fancypagestyle{plain}{
+    \fancyhf{}  % remove default
+}
+\fancypagestyle{main}{
+    \fancyhf{}  % remove default
+    \fancyhead[CO] { \scriptsize \rightmark }
+    \fancyhead[CE] { \scriptsize FREDIN, GOTLANDSTONER } 
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+\pagestyle{main}
 
-%\usepackage[babel=english,activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+%% test
+%\makeatletter
+%\let\old@part\@part
+%\def\@part[#1]#2{\old@part[#1]{#2\markboth{\MakeUppercase{\partname.\ #1}}{}}}
+%\makeatother
+%%
+
+%\usepackage{fontspec}
+%\newfontfamily\myfont{Emmentaler}
+
 \usepackage[final,tracking=true,spacing=false,factor=1100,stretch=10,shrink=10]{microtype}
 
 \hyphenation{allianspolska}
 \hyphenation{bröl-lops-mål-tiderna}
 
 \begin{document}
+
 \title{Gotlandstoner}
 \author{August Fredin}
 \setlength{\parindent}{0pt}
@@ -41,56 +59,18 @@
 }
 \newcommand{\tinyskip}[0]{\hspace{0.1em}}
 
-
-\begin{titlepage}
-    \centering
-    \vspace*{3.5cm}
-    {\fontsize{30}{36}\selectfont\textls[200]{GOTLANDSTONER}\par}
-    \vspace{2cm}
-    {\large\textls[150]{UPPTECKNADE AV}\par
-    \vspace{0.6cm}
-    {\huge\textls[150]{AUGUST FREDIN}\par
-
-    \vspace{3cm}
-    \line(1,0){12.5cm}
-    \vspace{0.6cm}
-
-    % {\fontsize{30}{36}\selectfont 417 -- 727\par}
-    % \vspace{0.7cm}
-    {\huge\textls[80]{Valser}\par}
-    {\huge\textls[80]{Polka ock schottis}\par}
-    {\huge\textls[80]{Kadriljer ock angläser}\par}
-    {\huge\textls[80]{Marscher ock andra högtidsstycken}\par}
-    {\huge\textls[80]{Långdanser, figur- ock solodanser}\par}
-    
-    \vspace{0.6cm}
-    \line(1,0){12.5cm}
-    \vspace{2cm}
-
-    % \vspace{3cm}
-    % \line(1,0){10cm}
-    % \vspace{0.5cm}
-
-    % {\fontsize{30}{36}\selectfont 417 -- 727\par}
-    % \vspace{0.4cm}
-    % {\huge\textls[80]{Valser}\par}
-    % {\huge\textls[80]{Polka ock schottis}\par}
-    % {\huge\textls[80]{Kadriljer ock angläser}\par}
-    % {\huge\textls[80]{Marscher ock andra högtidsstycken}\par}
-    % {\huge\textls[80]{Långdanser, figur- ock solodanser}\par}
-    
-    % \vspace{0.6cm}
-    % \line(1,0){10cm}
-    % \vspace{2cm}
+\newcommand{\example}[1]{
+    {
+        \setlength{\parindent}{0pt}
+        \includegraphics{include/snippets/exempel#1-crop.pdf}
+    }
+}
 
 
+%((titlepage))%
 
-    \vfill
-    \large{Wessmans Musikförlag}
-
-\end{titlepage}
+%((preface))%
 
 
-
-% \end{document} % printed by generate-book
+% \end{document} % not needed, printed by generate-book
 
