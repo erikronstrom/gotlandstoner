@@ -38,8 +38,8 @@
  a''2 fis''4  | 
  d''4. b'8 g' a'  | 
  b'2 a'4  | 
- g'2
- } %( endrepeat )% 
+ g'2 \break
+ } %( endrepeat )%
 \repeat volta 2 { 
  d''4  | 
  b' g' d''  | 
