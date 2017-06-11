@@ -4,6 +4,7 @@ no integer;
 
 use utf8;
 use open IO => ':utf8';
+use JSON;
 
 my $From = $ARGV[0] || 214;
 my $To   = $ARGV[1] || 360;
@@ -16,19 +17,23 @@ my $svg = $ENV{'svg'};
 
 ##############################################################
 
-my %TuneConf;
-open(CONFIG, '<', 'config');
-while(<CONFIG>) {
-    next unless /^(\d+):\s*(.+)$/;
-    my $Tune = $1;
-    my $Conf = $2;
-    my @Conf = split(/\s*,\s*/, $Conf);
-    foreach my $C (@Conf) {
-        $C =~ /(\w+)\s*=\s*(.+)/;
-        $TuneConf{$Tune}->{$1} = $2;
-    }
-}
-close(CONFIG);
+# my %TuneConf;
+# open(CONFIG, '<', 'config');
+# while(<CONFIG>) {
+#     next unless /^(\d+):\s*(.+)$/;
+#     my $Tune = $1;
+#     my $Conf = $2;
+#     my @Conf = split(/\s*,\s*/, $Conf);
+#     foreach my $C (@Conf) {
+#         $C =~ /(\w+)\s*=\s*(.+)/;
+#         $TuneConf{$Tune}->{$1} = $2;
+#     }
+# }
+# close(CONFIG);
+my $Config = &slurp('config.json');
+utf8::encode($Config);
+$Config = decode_json($Config);
+my %TuneConf = %{$Config->{"tunes"}};
 
 my $template = &slurp("include/song-template.ly");
 
@@ -75,7 +80,7 @@ for my $num ($From..$To) {
         $params{'tune-num-font'} = ""; # "\\override #'(font-encoding . fetaText)";
         $params{'page-height'} = "600\\mm"; # should be enough for any tune in the collection
         #$params{'margins'} = "    left-margin = 1\\mm\n    right-margin = 1\\mm\n";
-        $params{'page-width'} = "    paper-width = 173\\mm\n";
+        $params{'page-width'} = "    paper-width = 200\\mm\n";
         $params{'page-count'} = "page-count = #1";
     } else {
         my $pages = $TuneConf{$num}->{"pages"};

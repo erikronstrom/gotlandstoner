@@ -7,34 +7,66 @@ use open IO => ':utf8';
 
 #use Getopt::Long;
 use Digest::MD5;
+use JSON;
 
-my $From = $ARGV[0] || 320;
-my $To   = $ARGV[1] || 360;
+my $Config = &slurp('config.json');
+utf8::encode($Config);
+$Config = decode_json($Config);
 
-#my $From   = 214;
-#my $To     = 727;
-#my $Simple = 0;
 
-#GetOptions("from=i" => \$From,
-#           "to=i"   => \$To,
-#           "simple" => \$Simple)
-#  or die("Error in command line arguments\n");
+my $From = $ARGV[0];
+my $To   = $ARGV[1];
+my $Preface = "";
+my $Postface = "";
+my $TitlePageLineWidth = 200;
+
+if ($ARGV[0] eq 'book') {
+    my $Book = $ARGV[1]-1;
+    die("No such book!\n") unless $Config->{"books"}->[$Book];
+    $From     = $Config->{"books"}->[$Book]->{"from"};
+    $To       = $Config->{"books"}->[$Book]->{"to"};
+    $Preface  = '\input{text/' . $Config->{"books"}->[$Book]->{"preface"} . '}';
+    $Postface = $Config->{"books"}->[$Book]->{"postface"};
+    $TitlePageLineWidth = $Config->{"books"}->[$Book]->{"linewidth"} || $TitlePageLineWidth;
+}
+
+die() unless $From && $To;
+
+system("bin/generate-ly-songs.pl", $From, $To);
+
 
 ##############################################################
 
-my %TuneConf;
-open(CONFIG, '<', 'config');
-while(<CONFIG>) {
-    next unless /^(\d+):\s*(.+)$/;
-    my $Tune = $1;
-    my $Conf = $2;
-    my @Conf = split(/\s*,\s*/, $Conf);
-    foreach my $C (@Conf) {
-        $C =~ /(\w+)\s*=\s*(.+)/;
-        $TuneConf{$Tune}->{$1} = $2;
+my %TuneConf = %{$Config->{"tunes"}};
+my @Sections;
+foreach my $num (sort keys %{$Config->{"sections"}}) {
+    if ($num >= $From and $num <= $To) {
+        my $name = $Config->{"sections"}->{$num}->{"name"};
+        push(@Sections, '{\huge\textls[80]{' . $name . '}\par}');
     }
 }
-close(CONFIG);
+
+# open(CONFIG, '<', 'config');
+# while(<CONFIG>) {
+#     next unless /^(\d+):\s*(.+)$/;
+#     my $Tune = $1;
+#     my $Conf = $2;
+#     my @Conf = split(/\s*,\s*/, $Conf);
+#     foreach my $C (@Conf) {
+#         $C =~ /(\w+)\s*=\s*(.+)/;
+#         $TuneConf{$Tune}->{$1} = $2;
+#         if ($1 eq "section" and ($Tune >= $From) and ($Tune <= $To)) {
+#             my $section = $2;
+#             $section =~ s/\\+[\w{\(\)\.}]+//g;
+#             $section =~ s/[{}]//g;
+#             $section =~ s/\(\w+\)//g;
+#             $section = ucfirst(lc($section));
+#             $section = '{\huge\textls[80]{' . $section . '}\par}';
+#             push(@Sections, $section);
+#         }
+#     }
+# }
+# close(CONFIG);
 
 # for my $num (214..420) {
 #     print "$num " unless $TuneConf{$num}->{'newpage'} == 1;
@@ -46,32 +78,52 @@ close(CONFIG);
 open(OUTFILE, '>', 'book/fredin.latex');
 
 my $template = &slurp("include/book-template.latex");
+my $titlePage = &slurp("include/title-page-template.latex");
 
 my %params;
+$params{"from"} = $From;
+$params{"to"} = $To;
+$params{"linewidth"} = $TitlePageLineWidth;
+$params{"sections"} = join("\n    ", @Sections);
+$params{"preface"} = $Preface;
+$params{"postface"} = $Postface;
 
+# if (-e "book/title-$From-$To.latex") {
+#     $params{"titlepage"} = "\\includepdf{book/title-$From-$To}\n";
+# }
+
+$titlePage =~ s/%\(\(([\w\-]+)\)\)%/$params{$1}/ge;
+
+$params{"titlepage"} = $titlePage;
 
 my $book = $template;
-$book =~ s/%\(\(([\w\-]+)\)\)%/$params{$1}/ge;
+$book =~ s/%\(\(([\w\-]+)\)\)%/$params{$1} || "$1 is UNDEFINED"/ge;
 
 print OUTFILE $book;
 
 
 for my $num ($From..$To) {
     
-    if (my $section = $TuneConf{$num}->{"section"}) {
-        $section = uc($section);
-        $section =~ s/\{(\d+)MM\}/{$1mm}/g;
-        $section =~ s/\\VSPACE/\\vspace/g;
+    if (my $section = $Config->{"sections"}->{$num}) {
+        # $text = uc($section);
+        # $section =~ s/\{(\d+)MM\}/{$1mm}/g;
+        # $section =~ s/\\VSPACE/\\vspace/g;
+        my $text = $section->{"text"};
+        my $name = $section->{"name"};
         print OUTFILE "\\cleardoublepage\n";
-        print OUTFILE "\\part*{\\textls[100]{$section}}\n";
-    }
-    if (my $textfile = $TuneConf{$num}->{"sectiontext"}) {
-        my $text = texSubstitutions(&slurp("text/$textfile.tex"));
-        #print OUTFILE "\\begin{center}\n";
-        #print OUTFILE "\\parbox{16cm}{ \\setlength{\\parindent}{1.5em} $text}\n";
-        # \\leftskip=1cm \\rightskip=1cm
-        print OUTFILE "{\\setlength{\\parindent}{1.5em} $text \n}\n\n";
-        #print OUTFILE "\\end{center}\n\n";
+        print OUTFILE "\\part*{\\textls[100]{$text}}\n";
+        $section = &stripLaTEX($section);
+        print OUTFILE "\\markboth{\\MakeUppercase{$name}}{\\MakeUppercase{$name}}\n";
+
+        my $file = $section->{"file"};
+        if ($file) {
+            my $text = texSubstitutions(&slurp("text/$file"));
+            #print OUTFILE "\\begin{center}\n";
+            #print OUTFILE "\\parbox{16cm}{ \\setlength{\\parindent}{1.5em} $text}\n";
+            # \\leftskip=1cm \\rightskip=1cm
+            print OUTFILE "$text \n\n\n";
+            #print OUTFILE "\\end{center}\n\n";
+        }
     }
 
     my $abc = &slurp("abc/song-$num.abc");
@@ -92,9 +144,9 @@ for my $num ($From..$To) {
     my $song = "";
     for my $page (1..$pages) {
         if ($page > 1) {
-            $song .= "\\break";
+            $song .= "\\vfill\\break";
         }
-        $song .= "\\includegraphics[page=$page]{$songfile-$md5-crop.pdf}\n";
+        $song .= "\\includegraphics[page=$page,trim=0.75mm 0 0 0]{$songfile-$md5-crop.pdf}\n";
     }
     
     &processTune($abc, $num, $song);
@@ -201,6 +253,9 @@ sub processTune() {
 
     if (my $subsection = $TuneConf{$Num}->{"subsection"}) {
         print OUTFILE "\\section*{\\centering $subsection}\\vspace{1cm}\n";
+        $subsection =~ s/\.$//;
+        my $s = &stripLaTEX($subsection);
+        print OUTFILE "\\markboth{\\MakeUppercase{$s}}{\\MakeUppercase{$s}}\n";
     }
 
     # Title and text
@@ -230,10 +285,10 @@ sub processTune() {
     print OUTFILE "\\vspace*{$SpaceBefore}\n" if $SpaceBefore;
 
     if ($MultipleLines) {
-        print OUTFILE "\\begin{flushright} \\parbox{$TextBox}{$Source} " .
+        print OUTFILE "\\begin{flushright} \\microtypesetup{protrusion=false} \\parbox{$TextBox}{$Source} " .
             "\\end{flushright}\n\n";
     } else {
-        print OUTFILE "\\begin{flushright} $Source \\end{flushright}\n\n";
+        print OUTFILE "\\begin{flushright} \\microtypesetup{protrusion=false} $Source \\end{flushright}\n\n";
     }
 
     # Extra vertical space between text and score
@@ -338,5 +393,11 @@ sub texSubstitutions() {
 
     $Text =~ s/¼/\\sfrac{1}{4}/g;
 
+    return $Text;
+}
+
+sub stripLaTEX() {
+    my $Text = shift;
+    $Text =~ s/\\+[\w{}]+//g;
     return $Text;
 }

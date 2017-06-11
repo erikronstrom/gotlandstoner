@@ -1,0 +1,1463 @@
+{
+  "books": [
+    {
+      "from": 1,
+      "to": 213
+    },
+    {
+      "from": 214,
+      "to": 416,
+      "preface": "preface-2.tex",
+      "linewidth": 200
+    },
+    {
+      "from": 417,
+      "to": 727,
+      "preface": "preface-3.tex",
+      "linewidth": 330
+    }
+  ],
+  "sections": {
+    "1": {
+      "name": "Visor",
+      "text": "VISOR"
+    },
+    "214": {
+      "name": "Polskor",
+      "text": "POLSKOR",
+      "file": "polska.tex"
+    },
+    "410": {
+      "name": "Hamburgskor",
+      "text": "HAMBURGSKOR\\\\\\vspace{5mm}\\LARGE{(Hambopolskor)}",
+      "file": "hamburgska.tex"
+    },
+    "417": {
+      "name": "Valser",
+      "text": "VALSER",
+      "file": "vals.tex"
+    },
+    "574": {
+      "name": "Polka ock schottis",
+      "text": "POLKA OCK SCHOTTIS"
+    },
+    "608": {
+      "name": "Kadriljer ock angläser",
+      "text": "KADRILJER OCK ANGLÄSER",
+      "file": "kadrilj.tex"
+    },
+    "682": {
+      "name": "Marscher ock andra högtidsstycken",
+      "text": "MARSCHER\\\\\\vspace{1.5mm}{\\Large OCK}\\\\\\vspace{3mm}ANDRA HÖGTIDSSTYCKEN",
+      "file": "marsch.tex"
+    },
+    "713": {
+      "name": "Långdanser, figur- och solodanser",
+      "text": "LÅNGDANSER\\\\\\vspace{2mm}FIGUR- {\\Large OCK}\\\\\\vspace{2mm} SOLODANSER"
+    }
+  },
+  "subsections": {
+    "1": {
+      "text": "Berättande visor"
+    },
+    "39": {
+      "text": "Livets sorg ock glädje."
+    },
+    "48": {
+      "text": "Om ungdomslivet på Gotland i forna tider."
+    },
+    "50": {
+      "text": "Kärleksvisor."
+    },
+    "567": {
+      "text": "Visor i valstakt."
+    },
+    "574": {
+      "text": "Polkor."
+    },
+    "584": {
+      "text": "Schottis."
+    },
+    "608": {
+      "text": "Kadriljer."
+    }
+  },
+  "tunes": {
+    "1": {
+    },
+    "10": {
+      "spaceafter": "2cm"
+    },
+    "11": {
+      "newpage": "0"
+    },
+    "13": {
+      "spaceafter": "2cm"
+    },
+    "14": {
+      "newpage": "0"
+    },
+    "15": {
+      "spaceafter": "0.2cm"
+    },
+    "16": {
+      "newpage": "0"
+    },
+    "17": {
+      "spaceafter": "2cm"
+    },
+    "18": {
+      "newpage": "0"
+    },
+    "19": {
+      "spaceafter": "2cm"
+    },
+    "20": {
+      "newpage": "0",
+      "notespacing": "3"
+    },
+    "214": {
+      "notespacing": "1"
+    },
+    "215": {
+      "spaceafter": "1.5cm",
+      "textbox": "9cm"
+    },
+    "216": {
+      "216": " "
+    },
+    "217": {
+      "notespacing": "1"
+    },
+    "218": {
+      "lineoffset": "-3",
+      "spaceafter": "1.5cm",
+      "systemspacing": "-1"
+    },
+    "219": {
+      "lineoffset": "-3",
+      "newpage": "0",
+      "systemspacing": "-1"
+    },
+    "22": {
+      "newpage": "0"
+    },
+    "220": {
+      "spaceafter": "2cm"
+    },
+    "221": {
+      "newpage": "0",
+      "notespacing": "1"
+    },
+    "222": {
+      "notespacing": "1"
+    },
+    "223": {
+      "notespacing": "1"
+    },
+    "224": {
+
+    },
+    "225": {
+
+    },
+    "226": {
+      "pages": "2"
+    },
+    "227": {
+      "newpage": "0"
+    },
+    "228": {
+      "newpage": "0"
+    },
+    "229": {
+      "spaceafter": "2cm"
+    },
+    "23": {
+      "notespacing": "2"
+    },
+    "230": {
+      "spaceafter": "3cm"
+    },
+    "231": {
+      "newpage": "0"
+    },
+    "232": {
+      "232": " "
+    },
+    "233": {
+      "notespacing": "1",
+      "spaceafter": "2cm",
+      "textbox": "0"
+    },
+    "234": {
+      "newpage": "0",
+      "textbox": "0"
+    },
+    "235": {
+      "systemspacing": "2"
+    },
+    "236": {
+      "systemspacing": "-1"
+    },
+    "237": {
+      "newpage": "0",
+      "notespacing": "2"
+    },
+    "238": {
+      "238": " "
+    },
+    "239": {
+      "239": " "
+    },
+    "24": {
+      "newpage": "0"
+    },
+    "240": {
+      "notespacing": "1",
+      "textbox": "11cm"
+    },
+    "241": {
+      "notespacing": "1"
+    },
+    "242": {
+      "textbox": "0"
+    },
+    "243": {
+      "lineoffset": "-5",
+      "spaceafter": "0.5cm",
+      "systemspacing": "-2"
+    },
+    "244": {
+      "lineoffset": "15",
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "245": {
+      "notespacing": "1"
+    },
+    "246": {
+      "246": " "
+    },
+    "247": {
+      "spaceafter": "0.7cm",
+      "systemspacing": "-2"
+    },
+    "248": {
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "249": {
+      "lineoffset": "-5",
+      "notespacing": "1",
+      "spaceafter": "1.5cm",
+      "systemspacing": "-1"
+    },
+    "25": {
+      "notespacing": "1"
+    },
+    "250": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-1"
+    },
+    "251": {
+      "spaceafter": "2.5cm"
+    },
+    "252": {
+      "lineoffset": "-5",
+      "newpage": "0"
+    },
+    "253": {
+      "253": " "
+    },
+    "254": {
+      "newpage": "0"
+    },
+    "255": {
+      "spaceafter": "0.5cm"
+    },
+    "256": {
+      "newpage": "0"
+    },
+    "257": {
+      "spaceafter": "2cm"
+    },
+    "258": {
+      "newpage": "0",
+      "notespacing": "2"
+    },
+    "259": {
+      "lineoffset": "-8",
+      "notespacing": "1",
+      "systemspacing": "-1"
+    },
+    "260": {
+      "lineoffset": "-8",
+      "newpage": "0",
+      "notespacing": "2",
+      "systemspacing": "-1"
+    },
+    "261": {
+      "notespacing": "1"
+    },
+    "262": {
+      "notespacing": "1",
+      "spaceafter": "2cm"
+    },
+    "263": {
+      "newpage": "0"
+    },
+    "264": {
+      "264": " "
+    },
+    "265": {
+      "spaceafter": "1.1cm",
+      "spacebefore": "0.6cm",
+      "systemspacing": "-2"
+    },
+    "266": {
+      "newpage": "0",
+      "notespacing": "1",
+      "systemspacing": "-2"
+    },
+    "267": {
+      "notespacing": "-1",
+      "spaceafter": "1.5cm"
+    },
+    "268": {
+      "newpage": "0",
+      "notespacing": "1"
+    },
+    "269": {
+      "spaceafter": "0.5cm",
+      "systemspacing": "-2"
+    },
+    "27": {
+      "newpage": "0"
+    },
+    "270": {
+      "newpage": "0",
+      "spaceafter": "0.5cm",
+      "systemspacing": "-2"
+    },
+    "271": {
+      "newpage": "0",
+      "notespacing": "1",
+      "systemspacing": "-2"
+    },
+    "272": {
+      "notespacing": "1"
+    },
+    "273": {
+      "273": " "
+    },
+    "274": {
+      "newpage": "0"
+    },
+    "275": {
+      "textbox": "0"
+    },
+    "276": {
+      "spaceafter": "3cm"
+    },
+    "277": {
+      "newpage": "0"
+    },
+    "278": {
+      "lineoffset": "-5",
+      "spaceafter": "0.5cm",
+      "systemspacing": "-2"
+    },
+    "279": {
+      "newpage": "0",
+      "notespacing": "1",
+      "systemspacing": "-2"
+    },
+    "28": {
+      "notespacing": "2"
+    },
+    "280": {
+      "lineoffset": "-10",
+      "spaceafter": "0.5cm",
+      "systemspacing": "-3"
+    },
+    "281": {
+      "lineoffset": "-10",
+      "newpage": "0",
+      "systemspacing": "-3"
+    },
+    "282": {
+      "lineoffset": "-5",
+      "systemspacing": "-1"
+    },
+    "283": {
+      "283": " "
+    },
+    "284": {
+      "lineoffset": "-5",
+      "spaceafter": "0.8cm",
+      "systemspacing": "-1"
+    },
+    "285": {
+      "newpage": "0"
+    },
+    "286": {
+      "notespacing": "1",
+      "pages": "2",
+      "spaceafter": "3cm",
+      "systemspacing": "1"
+    },
+    "287": {
+      "newpage": "0"
+    },
+    "288": {
+      "288": " "
+    },
+    "289": {
+      "289": " "
+    },
+    "29": {
+      "newpage": "0",
+      "textbox": "8cm"
+    },
+    "290": {
+      "notespacing": "1"
+    },
+    "291": {
+      "newpage": "0",
+      "notespacing": "1"
+    },
+    "292": {
+      "292": " "
+    },
+    "293": {
+      "textbox": "10.6cm"
+    },
+    "294": {
+      "newpage": "0"
+    },
+    "295": {
+      "spaceafter": "2cm"
+    },
+    "296": {
+      "newpage": "0"
+    },
+    "297": {
+      "notespacing": "2"
+    },
+    "298": {
+      "298": " "
+    },
+    "299": {
+      "notespacing": "1"
+    },
+    "3": {
+      "notespacing": "1"
+    },
+    "30": {
+      "spaceafter": "3cm"
+    },
+    "300": {
+      "lineoffset": "-8",
+      "notespacing": "1",
+      "spaceafter": "1.5cm",
+      "systemspacing": "-1"
+    },
+    "301": {
+      "lineoffset": "-8",
+      "newpage": "0",
+      "systemspacing": "-1"
+    },
+    "302": {
+      "newpage": "1"
+    },
+    "303": {
+      "newpage": "0"
+    },
+    "304": {
+      "304": " "
+    },
+    "305": {
+      "notespacing": "1"
+    },
+    "306": {
+      "newpage": "0",
+      "notespacing": "1"
+    },
+    "307": {
+      "lineoffset": "-5",
+      "spaceafter": "1.5cm",
+      "systemspacing": "-2"
+    },
+    "308": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "309": {
+      "lineoffset": "-5",
+      "systemspacing": "-1"
+    },
+    "31": {
+      "newpage": "0"
+    },
+    "310": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-1"
+    },
+    "311": {
+      "lineoffset": "-7",
+      "spaceafter": "0.5cm"
+    },
+    "312": {
+      "lineoffset": "-7",
+      "newpage": "0"
+    },
+    "313": {
+      "313": " "
+    },
+    "314": {
+      "newpage": "0"
+    },
+    "315": {
+      "newpage": "1"
+    },
+    "316": {
+      "newpage": "0"
+    },
+    "317": {
+      "317": " "
+    },
+    "318": {
+      "318": " "
+    },
+    "319": {
+      "notespacing": "2",
+      "textbox": "0"
+    },
+    "320": {
+      "320": " "
+    },
+    "321": {
+      "notespacing": "0",
+      "spaceafter": "0.5cm"
+    },
+    "322": {
+      "newpage": "0",
+      "systemspacing": "-1"
+    },
+    "323": {
+      "323": " "
+    },
+    "324": {
+      "324": " "
+    },
+    "325": {
+      "spaceafter": "0.5cm",
+      "systemspacing": "-1"
+    },
+    "326": {
+      "newpage": "0",
+      "systemspacing": "-1"
+    },
+    "327": {
+      "327": " "
+    },
+    "328": {
+      "328": " "
+    },
+    "329": {
+      "lineoffset": "-14",
+      "spaceafter": "0.5cm",
+      "systemspacing": "-1"
+    },
+    "33": {
+      "notespacing": "2"
+    },
+    "330": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "331": {
+      "331": " "
+    },
+    "332": {
+      "332": " "
+    },
+    "333": {
+      "lineoffset": "-8"
+    },
+    "334": {
+      "notespacing": "2"
+    },
+    "335": {
+      "lineoffset": "-5",
+      "notespacing": "2"
+    },
+    "336": {
+      "lineoffset": "-5",
+      "newpage": "0"
+    },
+    "337": {
+      "337": " "
+    },
+    "338": {
+      "lineoffset": "-5",
+      "spaceafter": "1.2cm",
+      "systemspacing": "-1"
+    },
+    "339": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "notespacing": "1",
+      "systemspacing": "-1"
+    },
+    "340": {
+      "lineoffset": "-3",
+      "newpage": "1",
+      "spaceafter": "1cm",
+      "systemspacing": "-2.6"
+    },
+    "341": {
+      "lineoffset": "-3",
+      "newpage": "0",
+      "systemspacing": "-2.6"
+    },
+    "342": {
+      "notespacing": "2"
+    },
+    "343": {
+      "lineoffset": "-5",
+      "spaceafter": "0.8cm",
+      "systemspacing": "-1"
+    },
+    "344": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-1"
+    },
+    "345": {
+      "lineoffset": "-5"
+    },
+    "346": {
+      "lineoffset": "-5",
+      "newpage": "0"
+    },
+    "347": {
+      "notespacing": "2",
+      "textbox": "10cm"
+    },
+    "348": {
+      "348": " "
+    },
+    "349": {
+      "notespacing": "1"
+    },
+    "350": {
+      "350": " "
+    },
+    "351": {
+      "newpage": "0"
+    },
+    "352": {
+      "352": " "
+    },
+    "353": {
+      "newpage": "0"
+    },
+    "354": {
+      "lineoffset": "-8",
+      "spaceafter": "1cm",
+      "systemspacing": "-2"
+    },
+    "355": {
+      "lineoffset": "-8",
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "356": {
+      "lineoffset": "-7",
+      "spaceafter": "1.5cm",
+      "systemspacing": "-1"
+    },
+    "357": {
+      "lineoffset": "-7",
+      "newpage": "0",
+      "systemspacing": "-1",
+      "textbox": "0"
+    },
+    "358": {
+      "spaceafter": "2cm"
+    },
+    "359": {
+      "newpage": "0"
+    },
+    "36": {
+      "newpage": "0"
+    },
+    "360": {
+      "lineoffset": "-8",
+      "spaceafter": "0.4cm",
+      "systemspacing": "-2"
+    },
+    "361": {
+      "newpage": "0",
+      "systemspacing": "-3",
+      "titlespace": "6pt"
+    },
+    "362": {
+      "362": " "
+    },
+    "363": {
+      "363": " "
+    },
+    "364": {
+      "364": " "
+    },
+    "365": {
+      "365": " "
+    },
+    "366": {
+      "366": " "
+    },
+    "367": {
+      "367": " "
+    },
+    "368": {
+      "368": "spaceafter: 0.5cm, newpage=0",
+      "newpage": "0"
+    },
+    "369": {
+      "newpage": "1"
+    },
+    "37": {
+      "notespacing": "1"
+    },
+    "370": {
+      "lineoffset": "-4",
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "371": {
+      "371": " "
+    },
+    "372": {
+      "newpage": "0"
+    },
+    "373": {
+      "newpage": "1"
+    },
+    "374": {
+      "374": " "
+    },
+    "375": {
+      "375": " "
+    },
+    "376": {
+      "spaceafter": "0.5cm",
+      "systemspacing": "-2"
+    },
+    "377": {
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "378": {
+      "378": " "
+    },
+    "379": {
+      "379": " "
+    },
+    "38": {
+      "notespacing": "2"
+    },
+    "380": {
+      "notespacing": "1"
+    },
+    "381": {
+      "381": " "
+    },
+    "382": {
+      "newpage": "0"
+    },
+    "383": {
+      "spaceafter": "2cm"
+    },
+    "384": {
+      "newpage": "0"
+    },
+    "385": {
+      "notespacing": "1"
+    },
+    "386": {
+      "386": " "
+    },
+    "387": {
+      "387": " "
+    },
+    "388": {
+      "textbox": "0"
+    },
+    "389": {
+      "389": " "
+    },
+    "39": {
+      "notespacing": "2"
+    },
+    "390": {
+      "390": " "
+    },
+    "391": {
+      "391": " "
+    },
+    "392": {
+      "notespacing": "2"
+    },
+    "393": {
+      "notespacing": "2",
+      "spaceafter": "1.5cm",
+      "systemspacing": "-1"
+    },
+    "394": {
+      "newpage": "0",
+      "systemspacing": "-1"
+    },
+    "395": {
+      "notespacing": "2",
+      "spaceafter": "0.8cm",
+      "systemspacing": "-2"
+    },
+    "396": {
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "397": {
+      "notespacing": "1"
+    },
+    "398": {
+      "systemspacing": "0"
+    },
+    "399": {
+      "textbox": "14cm"
+    },
+    "400": {
+      "lineoffset": "-8",
+      "spaceafter": "1cm",
+      "systemspacing": "-1"
+    },
+    "401": {
+      "newpage": "0",
+      "systemspacing": "-1"
+    },
+    "402": {
+      "spaceafter": "2cm"
+    },
+    "403": {
+      "newpage": "0",
+      "notespacing": "3"
+    },
+    "404": {
+      "spaceafter": "2cm"
+    },
+    "405": {
+      "newpage": "0"
+    },
+    "406": {
+      "newpage": "1",
+      "spaceafter": "2cm"
+    },
+    "407": {
+      "newpage": "0"
+    },
+    "408": {
+      "newpage": "1",
+      "spaceafter": "2cm"
+    },
+    "409": {
+      "newpage": "0"
+    },
+    "410": {
+      "notespacing": "1"
+    },
+    "411": {
+      "newpage": "0"
+    },
+    "412": {
+      "412": " "
+    },
+    "413": {
+      "newpage": "0"
+    },
+    "414": {
+      "newpage": "0"
+    },
+    "415": {
+      "newpage": "0"
+    },
+    "416": {
+      "416": " "
+    },
+    "417": {
+      "notespacing": "-2",
+      "systemspacing": "-3"
+    },
+    "418": {
+      "systemspacing": "-1",
+      "textbox": "10.5cm"
+    },
+    "419": {
+      "419": " "
+    },
+    "42": {
+      "newpage": "0"
+    },
+    "420": {
+      "420": " "
+    },
+    "429": {
+      "newpage": "0"
+    },
+    "43": {
+      "textbox": "0"
+    },
+    "431": {
+      "newpage": "0"
+    },
+    "44": {
+      "newpage": "0"
+    },
+    "445": {
+      "newpage": "0",
+      "textbox": "9cm"
+    },
+    "454": {
+      "newpage": "0"
+    },
+    "458": {
+      "textbox": "10cm"
+    },
+    "463": {
+      "systemspacing": "-1"
+    },
+    "465": {
+      "lineoffset": "-5",
+      "spaceafter": "0.5cm",
+      "systemspacing": "-1"
+    },
+    "466": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-3"
+    },
+    "468": {
+      "newpage": "0"
+    },
+    "470": {
+      "newpage": "0"
+    },
+    "474": {
+      "pages": "2"
+    },
+    "476": {
+      "newpage": "0"
+    },
+    "48": {
+      "notespacing": "2"
+    },
+    "480": {
+      "newpage": "0"
+    },
+    "482": {
+      "newpage": "0"
+    },
+    "484": {
+      "newpage": "0"
+    },
+    "485": {
+      "spaceafter": "0.6cm",
+      "systemspacing": "-1"
+    },
+    "486": {
+      "newpage": "0",
+      "systemspacing": "-1"
+    },
+    "489": {
+      "spaceafter": "2cm"
+    },
+    "49": {
+      "notespacing": "2"
+    },
+    "490": {
+      "newpage": "0"
+    },
+    "496": {
+      "spaceafter": "2cm"
+    },
+    "497": {
+      "newpage": "0"
+    },
+    "498": {
+      "pages": "2"
+    },
+    "5": {
+      "notespacing": "3"
+    },
+    "50": {
+    },
+    "500": {
+      "textbox": "0"
+    },
+    "504": {
+      "lineoffset": "-5",
+      "spaceafter": "0.5cm",
+      "systemspacing": "-1"
+    },
+    "505": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-3"
+    },
+    "509": {
+      "newpage": "0"
+    },
+    "51": {
+      "notespacing": "5"
+    },
+    "514": {
+      "pages": "1"
+    },
+    "520": {
+      "newpage": "0"
+    },
+    "525": {
+      "newpage": "1"
+    },
+    "527": {
+      "newpage": "0"
+    },
+    "528": {
+      "lineoffset": "-5",
+      "spaceafter": "0.5cm",
+      "systemspacing": "-2"
+    },
+    "529": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "530": {
+      "pageheight": "240mm",
+      "pages": "2"
+    },
+    "531": {
+      "newpage": "1"
+    },
+    "532": {
+      "newpage": "0"
+    },
+    "535": {
+      "535": " "
+    },
+    "536": {
+      "536": " "
+    },
+    "537": {
+      "newpage": "0"
+    },
+    "538": {
+      "lineoffset": "-5",
+      "spaceafter": "0.4cm",
+      "systemspacing": "-2"
+    },
+    "539": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "540": {
+      "lineoffset": "-5",
+      "spaceafter": "0.4cm",
+      "systemspacing": "-2"
+    },
+    "541": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "542": {
+      "lineoffset": "-5",
+      "spaceafter": "0.4cm",
+      "systemspacing": "-2"
+    },
+    "543": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "545": {
+      "lineoffset": "-5",
+      "spaceafter": "0.4cm",
+      "systemspacing": "-2"
+    },
+    "546": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "548": {
+      "newpage": "0"
+    },
+    "55": {
+      "notespacing": "2"
+    },
+    "553": {
+      "pages": "1"
+    },
+    "563": {
+      "lineoffset": "-5",
+      "spaceafter": "0.4cm",
+      "systemspacing": "-2"
+    },
+    "564": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "565": {
+      "lineoffset": "-5",
+      "spaceafter": "0.4cm",
+      "systemspacing": "-2"
+    },
+    "566": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "567": {
+      
+    },
+    "568": {
+      "newpage": "0"
+    },
+    "570": {
+      "newpage": "0"
+    },
+    "571": {
+      "lineoffset": "-5",
+      "newpage": "1",
+      "spaceafter": "0.7cm"
+    },
+    "572": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "spaceafter": "0.7cm",
+      "textbox": "0"
+    },
+    "573": {
+      "newpage": "0"
+    },
+    "574": {
+      "section": "POLKA OCK SCHOTTIS",
+      "subsection": "Polkor."
+    },
+    "576": {
+      "newpage": "0"
+    },
+    "579": {
+      "newpage": "0"
+    },
+    "581": {
+      "newpage": "0"
+    },
+    "582": {
+      "spaceafter": "2cm"
+    },
+    "583": {
+      "newpage": "0"
+    },
+    "584": {
+      "subsection": "Schottis."
+    },
+    "585": {
+      "newpage": "0"
+    },
+    "586": {
+      "notespacing": "1",
+      "spaceafter": "2cm"
+    },
+    "587": {
+      "newpage": "0",
+      "notespacing": "1"
+    },
+    "588": {
+      "newpage": "1"
+    },
+    "589": {
+      "newpage": "0"
+    },
+    "590": {
+      "newpage": "0"
+    },
+    "591": {
+      "newpage": "1"
+    },
+    "592": {
+      "newpage": "0"
+    },
+    "593": {
+      "newpage": "1"
+    },
+    "594": {
+      "newpage": "0"
+    },
+    "595": {
+      "newpage": "0"
+    },
+    "596": {
+      "spaceafter": "2cm"
+    },
+    "597": {
+      "newpage": "0"
+    },
+    "598": {
+      "spaceafter": "2cm"
+    },
+    "599": {
+      "newpage": "0"
+    },
+    "601": {
+      "newpage": "0"
+    },
+    "602": {
+      "newpage": "0"
+    },
+    "603": {
+      "lineoffset": "-5",
+      "spaceafter": "0.5cm",
+      "systemspacing": "-2"
+    },
+    "604": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "spaceafter": "0.5cm",
+      "systemspacing": "-2"
+    },
+    "605": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "606": {
+      "newpage": "1",
+      "spaceafter": "2cm"
+    },
+    "607": {
+      "newpage": "0"
+    },
+    "608": {
+      "section": "KADRILJER OCK ANGLÃSER",
+      "subsection": "Kadriljer."
+    },
+    "609": {
+      "notespacing": "2"
+    },
+    "614": {
+      "notespacing": "2"
+    },
+    "615": {
+      "systemspacing": "-2"
+    },
+    "616": {
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "620": {
+      "newpage": "0"
+    },
+    "622": {
+      "systemspacing": "-1"
+    },
+    "623": {
+      "newpage": "0",
+      "systemspacing": "-1"
+    },
+    "660": {
+      "newpage": "0"
+    },
+    "662": {
+      "newpage": "0"
+    },
+    "668": {
+      "notespacing": "2"
+    },
+    "669": {
+      "newpage": "0"
+    },
+    "670": {
+      "newpage": "0"
+    },
+    "672": {
+      "newpage": "0"
+    },
+    "674": {
+      "newpage": "0"
+    },
+    "677": {
+      "newpage": "0"
+    },
+    "678": {
+      "spaceafter": "2.5cm"
+    },
+    "679": {
+      "newpage": "0"
+    },
+    "681": {
+      "newpage": "0"
+    },
+    "682": {
+      "spacebefore": "2cm"
+    },
+    "684": {
+      "hidetitle": "1"
+    },
+    "689": {
+      "newpage": "0"
+    },
+    "690": {
+      "690": " "
+    },
+    "691": {
+      "newpage": "1",
+      "spaceafter": "2cm"
+    },
+    "692": {
+      "newpage": "0",
+      "notespacing": "1"
+    },
+    "695": {
+      "lineoffset": "-5",
+      "spaceafter": "0.8cm",
+      "systemspacing": "-3"
+    },
+    "696": {
+      "lineoffset": "-5",
+      "newpage": "0",
+      "systemspacing": "-2"
+    },
+    "698": {
+      "textbox": "10cm"
+    },
+    "699": {
+      "newpage": "0",
+      "textbox": "11cm"
+    },
+    "7": {
+      "newpage": "0"
+    },
+    "700": {
+      "newpage": "0"
+    },
+    "701": {
+      "newpage": "1"
+    },
+    "702": {
+      "newpage": "0"
+    },
+    "703": {
+      "newpage": "0"
+    },
+    "704": {
+      "newpage": "1"
+    },
+    "705": {
+      "newpage": "0"
+    },
+    "706": {
+      "newpage": "1"
+    },
+    "707": {
+      "spaceafter": "2cm",
+      "textbox": "0"
+    },
+    "708": {
+      "newpage": "0",
+      "textbox": "0"
+    },
+    "709": {
+      "notespacing": "3"
+    },
+    "710": {
+      "newpage": "0",
+      "notespacing": "2"
+    },
+    "711": {
+      "spaceafter": "2cm"
+    },
+    "712": {
+      "newpage": "0",
+      "textbox": "11cm"
+    },
+    "713": {
+      "subsection": "Långdanser."
+    },
+    "714": {
+      "newpage": "0"
+    },
+    "715": {
+      "newpage": "0"
+    },
+    "716": {
+      "notespacing": "1"
+    },
+    "717": {
+      "newpage": "0"
+    },
+    "718": {
+      "newpage": "0"
+    },
+    "719": {
+      "systemspacing": "-2"
+    },
+    "720": {
+      "hidetempo": "1",
+      "hidetitle": "1",
+      "newpage": "0",
+      "spaceafter": "0",
+      "systemspacing": "-2"
+    },
+    "721": {
+      "hidetitle": "1",
+      "spaceafter": "2cm"
+    },
+    "722": {
+      "hidetempo": "1",
+      "newpage": "0",
+      "textbox": "0"
+    },
+    "723": {
+      "textbox": "0"
+    },
+    "724": {
+      "newpage": "0",
+      "notespacing": "1"
+    },
+    "725": {
+      "hidetitle": "1"
+    },
+    "726": {
+      "hidetitle": "1",
+      "newpage": "0"
+    },
+    "727": {
+      "newpage": "0"
+    },
+    "8": {
+      "spaceafter": "2cm"
+    },
+    "9": {
+      "newpage": "0"
+    }
+  }
+}
