@@ -12,3 +12,4 @@ fredin.log
 !include/accent.pdf
 !include/wessmans.pdf
 !include/barcode-*.pdf
+convert-config.pl
