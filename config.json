@@ -56,7 +56,8 @@
     },
     "713": {
       "name": "Långdanser, figur- och solodanser",
-      "text": "LÅNGDANSER\\\\\\vspace{2mm}FIGUR- {\\Large OCK}\\\\\\vspace{2mm} SOLODANSER"
+      "text": "LÅNGDANSER\\\\\\vspace{2mm}FIGUR- {\\Large OCK}\\\\\\vspace{2mm} SOLODANSER",
+      "file": "langdans.tex"
     }
   },
   "subsections": {
