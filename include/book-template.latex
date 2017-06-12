@@ -41,6 +41,10 @@
 
 \usepackage[final,tracking=true,spacing=false,factor=1100,stretch=10,shrink=10]{microtype}
 
+\usepackage{hyperref}
+\hypersetup{colorlinks=false}
+\urlstyle{same}
+
 \hyphenation{allianspolska}
 \hyphenation{bröl-lops-mål-tiderna}
 
@@ -57,6 +61,7 @@
         \vspace*{#2}
     \end{center}
 }
+
 \newcommand{\tinyskip}[0]{\hspace{0.1em}}
 
 \newcommand{\example}[1]{
