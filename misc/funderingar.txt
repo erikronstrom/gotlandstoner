@@ -7,24 +7,31 @@ Kolla öht igenom alla titlar och välj en strategi, se t.ex 687 (titel eller ej
 
 
 
-KOLLA MARGINALERNA: texten är satt bredare än noterna!
+TILL FÖRORD
+
+- scordatura
+- mindre textändringar (sidhänvisningar, stavfel)
+- balkning
+- reprisering
+- infört rättelser
+- 
+
 
 
 kolla upp
 443 428 427 478 472 552
 
-705, 706: balkning i 3/8?
 264: lägg till pizz/col arco i abc-filen! (Redan fixat i ly)
+386: lägg till pizz/col arco i abc-filen! (Redan fixat i ly)
 323-325, 537: kolla att pizz/col arco är med i abc
 324, 360: balkning? Gör undantag för pizz-mönstren enl originalet?
-343: Del av texten är fotnot
 
 Kolla upp alla trill, open (T, o)
 457 - var är drillen exakt? Mellan noterna?
 472 - också frågan om vad exakt som menas - en ton, eller hela figuren?
 
 Repristolkning:
-361 408 (fel men ok?) 433 459 471 644 656
+262 361 408 (fel men ok?) 433 459 471 644 656
 557: antal taktslag
 
 
@@ -33,6 +40,8 @@ Repristolkning:
 Olofsdotter: "Gammalgarn" => "Gammelgarn"? Nej!
 Pucksson: låtlistan
 Ronander: mellanrum efter "1908." Blir inte bra i HTML, men i LaTeX?
+
+Förordet: RÄTTAT "Något vetenskaplig" => "Någon vetenskaplig" (syftar på "metod")
 
 Musikalisk tolkning / misstänkta tryckfel:
 1: ändrat "Eter Elisabet ..." till "Efter Elisabet ..."
@@ -54,21 +63,24 @@ Musikalisk tolkning / misstänkta tryckfel:
 52: La till saknade bågar på "förrän" och vi"
 53: La till saknad båge på "i"
 178: I rättelserna står "Pinnɷlle -> Pinnolle", men i själva låten står "Pinnɷllä" – bort med omegat, ok, men e eller ä??
-222: saknat återställningstecken på Eb (E) i början av andra reprisen
+222: saknat återställningstecken på Eb (E) i början av andra reprisen? RÄTTA EJ, OSÄKERT!
 223: rättat uppenbart tryckfel (originalet närmast ospelbart)
-226: fjärde taktens åttonde ton: ska det vara ett a?? (avskriften från boken är dock rätt i )
+226: fjärde taktens åttonde ton: ändrat c# till a, pga spelbarhet + parallellställe i andra takten  INSKRIVET
 229: tog bort dubbelgrepp i andra reprisens sjätte takt
 239: rättade sista takten, som var för lång (skum balk)
-242: takt 7, 6:e tonen: vilken intonation (radbrytning mitt i takten)?? explicit c# i nästa takt talar för c
+252: Skrattpolskan, musikalisk tolkning: första tonen skulle kunna vara ett g ist för a
 261: flyttat återställningstecknet i fjärde takten från e till d
+262: Reprisering?
+292: Feltryck i andra reprisens sjunde takt? INSKRIVET
 297: Ändrat segno/fine till utskriven repris, lättare att läsa
-299: Ab i andra reprisens fjärde takt ska kanske vara A
-305: ändrat femte (hela) takten så att den blir identisk med parallellstället
+299: Ab i andra reprisens fjärde takt ska kanske vara A  INSKRIVET
+305: ändrat femte (hela) takten så att den blir identisk med parallellstället  INSKRIVET
 324: exakt vilka toner är pizz?
 325: exakt vilka toner är pizz?
 336: antar att halvnoten i takt 4 kommer på andra slaget
-361: ändrat andra takten så att den blir likadan som parallellstället i slutet
+361: ändrat andra takten så att den blir likadan som parallellstället i slutet  INSKRIVET
 610: tagit bort sista pausen, den gjorde reprisen för lång
+613: misstänkta tryckfel: 4:e takten från slutet, e ska troligen vara f#. Se parallellställe 4 takter tidigare. INSKRIVET
 615: rättat tonlängd, uppenbart tryckfel, använde rytmiken från parallellstället (slutet på reprisen innan)
 680: första takten för kort, gjort 16-delar till 8-delar enligt uppenbart rytmiskt mönster
 683: saknad punkt, uppenbar pga omgivande takternas rytmiska mönster
