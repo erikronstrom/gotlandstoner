@@ -1,0 +1,15 @@
+\cleardoublepage
+\pagestyle{empty}
+\tinyskip
+%\newpage
+\newgeometry{top=33mm,left=30mm,right=30mm,bottom=20mm}
+{
+    \tinyskip\vfill
+    \makebox[\textwidth]{
+        \raisebox{-.5\height}{\includegraphics[scale=0.7,trim={0 2.95cm 0 0},clip]{include/barcode-%((booknum))%.pdf}}
+        \hfill
+        \raisebox{-.5\height}{\includegraphics[scale=0.3]{include/wessmans.pdf}}
+        \hfill
+        \raisebox{-.5\height}{\includegraphics[scale=0.7,trim={0 0 0 2.95cm},clip]{include/barcode-%((booknum))%.pdf}}
+    }
+}

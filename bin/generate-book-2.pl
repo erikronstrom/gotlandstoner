@@ -14,6 +14,7 @@ utf8::encode($Config);
 $Config = decode_json($Config);
 
 
+my $BookNum;
 my $From = $ARGV[0];
 my $To   = $ARGV[1];
 my $Preface = "";
@@ -23,6 +24,7 @@ my $TitlePageLineWidth = 200;
 if ($ARGV[0] eq 'book') {
     my $Book = $ARGV[1]-1;
     die("No such book!\n") unless $Config->{"books"}->[$Book];
+    $BookNum  = $ARGV[1];
     $From     = $Config->{"books"}->[$Book]->{"from"};
     $To       = $Config->{"books"}->[$Book]->{"to"};
     $Preface  = '\input{text/' . $Config->{"books"}->[$Book]->{"preface"} . '}';
@@ -79,6 +81,7 @@ open(OUTFILE, '>', 'book/fredin.latex');
 
 my $template = &slurp("include/book-template.latex");
 my $titlePage = &slurp("include/title-page-template.latex");
+my $back = &slurp("include/back-template.latex");
 
 my %params;
 $params{"from"} = $From;
@@ -87,12 +90,14 @@ $params{"linewidth"} = $TitlePageLineWidth;
 $params{"sections"} = join("\n    ", @Sections);
 $params{"preface"} = $Preface;
 $params{"postface"} = $Postface;
+$params{"booknum"} = $BookNum;
 
 # if (-e "book/title-$From-$To.latex") {
 #     $params{"titlepage"} = "\\includepdf{book/title-$From-$To}\n";
 # }
 
 $titlePage =~ s/%\(\(([\w\-]+)\)\)%/$params{$1}/ge;
+$back =~ s/%\(\(([\w\-]+)\)\)%/$params{$1}/ge;
 
 $params{"titlepage"} = $titlePage;
 
@@ -112,7 +117,7 @@ for my $num ($From..$To) {
         my $name = $section->{"name"};
         print OUTFILE "\\cleardoublepage\n";
         print OUTFILE "\\part*{\\textls[100]{$text}}\n";
-        $section = &stripLaTEX($section);
+        print OUTFILE "\\addcontentsline{toc}{section}{$name}\n";
         print OUTFILE "\\markboth{\\MakeUppercase{$name}}{\\MakeUppercase{$name}}\n";
 
         my $file = $section->{"file"};
@@ -152,6 +157,7 @@ for my $num ($From..$To) {
     &processTune($abc, $num, $song);
 }
 
+print OUTFILE "$back\n" if $BookNum;
 
 print OUTFILE '\end{document}' . "\n";
 
@@ -262,6 +268,7 @@ sub processTune() {
         print OUTFILE "\\section*{\\centering \\LARGE $text}\\vspace{1cm}\n";
         $text =~ s/\.$//;
         print OUTFILE "\\markboth{\\MakeUppercase{$text}}{\\MakeUppercase{$text}}\n";
+        print OUTFILE "\\addcontentsline{toc}{subsection}{$text}\n";
     }
 
     # Title and text
@@ -402,8 +409,3 @@ sub texSubstitutions() {
     return $Text;
 }
 
-sub stripLaTEX() {
-    my $Text = shift;
-    $Text =~ s/\\+[\w{}]+//g;
-    return $Text;
-}

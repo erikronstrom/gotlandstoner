@@ -1,0 +1,27 @@
+\begin{titlepage}
+    \centering
+    \vspace*{3.5cm}
+    {\fontsize{30}{36}\selectfont\textls[200]{GOTLANDSTONER}\par}
+    \vspace{2cm}
+    {\large\textls[150]{UPPTECKNADE AV}\par}
+    \vspace{0.6cm}
+    {\huge\textls[150]{AUGUST FREDIN}\par}
+
+    \vspace{3cm}
+    \line(1,0){%((linewidth))%}
+    \vspace{0.5cm}
+
+    {\fontsize{30}{36}\selectfont %((from))% -- %((to))%\par}
+    \vspace{0.7cm}
+
+    %((sections))%
+    
+    \vspace{1.0cm}
+    \line(1,0){%((linewidth))%}
+    \vspace{2cm}
+
+    \vfill
+    %\large{Wessmans Musikförlag}
+    \includegraphics[scale=0.3]{include/wessmans.pdf}
+
+\end{titlepage}
