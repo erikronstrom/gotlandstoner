@@ -9,3 +9,6 @@ text/people/source
 fredin.aux
 fredin.log
 !include/snippets/*-crop.pdf
+!include/accent.pdf
+!include/wessmans.pdf
+!include/barcode-*.pdf
