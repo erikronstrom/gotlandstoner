@@ -16,7 +16,7 @@
   \acciaccatura { c''16 }  b' c'' d'' b' g'8. c''16  | 
  b' c'' d'' b' g'8. c''16  | 
  b' c'' d'' b' g'8 b'  | 
- b'4-> a'->  | 
+ b'4\marcato a'\marcato  | 
   \acciaccatura { c''16 }  b' c'' d'' b' g'8. c''16  | 
  b' c'' d'' b' g'8 g''  | 
  e'' c'' a' fis'  | 

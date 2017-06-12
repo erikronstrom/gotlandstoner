@@ -19,10 +19,10 @@
  bes'16 c'' bes' a' bes'8 bes'16 d'' f''8 bes''  | 
  d''' c'''16 bes'' a'' bes'' c''' a'' bes''4  | 
  g''16-( bes'' g'' d''-) fis''-( a'' fis'' d''-) ees''-( d'' ees'' g''-)  | 
- f''-( ees'' d'' c''-) c''8-. bes'-. a'-. g'-.  | 
+ f''-( ees'' d'' c''-) c''8-! bes'-! a'-! g'-!  | 
  g'' d''16 bes g8 bes16 d' g'8 bes'16 d''  | 
  d''8 g'' g''16 fis'' a'' g'' fis''8 d''  | 
  ees''16 d'' c'' bes' c''8 a'' bes' g''  | 
- g''16 fis'' e'' fis'' < d' d'' fis''  >8. g''16 < g d' bes' g''  >4  |
+ g''16 fis'' e'' fis'' << { < d'' fis''  >8. g''16 } \\ d'4 >> < g d' bes' g''  >4  |
  } %( endrepeat )% 
  
