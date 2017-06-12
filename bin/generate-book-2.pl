@@ -197,9 +197,15 @@ sub processTune() {
         if ($Line =~ /^([ML]):(\S*)/) {
             $Headers{$1} = $2;
         }
-        if ($Line =~ /^T:(.*)/ && !$TuneConf{$Num}->{"hidetitle"}) {
-            $Title = $1;
-            $Title =~ s/[\.\,\;]$//; # Remove trailing punctuation
+        if ($TuneConf{$Num}->{"title"}) {
+            $Title = $TuneConf{$Num}->{"title"};
+        } elsif ($Line =~ /^T:(.*)/) {
+            if ($TuneConf{$Num}->{"hidetitle"}) {
+                $Source .= $1 . " ";
+            } else {
+                $Title = $1;
+            }
+            # $Title =~ s/[\.\,\;]$//; # Remove trailing punctuation
         }
         if ($Line =~ /^[SNH]:(.*)/) {
             
@@ -251,11 +257,11 @@ sub processTune() {
 
     print OUTFILE "\\newpage\n" if $BreakBefore;
 
-    if (my $subsection = $TuneConf{$Num}->{"subsection"}) {
-        print OUTFILE "\\section*{\\centering $subsection}\\vspace{1cm}\n";
-        $subsection =~ s/\.$//;
-        my $s = &stripLaTEX($subsection);
-        print OUTFILE "\\markboth{\\MakeUppercase{$s}}{\\MakeUppercase{$s}}\n";
+    if (my $subsection = $Config->{"subsections"}->{$Num}) {
+        my $text = $subsection->{"text"};
+        print OUTFILE "\\section*{\\centering \\LARGE $text}\\vspace{1cm}\n";
+        $text =~ s/\.$//;
+        print OUTFILE "\\markboth{\\MakeUppercase{$text}}{\\MakeUppercase{$text}}\n";
     }
 
     # Title and text
