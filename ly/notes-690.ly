@@ -10,9 +10,9 @@
  cis''4 a'8. a'16 a'4 a'16-( cis'' e'' fis''-)  | 
  g''4. fis''8 e'' fis'' g'' e''  | 
  fis''4 d''8. d''16 d''4 r8 b'  | 
- b' b''16 b'' < b' b''  >8 < b' b''  > a' a''16 a'' < a' a''  >8 < a' a''  >  | 
+ \stemDown b' b''16 b'' < b' b''  >8 < b' b''  > a' a''16 a'' < a' a''  >8 < a' a''  >  | 
  < e' a'  > g''16 g'' g''8 g'' < d' a'  > fis''16 fis'' fis''8 fis''  | 
- e''8. fis''16 e''8 d'' cis''8. d''16 e''8 cis''  | 
+ \stemNeutral e''8. fis''16 e''8 d'' cis''8. d''16 e''8 cis''  | 
   } 
 \alternative { 
  {  d''4 d''8. d''16 d''4 r   |
@@ -34,9 +34,9 @@
  cis''4 a'8. a'16 a'4 a'16-( cis'' e'' fis''-)  | 
  g''4. fis''8 e'' fis'' g'' a''  | 
  fis''4 d''8. d''16 d''4 r8 d''  | 
- b' b''16 b'' < b' b''  >8 < b' b''  > a' < a' a''  >16 < a' a''  > < a' a''  >8 < a' a''  >  | 
+ \stemDown b' b''16 b'' < b' b''  >8 < b' b''  > a' < a' a''  >16 < a' a''  > < a' a''  >8 < a' a''  >  | 
  < e' a'  > g''16 g'' g''8 g'' < d' a'  > fis''16 fis'' fis''8 fis''  | 
  e''8. fis''16 e''8 d'' cis''8. d''16 e''8 cis''  | 
- d''4 < fis' d''  >8. < fis' d''  >16 < d' d''  >4 r  |
+ \stemNeutral d''4 < fis' d''  >8. < fis' d''  >16 < d' d''  >4 r  |
  } %( endrepeat )% 
  
