@@ -22,6 +22,9 @@
       "name": "Visor",
       "text": "VISOR"
     },
+    "23": {
+      "notespacing": "2"
+    },
     "214": {
       "name": "Polskor",
       "text": "POLSKOR",
@@ -80,6 +83,9 @@
     },
     "608": {
       "text": "Kadriljer."
+    },
+    "713": {
+      "text": "Långdanser."
     }
   },
   "tunes": {
@@ -159,7 +165,6 @@
 
     },
     "225": {
-
     },
     "226": {
       "pages": "2"
@@ -173,9 +178,6 @@
     "229": {
       "spaceafter": "2cm"
     },
-    "23": {
-      "notespacing": "2"
-    },
     "230": {
       "spaceafter": "3cm"
     },
@@ -183,7 +185,6 @@
       "newpage": "0"
     },
     "232": {
-      "232": " "
     },
     "233": {
       "notespacing": "1",
@@ -900,21 +901,23 @@
       "416": " "
     },
     "417": {
+      "hidetitle": 1,
       "notespacing": "-2",
       "systemspacing": "-3"
     },
     "418": {
+      "hidetitle": 1,
       "systemspacing": "-1",
       "textbox": "10.5cm"
     },
     "419": {
-      "419": " "
+
     },
     "42": {
       "newpage": "0"
     },
     "420": {
-      "420": " "
+      "hidetitle": 1
     },
     "429": {
       "newpage": "0"
@@ -924,6 +927,9 @@
     },
     "431": {
       "newpage": "0"
+    },
+    "434": {
+      "hidetitle": 1
     },
     "44": {
       "newpage": "0"
@@ -936,6 +942,7 @@
       "newpage": "0"
     },
     "458": {
+      "hidetitle": 1,
       "textbox": "10cm"
     },
     "463": {
@@ -958,6 +965,7 @@
       "newpage": "0"
     },
     "474": {
+      "newpage": 0,
       "pages": "2"
     },
     "476": {
@@ -980,6 +988,7 @@
       "systemspacing": "-1"
     },
     "486": {
+      "hidetitle": 1,
       "newpage": "0",
       "systemspacing": "-1"
     },
@@ -1009,6 +1018,9 @@
     "500": {
       "textbox": "0"
     },
+    "503": {
+      "hidetitle": 1
+    },
     "504": {
       "lineoffset": "-5",
       "spaceafter": "0.5cm",
@@ -1034,8 +1046,11 @@
     "525": {
       "newpage": "1"
     },
-    "527": {
+    "526": {
       "newpage": "0"
+    },
+    "527": {
+      "newpage": "1"
     },
     "528": {
       "lineoffset": "-5",
@@ -1115,6 +1130,9 @@
     "553": {
       "pages": "1"
     },
+    "559": {
+      "hidetitle": 1
+    },
     "563": {
       "lineoffset": "-5",
       "spaceafter": "0.4cm",
@@ -1159,8 +1177,7 @@
       "newpage": "0"
     },
     "574": {
-      "section": "POLKA OCK SCHOTTIS",
-      "subsection": "Polkor."
+
     },
     "576": {
       "newpage": "0"
@@ -1178,7 +1195,7 @@
       "newpage": "0"
     },
     "584": {
-      "subsection": "Schottis."
+
     },
     "585": {
       "newpage": "0"
@@ -1257,8 +1274,7 @@
       "newpage": "0"
     },
     "608": {
-      "section": "KADRILJER OCK ANGLÃSER",
-      "subsection": "Kadriljer."
+
     },
     "609": {
       "notespacing": "2"
@@ -1317,10 +1333,13 @@
       "newpage": "0"
     },
     "682": {
-      "spacebefore": "2cm"
+      "spacebefore": "1cm"
     },
     "684": {
-      "hidetitle": "1"
+      "hidetitle": 1
+    },
+    "685": {
+      "textbox": "11cm"
     },
     "689": {
       "newpage": "0"
@@ -1400,7 +1419,7 @@
       "textbox": "11cm"
     },
     "713": {
-      "subsection": "Långdanser."
+
     },
     "714": {
       "newpage": "0"
@@ -1418,14 +1437,16 @@
       "newpage": "0"
     },
     "719": {
-      "systemspacing": "-2"
+      "systemspacing": "-2",
+      "spaceafter": "0"
     },
     "720": {
-      "hidetempo": "1",
       "hidetitle": "1",
+      "hidetempo": "1",
       "newpage": "0",
       "spaceafter": "0",
-      "systemspacing": "-2"
+      "systemspacing": "-2",
+      "textbox": 0
     },
     "721": {
       "hidetitle": "1",
