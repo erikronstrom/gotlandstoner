@@ -2,9 +2,12 @@
 \key g \major
 
 \repeat volta 2 { 
- d''2.\smallFlageolet  | 
- g''\smallFlageolet  | 
- b''\smallFlageolet  | 
+<< { d''2.\smallFlageolet g''\smallFlageolet b''\smallFlageolet } \\
+   { \harmonicsOn \override Stem #'transparent = ##t
+     \override Dots.dot-count = #0
+     d' c' b
+     \harmonicsOff \revert Stem #'transparent
+     \revert Dots.dot-count } >>
  r4 r r  |
  } %( endrepeat )% 
 \repeat volta 2 { 
