@@ -42,7 +42,12 @@
 \usepackage[final,tracking=true,spacing=false,factor=1100,stretch=10,shrink=10]{microtype}
 
 \usepackage{hyperref}
-\hypersetup{colorlinks=false}
+\hypersetup{
+    colorlinks=false,
+    pdfencoding=auto,
+    pdfauthor={Erik Ronström},
+    pdftitle={Gotlandstoner}
+}
 \urlstyle{same}
 
 \hyphenation{allianspolska}
@@ -54,8 +59,8 @@
 \author{August Fredin}
 \setlength{\parindent}{0pt}
 \newcommand{\tunename}[2]{
-    \refstepcounter{section}
-    \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}
+    %\refstepcounter{section}
+    %\addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}
     \begin{center}
         \Large \textbf{#1}
         \vspace*{#2}
