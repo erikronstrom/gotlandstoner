@@ -8,3 +8,4 @@ text/people/source
 *.zip
 fredin.aux
 fredin.log
+!include/snippets/*-crop.pdf
