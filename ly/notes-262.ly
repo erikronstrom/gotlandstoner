@@ -27,6 +27,6 @@
  { % beginalt
  f'16 g' a' bes' c'' d'' e'' f'' d''8 bes''  
   | 
- a''16 g'' f'' e'' g''4 f''  | \bar ":|." }
+ a''16 g'' f'' e'' g''4 f''  | \bar "|." }
  } %( endrepeat )% 
  

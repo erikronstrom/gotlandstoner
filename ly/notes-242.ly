@@ -10,7 +10,7 @@
  d'' e'' d'' cis'' b' cis'' b' a' gis'8 e'  | 
  a'16 gis' a' b' c'' b' c'' d'' e''4  | 
  g''-> g''16 f'' d'' e'' c''4  | 
- c''16 b' c'' d'' e'' c'' b' d'' a' c'' e' gis'  | 
+ c''16 b' c'' d'' e'' c''^\markup { * } b' d'' a' c'' e' gis'  | 
  a'8 e'16 d' cis'! d' b cis' a4  |
  } %( endrepeat )% 
  \key a \minor

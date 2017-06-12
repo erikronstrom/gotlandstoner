@@ -6,7 +6,7 @@
  < a e'  >->  < a d'  >->  | 
  fis'16 d' fis' a' d'' cis'' d'' a' g' fis' e' d'  | 
  fis' a fis' a' e' a e' a' d'4  | 
- fis'16 d' fis' a' d'' cis'' d'' cis'' g' fis' e' d'  | 
+ fis'16 d' fis' a' d'' cis'' d'' a' g' fis' e' d'  | 
  \noteheadHalf < a d'  >8_\markup { \italic "col’ arco" } fis''^\markup { \italic "pizz." } fis'' fis'' g''16 fis'' e'' d''  | 
  \noteheadHalf < a e'  >8_\markup { \italic "col’ arco" } g''^\markup { \italic "pizz." } g'' g'' a''16 g'' fis'' e''  | 
  \noteheadHalf < a d'  >8_\markup { \italic "col’ arco" } fis''^\markup { \italic "pizz." } fis'' fis'' g''16 fis'' e'' d''  | 

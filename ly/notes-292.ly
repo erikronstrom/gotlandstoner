@@ -18,7 +18,7 @@
  a''8 g''16 f'' bes'8. g''16 g''4  | 
  g''8 f''16 ees'' d'' ees'' c'' d'' bes'4  | 
  ees''8 d''16 c'' bes' c'' a' bes' g'4  | 
- g'16 fis' g' a' bes' a' a' c'' d''8 d'  | 
+ g'16 fis' g' a' bes' a' bes'^\markup { * } c'' d''8 d'  | 
  d'' d' d'' d' d'' d'  | 
  g''16 fis'' g'' a'' bes'' a'' bes'' c''' d'''8 d''  | 
  d'''16 d'' e'' fis'' a''4 g''  |
