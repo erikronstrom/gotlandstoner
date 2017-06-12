@@ -4,7 +4,7 @@
 \usepackage[T1]{fontenc}
 
 \usepackage{lmodern}
-\usepackage[top=10mm,left=16.5mm,right=16.5mm,bottom=12mm,includehead,twoside,headsep=11mm,bindingoffset=8mm]{geometry}
+\usepackage[top=10mm,left=16.5mm,right=16.5mm,bottom=12mm,includehead,twoside,headsep=11mm,bindingoffset=8mm]{geometry} %showframe
 \usepackage{graphicx}
 \usepackage{tabto}
 \usepackage{xfrac}
@@ -53,7 +53,7 @@
     \refstepcounter{section}
     \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}
     \begin{center}
-        \LARGE \textbf{#1}
+        \Large \textbf{#1}
         \vspace*{#2}
     \end{center}
 }
