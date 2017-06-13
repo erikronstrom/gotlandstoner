@@ -3,7 +3,7 @@
 
 \repeat volta 2 { 
  c''16 d'' c'' b' c'' d'' e'' f'' g'' a'' bes'' a'' a''8 f''16 a''  | 
- a'' g'' g'' g'' g'' f'' d'' b' b'8 e''16 d'' c'' g' e' g'  | 
+ a'' g'' g'' g'' g'' f'' d'' b' c''8 e''16 d'' c'' g' e' g'  | 
  c'' d'' c'' b' c'' d'' e'' f'' g'' a'' bes'' a'' a''8 f''16 a''  | 
  a'' g'' g'' g'' g'' f'' d'' b' c''8 e'' c''4  |
  } %( endrepeat )% 
