@@ -1469,7 +1469,8 @@
       "notespacing": "1"
     },
     "725": {
-      "hidetitle": "1"
+      "hidetitle": "1",
+      "textbox": 0
     },
     "726": {
       "hidetitle": "1",
