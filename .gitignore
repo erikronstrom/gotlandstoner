@@ -12,4 +12,5 @@ fredin.log
 !include/accent.pdf
 !include/wessmans.pdf
 !include/barcode-*.pdf
+!include/anapest.pdf
 convert-config.pl
