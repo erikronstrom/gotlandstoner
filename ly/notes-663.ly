@@ -4,7 +4,7 @@
 \repeat volta 2 { 
  \partial 8
  a'16 bes'  | 
- c'' c'' c''8 a' a'16 a'  | 
+ c'' c'' c''8 a'^\markup { * } a'16 a'  | 
  f' f' f'8 e'16 e' e'8  | 
  c''16 c'' c''8 bes'16 bes' bes'8  | 
  g'16 g' g'8 f'16 f' f'8  | 

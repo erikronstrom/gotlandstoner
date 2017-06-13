@@ -41,7 +41,8 @@
  g''  | 
  < a' fis''  > < a' fis''  >16 < a' fis''  > < a' fis''  >8 < a' fis''  >  | 
  < g d' b' g''  > < b' g''  >16 < b' g''  > < b' g''  >8 < b' g''  >  | 
- < d' a' fis''  > < a' fis''  >16 < a' fis''  > < g d' b' g''  >8. d''16  | 
+ < d' a' fis''  > < a' fis''  >16 < a' fis''  > < a' fis''  >8 < a' fis''  > |
+ < g d' b' g''  >4. d''8  | 
  b''4. a''8  | 
  g'' fis'' g'' e''  | 
  d''8. b'16 c''8 a'  | 

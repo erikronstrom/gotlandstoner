@@ -49,6 +49,6 @@
  g' fis'16 g' a' g' fis' g'  | 
  c'' b' a' g' f' g' e' c''  | 
  d''8 g'16 g' e''8 d''  | 
- < c'' e'  > < b' d'  > < c'' d'  >
+ < c'' e'  > < b' d'  > < c'' e'  >
  } %( endrepeat )% 
  
