@@ -22,8 +22,8 @@
 }
 \fancypagestyle{main}{
     \fancyhf{}  % remove default
-    \fancyhead[CO] { \scriptsize \rightmark }
-    \fancyhead[CE] { \scriptsize FREDIN, GOTLANDSTONER } 
+    \fancyhead[CO] { \scriptsize \textls[50]{\rightmark} }
+    \fancyhead[CE] { \scriptsize \textls[50]{FREDIN, GOTLANDSTONER} } 
     \renewcommand{\headrulewidth}{0pt}
     \renewcommand{\footrulewidth}{0pt}
 }
