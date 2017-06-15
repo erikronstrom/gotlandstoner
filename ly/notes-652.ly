@@ -21,7 +21,7 @@
  c''8 c''16 e'' g'8 c''16 e''  | 
  g''8 g''16 fis'' g'' a'' g'' f''  | 
  e'' f'' e'' d'' c'' d'' e'' f''  | 
- g''8 g''16 c'' g'' f'' d'' b'  | 
+ g''8 g''16 e'' g'' f'' d'' b'  | 
  d''4 c''8
  } %( endrepeat )% 
 \repeat volta 2 { 

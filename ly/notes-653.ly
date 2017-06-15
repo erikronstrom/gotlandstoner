@@ -35,7 +35,7 @@
  d'' fis'' b'' a'' a''4  | 
  a''8 b''16 a'' g'' fis'' g'' e''  | 
  d'' cis'' d'' fis'' a'8. d''16  | 
- cis'' e'' fis'' b'' a'' g'' e'' cis''  | 
+ cis'' e'' g'' b'' a'' g'' e'' cis''  | 
  d''8 fis'' d''
  } %( endrepeat )% 
 \repeat volta 2 { 

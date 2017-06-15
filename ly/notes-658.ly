@@ -26,7 +26,7 @@
  } %( endrepeat )% 
 \repeat volta 2 { 
  g''  | 
- e''16 a' e'' g'' e'' c'' e'' g''  | 
+ e''16 c'' e'' g'' e'' c'' e'' g''  | 
  f'' e'' d'' c'' b' a' g' f'  | 
  e' g' a' b' c'' d'' e'' f''  | 
  d''8 d'' d'' g''  | 
