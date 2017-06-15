@@ -9,6 +9,7 @@ Kolla öht igenom alla titlar och välj en strategi, se t.ex 687 (titel eller ej
 
 TILL FÖRORD
 
+- val av material
 - scordatura
 - mindre textändringar (sidhänvisningar, stavfel)
 - balkning
@@ -82,9 +83,14 @@ Musikalisk tolkning / misstänkta tryckfel:
 610: tagit bort sista pausen, den gjorde reprisen för lång
 613: misstänkta tryckfel: 4:e takten från slutet, e ska troligen vara f#. Se parallellställe 4 takter tidigare. INSKRIVET
 615: rättat tonlängd, uppenbart tryckfel, använde rytmiken från parallellstället (slutet på reprisen innan)
+671: Originalets femte takt från slutet är för lång, det ser ut som att det fattas en halv takt för att perioden ska bli rätt. Infört och INSKRIVET
+673: Langren -> Laugren   står inte i rättelserna, men samma ändring står i rättelserna för några andra låtar
 680: första takten för kort, gjort 16-delar till 8-delar enligt uppenbart rytmiskt mönster
 683: saknad punkt, uppenbar pga omgivande takternas rytmiska mönster
 690: uppenbart tryckfel i takt 7, rättat enligt parallellstället två takter tidigare
+700: mins => minns
+713: Gotland fornsal => Gotlands fornsal
+724: ändrade Efter => efter
 
 Florsen: "om honom.:" -> "om honom:"
 
