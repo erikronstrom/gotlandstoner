@@ -19,7 +19,7 @@
  a'8 gis' g'4  | 
  fis'16 a' d'' cis'' b' a' g' fis'  | 
  fis'4 e'8 a  | 
- e' a16 d' fis'8 d'16 fis'  | 
+ e'^\markup { * } a16 d' fis'8 d'16 fis'  | 
  a'8 fis'16 a' d''8 fis''  | 
  e''16 fis'' g'' e'' cis'' d'' e'' cis''  | 
  d''8 fis'' d'' r  |
@@ -38,7 +38,7 @@
  
 \repeat volta 2 { 
  a' a' gis'4  | 
- g'8 g' fis'4  | 
+ g'!8 g' fis'4  | 
  e'16 g' b' a' g' fis' e' d'  | 
  e' d' cis' b a4  | 
  fis''4. g''8  | 
