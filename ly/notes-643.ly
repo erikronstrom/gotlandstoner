@@ -35,7 +35,7 @@
  fis'4. a'16 fis'  | 
  e'4. g'16 fis'  | 
  fis'8 fis' e' e'  | 
- d'4 r8
+ d'4 r8 \break
  } %( endrepeat )% 
  
 \repeat volta 2 { 
