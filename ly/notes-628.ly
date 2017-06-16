@@ -23,7 +23,7 @@
  b' c'' d'' e'' f'' e'' f'' d''  | 
  c''8 g' e'' c''  | 
  b'16 c'' d'' e'' f'' e'' f'' d''  | 
- c''4 r8
+ c''4 r8 \break
  } %( endrepeat )% 
  
 \repeat volta 2 { 
@@ -43,7 +43,7 @@
  g'16 fis' e' fis' d'8 e'16 fis'  | 
  g'8 g'16 a' b'8 g'  | 
  g'16 fis' e' fis' d'8 e'16 fis'  | 
- g'8 g' g' e'16 f'  | 
+ g'8 g' g' e'16 f'?  | 
  g'8 g'16 f' f' e' d' e'  | 
  c' c' c' d' e'8 c'  | 
  d' f' g b16 d'  | 

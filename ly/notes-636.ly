@@ -11,7 +11,7 @@
 \repeat volta 2 { 
  f''8 f''16 f'' f'' a'' g'' f'' e''8 d''16 d'' d''4  | 
  d''8 d''16 d'' d'' f'' e'' d'' d''8 c''16 c'' c''4  | 
- bes''8-. bes''-. c''16 e'' g'' bes'' a''8-. a''-. a'16 c'' f'' a''  | 
+ bes''8-! bes''-! c''16 e'' g'' bes'' a''8-! a''-! a'16 c'' f'' a''  | 
  a'' g'' bes'' g'' f'' e'' d'' e'' f''8 a'' f''4  |
  } %( endrepeat )% 
  

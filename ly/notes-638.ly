@@ -28,7 +28,7 @@
  g''8 d'' b' g'  | 
  < g e' b'  >8. g''16 fis''8 e''16 fis''  | 
  a'' g'' fis'' e'' d''4  | 
-  \acciaccatura { b'16 }  < g g' b'  >8. g''16 fis''8 e''16 fis''  | 
+  \slashedGrace { b'16 }  < g g' b'  >8. g''16 fis''8 e''16 fis''  | 
  g''8 d'' b' g'  | 
   \acciaccatura { c''16 }  e''8. c''16 a'8 fis'  | 
  g' b' g' r  |

@@ -5,17 +5,17 @@
  \partial 8
  e'16 f'  | 
  g'8 g' g'16 c'' b' a' g'8 g' g'16 a' b' c''  | 
- d''8 g' d'' g' c''16 d'' e'' f'' g''8 e'16 f'  | 
+ d''8[ g'] d''[ g'] c''16 d'' e'' f'' g''8 e'16 f'  | 
  g'8 g' g'16 c'' b' a' g'8 g' g'16 a' b' c''  | 
- d''8 g' d'' g' c''4.
+ d''8[ g'] d''[ g'] c''4.
  } %( endrepeat )% 
  
 \repeat volta 2 { 
  b'16 c''  | 
  d''8 g' f' f' e'16 g' c'' e'' g''8 b'16 c''  | 
  d''8 g' f' f' e'16 f' g' a' g'8 e'16 f'  | 
- g'8 g' g'16 c'' b' a' g'8 g' g'16 a' b' c''  | 
- d''8 g' d'' g' c''4.
+ g'8 g' g'16 c'' b' a' g'8 g' g'16 a' b' c''  |  \break
+ d''8[ g'] d''[ g'] c''4.
  } %( endrepeat )% 
  \key f \major
  

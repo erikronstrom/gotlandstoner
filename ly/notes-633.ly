@@ -33,7 +33,7 @@
  c'''8. a''16 a''8 a''  | 
  a''8. f''16 f''8 f''  | 
  g'' g''16 bes'' e''8 e''16 g''  | 
- f''4.
+ f''4. \break
  } %( endrepeat )% 
 \repeat volta 2 { 
  f''8  | 

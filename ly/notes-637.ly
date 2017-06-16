@@ -22,7 +22,7 @@
  bes' bes'16 a' bes'8 d''  | 
  bes' f' bes' d''  | 
  c'' ees''16 c'' a' bes' c'' a'  | 
- bes'8 bes' bes'
+ bes'8 bes' bes' \break
  } %( endrepeat )% 
 \repeat volta 2 { 
  d''16 ees''  | 
