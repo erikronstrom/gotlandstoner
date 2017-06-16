@@ -14,3 +14,4 @@ fredin.log
 !include/barcode-*.pdf
 !include/anapest.pdf
 convert-config.pl
+fredin.out
