@@ -385,7 +385,7 @@ sub texSubstitutions() {
 
     $Text =~ s/(Uppt|Omkr|Meddel|Skoll|Kapt|Joh|Nikl|And|övers|sv|enl|mel|saml|arb)\. /\1.\\\@ /ig;
     $Text =~ s/m\. m\./m.\\\,m./g; # TODO: lookahead for next sentence
-    $Text =~ s/t\. f\./t.\\\,f./g; # TODO: lookahead for next sentence
+    $Text =~ s/t\. f\. /t.\\\,f.\\\@ /g; # TODO: lookahead for next sentence
     $Text =~ s/m\. fl\. (?=[a-z])/m.\\\,fl.\\@ /g;
     $Text =~ s/m\. fl\./m.\\\,fl./g;
     $Text =~ s/f\. d\./f.\\\,d.\\\@/g; # TODO: lookahead for next sentence
