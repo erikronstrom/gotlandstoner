@@ -9,15 +9,15 @@ Korrekturläsning och -lyssning har gjorts av Fredrik Lönngren, Erik Ronström,
 
 Kontakt: Erik Ronström [erik@ompom.se](mailto:erik@ompom.se)
 
-##Riktlinjer för korrekturläsning av Gotlandstoner
+## Riktlinjer för korrekturläsning av Gotlandstoner
 Erik Ronström 2008-01-09, rev 2016-08-03
 
-###Utgångspunkt och målsättning
+### Utgångspunkt och målsättning
 Nya utgåvor av Gotlandstoner kan komma att bygga på det digitaliserade materialet, men digitaliseringsarbetet ska inte ses som en del av produktionen av en hemsida eller en ny utgåva.
 
 *Målet är att skapa en digital kopia av Gotlandstoner i abc-format, så lik originalet som möjligt.*
 
-###Tryckfel
+### Tryckfel
 Målsättningen ovan innebär att all information i originalboken, text som musik, ska överföras
 så exakt som möjligt. *Detta gäller även sådant som vi kan uppfatta som uppenbara tryckfel!*
 
