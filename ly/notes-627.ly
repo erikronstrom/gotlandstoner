@@ -42,8 +42,8 @@
 \repeat volta 2 { 
  c'''16 a''  | 
  g''8 e''16 c'' d''8 f''  | 
- e'' g'' c'''16 bes'' c''' a''  | 
- g''8 e''16 c'' bes' c'' d'' bes'  | 
+ e'' g'' c'''16 bes''^\markup { * } c''' a''  | 
+ g''8 e''16 c'' bes'^\markup { * } c'' d'' bes'  | 
  c''8 c'' c'' c''16 bes'  | 
  a'8 c'' f'' a''  | 
  c''' b'' bes'' g''16 f''  | 

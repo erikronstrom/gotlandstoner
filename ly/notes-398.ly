@@ -14,7 +14,9 @@
  } %( endrepeat )% 
 \repeat volta 2 { 
  < g d' b'  >8. d''16 d''8 e''16 d'' c'' b' a' g'  | 
- gis' a'-4 a'^"-" a'^"-" gis' a'-4 a'^"-" a'^"-" gis' a'-4 a' a'  |
+ gis' a'-4 a'^\markup { \translate #'(0 . 1) "-" } a'^\markup { \translate #'(0 . 1) "-" }
+ gis' a'-4 a'^\markup { \translate #'(0 . 1) "-" } a'^\markup { \translate #'(0 . 1) "-" }
+ gis' a'-4 a'^\markup { \translate #'(0 . 1) "-" } a'^\markup { \translate #'(0 . 1) "-" }  |
  \override Fingering.direction = #DOWN
  < d' fis' a'  >8.-4 b'16 c''8 d''16 c'' b' a' g' fis'  | 
  < g fis'  > g' b' g' < g fis'  > g' b' g' < g fis'  > g' b' g'  | 

@@ -17,7 +17,7 @@
  g''8 b''16 g'' e''8 g''16 e'' cis''8 e''16 cis''  | 
  a' cis'' e'' cis'' d''8 a'' a''4  | 
  b''8 b''16 a'' g''8 g''16 fis'' e''8 fis''16 g''  | 
- a''8 a''16 g'' fis''8 fis''16 e'' e''8 e''16 fis''  | 
+ a''8 a''16 g'' fis''8 fis''16 e'' d''8^\markup { * } e''16 fis''  | 
  g'' fis'' g'' a'' b''8 g'' e'' g''  | 
  fis''16 a'' cis'' e'' d''8 a'16 fis' d'4  |
  } %( endrepeat )% 
