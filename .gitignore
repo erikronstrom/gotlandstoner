@@ -13,5 +13,6 @@ fredin.log
 !include/wessmans.pdf
 !include/barcode-*.pdf
 !include/anapest.pdf
+!include/ng10.pdf
 convert-config.pl
 fredin.out

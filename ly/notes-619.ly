@@ -7,7 +7,7 @@
  f' f' a' c'' a' f' c' e'  | 
  g' g' bes' d'' c''16 bes' a' g' f'8 c'  | 
  f' f' a' c'' a' f' c' e'  | 
- g' d'' c'' e' f'4.
+ g' d'' c'' e' f'4. \break
  } %( endrepeat )% 
 \repeat volta 2 { 
  f''16 e''  | 
@@ -27,8 +27,8 @@
  
 \repeat volta 2 { 
  e''16 f''  | 
- g''4 f''16 e'' d'' c'' a''4 g''16 f'' e'' d''  | 
- bes''4 a''16 g'' f'' e'' f''4 e''  | 
+ g''4^\markup { \rotate #180 \huge "ˇ" } f''16 e'' d'' c'' a''4^\markup { \rotate #180 \huge "ˇ" } g''16 f'' e'' d''  | 
+ bes''4^\markup { \rotate #180 \huge "ˇ" } a''16 g'' f'' e'' f''4 e''  | 
  f'' g''16 f'' e'' f'' d''8 g'' g''16 f'' e'' d''  | 
  c''8 c'' d''16 f'' e'' g'' f''4.
  } %( endrepeat )% 

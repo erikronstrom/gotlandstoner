@@ -2,7 +2,9 @@
   "books": [
     {
       "from": 1,
-      "to": 213
+      "to": 55,
+      "preface": "preface-1.tex",
+      "linewidth": 200
     },
     {
       "from": 214,
@@ -368,13 +370,14 @@
     },
     "278": {
       "lineoffset": "-5",
-      "spaceafter": "0.5cm",
+      "spaceafter": "0.3cm",
       "systemspacing": "-2"
     },
     "279": {
       "newpage": "0",
       "notespacing": "1",
-      "systemspacing": "-2"
+      "systemspacing": "-2",
+      "lineoffset": -5
     },
     "28": {
       "notespacing": "2"
@@ -729,11 +732,11 @@
       "367": " "
     },
     "368": {
-      "368": "spaceafter: 0.5cm, newpage=0",
       "newpage": "0"
     },
     "369": {
-      "newpage": "1"
+      "newpage": "1",
+      "spaceafter": "0.5cm"
     },
     "37": {
       "notespacing": "1"
@@ -839,7 +842,7 @@
       "notespacing": "1"
     },
     "398": {
-      "systemspacing": "0"
+      "systemspacing": "-1"
     },
     "399": {
       "textbox": "14cm"
@@ -871,14 +874,16 @@
       "spaceafter": "2cm"
     },
     "407": {
-      "newpage": "0"
+      "newpage": "0",
+      "notespacing": 2
     },
     "408": {
       "newpage": "1",
       "spaceafter": "2cm"
     },
     "409": {
-      "newpage": "0"
+      "newpage": "0",
+      "notespacing": 4
     },
     "410": {
       "notespacing": "1"
@@ -967,7 +972,10 @@
     },
     "474": {
       "newpage": 0,
-      "pages": "2"
+      "pages": "2",
+      "systemspacing": -2,
+      "pageheight": "265mm",
+      "lineoffset": -15
     },
     "476": {
       "newpage": "0"
@@ -1159,7 +1167,8 @@
       
     },
     "568": {
-      "newpage": "0"
+      "newpage": "0",
+      "notespacing": 1
     },
     "570": {
       "newpage": "0"
@@ -1194,10 +1203,11 @@
       "spaceafter": "2cm"
     },
     "583": {
-      "newpage": "0"
+      "newpage": "0",
+      "notespacing": 1
     },
     "584": {
-
+      "notespacing": 1
     },
     "585": {
       "newpage": "0"
@@ -1208,7 +1218,8 @@
     },
     "587": {
       "newpage": "0",
-      "notespacing": "1"
+      "notespacing": "1",
+      "textbox": "10cm"
     },
     "588": {
       "newpage": "1"
@@ -1270,7 +1281,8 @@
     },
     "606": {
       "newpage": "1",
-      "spaceafter": "2cm"
+      "spaceafter": "2cm",
+      "notespacing": 1
     },
     "607": {
       "newpage": "0"

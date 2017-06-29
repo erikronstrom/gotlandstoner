@@ -6,7 +6,7 @@
  fis'4-> g'-> a'->  | 
  b'8 cis'' d'' a' fis' d'  | 
  fis'4 g' a'  | 
- b'8 cis'' d''4 r8  |
+ b'8 cis'' d''4 r8 \break
  } %( endrepeat )% 
   
 \repeat volta 2 { 

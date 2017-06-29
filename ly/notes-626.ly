@@ -48,6 +48,6 @@
  d''4  \acciaccatura { c''16 }  b' a' b' c''  | 
  d''4. g''8  | 
  e'' e'' d''16 c'' b' a'  | 
- fis'4 r8
+ g'4 r8
  } %( endrepeat )% 
  

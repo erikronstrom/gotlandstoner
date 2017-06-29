@@ -56,6 +56,10 @@
  < cis'' e''  >4 r < d'' fis''  >8 < d'' fis''  >  | 
  < d'' fis''  >4 r < cis'' e''  >8 < cis'' e''  >  | 
  cis''4 r b'  | 
+
+ %\break
+ \pageBreak
+
  gis' r e''  | 
  e''4. cis'''8 a'' cis'''  | 
  e''4. cis'''8 a'' cis'''  | 

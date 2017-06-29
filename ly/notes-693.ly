@@ -11,7 +11,7 @@
  c''4 g'8. g'16 e'4 g'  | 
  c'' d''8. d''16 e''4 c''8. e''16  | 
  d''4 d''8. d''16 d''4 e''8. fis''16  | 
- g''4 < g'' b' d' g  >8. < g'' b' d' g  >16 < g'' b' g  >4
+ g''4 < g'' b' d' g  >8. < g'' b' d' g  >16 < g'' b' d' g  >4
  } %( endrepeat )% 
  
 \repeat volta 2 { 

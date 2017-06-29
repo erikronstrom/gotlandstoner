@@ -1,23 +1,6 @@
-Behåll interpunktion efter låttitlar eller ej?
-Typ Brudepolska.
-
-Följdfråga: Alltid versal i låtbeskrivning? Eller alltid gemen? Eller följ originalet?
-
-Kolla öht igenom alla titlar och välj en strategi, se t.ex 687 (titel eller ej?)
 
 
-
-TILL FÖRORD
-
-- val av material
-- scordatura
-- mindre textändringar (sidhänvisningar, stavfel)
-- balkning
-- reprisering
-- infört rättelser
-- 
-
-
+OBS: Kolla alla abc som nu innehåller ŋ och kolla att det följer med till tex-filerna!
 
 kolla upp
 443 428 427 478 472 552
@@ -80,6 +63,7 @@ Musikalisk tolkning / misstänkta tryckfel:
 325: exakt vilka toner är pizz?
 336: antar att halvnoten i takt 4 kommer på andra slaget
 361: ändrat andra takten så att den blir likadan som parallellstället i slutet  INSKRIVET
+370: ändrat takt 5 så att den matchar parallellställena  INSKRIVET
 610: tagit bort sista pausen, den gjorde reprisen för lång
 613: misstänkta tryckfel: 4:e takten från slutet, e ska troligen vara f#. Se parallellställe 4 takter tidigare. INSKRIVET
 615: rättat tonlängd, uppenbart tryckfel, använde rytmiken från parallellstället (slutet på reprisen innan)
@@ -93,4 +77,25 @@ Musikalisk tolkning / misstänkta tryckfel:
 724: ändrade Efter => efter
 
 Florsen: "om honom.:" -> "om honom:"
+
+
+
+
+
+
+
+
+/Users/admin/Documents/gotlandstoner/abc/song-23.abc:
+/Users/admin/Documents/gotlandstoner/abc/song-32.abc:
+/Users/admin/Documents/gotlandstoner/abc/song-33.abc:
+/Users/admin/Documents/gotlandstoner/abc/song-321.abc:   fixad
+/Users/admin/Documents/gotlandstoner/abc/song-403.abc:   fixad
+/Users/admin/Documents/gotlandstoner/abc/song-405.abc:   fixad
+/Users/admin/Documents/gotlandstoner/abc/song-415.abc:   fixad
+/Users/admin/Documents/gotlandstoner/abc/song-567.abc:   fixad
+/Users/admin/Documents/gotlandstoner/abc/song-568.abc:   fixad
+/Users/admin/Documents/gotlandstoner/abc/song-569.abc:   fixad
+/Users/admin/Documents/gotlandstoner/abc/song-572.abc:   fixad
+/Users/admin/Documents/gotlandstoner/abc/song-573.abc:   fixad
+
 

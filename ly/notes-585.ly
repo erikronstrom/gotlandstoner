@@ -22,8 +22,8 @@
  d'' d''16 d'' d''8
  } %( endrepeat )% 
 \repeat volta 2 { 
- d''  | 
  \key g \major
+ d''  | 
  g'' b'16 b' d''8 g''  | 
  fis'' e'' e''4  | 
  c''16 a' fis' a' c''8 fis''  | 
