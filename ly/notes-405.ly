@@ -18,5 +18,5 @@
      Nit -- tend lig -- gar i vag -- gu, tju -- gend gyn -- nar pa.
      Hoff -- fal -- li -- ral -- la -- la -- la, Nå ska dan -- sen ga!
      Tju fal -- li -- ral -- la -- la -- la. Kumm bad stäur u sma!
-     Ro -- lit ska vö_ ha, så lägg_ vö_ li -- var.
+     Ro -- lit ska vö_ ha, så läŋg_ vö_ li -- var.
 }

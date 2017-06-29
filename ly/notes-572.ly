@@ -26,12 +26,12 @@
  } %( endrepeat )% 
   }
  \addlyrics {
-     Vör kun -- dä gän -- nä käu --  -- tu -- mä ta -- gä, Ban -- ug -- gä kun -- dä lab --  -- bu mä säu -- gä,
-     Käl -- lig -- gar kun -- dä sträk --  -- lig -- gar ba -- kä.
+     Vör kun -- dä gän -- nä käu --  -- tu -- mä ta -- gä, Ban -- uŋ -- gä kun -- dä lab --  -- bu mä säu -- gä,
+     Käl -- liŋ -- gar kun -- dä sträk --  -- liŋ -- gar ba -- kä.
      Dei, sum blai y -- var, smör -- däs präs -- tens styv -- lar. Räs -- ten gåim -- des haim ti mor.
-     Sjugg fal -- la -- ral -- la - - - - - -
+     Sjuŋg fal -- la -- ral -- la - - - - - -
      % \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 
-     Sjugg fal -- la -- ral -- la - - - - - -
+     Sjuŋg fal -- la -- ral -- la - - - - - -
      %\skip 8 \skip 8 \skip 8 \skip 8 \skip 8 \skip 8 
-     Dei, sum blai y -- var, smör -- däs präs -- tens styv -- lar, Räs -- ten gåim -- des haim ti mor.
+     Dei, sum blai y -- var, smör -- däs präs -- tens styv -- lar. Räs -- ten gåim -- des haim ti mor.
 }

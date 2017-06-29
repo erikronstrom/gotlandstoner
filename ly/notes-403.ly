@@ -21,7 +21,7 @@
  \addlyrics {
      Hä_ dan -- sa ja mä mäi -- nä gam -- blä skou!
      Hof -- fal -- li -- ral -- la -- li -- la -- la -- li ral --  -- la -- di ral -- lal -- la!
-     Ig -- gä gott -- lanns
+     Iŋ -- gä gott -- lanns
      \once \override LyricText.self-alignment-X = #LEFT
      \leftbrace
      \markup { \translate #'(0 . 1.4) \center-column { \translate #'(0 . -0.3) "sor -" \translate #'(0 . 0.3) "töi -" } }

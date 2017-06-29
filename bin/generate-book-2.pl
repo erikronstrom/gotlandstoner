@@ -400,6 +400,7 @@ sub texSubstitutions() {
     $Text =~ s/–/--/g;
     $Text =~ s/—/---/g;
     $Text =~ s/ʃ/\\textesh{}/g;
+    $Text =~ s/ŋ/\\ng{}/g;
     $Text =~ s/ɷ/\\textcloseomega{}/g;
     $Text =~ s/»/\\guillemotright{}/g;
     $Text =~ s/’/\'/g;

@@ -15,8 +15,8 @@
   }
  \addlyrics {
      Dan -- sä läi -- tä mä mi kann_ däu väll fa,
-     Män mitt ug -- gä jär -- tä fat däu ai än -- da.
+     Män mitt uŋ -- gä jär -- tä fat däu ai än -- da.
      Dans så mik däu or -- kar, dans så mik däu vill,
      Dans så mik däu or -- kar, dans så mik däu vill!
-     Män mitt ug -- gä jär -- tä hoir en an -- nän till.
+     Män mitt uŋ -- gä jär -- tä hoir en an -- nän till.
 }

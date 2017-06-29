@@ -19,9 +19,9 @@
  f''4. \bar "|."
  }
  \addlyrics {
-     U flik -- kän gikk i äg --  -- gä u skud -- dä skä -- rä stra,
-     ti hän -- nä komm n ugg ʃö --
+     U flik -- kän gikk i äŋ --  -- ŋä u skud -- dä skä -- rä stra,
+     ti hän -- nä komm n uŋŋ ʃö --
      \once \override LyricText.self-alignment-X = #-0.8 "man  —" A -- håj ja
-     \once \override LyricText.self-alignment-X = #-0.8 "ja  —" en ugg ʃö -- man u
+     \once \override LyricText.self-alignment-X = #-0.8 "ja  —" en uŋŋ ʃö -- man u
      bad na håi --  -- rä pa.
 }

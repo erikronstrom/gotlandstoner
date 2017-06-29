@@ -25,7 +25,7 @@
   }
  \addlyrics {
      Kvinn -- fol -- ki star äu -- ti hau -- gä sa -- len,
-     star up -- pa gål -- vä u sig -- gar en sagg.
-     Run -- tum -- krigg väg -- gar, ja där si -- tar gub -- bar,
+     star up -- pa gål -- vä u siŋ -- gar en saŋg.
+     Run -- tum -- kriŋg väg -- gar, ja där si -- tar gub -- bar,
      drik -- kar öir hån -- ni u råu -- par: »bra, bra!»
 }

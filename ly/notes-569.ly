@@ -41,7 +41,7 @@
  \bar "|."
   }
  \addlyrics {
-     Skou -- ma -- kan han si -- tar bäi bäg -- ken u dund -- rar,
+     Skou -- ma -- kan han si -- tar bäi bäŋ -- ken u dund -- rar,
      dund -- rar u svär, För han ai far någn mat. mat.
      Tra -- la -- la -- la tra -- la -- la -- la tra -- la -- la -- la -- la -- la -- la,
      tra -- la -- la -- la, tra -- la -- la -- la, tra -- la -- la -- la. la.

@@ -14,6 +14,6 @@
  bes'4 bes' r8 \bar "|."
   }
  \addlyrics {
-     Lass Ha -- lass käl -- lig -- gi ha jär så lagg, Lass Ha -- lass käl -- lig -- gi ha jär så lagg. Ha
-     jär så lagg sum a kräu -- nä -- stagg. Hej hof -- fal -- li -- ral -- li ra -- jen.
+     Lass Ha -- lass käl -- liŋ -- gi ha jär så laŋg, Lass Ha -- lass käl -- liŋ -- gi ha jär så laŋg. Ha
+     jär så laŋg sum a kräu -- nä -- staŋg. Hej hof -- fal -- li -- ral -- li ra -- jen.
 }
