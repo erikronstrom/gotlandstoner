@@ -9,8 +9,8 @@
  ees''16 d'' c'' bes' c'' d'' ees'' a'' a''8 c''  | 
  c''16 bes' a' bes' c'' d'' ees'' g'' g''8 bes'  | 
  bes'16 a' g' fis' g' a' bes' c'' d'' e'' fis'' g''  | 
- bes' a' g' fis' g'4 g8
- } %( endrepeat )% 
+ bes' a' g' fis' g'4 g8 \break
+ } %( endrepeat )%
 \repeat volta 2 { 
  bes'  | 
  bes'16 f' ees' bes bes d' f' bes' d'' bes' d'' bes'  | 

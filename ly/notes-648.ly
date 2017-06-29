@@ -12,7 +12,7 @@
 \repeat volta 2 { 
  \key c \major
  e''16 f''  | 
- g''4 a''16 g'' fis'' g'' c'''8 e''16 f'' g''8 c''16 d''  | 
+ g''4 a''16 g'' fis'' g'' c'''8 e''16 f'' g''8 c''16 d''  | \break
  e''8 e'' f''16 e'' d'' e'' g''8. f''16 f''8 e''  | 
  d''4 e''16 d'' cis'' d'' f''8 b'16 c'' d''8 g'16 a'  | 
  b' c'' d'' e'' f'' g'' a'' b'' c'''4.

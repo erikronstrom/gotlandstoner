@@ -35,7 +35,7 @@
  f''16 d'' e'' f'' g'' a'' b'' c'''  | 
  d''' c''' b'' a'' g'' f'' e'' d''  | 
  e''8 e''16 f'' d''8 d''16 e''  | 
- c''8 e'' c''
+ c''8 e'' c'' \break
  } %( endrepeat )% 
  
 \repeat volta 2 { 

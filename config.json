@@ -455,7 +455,8 @@
       "298": " "
     },
     "299": {
-      "notespacing": "1"
+      "notespacing": "1",
+      "textbox": "10cm"
     },
     "3": {
       "notespacing": "1"
@@ -1303,6 +1304,9 @@
       "newpage": "0",
       "systemspacing": "-2"
     },
+    "617": {
+      "notespacing": 0
+    },
     "620": {
       "newpage": "0"
     },
@@ -1324,6 +1328,9 @@
     },
     "638": {
       "hidetitle": 1
+    },
+    "648": {
+      "notespacing": 1
     },
     "660": {
       "newpage": "0"

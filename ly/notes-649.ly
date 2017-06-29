@@ -23,7 +23,7 @@
  g''8. a''16 g''8 g''  | 
  e'' e'' c'' c''  | 
  g' g' g'16 b' d'' b'  | 
- c''8 e'' c''
+ c''8 e'' c'' \break
  } %( endrepeat )% 
  \key f \major
  

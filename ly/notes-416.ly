@@ -29,7 +29,7 @@
   }
  \addlyrics {
      Min sö -- ta mam -- ma, får jag gå bort? Jag är bju -- den på ba -- len i kväll.
-     Men jag lo -- var, att in -- om kort Skall jag va -- ra till -- ba -- ka.
+     Men jag lo -- var, att in -- om kort skall jag va -- ra till -- ba -- ka.
      Ja du får gå, du lil -- la ra -- ra, blott du vill an -- stän -- dig va -- ra.
-     Ak -- ta dig för un -- ga kar -- lar, Ty de vill dig nar -- ra ba -- ra.
+     Ak -- ta dig för un -- ga kar -- lar, ty de vill dig nar -- ra ba -- ra.
 }

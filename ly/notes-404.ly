@@ -20,5 +20,5 @@
      Hör ni mor i stu -- a, får ja bli er måg? För
      ja ä duk -- ti i byks -- ra, fast ja ä li -- ten å låg.
      Tra -- la -- la -- la -- lal --  -- la,_ tral -- la -- la -- la -- la -- lej. Tral -- la -- la -- la -- lal --  -- la,_
-     Tral -- la -- la -- la -- la -- lej. D'ä ja, d'ä ja, d'ä ja, d'ä_ ja_ sum_ spe -- lar.
+     Tral -- la -- la -- la -- la -- lej. D’ä ja, d’ä ja, d’ä ja, d’ä_ ja_ sum_ spe -- lar.
 }

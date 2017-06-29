@@ -24,7 +24,7 @@
  g''4. f''8 e''4. d''8  | 
  d'' c'' e'' c'' b' g'16 g' g'8 g'  | 
  g''4. f''8 a''4. g''8  | 
- g'' f'' d'' b' c'' c''16 c'' c''8 
+ g'' f'' d'' b' c'' c''16 c'' c''8  \break
 \repeat volta 2 { 
  d''16 e''  | 
  f''8 d'' d'' d''16 f'' e''8 c'' c'' c''16 e''  | 
