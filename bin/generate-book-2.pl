@@ -157,7 +157,7 @@ for my $num ($From..$To) {
     &processTune($abc, $num, $song);
 }
 
-print OUTFILE "$back\n" if $BookNum;
+print OUTFILE "$back\n"; # if $BookNum && $BookNum >= 2; # temp
 
 print OUTFILE '\end{document}' . "\n";
 
