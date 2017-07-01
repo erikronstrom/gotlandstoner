@@ -1369,7 +1369,8 @@
       "newpage": "0"
     },
     "680": {
-      "textbox": "11cm"
+      "textbox": "11cm",
+      "notespacing": 1
     },
     "681": {
       "newpage": "0"

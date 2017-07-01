@@ -23,7 +23,7 @@
  e''16 d'' e'' fis'' e'' d'' cis'' b'  | 
  a' gis' a' b' a' g' fis' e'  | 
  d' fis' a' d'' e'' g'' e'' cis''  | 
- d''8 d'' d''
+ d''8 d'' d'' \break
  } %( endrepeat )% 
  
 \repeat volta 2 { 

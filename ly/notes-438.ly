@@ -41,7 +41,7 @@
  c''8-( bes'-) g'-( a'-) bes'4  | 
  a'8-( f'-) a'-( c''-) f''4  | 
  e''8 c'' e'' g'' a'' g''  | 
- f''2
+ f''2 \break
  } %( endrepeat )% 
 \repeat volta 2 { 
  g''4  | 

@@ -39,7 +39,7 @@
  e'''2 e''4  | 
  a'' cis'' fis''  | 
  e''4. d''8 b' cis''  | 
- a'2
+ a'2 \break
  } %( endrepeat )% 
 \repeat volta 2 { 
  \key d \major

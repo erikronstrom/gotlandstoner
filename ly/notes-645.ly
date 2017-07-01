@@ -21,7 +21,7 @@
  d'8 fis'16 fis' fis'8 a'16 a' cis''8 d''16 d'' d''4  | 
  fis''8 fis'' fis''16 a'' fis'' d'' a'4 a''  | 
  g''8. fis''16 e'' d'' cis'' b' a'8 cis''16 e'' a''4  | 
- g''8. fis''16 e'' d'' cis'' b' a'8[ d''] d''
+ g''8. fis''16 e'' d'' cis'' b' a'8[ d''] d'' \break
  } %( endrepeat )% 
  
 \repeat volta 2 { 

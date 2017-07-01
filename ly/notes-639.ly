@@ -23,7 +23,7 @@
  d''8. e''16 f''8 d''  | 
  c''16 a'' f'' c'' a' f'' c'' a'  | 
  bes' a' g' a' bes' d'' c'' e'  | 
- f'8 a' f'
+ f'8 a' f' \break
  } %( endrepeat )% 
 \repeat volta 2 { 
  \key bes \major

@@ -23,7 +23,7 @@
  d'' d'' ees''  | 
  f''2 bes''8 a''  | 
  g''-( a''-) g''-( f''-) ees''-( c''-)  | 
- bes'2 
+ bes'2 \break
 \repeat volta 2 { 
  f''8 ees''  | 
  ees''-( d''-) d''-( ees''-) f'' d''  | 
