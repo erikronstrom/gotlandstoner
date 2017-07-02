@@ -174,6 +174,7 @@ sub createMusic() {
     my $tupletleft;
     my $repeat = 0;
     my $alternative = 0;
+    my @dynamics;
     
     my %Item;
     my $LastNote;
@@ -185,7 +186,6 @@ sub createMusic() {
     $_ = $Notes;
   LOOP:
     {
-        
         if (/\G[\"\^_=A-Ga-gzLTHMPuv\.]/) {      # A note
             my $note;
             my $acc;
@@ -231,6 +231,11 @@ sub createMusic() {
                 $Item{'beginslur'} = 1;
                 $beginslur = 0;
             }
+
+            if (@dynamics) {
+                $Item{'dynamics'} = [@dynamics];
+                @dynamics = ();
+            }
             
             if ($inchord == 0) {
                 # Add as single note
@@ -256,6 +261,24 @@ sub createMusic() {
             
             redo LOOP;
         }
+
+        if (/\G!([A-Za-z\(\)]+)!/gc) {           # !dynamics!
+            my $dyn = $1;
+            if ($dyn =~ /^f+|p+|mf|mp$/) {
+                # no-op
+            } elsif ($dyn eq 'crescendo(') {
+                $dyn = '<';
+            } elsif ($dyn eq 'diminuendo(') {
+                $dyn = '>';
+            } elsif ($dyn =~ /^(?:crescendo|diminuendo)\)$/) {
+                $dyn = '!';
+            } else {
+                print STDERR "Unknown dynamics: $1\n";
+            }
+            push(@dynamics, $dyn);
+            redo LOOP;
+        }
+
         
         if (/\G\s*(\|\|)(\d*)\s*/gc or /\G\s*(\[\|)(\d*)\s*/gc or
             /\G\s*(\|\])(\d*)\s*/gc or /\G\s*([\|\:]+)(\d*)\s*/gc) { # Bar line
@@ -436,7 +459,7 @@ sub createMusic() {
             %Item = ();
             redo LOOP;
         }
-        
+
         if (/\G\s+/gc) {                       # Space
             
             redo LOOP if $inchord;
@@ -544,6 +567,11 @@ sub createMusic() {
             }
             if ($Item->{'endgrace'}) {
                 print OUTFILE ' } ';
+            }
+            if ($Item->{'dynamics'}) {
+                foreach my $dyn (@{$Item->{'dynamics'}}) {
+                    print OUTFILE "\\$dyn";
+                }
             }
         }
         
