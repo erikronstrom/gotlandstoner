@@ -94,6 +94,9 @@
   "tunes": {
     "1": {
     },
+    "5": {
+      "notespacing": "3"
+    },
     "10": {
       "spaceafter": "2cm"
     },
@@ -125,6 +128,32 @@
       "newpage": "0",
       "notespacing": "3"
     },
+    "22": {
+      "newpage": "0"
+    },
+    "24": {
+      "newpage": "0"
+    },
+    "50": {
+    },
+    "51": {
+      "notespacing": "5"
+    },
+    "53": {
+      "newpage": "0"
+    },
+    "54": {
+      
+    },
+    "55": {
+      "newpage": "0",
+      "notespacing": "2"
+    },
+    "57": {
+      "newpage": "0"
+    },
+
+
     "214": {
       "notespacing": "1"
     },
@@ -147,9 +176,6 @@
       "lineoffset": "-3",
       "newpage": "0",
       "systemspacing": "-1"
-    },
-    "22": {
-      "newpage": "0"
     },
     "220": {
       "spaceafter": "2cm"
@@ -213,9 +239,6 @@
     },
     "239": {
       "239": " "
-    },
-    "24": {
-      "newpage": "0"
     },
     "240": {
       "notespacing": "1",
@@ -1020,11 +1043,6 @@
     "498": {
       "pages": "2"
     },
-    "5": {
-      "notespacing": "3"
-    },
-    "50": {
-    },
     "500": {
       "textbox": "0"
     },
@@ -1043,9 +1061,6 @@
     },
     "509": {
       "newpage": "0"
-    },
-    "51": {
-      "notespacing": "5"
     },
     "514": {
       "pages": "1"
@@ -1134,9 +1149,6 @@
     },
     "548": {
       "newpage": "0"
-    },
-    "55": {
-      "notespacing": "2"
     },
     "553": {
       "pages": "1"
