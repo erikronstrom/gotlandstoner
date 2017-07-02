@@ -80,7 +80,7 @@ for my $num ($From..$To) {
         $params{'tune-num-font'} = ""; # "\\override #'(font-encoding . fetaText)";
         $params{'page-height'} = "600\\mm"; # should be enough for any tune in the collection
         #$params{'margins'} = "    left-margin = 1\\mm\n    right-margin = 1\\mm\n";
-        $params{'page-width'} = "    paper-width = 200\\mm\n";
+        $params{'page-width'} = "    paper-width = 173\\mm\n";
         $params{'page-count'} = "page-count = #1";
     } else {
         my $pages = $TuneConf{$num}->{"pages"};
