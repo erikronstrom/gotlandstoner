@@ -24,9 +24,6 @@
       "name": "Visor",
       "text": "VISOR"
     },
-    "23": {
-      "notespacing": "2"
-    },
     "214": {
       "name": "Polskor",
       "text": "POLSKOR",
@@ -131,8 +128,16 @@
     "22": {
       "newpage": "0"
     },
+    "23": {
+      "notespacing": "2"
+    },
     "24": {
       "newpage": "0"
+    },
+    "29": {
+      "newpage": "0",
+      "textbox": "8cm",
+      "notespacing": "2"
     },
     "50": {
     },
@@ -444,10 +449,6 @@
     },
     "289": {
       "289": " "
-    },
-    "29": {
-      "newpage": "0",
-      "textbox": "8cm"
     },
     "290": {
       "notespacing": "1"
