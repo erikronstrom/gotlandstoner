@@ -11,7 +11,7 @@
  } %( endrepeat )% 
 \repeat volta 2 { 
  f''-> c''-> a'->  | 
- f'8 f'16 a' g' f' ees' d' c'4  | 
+ f'8 f'16 a' g' f' ees'^\markup { * } d' c'4  | 
  f'16 a' g' bes' a' c'' bes' d'' d''8 c''  | 
  c''16 bes' a' g' g'4 f'  | 
  f'8 f''4-> d''8 ees''16 d'' c'' bes'  | 
