@@ -16,7 +16,7 @@
  \addlyrics {
      \set stanza = #"1. "
      Itt svänst lin -- jä -- skipp, Gus -- tä A -- dåll va diss namn, sum
-     ag -- krä -- dä fö Gott -- lann, ja äut -- fö Sand -- väiks -- hamn, sum
+     aŋ -- krä -- dä fö Gott -- lann, ja äut -- fö Sand -- väiks -- hamn, sum
      las -- tä va mä am -- mä -- ʃoun, trans -- por -- tar äut -- av folk, sum
      skud -- dä ga mout rys -- sän, män Gu va dai -- räs tolk.
 }

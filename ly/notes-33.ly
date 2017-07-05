@@ -19,8 +19,8 @@
  } %( endrepeat )% 
 }
  \addlyrics {
-     I Björ --  -- kä fö -- sam -- lig ei jann -- va -- ri må -- nä ein
-     skräd -- da -- rä -- drägg, sum blai drugk -- näd i ʃönn. Ja
+     I Björ --  -- kä fö -- sam -- liŋ ei jann -- va -- ri må -- nä ein
+     skräd -- da -- rä -- dräŋŋ, sum blai druŋk -- näd i ʃönn. Ja
      han __ väi -- lar jaupt, allt nir -- ei kal -- dä jår -- di; ja
      han __ si -- var sytt ei sin söu -- täs -- tä svämn.
 }
