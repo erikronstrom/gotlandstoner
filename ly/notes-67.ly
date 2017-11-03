@@ -10,7 +10,7 @@
  g' g' a'4. a'8  | 
  b'4 b' c''4. a'8  | 
  fis'4 fis' d'8-( e'-) fis'4  | 
- g'2. \bar "||"
+ g'2. \bar "||" \break
  fis'8-( g'-)  | 
  a'4. a'8 d''4. c''8  | 
  b'-( a'-) g'-( fis'-) g'4 d'  | 
