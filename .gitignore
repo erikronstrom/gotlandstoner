@@ -16,3 +16,4 @@ fredin.log
 !include/ng10.pdf
 convert-config.pl
 fredin.out
+midi/*.mid
