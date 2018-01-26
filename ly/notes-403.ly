@@ -24,9 +24,9 @@
      Iŋ -- gä gott -- lanns
      \once \override LyricText.self-alignment-X = #LEFT
      \leftbrace
-     \markup { \translate #'(0 . 1.4) \center-column { \translate #'(0 . -0.3) "sor -" \translate #'(0 . 0.3) "töi -" } }
+     \markup { \translate #'(0 . 1.4) \center-column { \translate #'(0 . -0.3) "sor -" \translate #'(0 . 0.3) "päi -" } }
      \once \override LyricText.self-alignment-X = #CENTER
-     \markup { \translate #'(0 . 1.4) \center-column { \translate #'(0 . -0.3) kar \translate #'(0 . 0.3) sar } }
+     \markup { \translate #'(0 . 1.4) \center-column { \translate #'(0 . -0.3) kar \translate #'(0 . 0.3) kar } }
      \rightbrace
      jä dä till at trou
      Hof -- fal -- li -- ral -- la -- li -- ral -- la -- li ral --  -- la -- di ral -- la -- la!
