@@ -7,9 +7,9 @@
  c''16 bes' g' a' bes'8 bes'  | 
  a'16 g' f' g' a'8 a'  | 
  g'16 e' c' e' g' a' bes' g'  | 
- f'8-. f'-. a' r  | 
+ f'8-! f'-! a' r  | 
  g'16 e' c' e' g' a' bes' d''  | 
- c''8-. e'-. f' r \bar "|." |
+ c''8-! e'-! f' r \bar "|." |
  }
  \addlyrics {
      \set stanza = #"1. "
