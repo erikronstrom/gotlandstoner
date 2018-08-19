@@ -5,10 +5,10 @@
  \partial 8
  e'8  | 
  a' b' c''8.-( b'16-) a'8 b'  | 
- c'' d'' e''4.-\fermata r8  | 
+ c'' d'' \once \override Script.padding = #0.7 e''4.-\fermata r8  | 
  g''4-> e''-> c''->  | 
  \override TextScript.outside-staff-padding = 1.5
- d''^\markup { \center-align \italic "ritard." } e''-\fermata r8 b'  | 
+ d''^\markup { \center-align \italic "ritard." } \once \override Script.padding = #0.7 e''-\fermata r8 b'  | 
  c''8. d''16 e''4 e''8. e''16  | 
  e''8.-> d''16 d''4-\fermata r8 d''  | 
  c'' b' a'-( b'-) c''8. a'16  | 
