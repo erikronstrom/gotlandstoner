@@ -1,5 +1,14 @@
 
 
+ʃ ŋ ɷ č
+
+74: ritard. + à tempo
+75: klammer i texten
+77: ritard.
+
+321: Konsonant i "Sung" – s eller sh?
+
+
 OBS: Kolla alla abc som nu innehåller ŋ och kolla att det följer med till tex-filerna!
 
 kolla upp
@@ -46,6 +55,7 @@ Musikalisk tolkning / misstänkta tryckfel:
 51: Ändrat skiljetecken vers 4 rad 1
 52: La till saknade bågar på "förrän" och vi"
 53: La till saknad båge på "i"
+86: La till saknat repristecken
 178: I rättelserna står "Pinnɷlle -> Pinnolle", men i själva låten står "Pinnɷllä" – bort med omegat, ok, men e eller ä??
 222: saknat återställningstecken på Eb (E) i början av andra reprisen? RÄTTA EJ, OSÄKERT!
 223: rättat uppenbart tryckfel (originalet närmast ospelbart)
