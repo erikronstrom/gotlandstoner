@@ -20,5 +20,5 @@
  \addlyrics {
      Läi -- lä Läi -- s'n ha sat äi bäur -- 'n u spann, såt
      väi -- täs -- tä mjöl -- ki ör braus -- ti ha rann. Gu trys -- tä läil __
-     tö -- si, sum fikk sor -- gi så ugg!
+     tö -- si, sum fikk sor -- gi så uŋŋ!
 }
