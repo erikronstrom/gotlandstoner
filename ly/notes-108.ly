@@ -16,6 +16,7 @@
  \addlyrics {
      Bräu -- di ha spyl -- dä en läi --  -- ten tar. Män
      da ma däu trou, att käl -- liŋ -- gar fikk är -- vä,
-     är -- vä, är -- vä, jun -- tä, run -- tä, kun -- tä, jun -- tä, kunt, fin -- ti nai -- jä~—
+     är -- vä, är -- vä, jun -- tä, run -- tä, kun -- tä, jun -- tä, kunt, fin -- ti nai --
+     \once \override LyricText.self-alignment-X = #-0.9 "jä   —"
      är -- vä, är -- vä, jun -- tä, run -- tä, kun -- tä, jun -- tä, kunt, fin -- ti nai -- jä.
 }
