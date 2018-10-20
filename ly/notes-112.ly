@@ -24,6 +24,7 @@
  \addlyrics {
      Dä __ sat a käl -- liŋg u spann äu --  -- täi ’n mör -- kar
      kam -- ma -- rä. Ha duŋ -- kä -- dä mä sin ham -- ma -- rä; u traks komm hän -- näs
-     mann ču hi fal -- li hip -- pum häjj! ču hi fal -- li hip -- pum
+     \once \override LyricText.self-alignment-X = #-0.6 "mann   —"
+     ču hi fal -- li hip -- pum häjj! ču hi fal -- li hip -- pum
      häjj! Ha duŋ -- kä -- dä mä sin ham -- ma -- rä; u traks komm hän -- näs mann.
 }
