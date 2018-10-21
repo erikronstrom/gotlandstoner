@@ -13,7 +13,7 @@
 \repeat volta 2 { 
  f'  | 
  bes' d''8 bes' f''4 d''8 bes'  | 
- c''2. d''8-( bes'-)  | 
+ c''2. d''8-( bes'-)  | \break
  g'4 bes'8. a'16 fis'8-( g'-) a'-( bes'-)  | 
  c''2 d''4 f''8 ees''  | 
  d''8. c''16 d''8 bes' g'4 bes'8 a'  | 
