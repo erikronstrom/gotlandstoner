@@ -313,7 +313,7 @@ sub processTune() {
         $PostText = texSubstitutions($PostText);
         #print OUTFILE "\\vspace{0.7cm}\n";
         print OUTFILE "\\begin{center}\n";
-        print OUTFILE "\\parbox{16cm}{$PostText}\n\n";
+        print OUTFILE "\\parbox{16cm}{$PostText}\n";
         print OUTFILE "\\end{center}\n";
         #print OUTFILE "\\break\n";
         #print OUTFILE "\\parbox{16cm}{$PostText}\n";
@@ -323,7 +323,7 @@ sub processTune() {
     @Lyrics = split("\n", &slurp("text/lyrics-$Num.tex")) if (-e "text/lyrics-$Num.tex");
     if (@Lyrics) {
         my $First = 1;
-        print OUTFILE "\\break\n";
+        print OUTFILE "\\break\n" unless $PostText;
         print OUTFILE "\\vspace{0.3cm}\n";
         print OUTFILE "\\begin{flushleft}\n";
         foreach my $Line (@Lyrics) {
