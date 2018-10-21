@@ -75,6 +75,9 @@
     "99": {
       "text": "Frieri ock äktenskap."
     },
+    "123": {
+      "text": "Yrkesvisor."
+    },
     "567": {
       "text": "Visor i valstakt."
     },
@@ -95,6 +98,13 @@
     "1": {
     },
     "5": {
+      "notespacing": "3"
+    },
+    "8": {
+      "spaceafter": "2cm"
+    },
+    "9": {
+      "newpage": "0",
       "notespacing": "3"
     },
     "10": {
@@ -275,25 +285,56 @@
       "newpage": "0"
     },
     "99": {
-      "systemspacing": "-1",
-      "spaceafter": "0.1cm",
-      "lineoffset": "-5"
+      "spaceafter": "3cm"
     },
     "100": {
-      "newpage": "0",
-      "systemspacing": "-1",
-      "spaceafter": "0.1cm",
-      "lineoffset": "-5"
+      "newpage": "0"
     },
     "101": {
-      "newpage": "0",
-      "systemspacing": "-1",
-      "lineoffset": "-5"
+      "newpage": "1",
+      "spaceafter": "3cm"
     },
-
+    "102": {
+      "newpage": "0"
+    },
+    "103": {
+      "spaceafter": "0.5cm"
+    },
+    "104": {
+      "newpage": "0"
+    },
+    "107": {
+      "newpage": "0"
+    },
+    "113": {
+      "newpage": "0"
+    },
+    "115": {
+      "newpage": "0"
+    },
+    "117": {
+      "newpage": "0"
+    },  
+    "118": {
+    },
     "119": {
+      "notespacing": "2",
+      "newpage": "0"
+    },
+    "120": {
       "notespacing": "2"
     },
+    "121": {
+      "newpage": "0"
+    },
+    "123": {
+      "newpage": "1"
+    },
+    "126": {
+      "newpage": "0",
+      "notespacing": "2"
+    },
+
 
 
     "214": {
@@ -1663,12 +1704,6 @@
       "newpage": "0"
     },
     "727": {
-      "newpage": "0"
-    },
-    "8": {
-      "spaceafter": "2cm"
-    },
-    "9": {
       "newpage": "0"
     }
   }
