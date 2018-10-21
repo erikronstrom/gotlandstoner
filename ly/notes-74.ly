@@ -19,8 +19,8 @@
  b'8. c''16 d''8 g' g' g'  | 
  c''8. d''16 e''8 g' g' g'  | 
  f''8. e''16 d''8 c'' b' a'  | 
- a'8. g'16 g'8 f' f'4  | 
- e' r r8 e'  | 
+ a'8. g'16^\markup { \italic "r i t a r d." } g'8 f' f'4  | 
+ e' r r8 e'^\markup { \italic "à tempo" }  | 
  e'8. g'16 g'4 g'8. g'16  | 
  g'8. c''16 e''4. c''8  | 
  b'8. c''16 d''4 f''8 g'  | 
