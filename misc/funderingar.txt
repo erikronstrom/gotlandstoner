@@ -1,10 +1,11 @@
 
 
-ʃ ŋ ɷ č
+ʃ ŋ ɷ č Č
 
 74: ritard. + à tempo
 75: klammer i texten
 77: ritard.
+103: "Vanligt valstempo"
 
 321: Konsonant i "Sung" – s eller sh?
 
@@ -56,6 +57,8 @@ Musikalisk tolkning / misstänkta tryckfel:
 52: La till saknade bågar på "förrän" och vi"
 53: La till saknad båge på "i"
 86: La till saknat repristecken
+111: La till saknat citattecken i sista versen
+122: La till saknad båge på "supar"
 178: I rättelserna står "Pinnɷlle -> Pinnolle", men i själva låten står "Pinnɷllä" – bort med omegat, ok, men e eller ä??
 222: saknat återställningstecken på Eb (E) i början av andra reprisen? RÄTTA EJ, OSÄKERT!
 223: rättat uppenbart tryckfel (originalet närmast ospelbart)
