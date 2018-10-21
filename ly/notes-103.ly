@@ -1,6 +1,7 @@
 {
 \time 3/4
 \key d \major
+\partial 4
 
 \repeat volta 2 { 
  a'4  | 
@@ -14,7 +15,7 @@
  
  { % beginalt
  fis'  }} 
- \bar "||" |
+ \bar "||"
  fis'8 g'  | 
  b'4 a' fis'8 g'  | 
  b'4 a' a'  | 
@@ -27,7 +28,8 @@
  }
  \addlyrics {
      \set stanza = #"1. "
-     »Nu kom -- mer den förs -- ta fri -- arn, mam -- ma lil -- la, just
-     nu! nu!»~— »Myc -- ket pän -- gar har han på sig, min dot -- ter Ju -- li -- 
+     »Nu kom -- mer den förs -- ta fri -- arn, mam -- ma lil -- la, just nu!
+     \once \override LyricText.self-alignment-X = #-0.8 "nu!» —"
+     »Myc -- ket pän -- gar har han på sig, min dot -- ter Ju -- li -- 
      a, myc -- ket pän -- gar har han på sig, min dot -- ter Ju -- li -- a?»
 }
