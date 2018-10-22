@@ -8,11 +8,11 @@
  d'8  | 
  g' b' g'4. d'8  | 
  g' b' b'4 a'8-\fermata\noBeam a'  | 
- b' g' e'4. fis'16 g' a'8 g' fis'4 r8 d'  | 
+ b' g' e'4. fis'16-( g'-) a'8 g' fis'4 r8 d'  | 
  g' b' g'4. d'8  | 
  g' b' b'4 a'8-\fermata\noBeam a'  | 
  b' g' e'4. a'8  | 
- fis' d' g'4 r8 
+ fis' d' g'4 r8 \break
 \repeat volta 2 { 
  g'  | 
  g' fis' e'4. d'8  | 
