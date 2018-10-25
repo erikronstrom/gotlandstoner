@@ -78,6 +78,9 @@
     "123": {
       "text": "Yrkesvisor."
     },
+    "139": {
+      "text": "Barnvisor."
+    },
     "567": {
       "text": "Visor i valstakt."
     },
@@ -341,6 +344,18 @@
       "newpage": "0"
     },
     "132": {
+      "newpage": "0"
+    },
+    "134": {
+      "newpage": "0"
+    },
+    "135": {
+      "notespacing": "2"
+    },
+    "138": {
+      "newpage": "0"
+    },
+    "140": {
       "newpage": "0"
     },
 
