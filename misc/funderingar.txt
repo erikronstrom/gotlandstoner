@@ -58,6 +58,7 @@ Musikalisk tolkning / misstänkta tryckfel:
 53: La till saknad båge på "i"
 86: La till saknat repristecken
 111: La till saknat citattecken i sista versen
+113: Gjorde citattecken och interpunktion mer konsekvent i vers 2-8
 122: La till saknad båge på "supar"
 133: La till saknad båge på "foga"
 178: I rättelserna står "Pinnɷlle -> Pinnolle", men i själva låten står "Pinnɷllä" – bort med omegat, ok, men e eller ä??
