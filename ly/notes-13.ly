@@ -14,8 +14,8 @@
  d''4 d'' r8 \bar "|."
  }
  \addlyrics {
-     Dä raid ’n rid -- da -- rä up -- pa a ägg, han
+     Dä raid ’n rid -- da -- rä up -- pa a äŋŋ, han
      räi -- dä, män han räi -- dä sak -- tä. Så
-     komm a jåm -- fräu i flyg u flägg, han
+     komm a jåm -- fräu i flyg u fläŋŋ, han
      hän -- nä ju -- ve -- lit bi -- trak -- tä.
 }
