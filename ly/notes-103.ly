@@ -10,7 +10,7 @@
  g'4 g' a'  | 
   } 
 \alternative { 
- {  fis'2   |
+ {  fis'2
  } %( endrepeat )% 
  
  { % beginalt
@@ -24,7 +24,7 @@
  e''4 d'' fis'8 g'  | 
  b'4 a' r8 gis'  | 
  a'4 g'' e''8 cis''  | 
- d''2 \bar "|." |
+ d''2 \bar "|."
  }
  \addlyrics {
      \set stanza = #"1. "
