@@ -101,15 +101,30 @@ sub processTune() {
     my $Source = '';
     my $PostText;
     my $Music;
+    my $HasInlineLyrics = 0;
     my @Lyrics;
+    my $MaxVerse = 0;
     my @Keys;
     foreach my $Line (@Lines) {
         $Line =~ s/\%.*$//mg;     # Remove comments
         
+        if ($Line =~ /^W:(.*)/) {
+            push(@Lyrics, $1);
+            if ($Line =~ /^W:(\d+)\./) {
+                my $Verse = $1;
+                $MaxVerse = $Verse if !$MaxVerse || $Verse > $MaxVerse;
+            }
+            next;
+        }
+
         if (defined $Music) {
             $Music .= "$Line\n";
             if ($Line =~ /^K:(\S*)/) {
                 push(@Keys, "'" . $1 . "'");
+            }
+            if ($Line =~ /^w:/) {
+                $MaxVerse = 1;
+                $HasInlineLyrics = 1;
             }
             next;
         }
@@ -148,9 +163,6 @@ sub processTune() {
             $Headers{'K'} = $1;
             push(@Keys, "'" . $1 . "'");
             $Music = '';
-        }
-        if ($Line =~ /^W:(.*)/) {
-            push(@Lyrics, $1);
         }
     }
     #$Source =~ s/\\\\\[0\.1cm\]$//;
@@ -204,6 +216,7 @@ sub processTune() {
     print OUTFILE "    'key'         => [" . join(', ', @Keys) . "],\n";
     print OUTFILE "    'meter'       => '" . $Headers{'M'} . "',\n";
     print OUTFILE "    'l'           => '" . substr($Headers{'L'}, 2) . "',\n";
+    print OUTFILE "    'verses'      => " . $MaxVerse . ",\n";
     print OUTFILE "    'search'      => '" . $SearchData . "'\n";
     print OUTFILE "  ]";
     print OUTFILE "," unless $Num == 727;
