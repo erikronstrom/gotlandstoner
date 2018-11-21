@@ -337,6 +337,9 @@ sub processTune() {
                 $First = 0;
             } elsif ($Line =~ /^\\\w/) {
                 print OUTFILE "$Line\n";
+            } elsif ($Line =~ /^\S/) {
+                $Line = texSubstitutions($Line);
+                print OUTFILE "$Line\n";
             } else {
                 $Line = texSubstitutions($Line);
                 print OUTFILE "\\tabto{0.8cm}$Line\n";
