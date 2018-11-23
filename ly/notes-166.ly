@@ -37,7 +37,7 @@
  }
  \addlyrics {
      Mass Mas -- s’n äi Haug -- böi, Peir Brim -- män äi Vis -- böi,
-     ligg -- dä di up -- pa la -- gä mu -- s’n u droim -- dä jäuv -- lit um flik -- kän.
+     ligg -- dä di up -- pa la -- gä mu -- s’n¹ u droim -- dä jäuv -- lit um flik -- kän.
      Fyst äi äŋ -- gi u sin äi säŋ -- gi u sät -- täd kap -- pu pa säk -- kän.
      Kar -- täuns -- byk -- sar mä lu -- kå, lud -- nä in -- nä u äu -- tä.
      Kajs kok -- kar koukt är -- tar, Nik -- ku Jön -- s’n säupt väl -- liŋg. »Hi u ha, hald
