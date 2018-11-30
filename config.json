@@ -84,6 +84,9 @@
     "165": {
       "text": "Ramsor."
     },
+    "170": {
+      "text": "Personalier."
+    },    
     "567": {
       "text": "Visor i valstakt."
     },
@@ -397,7 +400,16 @@
     "161": {
       "newpage": "0"
     },
-
+    "169": {
+      "notespacing": "2"
+    },
+    "170": {
+      "spaceafter": "5mm"
+    },
+    "171": {
+      "newpage": "0",
+      "spacebefore": "0"
+    },
 
 
     "214": {
