@@ -252,12 +252,14 @@ sub processTune() {
     
     $TuneConf{$Num}->{"newpage"} = 1 unless defined $TuneConf{$Num}->{"newpage"};
 
-    my $SpaceBefore  = $TuneConf{$Num}->{"spacebefore"};
-    my $SpaceBetween = $TuneConf{$Num}->{"spacebetween"} || 0;
-    my $SpaceAfter   = $TuneConf{$Num}->{"spaceafter"} || "1cm";
-    my $TitleSpace   = $TuneConf{$Num}->{"titlespace"} || "12pt";
-    my $BreakBefore  = $TuneConf{$Num}->{"newpage"} || 0;
-    my $BreakAfter   = $TuneConf{$Num+1}->{"newpage"};
+    my $SpaceBefore   = $TuneConf{$Num}->{"spacebefore"};
+    my $SpaceBetween  = $TuneConf{$Num}->{"spacebetween"} || 0;
+    my $SpaceAfter    = $TuneConf{$Num}->{"spaceafter"} || "1cm";
+    my $TitleSpace    = $TuneConf{$Num}->{"titlespace"} || "12pt";
+    my $BeforeLyrics  = $TuneConf{$Num}->{"spacebeforelyrics"} || "0.3cm";
+    my $BetweenVerses = $TuneConf{$Num}->{"spacebetweenverses"} || "0.3cm";
+    my $BreakBefore   = $TuneConf{$Num}->{"newpage"} || 0;
+    my $BreakAfter    = $TuneConf{$Num+1}->{"newpage"};
 
     print OUTFILE "\n\n";
 
@@ -324,7 +326,7 @@ sub processTune() {
     if (@Lyrics) {
         my $First = 1;
         print OUTFILE "\\break\n" unless $PostText;
-        print OUTFILE "\\vspace{0.3cm}\n";
+        print OUTFILE "\\vspace{$BeforeLyrics}\n";
         print OUTFILE "\\begin{flushleft}\n";
         foreach my $Line (@Lyrics) {
             next unless $Line =~ /\S/;
@@ -332,7 +334,7 @@ sub processTune() {
             #$Line =~ s/(?<!\s)»/\\tinyskip{}»/g;
             #$First = 1 if $Line =~ /\\columnbreak\s*$/;
             if ($Line =~ /^(\d+)\.?\s*(.*)/) {
-                print OUTFILE "\\vspace{0.3cm}\n" unless $First;
+                print OUTFILE "\\vspace{$BetweenVerses}\n" unless $First;
                 print OUTFILE "\\tabto{0.2cm}$1.\\tabto{0.8cm}" . texSubstitutions($2) . "\n";
                 $First = 0;
             } elsif ($Line =~ /^\\\w/) {

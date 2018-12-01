@@ -159,7 +159,8 @@
     "29": {
       "newpage": "0",
       "textbox": "8cm",
-      "notespacing": "2"
+      "notespacing": "2",
+      "spacebeforelyrics": "0.8cm"
     },
     "34": {
       "notespacing": "-2"
@@ -177,7 +178,8 @@
       "notespacing": "1"
     },
     "38": {
-      "notespacing": "2"
+      "notespacing": "2",
+      "spacebetween": "0.8cm"
     },
     "45": {
     },
@@ -409,6 +411,30 @@
     "171": {
       "newpage": "0",
       "spacebefore": "0"
+    },
+    "172": {
+      "spaceafter": "0.3cm"
+    },
+    "173": {
+      "newpage": "0"
+    },
+    "175": {
+      "newpage": "0"
+    },
+    "176": {
+      "title": "»Glädsorg» \\large{\\textmd{(gammalt tillfällighetsrim).}}",
+      "notespacing": "0",
+      "titlespace": "1mm",
+      "spaceafter": "0.2cm"
+    },
+    "177": {
+      "newpage": "0",
+      "spaceafter": "0.2cm",
+      "titlespace": "1mm"
+    },
+    "178": {
+      "newpage": "0",
+      "titlespace": "1mm"
     },
 
 

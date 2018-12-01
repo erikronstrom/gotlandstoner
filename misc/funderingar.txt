@@ -1,6 +1,6 @@
 
 
-ʃ ŋ ɷ č Č
+ʃ ŋ ɷ č Č  ¹²³⁴⁵⁶⁷
 
 74: ritard. + à tempo
 75: klammer i texten
@@ -65,6 +65,7 @@ Musikalisk tolkning / misstänkta tryckfel:
 154: "knmmar" -> "kummar" + la till saknad båge i sista taken
 156: La till paus efter repristecknet för att få takten att gå jämnt ut + la till saknad båge i näst sista takten
 158: Rättat versnumreringen
+176: La till saknad paus i slutet för att få takten att gå jämnt ut
 178: I rättelserna står "Pinnɷlle -> Pinnolle", men i själva låten står "Pinnɷllä" – bort med omegat, ok, men e eller ä??
 222: saknat återställningstecken på Eb (E) i början av andra reprisen? RÄTTA EJ, OSÄKERT!
 223: rättat uppenbart tryckfel (originalet närmast ospelbart)
