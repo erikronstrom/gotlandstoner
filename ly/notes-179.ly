@@ -15,7 +15,7 @@
 \repeat volta 2 { 
  cis''  | 
  e''4. e''8 cis'' cis'' b' cis''  | 
- d'' d''8. e''16 fis''4 b'8 cis''  | 
+ d''4 d''8. e''16 fis''4 b'8 cis''  | 
  d''4 d''8. cis''16 b'4 b'8 d''  | 
  cis'' b' cis'' d'' e''4 a'8. gis'16  | 
  a'4 e' e' a'8. gis'16  | 
@@ -23,7 +23,7 @@
  cis'' a'8. a'16 b'4 gis'8. gis'16  | 
   } 
 \alternative { 
- {  a'4 a'8. a'16 a'8 r   |
+ {  a'4 a'8. a'16 a'8 r
  } %( endrepeat )% 
  
  { % beginalt
