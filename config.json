@@ -86,7 +86,10 @@
     },
     "170": {
       "text": "Personalier."
-    },    
+    },
+    "185": {
+      "text": "Psalmsång."
+    },
     "567": {
       "text": "Visor i valstakt."
     },
@@ -435,6 +438,26 @@
     "178": {
       "newpage": "0",
       "titlespace": "1mm"
+    },
+    "179": {
+      "title": "Grattel\\textesh{}oun ti kusäin Lars Vaibålt."
+    },
+    "180": {
+      "title": "Ur en gammal visa om pastor Johan Luttemans i Alskog \\newline giftermål år 1738."
+    },
+    "181": {
+      "newpage": "0",
+      "textbox": "7.8cm"
+    },
+    "183": {
+      "spaceafter": "4cm"
+    },
+    "184": {
+      "notespacing": "2",
+      "newpage": "0"
+    },
+    "185": {
+      "notespacing": "2"
     },
 
 

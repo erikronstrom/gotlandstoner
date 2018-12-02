@@ -325,6 +325,7 @@ sub processTune() {
     @Lyrics = split("\n", &slurp("text/lyrics-$Num.tex")) if (-e "text/lyrics-$Num.tex");
     if (@Lyrics) {
         my $First = 1;
+        my $TextIndent = "0.8cm";
         print OUTFILE "\\break\n" unless $PostText;
         print OUTFILE "\\vspace{$BeforeLyrics}\n";
         print OUTFILE "\\begin{flushleft}\n";
@@ -337,6 +338,11 @@ sub processTune() {
                 print OUTFILE "\\vspace{$BetweenVerses}\n" unless $First;
                 print OUTFILE "\\tabto{0.2cm}$1.\\tabto{0.8cm}" . texSubstitutions($2) . "\n";
                 $First = 0;
+            } elsif ($Line =~ /^(\S+\:)\s+(.*)/) {
+                print OUTFILE "\\vspace{$BetweenVerses}\n" unless $First;
+                print OUTFILE "\\tabto{0.2cm}\\textit{$1}\\tabto{1.2cm}" . texSubstitutions($2) . "\n";
+                $TextIndent = "1.2cm";
+                $First = 0;
             } elsif ($Line =~ /^\\\w/) {
                 print OUTFILE "$Line\n";
             } elsif ($Line =~ /^\S/) {
@@ -344,7 +350,7 @@ sub processTune() {
                 print OUTFILE "$Line\n";
             } else {
                 $Line = texSubstitutions($Line);
-                print OUTFILE "\\tabto{0.8cm}$Line\n";
+                print OUTFILE "\\tabto{$TextIndent}$Line\n";
             }
         }
 #        $Lyrics =~ s/\n\n/\\par\n/g;

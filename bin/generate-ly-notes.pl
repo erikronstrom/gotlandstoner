@@ -125,6 +125,12 @@ sub processTune() {
                 print LYRICSFILE "$3\n";
                 next;
             }
+            if ($Line =~ /^(\S+\:)\s+(.*)/) {
+                $Indent = length($1) + 1;
+                print LYRICSFILE "$1 ";
+                print LYRICSFILE "$2\n";
+                next;
+            }
             if ($Line =~ /^(\s*)\S/ && length($1) > $Indent) {
                 my $s = " " x $Indent;
                 $Line =~ s/^\s*/$s\\qquad{}/;
