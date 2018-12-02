@@ -282,11 +282,14 @@
       "notespacing": "2"
     },
     "90": {
-      "spaceafter": "0cm",
+      "spacebeforelyrics": "-0.05cm",
+      "spaceafter": "0.8cm",
       "systemspacing": "-1",
-      "lineoffset": "-4"
+      "lineoffset": "-4",
+      "textbox": "8.5cm"
     },
     "91": {
+      "spacebeforelyrics": "-0.05cm",
       "newpage": "0",
       "systemspacing": "-1",
       "lineoffset": "-4"

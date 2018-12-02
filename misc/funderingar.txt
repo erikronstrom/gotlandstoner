@@ -57,6 +57,7 @@ Musikalisk tolkning / misstänkta tryckfel:
 52: La till saknade bågar på "förrän" och vi"
 53: La till saknad båge på "i"
 86: La till saknat repristecken
+90: Omformulerade texten pga rättelsen (J. O. Wallin)
 111: La till saknat citattecken i sista versen
 113: Gjorde citattecken och interpunktion mer konsekvent i vers 2-8
 122: La till saknad båge på "supar"
