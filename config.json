@@ -24,6 +24,10 @@
       "name": "Visor",
       "text": "VISOR"
     },
+    "186": {
+      "name": "Sånglekar",
+      "text": "SÅNGLEKAR"
+    },
     "214": {
       "name": "Polskor",
       "text": "POLSKOR",
@@ -89,6 +93,9 @@
     },
     "185": {
       "text": "Psalmsång."
+    },
+    "186": {
+      "text": "I rad eller parvis."
     },
     "567": {
       "text": "Visor i valstakt."
