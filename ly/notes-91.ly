@@ -9,7 +9,8 @@
  c''8. bes'16 a'8 bes' c''4 f''8. ees''16  | 
  d''8-( c''-) bes' a' bes'2  | 
  ees''8-( d''-) c'' bes' a'-( c''-) ees'' g''  | 
- f''-( d''-) bes' a' bes'-( d''-) f''-\fermata d''  | 
+ f''-( d''-) bes' a' bes'-( d''-)
+ \once \override Script.padding = #0.7 f''-\fermata d''  | 
  ees''8. d''16 c''8 bes' a'-( bes'-) c''8. d''16  | 
  bes'8. a'16 g'8 a' f'2  | 
  f'8^!^\p f'^! g'^! a'^! bes'4-> d'8. f'16  | 
