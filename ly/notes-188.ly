@@ -10,7 +10,7 @@
  f' e'16 d' e'4  | 
  e'8 f' g' g'16 a'  | 
  f'8 e'16 d' e'8. a'16  | 
- f'4-> e'->  | 
+ f'4^> e'^>  | 
  d'4. r8  | 
  \once \hideNotes d'4. c'8  | \break
  f' f'16 g' a'8 c'  | 
@@ -23,7 +23,7 @@
  d'8 d'16 d' d'8 a'  | 
  a'16-( g'-) f'8 e'4  | 
  g'8 a' a' g'  | 
- f'4 e'8-> c'16-> c'  | 
+ f'4 e'8^> c'16^> c'  | 
  f'8 f' f' g'  | 
  a'-( bes'-) a' g'  | 
  f'4 e'  | 
