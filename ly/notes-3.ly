@@ -6,7 +6,7 @@
  f'8. f'16 a'8 a'  | 
  g'8. g'16 bes'8 bes'  | 
  e'8. f'16 g'8. a'16  | 
- f'4-\fermata f'8. f'16  | 
+ \once \override Script.padding = #0.7 f'4-\fermata f'8. f'16  | 
  g'8-( a'-) bes'8. bes'16  | 
  b'8-( c''-) d''8. e''16  | 
   } 
@@ -22,7 +22,7 @@
  a'-( c''-) d''8.-> c''16  | 
  b'8-. a'-. g'-. f'-.  | 
  a'8. g'16 fis'8 g'  | 
- f''4-\fermata e''8-( d''-)  | 
+ \once \override Script.padding = #0.7 f''4-\fermata e''8-( d''-)  | 
  c''8. cis''16 d''8  \acciaccatura { cis'' }  bes'  | 
  a'4  \acciaccatura { g'8 a' bes' c'' }  bes' e'  | 
   } 
