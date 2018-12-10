@@ -469,7 +469,12 @@
     "185": {
       "notespacing": "2"
     },
-
+    "187": {
+      "systemspacing": "-1"
+    },
+    "189": {
+      "textbox": "8cm"
+    },
 
     "214": {
       "notespacing": "1"
