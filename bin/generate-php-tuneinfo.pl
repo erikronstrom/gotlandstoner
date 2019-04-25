@@ -140,7 +140,7 @@ sub processTune() {
             $Title = $1;
             $Title =~ s/[\.\,\;]$//; # Remove trailing punctuation
         }
-        if ($Line =~ /^[SNH]:(.*)/) {
+        if ($Line =~ /^[SNH\+]:(.*)/) {
             
             #next if $Line =~ /^Q:/;
 

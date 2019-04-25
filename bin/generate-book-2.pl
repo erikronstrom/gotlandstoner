@@ -131,15 +131,19 @@ for my $num ($From..$To) {
         }
     }
 
+    # Special case: complete file
+    if ($TuneConf{$num}->{"file"}) {
+        my $FileName = $TuneConf{$num}->{"file"};
+        my $File = &slurp($FileName) or die("File $FileName does not exist!");
+        next;
+    }
+
     my $abc = &slurp("abc/song-$num.abc");
-    #my $song = &slurp("book/song-$num.ly");
     my $songfile = "book/song-$num";
     open(my $lyfile, '<', "$songfile.ly");
     binmode($lyfile);
     my $md5 = Digest::MD5->new->addfile($lyfile)->hexdigest();
     close($lyfile);
-    #my $md5 = `md5 -q $songfile.ly`;
-    #$md5 =~ s/\s//g;
     unless (-e "$songfile-$md5-crop.pdf") {
         system("lilypond", "-l", "WARNING", "--bigpdf", "-d", "gs-load-fonts=\#t", "-o", "$songfile-$md5", "$songfile.ly") unless -e "$songfile-$md5.pdf";
         `pdfcrop $songfile-$md5.pdf`; # Use backticks instead of system() to suppress output
@@ -185,7 +189,10 @@ sub processTune() {
 
     my $Title;
     my $Source = '';
+    my $PreText = '';
     my $PostText;
+    my $ToPreText = $TuneConf{$Num}->{"pretext"};
+    my $LastTextField;
     my $Music;
     my @Lyrics;
     foreach my $Line (@Lines) {
@@ -213,23 +220,28 @@ sub processTune() {
             }
             # $Title =~ s/[\.\,\;]$//; # Remove trailing punctuation
         }
-        if ($Line =~ /^[SNH]:(.*)/) {
+        if ($Line =~ /^([SNH\+]):(.*)/) {
             
             #next if $Line =~ /^Q:/;
+            my $TextField = $1;
+            my $Text = $2;
+            if ($TextField eq '+') {
+                $TextField = $LastTextField;
+            } else {
+                $LastTextField = $TextField;
+            }
 
-            my $Text = $1;
             if ($Text =~ /Stämning:\s*(\S+)\s+(\S+)\s+(\S+)\s+(\S+)/) {
                 next;
             }
             
             #$Text = texSubstitutions($Text);
             
-            $Source .= $Text;
-            #if ($Source =~ /\.\s*$/) {
-            #   $Source .= "\\\\\n";
-            #} else {
-                $Source .= " ";
-            #}
+            if (index($ToPreText, $TextField) >= 0) {
+                $PreText .= $Text . " ";
+            } else {
+                $Source .= $Text . " ";
+            }
         }
         if ($Line =~ /^K:(\S*)/) {
             $Headers{'K'} = $1;
@@ -278,6 +290,12 @@ sub processTune() {
         my $TexTitle = texSubstitutions($Title);
         print OUTFILE "\\tunename{$TexTitle}{$TitleSpace}\n";
     }
+    if (-e "text/pretext-$Num.tex") {
+        $PreText = &slurp("text/pretext-$Num.tex");
+    }
+    if ($PreText) {
+        $PreText = texSubstitutions($PreText);
+    }
     if (-e "text/song-$Num.tex") {
         $Source = &slurp("text/song-$Num.tex");
     }
@@ -298,6 +316,20 @@ sub processTune() {
     
     # Extra vertical before score
     print OUTFILE "\\vspace*{$SpaceBefore}\n" if $SpaceBefore;
+
+    if ($PreText) {
+        print OUTFILE "\\hspace{0.5cm}\\parbox[c]{13cm}{";
+        # print OUTFILE "\\begin{adjustwidth*}{10mm}{30mm}";
+        if ($TuneConf{$Num}->{"numberInText"}) {
+            print OUTFILE "\\lettrine[lines=2, lraise=-4pt, findent=5pt, nindent=0]{\\fontsize{18}{20}\\bf{$Num.}}{}";
+        }
+        # print OUTFILE "{\\fontsize{11pt}{14pt}\\selectfont ";
+        print OUTFILE $PreText;
+        # print OUTFILE "\\normalsize";
+        print OUTFILE "}\n";
+        # print OUTFILE "\\end{adjustwidth*}\n";
+        print OUTFILE "\\vspace{5mm}";
+    }
 
     if ($MultipleLines) {
         print OUTFILE "\\begin{flushright} \\microtypesetup{protrusion=false} \\parbox{$TextBox}{$Source} " .
@@ -399,10 +431,13 @@ sub texSubstitutions() {
     $Text =~ s/t\. f\. /t.\\\,f.\\\@ /g; # TODO: lookahead for next sentence
     $Text =~ s/m\. fl\. (?=[a-z])/m.\\\,fl.\\@ /g;
     $Text =~ s/m\. fl\./m.\\\,fl./g;
+    $Text =~ s/i st\. f\./i st.\\\,f.\\\@ /g;
     $Text =~ s/f\. d\./f.\\\,d.\\\@/g; # TODO: lookahead for next sentence
     $Text =~ s/o\. s\. v\./o.\\\,s.\\\,v.\\\@/g; # TODO: lookahead for next sentence
+    $Text =~ s/d\. v\. s\./d.\\\,v.\\\,s.\\\@/g; # TODO: lookahead for next sentence
     $Text =~ s/ fr\. / fr.\\\@ /g;
     $Text =~ s/ Ol\. / Ol.\\\@ /g;
+    $Text =~ s/ Th\. / Th.\\\@ /g;
     $Text =~ s/ Joh\. / Joh.\\\@ /g;
     $Text =~ s/d\. ([yä])\./d.\\\,\1./g; # TODO: lookahead for next sentence
     $Text =~ s/ f\. / f.\\\@ /g; # TODO: lookahead for next sentence

@@ -62,16 +62,18 @@ for my $num ($From..$To) {
     open(OUTFILE, '>', $outfile) or die("Can't open $outfile for writing!\n");
     
     print STDERR "$num ";
-    
+
     my $BreakBefore = $TuneConf{$num}->{"newpage"} || 0;
-    my $BreakAfter  = $TuneConf{$num+1}->{"newpage"};
-    
+    my $BreakAfter  = $TuneConf{$num+1}->{"newpage"};    
     
     my $SSpacing = $TuneConf{$num}->{"systemspacing"} || 0;
     $SSpacing = 14 + ($SSpacing * 0.5);
     
-    $params{'indent'} = 0.5 + (length($num) * 0.3);
+    my $NumberInText = $TuneConf{$num}->{'numberInText'};
+
+    $params{'indent'} = $NumberInText ? 0 : 0.5 + (length($num) * 0.3);
     $params{'tune-num'} = $num;
+    $params{'print-tune-num'} = !$NumberInText;
     $params{'notes'} = $notes;
     $params{'basic-distance'} = $SSpacing;
     $params{'minimum-distance'} = 11;
@@ -102,8 +104,8 @@ for my $num ($From..$To) {
     $params{'note-spacing'} = 6 - $NS;
 
     my $song = $template;
+    $song =~ s/%\(\((if|unless)\s+([\w\-]+)\)\)%(.*?)%\(\(endif\)\)%/evalif($1, $2, $3, \%params)/sige;
     $song =~ s/%\(\(([\w\-]+)\)\)%/$params{$1}/ge;
-    
     
     print OUTFILE $song;    
     close(OUTFILE);
@@ -121,3 +123,11 @@ sub slurp() {
     return $data;
 }
 
+sub evalif($$$) {
+    my $op = shift;
+    my $var = shift;
+    my $block = shift;
+    my $params = shift;
+    return $block if (($op eq 'if' && $params->{$var}) || ($op eq 'unless' && !$params->{$var}));
+    return '';
+}
