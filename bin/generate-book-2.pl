@@ -225,9 +225,11 @@ sub processTune() {
             #next if $Line =~ /^Q:/;
             my $TextField = $1;
             my $Text = $2;
+            my $RepeatedField = 0;
             if ($TextField eq '+') {
                 $TextField = $LastTextField;
             } else {
+                $RepeatedField = 1 if $TextField eq $LastTextField;
                 $LastTextField = $TextField;
             }
 
@@ -238,6 +240,7 @@ sub processTune() {
             #$Text = texSubstitutions($Text);
             
             if (index($ToPreText, $TextField) >= 0) {
+                $PreText .= "\n\n\\setlength{\\parindent}{1em}" if $RepeatedField;
                 $PreText .= $Text . " ";
             } else {
                 $Source .= $Text . " ";
@@ -295,6 +298,7 @@ sub processTune() {
     }
     if ($PreText) {
         $PreText = texSubstitutions($PreText);
+        $PreText = markdownToTex($PreText);
     }
     if (-e "text/song-$Num.tex") {
         $Source = &slurp("text/song-$Num.tex");
@@ -456,3 +460,9 @@ sub texSubstitutions() {
     return $Text;
 }
 
+sub markdownToTex() {
+    my $Text = shift;
+    $Text =~ s/_(\S.*?\S)_/\\textit{$1}/sg;
+    $Text =~ s/\*(\S.*?\S)\*/\\textbf{$1}/sg;
+    return $Text;
+}
