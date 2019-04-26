@@ -476,6 +476,14 @@
       "textbox": "8cm"
     },
 
+    "205": {
+      "numberInText": "true",
+      "pretext": "N"
+    },
+    "206": {
+      "numberInText": "true",
+      "pretext": "N"
+    },
     "207": {
       "numberInText": "true",
       "pretext": "N"

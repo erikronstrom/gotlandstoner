@@ -69,6 +69,8 @@ Musikalisk tolkning / misstänkta tryckfel:
 176: La till saknad paus i slutet för att få takten att gå jämnt ut
 178: I rättelserna står "Pinnɷlle -> Pinnolle", men i själva låten står "Pinnɷllä" – bort med omegat, ok, men e eller ä??
 185: La till saknade bågar + ändrade sista åttondelen till fjärdedel i femte takten från slutet samt i takt 17.
+205: felaktig rytmik i första hela takten efter dubbelstrecket
+207: felaktig rytmik, två ställen på näst sista systemet (i originalet). rättat utan kommentar, trivialt
 210: inkonsekvent stavning: igän/igen
 213: inkonsekvent stavning: kan/kann adelsman/adelsmann   + fel rytmik i takt 10 (TODO: kolla mot bokens rättelser!)
 222: saknat återställningstecken på Eb (E) i början av andra reprisen? RÄTTA EJ, OSÄKERT!
