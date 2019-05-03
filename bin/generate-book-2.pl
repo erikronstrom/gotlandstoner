@@ -443,6 +443,7 @@ sub texSubstitutions() {
     $Text =~ s/ Ol\. / Ol.\\\@ /g;
     $Text =~ s/ Th\. / Th.\\\@ /g;
     $Text =~ s/ Joh\. / Joh.\\\@ /g;
+    $Text =~ s/ Aug\. / Aug.\\\@ /g;
     $Text =~ s/d\. ([yä])\./d.\\\,\1./g; # TODO: lookahead for next sentence
     $Text =~ s/ f\. / f.\\\@ /g; # TODO: lookahead for next sentence
     $Text =~ s/([\s\n])\-\-([\s\n])?/$1---$2/g;
