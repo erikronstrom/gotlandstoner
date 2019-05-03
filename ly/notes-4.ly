@@ -39,7 +39,7 @@
  \addlyrics {
      \set stanza = #"1. "
      En byg -- dens tär -- na sjut -- ton år, som blom -- stran -- de __ ock skön,
-     för -- nä -- ma sprät -- tars an -- bud får, men hör en de --  -- ras bön.
+     för -- nä -- ma sprät -- tars an -- bud får, men hör ej de --  -- ras bön.
      Med gods ock guld ock pär -- lors skrud de loc -- ka __ hän -- ne ej.
      När hund -- ra suc -- ka: »Bliv min brud!» hon sva -- ra al --  -- la nej.
 }
