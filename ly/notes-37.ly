@@ -22,7 +22,7 @@
  }
  \addlyrics {
      \set stanza = #"1. "
-     Akk sta --  -- na, ou yg -- ge -- lig, u säi di väll föi -- rä! Bi -- 
+     Akk sta --  -- na, ou yŋ -- ŋe -- liŋ, u säi di väll föi -- rä! Bi -- 
      sin -- nä, at li --  -- vä häur fa -- lit de jär! Ha all --  -- tut fö öi -- go -- nän din
      Gud u din här -- rä! Lätt säi, at däu flöir __ al -- lä
      oun -- dä bi -- gär. Ja ak -- tä di väl, u fräl --  -- sä däin ʃäl! För
