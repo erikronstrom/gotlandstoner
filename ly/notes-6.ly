@@ -23,7 +23,7 @@
  }
  \addlyrics {
      \set stanza = #"1. "
-     U flik -- ken gikk ei äg -- gä u plukk -- tä blom -- mar bla, u
+     U flik -- ken gikk ei äŋ -- ŋä u plukk -- tä blom -- mar bla, u
      ät -- tar kum -- mar gos --  -- sen u käi -- kar där --  -- up -- pa.
      Hopp fal -- li -- ral -- la -- li -- la -- la -- la, hopp fal -- li -- ral -- la -- li -- la -- la -- la! U
      ät -- tar kum -- mar gos -- sen u käi -- kar där -- up -- pa.
