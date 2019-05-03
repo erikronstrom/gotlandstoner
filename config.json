@@ -195,7 +195,14 @@
     },
     "46": {
     },
-   "50": {
+    "47": {
+      "textbox": "9cm"
+    },
+    "48": {
+      "textbox": "8cm",
+      "notespacing": "2"
+    },
+    "50": {
     },
     "51": {
       "notespacing": "5"
@@ -221,7 +228,8 @@
       "newpage": "0"
     },
     "64": {
-      "newpage": "0"
+      "newpage": "0",
+      "textbox": "8cm"
     },
     "66": {
       "notespacing": "2"
@@ -1367,9 +1375,6 @@
     },
     "476": {
       "newpage": "0"
-    },
-    "48": {
-      "notespacing": "2"
     },
     "480": {
       "newpage": "0"
