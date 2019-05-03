@@ -20,7 +20,9 @@
      Sent om en af -- ton ock sent __ om en kväll jag
      tänk -- te på in -- gen __ smär -- ta, då __
      fick jag ett bud i -- från kä --  -- re -- stan min, att
-     jag till hän -- ne skul -- le re -- sa O, __
-     sjung med sor -- ge -- ligt bröst, min __ vän! att
-     jag till hän -- ne skul -- le re -- sa.
+     jag till hän -- ne skul -- le re -- 
+     \once \override LyricText.self-alignment-X = #-0.8 "sa —"
+     O, __ sjung med sor -- ge -- ligt bröst, min __
+     \once \override LyricText.self-alignment-X = #-0.8 "vän! —"
+     att jag till hän -- ne skul -- le re -- sa.
 }
