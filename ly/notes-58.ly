@@ -10,7 +10,7 @@
  \partial 8
  bes'8\mf  | 
  a'8. g'16 a'8 g' f'8.-( g'16-) a'8. f'16  | 
- g'8-! a'-!^\markup { \italic cresc. } b'-! c''-! d''8.-> c''16 c''8.-\fermata bes'16\noBeam\p  | 
+ g'8^! a'^!^\markup { \italic cresc. } b'^! c''^! d''8.-> c''16 c''8.-\fermata bes'16\noBeam\p  | 
  a'8. g'16 a'8 g' f'8.-( g'16-) a'8. f'16\noBeam\pp  | 
  g'8 g' c''8.\< c''16\!\> f'4\! r8
  } %( endrepeat )% 
