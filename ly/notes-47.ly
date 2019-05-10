@@ -25,7 +25,7 @@
  }
  \addlyrics {
      \set stanza = #"1. "
-     När om -- kring __ bor -- dets gyll --  -- ne ho -- par be -- kym -- ren
+     När om -- kring bor -- dets gyll --  -- ne ho -- par be -- kym -- ren
      si -- na vak -- ter __ satt, där gi -- rig -- he -- ten grä -- ver
      gro -- par, men dock för -- smäk --  -- tar vid sin skatt, jag som -- nar
      lugn, jag mun --  -- ter vak -- nar, ock ing -- en brist är hos mig
