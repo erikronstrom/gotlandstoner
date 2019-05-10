@@ -7,15 +7,15 @@
  c''4. f''8 bes' a' g' f'  | 
  bes'-( d''-) f''4 r e''8 d''  | 
  c''4. a'8 a' g' bes' e'  | 
- f'2 r4 f'8 a'  | 
+ f'2 r4 \break \bar "" f'8 a'  | 
  c''4. f''8 bes' a' g' f'  | 
  bes'-( d''-) f''4 r e''8 d''  | 
  c''4. a'8 a' g' bes' e'  | 
- f'2 r4 g'8. a'16  | 
+ f'2 r4 \break \bar "" g'8. a'16  | 
  bes'4. bes'8 d'' d'' c'' bes'  | 
  bes'4 a' r g'8. a'16  | 
  bes'4. bes'8 d'' d'' c'' bes'  | 
- a'2 r4 f'8. a'16  | 
+ a'2 r4 \break \bar "" f'8. a'16  | 
  c''4. f''8 bes' a' g' f'  | 
  bes'-( d''-) f''4 r e''8 d''  | 
  c''4. a'8 g' a' bes' e'  | 
