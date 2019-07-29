@@ -40,6 +40,7 @@ Förordet: RÄTTAT "Något vetenskaplig" => "Någon vetenskaplig" (syftar på "m
 Musikalisk tolkning / misstänkta tryckfel:
 1: ändrat "Eter Elisabet ..." till "Efter Elisabet ..."
 3: andra reprisens andra takt är för lång, ändrade sista tonen till en 16-del
+
 12: Bytt extrastort S mot ʃ, då det uppenbart har den betydelsen
 14: tagit bort felaktigt taktstreck i slutet av andra systemet, flyttat felaktigt citattecken i vers 8/9
 16: Ändrat åttondel till 16-del (näst sista taktens andra ton)
@@ -69,6 +70,7 @@ Musikalisk tolkning / misstänkta tryckfel:
 176: La till saknad paus i slutet för att få takten att gå jämnt ut
 178: I rättelserna står "Pinnɷlle -> Pinnolle", men i själva låten står "Pinnɷllä" – bort med omegat, ok, men e eller ä??
 185: La till saknade bågar + ändrade sista åttondelen till fjärdedel i femte takten från slutet samt i takt 17.
+195: La till saknad båge
 201: saknar källa
 202: "Sin ta ha sig en ann", borde vara "Sen" (?), enligt hur det är bekrivet i texten
 205: felaktig rytmik i första hela takten efter dubbelstrecket
