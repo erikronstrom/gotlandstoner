@@ -5,8 +5,8 @@
 \repeat volta 2 { 
  \partial 8
  fis'8  | 
- a'8. fis'16 g'8 e' fis'8.-> g'16  | 
- a'8. fis'16 g'8 e' fis'-> r  | 
+ a'8. fis'16 g'8 e' fis'8.^> g'16  | 
+ a'8. fis'16 g'8 e' fis'^> r  | 
  a' fis' g' fis' d' fis'  | 
  a'4 d'' r8
  } %( endrepeat )% 
