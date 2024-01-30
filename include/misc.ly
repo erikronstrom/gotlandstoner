@@ -68,7 +68,7 @@ colArco = \markup { \left-align \italic "col’ arco" }
      (list
       (cons 'class
         (symbol->string (grob::name grob)))
-      (cons 'when
+      (cons 'data-when
         (reformat-moment (grob::when grob)))
         )))
 
