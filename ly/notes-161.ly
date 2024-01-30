@@ -19,7 +19,7 @@
  }
  \addlyrics {
      \set stanza = #"1. "
-     Bounden lägd bys -- su bäi sin "fout —" hajj u "ha —" u
+     Boun -- den lägd bys -- su bäi sin "fout —" hajj u "ha —" u
      skjau -- tä -- dä kra -- ku äi järt, såt ha doug. Dei dund -- räd äi
      boun -- den, ʃuŋg fa -- ral -- la -- la -- la.
 }
