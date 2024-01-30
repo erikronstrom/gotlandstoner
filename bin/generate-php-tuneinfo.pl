@@ -67,7 +67,7 @@ open(OUTFILE, '>', 'book/searchindex.json');
 my $index = 0;
 # print OUTFILE '$musicindex = [' . "\n";
 print OUTFILE "{\n";
-foreach my $key (keys %SearchIndex) {
+foreach my $key (sort keys %SearchIndex) {
     print OUTFILE ",\n" if $index++;
     my @places;
     foreach my $p (@{$SearchIndex{$key}}) {
