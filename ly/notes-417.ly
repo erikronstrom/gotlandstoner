@@ -49,7 +49,7 @@
  a''8 g'' fis'' e'' d'' c''  | 
  b'4. a'8 b' c''  | 
  d''4 c'' a'  | 
- g' r b'8 a''  | 
+ g' r b'8 a'  | 
   } 
 \alternative { 
  {  g'2 r4   |
